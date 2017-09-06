@@ -1,0 +1,5 @@
+<map id="Scheduler::ChainVRPSolverLoader::load" name="Scheduler::ChainVRPSolverLoader::load">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_algorithms_manager.html#a45db9cc614915289aeed40c086a0892a" title="Creates new algorithm. " alt="" coords="240,5,440,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_loader_impl.html#a87731a814d52a173d83bc89e03e2d3c0" title="Scheduler::LoaderImpl\l::loadVRPSolver" alt="" coords="264,70,416,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_chain_v_r_p_solver.html#aa5c1c5c65ceb9ce973628062a5246a4a" title="Scheduler::ChainVRPSolver\l::appendSolver" alt="" coords="247,135,433,177"/>
+</map>

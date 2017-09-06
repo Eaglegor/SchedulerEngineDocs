@@ -1,0 +1,28 @@
+<map id="Engine/Algorithms/TSPSolvers/SuInt/SuIntTSPSolver.h" name="Engine/Algorithms/TSPSolvers/SuInt/SuIntTSPSolver.h">
+<area shape="rect" id="node2" href="$_edge_introducer_8h.html" title="EdgeIntroducer.h" alt="" coords="853,104,973,131"/>
+<area shape="rect" id="node5" href="$_edge_introducer_type_8h.html" title="EdgeIntroducerType.h" alt="" coords="1175,104,1325,131"/>
+<area shape="rect" id="node6" href="$_edge_suggestor_8h.html" title="EdgeSuggestor.h" alt="" coords="705,104,828,131"/>
+<area shape="rect" id="node8" href="$_edge_suggestor_type_8h.html" title="EdgeSuggestorType.h" alt="" coords="1350,104,1500,131"/>
+<area shape="rect" id="node9" href="$_t_s_p_solver_8h.html" title="Engine/AlgorithmsManager\l/TSPSolver.h" alt="" coords="1525,97,1704,138"/>
+<area shape="rect" id="node11" href="$_logging_manager_8h.html" title="Engine/LoggingManager\l/LoggingManager.h" alt="" coords="1729,97,1889,138"/>
+<area shape="rect" id="node13" href="$_routing_service_8h.html" title="Engine/Routing/RoutingService.h" alt="" coords="437,104,651,131"/>
+<area shape="rect" id="node27" href="$_schedule_cost_function_8h.html" title="Engine/SceneManager\l/CostFunctions/ScheduleCost\lFunction.h" alt="" coords="192,277,389,333"/>
+<area shape="rect" id="node30" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="999,104,1151,131"/>
+<area shape="rect" id="node41" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="1914,104,2069,131"/>
+<area shape="rect" id="node3" href="$_suggested_edge_8h.html" title="SuggestedEdge.h" alt="" coords="707,195,832,221"/>
+<area shape="rect" id="node10" href="$_algorithm_8h.html" title="Algorithm.h" alt="" coords="1680,195,1768,221"/>
+<area shape="rect" id="node14" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="427,195,599,221"/>
+<area shape="rect" id="node15" href="$_distance_8h.html" title="Distance.h" alt="" coords="555,389,640,416"/>
+<area shape="rect" id="node19" href="$_duration_8h.html" title="Duration.h" alt="" coords="461,292,543,319"/>
+<area shape="rect" id="node22" href="$_site_8h.html" title="Site.h" alt="" coords="649,292,704,319"/>
+<area shape="rect" id="node16" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="391,472,573,499"/>
+<area shape="rect" id="node23" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="768,389,864,416"/>
+<area shape="rect" id="node24" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="715,472,916,499"/>
+<area shape="rect" id="node25" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="807,547,917,573"/>
+<area shape="rect" id="node28" href="$_cost_function_8h.html" title="Engine/AlgorithmsManager\l/CostFunction.h" alt="" coords="5,382,184,423"/>
+<area shape="rect" id="node29" href="$_cost_8h.html" title="Engine/Concepts/Cost.h" alt="" coords="208,389,372,416"/>
+<area shape="rect" id="node34" href="$_memory_manager_8h.html" title="Engine/MemoryManager\l/MemoryManager.h" alt="" coords="1133,187,1296,229"/>
+<area shape="rect" id="node37" href="$_pool_memory_store_8h.html" title="Engine/MemoryManager\l/PoolMemoryStore.h" alt="" coords="1320,187,1483,229"/>
+<area shape="rect" id="node35" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="1000,292,1148,319"/>
+<area shape="rect" id="node36" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="1019,389,1129,416"/>
+</map>

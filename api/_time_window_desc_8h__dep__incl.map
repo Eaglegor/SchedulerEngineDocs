@@ -1,0 +1,13 @@
+<map id="Persistence/SceneLoaders/JSONSceneLoader/Model/TimeWindowDesc.h" name="Persistence/SceneLoaders/JSONSceneLoader/Model/TimeWindowDesc.h">
+<area shape="rect" id="node2" href="$_performer_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/PerformerDesc.h" alt="" coords="5,109,184,165"/>
+<area shape="rect" id="node6" href="$_vehicle_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/VehicleDesc.h" alt="" coords="208,109,387,165"/>
+<area shape="rect" id="node7" href="$_operation_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/OperationDesc.h" alt="" coords="259,213,437,269"/>
+<area shape="rect" id="node9" href="$_stop_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/StopDesc.h" alt="" coords="461,109,640,165"/>
+<area shape="rect" id="node11" href="$_schedule_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/ScheduleDesc.h" alt="" coords="524,317,703,373"/>
+<area shape="rect" id="node12" href="$_schedule_shift_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/ScheduleShiftDesc.h" alt="" coords="715,213,893,269"/>
+<area shape="rect" id="node3" href="$_fleet_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/FleetDesc.h" alt="" coords="56,213,235,269"/>
+<area shape="rect" id="node4" href="$_scene_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/SceneDesc.h" alt="" coords="259,421,437,477"/>
+<area shape="rect" id="node5" href="$_j_s_o_n_scene_loader_8cpp.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/JSONSceneLoader.cpp" alt="" coords="209,526,487,567"/>
+<area shape="rect" id="node8" href="$_order_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/OrderDesc.h" alt="" coords="259,317,437,373"/>
+<area shape="rect" id="node10" href="$_run_desc_8h.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/Model\l/RunDesc.h" alt="" coords="461,213,640,269"/>
+</map>

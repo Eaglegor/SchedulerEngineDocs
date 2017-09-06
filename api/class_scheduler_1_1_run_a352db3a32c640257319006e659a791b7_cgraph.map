@@ -1,0 +1,5 @@
+<map id="Scheduler::Run::swapWorkStops" name="Scheduler::Run::swapWorkStops">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_structural_changes_observer.html#a30b675777c36f869430abfcba0d2aaa6" title="Scheduler::StructuralChanges\lObserver::beforeWorkStopsSwapped" alt="" coords="238,5,477,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="251,70,463,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="260,135,455,177"/>
+</map>

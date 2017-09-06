@@ -1,0 +1,17 @@
+<map id="Persistence/SceneLoaders/JSONSceneLoader/Model/SceneDesc.h" name="Persistence/SceneLoaders/JSONSceneLoader/Model/SceneDesc.h">
+<area shape="rect" id="node2" href="$_fleet_desc_8h.html" title="FleetDesc.h" alt="" coords="762,184,855,211"/>
+<area shape="rect" id="node8" href="$_ptree_deserializer_8h.html" title="Persistence/Utils/PtreeDeserializer.h" alt="" coords="498,416,734,443"/>
+<area shape="rect" id="node16" href="$_loader_settings_8h.html" title="LoaderSettings.h" alt="" coords="1129,333,1249,360"/>
+<area shape="rect" id="node17" href="$_location_desc_8h.html" title="LocationDesc.h" alt="" coords="1031,109,1143,136"/>
+<area shape="rect" id="node18" href="$_order_desc_8h.html" title="OrderDesc.h" alt="" coords="34,184,130,211"/>
+<area shape="rect" id="node20" href="$_schedule_desc_8h.html" title="ScheduleDesc.h" alt="" coords="400,109,518,136"/>
+<area shape="rect" id="node3" href="$_performer_desc_8h.html" title="PerformerDesc.h" alt="" coords="604,259,725,285"/>
+<area shape="rect" id="node14" href="$_vehicle_desc_8h.html" title="VehicleDesc.h" alt="" coords="801,259,907,285"/>
+<area shape="rect" id="node4" href="$_time_window_desc_8h.html" title="TimeWindowDesc.h" alt="" coords="236,333,375,360"/>
+<area shape="rect" id="node5" href="$_algorithms_8h.html" title="Engine/Utils/Collections\l/Algorithms.h" alt="" coords="225,409,387,450"/>
+<area shape="rect" id="node15" href="$_routing_profile_desc_8h.html" title="RoutingProfileDesc.h" alt="" coords="755,333,902,360"/>
+<area shape="rect" id="node19" href="$_operation_desc_8h.html" title="OperationDesc.h" alt="" coords="22,259,142,285"/>
+<area shape="rect" id="node21" href="$_run_desc_8h.html" title="RunDesc.h" alt="" coords="415,184,503,211"/>
+<area shape="rect" id="node23" href="$_schedule_shift_desc_8h.html" title="ScheduleShiftDesc.h" alt="" coords="217,259,362,285"/>
+<area shape="rect" id="node22" href="$_stop_desc_8h.html" title="StopDesc.h" alt="" coords="387,259,478,285"/>
+</map>

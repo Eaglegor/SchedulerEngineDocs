@@ -1,0 +1,13 @@
+<map id="Engine/SceneManager/SceneContext.h" name="Engine/SceneManager/SceneContext.h">
+<area shape="rect" id="node4" href="$_scene_constraints_8h.html" title="Constraints/Scene/SceneConstraints.h" alt="" coords="180,104,429,131"/>
+<area shape="rect" id="node5" href="$_scene_objects_factory_8h.html" title="SceneObjectsFactory.h" alt="" coords="454,104,612,131"/>
+<area shape="rect" id="node17" href="$_immutable_vector_8h.html" title="Engine/Utils/Collections\l/ImmutableVector.h" alt="" coords="637,97,800,138"/>
+<area shape="rect" id="node19" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="824,104,980,131"/>
+<area shape="rect" id="node21" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="1004,104,1221,131"/>
+<area shape="rect" id="node23" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="1246,104,1388,131"/>
+<area shape="rect" id="node6" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="457,187,609,213"/>
+<area shape="rect" id="node10" href="$_memory_manager_8h.html" title="Engine/MemoryManager\l/MemoryManager.h" alt="" coords="634,262,797,303"/>
+<area shape="rect" id="node13" href="$_pool_memory_store_8h.html" title="Engine/MemoryManager\l/PoolMemoryStore.h" alt="" coords="821,262,984,303"/>
+<area shape="rect" id="node11" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="525,352,673,379"/>
+<area shape="rect" id="node12" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="544,427,654,453"/>
+</map>

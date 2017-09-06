@@ -1,0 +1,6 @@
+<map id="Scheduler::SceneEditor::applyPatch" name="Scheduler::SceneEditor::applyPatch">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="214,5,373,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_checkpoint.html#a2a172a74c7024d5c64e5301653fa4467" title="Scheduler::Checkpoint\l::applyPatch" alt="" coords="216,70,371,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="216,135,371,177"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_checkpoint.html#a57d21df7e49ad6325145727f45525dd0" title="Scheduler::Checkpoint\l::getBaseVersion" alt="" coords="421,70,576,111"/>
+</map>

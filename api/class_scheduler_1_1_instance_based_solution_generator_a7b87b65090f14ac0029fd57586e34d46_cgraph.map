@@ -1,0 +1,18 @@
+<map id="Scheduler::InstanceBasedSolutionGenerator::neighbour" name="Scheduler::InstanceBasedSolutionGenerator::neighbour">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_instance_based_solution_generator.html#accca96af97be7c2b3d722a714097a36a" title="Scheduler::InstanceBased\lSolutionGenerator::selectMutation" alt="" coords="768,59,987,101"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_instance_based_solution_generator.html#aa87b6b523a8717d0b1f8325a84327116" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lBlockReverse" alt="" coords="246,427,458,483"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_instance_based_solution_generator.html#ad7ee55f42e98c338f69e12a3ef21af4d" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lBlockInsert" alt="" coords="771,551,983,607"/>
+<area shape="rect" id="node14" href="$class_scheduler_1_1_instance_based_solution_generator.html#a0ab3fcfabd289e05393f538673b2517c" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lVertexInsert" alt="" coords="771,712,983,768"/>
+<area shape="rect" id="node16" href="$class_scheduler_1_1_instance_based_solution_generator.html#a9270af22c54cf36d206eefa2a52ea0ec" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lVertexSwap" alt="" coords="771,311,983,367"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="1312,441,1515,468"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="1035,391,1264,417"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Scheduler::RangeTypeAdapter\l::begin" alt="" coords="1313,631,1513,673"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_solution_generator.html#af059761f06b71482e94a7bf95fd83e10" title="Scheduler::SolutionGenerator\l::selectRandomMutation" alt="" coords="1053,5,1245,46"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_range_type_adapter.html#a771b9e2b748e7e736f823b3055c5cc15" title="Scheduler::RangeTypeAdapter\l::size" alt="" coords="1313,5,1513,46"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_instance_based_solution_generator.html#ab637a61596b032213d33120994bc45ab" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lBlockReverseDirect" alt="" coords="771,441,983,497"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_instance_based_solution_generator.html#a29fce6ddadcf90d967fcb7d90fdf5684" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lBlockReverseCircular" alt="" coords="507,492,719,548"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_solution_generator.html#afd7e6c455b168392707c61278860c870" title="Scheduler::SolutionGenerator\l::blockReverse" alt="" coords="1053,493,1245,534"/>
+<area shape="rect" id="node13" href="$class_scheduler_1_1_solution_generator.html#ad96220e199d99b98d5cfe71b27ad113b" title="Scheduler::SolutionGenerator\l::blockInsert" alt="" coords="1053,661,1245,702"/>
+<area shape="rect" id="node15" href="$class_scheduler_1_1_solution_generator.html#a20d2b4faeb18ae46b25b70fb9b9785e8" title="Scheduler::SolutionGenerator\l::vertexInsert" alt="" coords="1053,778,1245,819"/>
+<area shape="rect" id="node17" href="$class_scheduler_1_1_solution_generator.html#a6595274c0d93f92c0359665e1635b576" title="Scheduler::SolutionGenerator\l::vertexSwap" alt="" coords="1053,274,1245,315"/>
+</map>

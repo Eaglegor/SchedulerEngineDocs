@@ -1,0 +1,8 @@
+<map id="Scheduler::DestroyRun::rollback" name="Scheduler::DestroyRun::rollback">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a4fe229a0ce9f7321c40f8207254cc317" title="Scheduler::Schedule\l::attachRun" alt="" coords="214,99,357,141"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="416,5,608,32"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="426,56,598,83"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Scheduler::Range::begin" alt="" coords="429,107,595,133"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="406,158,618,199"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="414,223,610,265"/>
+</map>

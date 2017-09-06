@@ -1,0 +1,14 @@
+<map id="Engine/Algorithms/VRPSolvers/CWSavings/CWSavingsVRPSolver.h" name="Engine/Algorithms/VRPSolvers/CWSavings/CWSavingsVRPSolver.h">
+<area shape="rect" id="node2" href="$_v_r_p_solver_8h.html" title="Engine/AlgorithmsManager\l/VRPSolver.h" alt="" coords="5,97,184,138"/>
+<area shape="rect" id="node4" href="$_routing_service_8h.html" title="Engine/Routing/RoutingService.h" alt="" coords="209,104,423,131"/>
+<area shape="rect" id="node19" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="447,104,603,131"/>
+<area shape="rect" id="node3" href="$_algorithm_8h.html" title="Algorithm.h" alt="" coords="51,187,139,213"/>
+<area shape="rect" id="node5" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="230,187,401,213"/>
+<area shape="rect" id="node6" href="$_distance_8h.html" title="Distance.h" alt="" coords="155,336,240,363"/>
+<area shape="rect" id="node10" href="$_duration_8h.html" title="Duration.h" alt="" coords="275,261,356,288"/>
+<area shape="rect" id="node13" href="$_site_8h.html" title="Site.h" alt="" coords="407,261,461,288"/>
+<area shape="rect" id="node7" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="118,411,300,437"/>
+<area shape="rect" id="node14" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="525,336,621,363"/>
+<area shape="rect" id="node15" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="473,411,673,437"/>
+<area shape="rect" id="node16" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="437,485,547,512"/>
+</map>

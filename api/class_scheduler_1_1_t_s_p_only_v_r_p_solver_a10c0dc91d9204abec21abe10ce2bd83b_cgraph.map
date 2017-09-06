@@ -1,0 +1,4 @@
+<map id="Scheduler::TSPOnlyVRPSolver::optimize" name="Scheduler::TSPOnlyVRPSolver::optimize">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene.html#a00fee45c88fcdbd4080f1940bdda870e" title="Scheduler::Scene::getSchedules" alt="" coords="262,5,474,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_t_s_p_solver.html#a41a3ecff6f7423d2a255e357fc723df5" title="Optimizes the sequence of orders in the entire schedule. " alt="" coords="293,57,443,98"/>
+</map>

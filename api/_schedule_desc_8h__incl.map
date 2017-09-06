@@ -1,0 +1,8 @@
+<map id="Persistence/SceneLoaders/JSONSceneLoader/Model/ScheduleDesc.h" name="Persistence/SceneLoaders/JSONSceneLoader/Model/ScheduleDesc.h">
+<area shape="rect" id="node2" href="$_run_desc_8h.html" title="RunDesc.h" alt="" coords="355,109,443,136"/>
+<area shape="rect" id="node4" href="$_time_window_desc_8h.html" title="TimeWindowDesc.h" alt="" coords="186,259,325,285"/>
+<area shape="rect" id="node8" href="$_ptree_deserializer_8h.html" title="Persistence/Utils/PtreeDeserializer.h" alt="" coords="337,341,573,368"/>
+<area shape="rect" id="node14" href="$_schedule_shift_desc_8h.html" title="ScheduleShiftDesc.h" alt="" coords="183,184,328,211"/>
+<area shape="rect" id="node3" href="$_stop_desc_8h.html" title="StopDesc.h" alt="" coords="353,184,444,211"/>
+<area shape="rect" id="node5" href="$_algorithms_8h.html" title="Engine/Utils/Collections\l/Algorithms.h" alt="" coords="56,334,219,375"/>
+</map>

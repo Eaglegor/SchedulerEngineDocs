@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_scheduler_1_1_temperature_scheduler.html" title="Scheduler::TemperatureScheduler" alt="" coords="5,45,224,72"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_default_temperature_scheduler.html" title="Scheduler::DefaultTemperature\lScheduler" alt="" coords="272,5,475,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_list_temperature_scheduler.html" title="Scheduler::ListTemperature\lScheduler" alt="" coords="282,70,465,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_fast_list_temperature_scheduler.html" title="Scheduler::FastListTemperature\lScheduler" alt="" coords="524,37,732,78"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_slow_list_temperature_scheduler.html" title="Scheduler::SlowListTemperature\lScheduler" alt="" coords="523,102,733,143"/>
+</map>

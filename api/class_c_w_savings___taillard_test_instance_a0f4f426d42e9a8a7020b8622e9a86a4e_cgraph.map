@@ -1,0 +1,4 @@
+<map id="CWSavings_TaillardTestInstance::createVRPSolver" name="CWSavings_TaillardTestInstance::createVRPSolver">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_c_w_savings_v_r_p_solver.html#ae97f5dead1bfd887ec936e8fae3acf32" title="Scheduler::CWSavingsVRPSolver\l::setRoutingService" alt="" coords="273,5,495,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_chain_v_r_p_solver.html#aa5c1c5c65ceb9ce973628062a5246a4a" title="Scheduler::ChainVRPSolver\l::appendSolver" alt="" coords="291,70,477,111"/>
+</map>

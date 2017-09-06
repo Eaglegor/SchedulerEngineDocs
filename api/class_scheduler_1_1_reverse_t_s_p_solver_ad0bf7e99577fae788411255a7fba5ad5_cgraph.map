@@ -1,0 +1,5 @@
+<map id="Scheduler::ReverseTSPSolver::optimize" name="Scheduler::ReverseTSPSolver::optimize">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="282,5,425,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_reverse_t_s_p_solver.html#ad3f707bb9c353f43f7dd475290de2bb6" title="Optimizes the sequence of orders in the single run of the schedule. " alt="" coords="253,70,453,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a4753cef90d948b0d3253c93052318565" title="Scheduler::Run::reverseWork\lStops" alt="" coords="501,70,696,111"/>
+</map>

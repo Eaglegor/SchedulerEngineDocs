@@ -1,0 +1,26 @@
+<map id="Engine/SceneManager/Operation.h" name="Engine/SceneManager/Operation.h">
+<area shape="rect" id="node2" href="$_operation_constraints_8h.html" title="Constraints/Operation\l/OperationConstraints.h" alt="" coords="1434,97,1592,138"/>
+<area shape="rect" id="node6" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="44,360,199,387"/>
+<area shape="rect" id="node9" href="$_capacity_8h.html" title="Engine/Concepts/Capacity.h" alt="" coords="1935,195,2124,221"/>
+<area shape="rect" id="node16" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="1698,195,1911,221"/>
+<area shape="rect" id="node18" href="$_duration_8h.html" title="Duration.h" alt="" coords="1943,360,2024,387"/>
+<area shape="rect" id="node21" href="$_order_8h.html" title="Order.h" alt="" coords="622,104,687,131"/>
+<area shape="rect" id="node25" href="$_immutable_vector_8h.html" title="Engine/Utils/Collections\l/ImmutableVector.h" alt="" coords="1116,187,1279,229"/>
+<area shape="rect" id="node40" href="$_site_8h.html" title="Engine/Concepts/Site.h" alt="" coords="2320,104,2479,131"/>
+<area shape="rect" id="node5" href="$_constraint_holder_8h.html" title="../ConstraintHolder.h" alt="" coords="924,277,1066,304"/>
+<area shape="rect" id="node14" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="1405,195,1622,221"/>
+<area shape="rect" id="node10" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="2129,277,2311,304"/>
+<area shape="rect" id="node17" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="1850,277,1942,304"/>
+<area shape="rect" id="node23" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="147,187,326,229"/>
+<area shape="rect" id="node26" href="$_order_constraints_8h.html" title="Constraints/Order/OrderConstraints.h" alt="" coords="853,195,1091,221"/>
+<area shape="rect" id="node27" href="$_scene_objects_factory_8h.html" title="SceneObjectsFactory.h" alt="" coords="401,195,559,221"/>
+<area shape="rect" id="node39" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="584,195,726,221"/>
+<area shape="rect" id="node28" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="596,277,748,304"/>
+<area shape="rect" id="node32" href="$_memory_manager_8h.html" title="Engine/MemoryManager\l/MemoryManager.h" alt="" coords="723,353,886,394"/>
+<area shape="rect" id="node35" href="$_pool_memory_store_8h.html" title="Engine/MemoryManager\l/PoolMemoryStore.h" alt="" coords="352,353,515,394"/>
+<area shape="rect" id="node33" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="686,443,834,469"/>
+<area shape="rect" id="node34" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="705,517,815,544"/>
+<area shape="rect" id="node41" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="2491,195,2587,221"/>
+<area shape="rect" id="node42" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="2438,277,2639,304"/>
+<area shape="rect" id="node43" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="2441,360,2551,387"/>
+</map>

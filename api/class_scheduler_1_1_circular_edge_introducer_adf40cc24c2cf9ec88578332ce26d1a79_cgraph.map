@@ -1,0 +1,11 @@
+<map id="Scheduler::CircularEdgeIntroducer::introduce" name="Scheduler::CircularEdgeIntroducer::introduce">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="288,5,491,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Scheduler::RangeTypeAdapter\l::begin" alt="" coords="289,57,489,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="275,123,504,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="310,174,469,215"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="310,239,469,281"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_schedule_cost_function.html#afb4267f09e050f3637a2cbc448705bb1" title="Scheduler::ScheduleCostFunction\l::calculateCost" alt="" coords="279,305,499,346"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="310,370,469,411"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="552,239,707,281"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="552,370,707,411"/>
+</map>

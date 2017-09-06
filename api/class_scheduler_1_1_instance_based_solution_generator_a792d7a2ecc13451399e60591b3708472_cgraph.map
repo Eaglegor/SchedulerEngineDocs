@@ -1,0 +1,9 @@
+<map id="Scheduler::InstanceBasedSolutionGenerator::checkEdge" name="Scheduler::InstanceBasedSolutionGenerator::checkEdge">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="267,5,469,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a39e47b117751a7bb0b47944f17490a01" title="Scheduler::RangeTypeAdapter\l::front" alt="" coords="268,57,468,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Scheduler::WorkStop\l::getOperation" alt="" coords="295,122,441,163"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_operation.html#a96a554eae3b3a9882b05e2b9f9d29b9c" title="Scheduler::Operation\l::getId" alt="" coords="296,187,440,229"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_range_type_adapter.html#aca6a01bbe9b571f60c895c63ff4147af" title="Scheduler::RangeTypeAdapter\l::back" alt="" coords="268,253,468,294"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Scheduler::RangeTypeAdapter\l::begin" alt="" coords="268,318,468,359"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="253,384,483,411"/>
+</map>

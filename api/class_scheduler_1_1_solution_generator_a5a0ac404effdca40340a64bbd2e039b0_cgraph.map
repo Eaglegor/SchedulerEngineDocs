@@ -1,0 +1,5 @@
+<map id="Scheduler::SolutionGenerator::discard" name="Scheduler::SolutionGenerator::discard">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#a16bda1e28e806c0513788945870a0066" title="Scheduler::SceneEditor\l::rollbackAll" alt="" coords="246,34,405,75"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="454,5,613,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="661,34,816,75"/>
+</map>

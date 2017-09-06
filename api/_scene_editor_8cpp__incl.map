@@ -1,0 +1,11 @@
+<map id="Engine/SceneEditor/SceneEditor.cpp" name="Engine/SceneEditor/SceneEditor.cpp">
+<area shape="rect" id="node2" href="$_scene_editor_8h.html" title="SceneEditor.h" alt="" coords="341,96,445,123"/>
+<area shape="rect" id="node3" href="$_action_8h.html" title="Action.h" alt="" coords="281,245,351,272"/>
+<area shape="rect" id="node4" href="$_checkpoint_8h.html" title="Checkpoint.h" alt="" coords="431,171,529,197"/>
+<area shape="rect" id="node5" href="$_patch_8h.html" title="Patch.h" alt="" coords="376,245,443,272"/>
+<area shape="rect" id="node6" href="$_logging_manager_8h.html" title="Engine/LoggingManager\l/LoggingManager.h" alt="" coords="43,321,204,362"/>
+<area shape="rect" id="node9" href="$_memory_manager_8h.html" title="MemoryManager.h" alt="" coords="361,411,491,437"/>
+<area shape="rect" id="node8" href="$_malloc_allocator_8h.html" title="Engine/MemoryManager\l/MallocAllocator.h" alt="" coords="517,321,680,362"/>
+<area shape="rect" id="node10" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="381,485,529,512"/>
+<area shape="rect" id="node11" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="391,560,501,587"/>
+</map>

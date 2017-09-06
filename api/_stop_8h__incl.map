@@ -1,0 +1,17 @@
+<map id="Engine/SceneManager/Stop.h" name="Engine/SceneManager/Stop.h">
+<area shape="rect" id="node2" href="$_actualizable_8h.html" title="Actualizable.h" alt="" coords="91,104,195,131"/>
+<area shape="rect" id="node5" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="535,104,707,131"/>
+<area shape="rect" id="node19" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="297,104,511,131"/>
+<area shape="rect" id="node24" href="$_route_actualizer_8h.html" title="RouteActualizer.h" alt="" coords="1281,104,1407,131"/>
+<area shape="rect" id="node25" href="$_location_8h.html" title="Location.h" alt="" coords="1432,104,1513,131"/>
+<area shape="rect" id="node3" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="5,187,221,213"/>
+<area shape="rect" id="node6" href="$_distance_8h.html" title="Distance.h" alt="" coords="579,261,664,288"/>
+<area shape="rect" id="node10" href="$_duration_8h.html" title="Duration.h" alt="" coords="336,261,417,288"/>
+<area shape="rect" id="node13" href="$_site_8h.html" title="Site.h" alt="" coords="783,187,837,213"/>
+<area shape="rect" id="node7" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="446,336,628,363"/>
+<area shape="rect" id="node14" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="913,261,1009,288"/>
+<area shape="rect" id="node15" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="861,336,1061,363"/>
+<area shape="rect" id="node16" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="859,411,969,437"/>
+<area shape="rect" id="node20" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="329,187,420,213"/>
+<area shape="rect" id="node26" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="1347,187,1489,213"/>
+</map>

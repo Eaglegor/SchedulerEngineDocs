@@ -1,0 +1,5 @@
+<map id="Scheduler::DurationActualizationAlgorithm" name="Scheduler::DurationActualizationAlgorithm">
+<area shape="rect" id="node3" href="$class_scheduler_1_1_default_duration_actualization_algorithm.html" title="Updates stops durations based on the operations scheduled to be performed at the stop. " alt="" coords="459,5,637,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_empty_duration_actualization_algorithm.html" title="Scheduler::EmptyDuration\lActualizationAlgorithm" alt="" coords="461,70,635,111"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="6,45,149,72"/>
+</map>

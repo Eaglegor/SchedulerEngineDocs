@@ -1,0 +1,15 @@
+<map id="Scheduler::DurationLimitRunValidationAlgorithm::validate" name="Scheduler::DurationLimitRunValidationAlgorithm::validate">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99" title="Scheduler::ViolationsConsumer\l::supportsViolationType" alt="" coords="229,5,435,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="236,71,428,97"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_schedule.html#ae30555bae2ae14d799833e7391661f3c" title="Scheduler::Schedule\l::constraints" alt="" coords="261,122,403,163"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_schedule_constraints.html#a3ea55912caf7afb05372feeec86f8ed0" title="Scheduler::ScheduleConstraints\l::runWorkingTimeLimit" alt="" coords="227,187,437,229"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_constraint_holder.html#a7c88fa061369eb11c73651cf4444851e" title="Scheduler::ConstraintHolder\l::isSet" alt="" coords="239,253,425,294"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_run.html#af0925aa22d20d122a79e0a5d66786774" title="Scheduler::Run::getEndStop" alt="" coords="238,319,426,345"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_stop.html#a448605543e54bed7f4aecb4e11f7d0c3" title="Scheduler::Stop::getAllocationTime" alt="" coords="219,369,445,396"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_time_window.html#a67ff5723dc3d058b6c8cdf482b1d0790" title="Gets the end time of the time window. " alt="" coords="250,421,414,462"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Scheduler::Run::getStartStop" alt="" coords="235,487,429,513"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_time_window.html#a2116e2a14785953f0fe22d296d997017" title="Gets the start time of the time window. " alt="" coords="250,538,414,579"/>
+<area shape="rect" id="node13" href="$class_scheduler_1_1_violations_consumer.html#a04eb15dcdd7d411a296262f3aab11fac" title="Scheduler::ViolationsConsumer\l::consumeViolation" alt="" coords="229,603,435,645"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="503,369,689,396"/>
+<area shape="rect" id="node14" href="$class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="493,603,699,645"/>
+</map>

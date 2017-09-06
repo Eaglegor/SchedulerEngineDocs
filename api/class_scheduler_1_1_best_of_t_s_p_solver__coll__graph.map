@@ -1,0 +1,4 @@
+<map id="Scheduler::BestOfTSPSolver" name="Scheduler::BestOfTSPSolver">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_t_s_p_solver.html" title="Represents abstract TSP solver interface. " alt="" coords="26,80,176,107"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="30,5,172,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="AnchorInsertion_TaillardTestInstance::createVRPSolver" name="AnchorInsertion_TaillardTestInstance::createVRPSolver">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_anchor_insertion_v_r_p_solver.html#a51e7a9102bea638aa0d9769298e9bec5" title="Scheduler::AnchorInsertion\lVRPSolver::setIterationsLimit" alt="" coords="261,5,456,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_chain_v_r_p_solver.html#aa5c1c5c65ceb9ce973628062a5246a4a" title="Scheduler::ChainVRPSolver\l::appendSolver" alt="" coords="265,70,452,111"/>
+</map>

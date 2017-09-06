@@ -1,0 +1,19 @@
+<map id="Engine/SceneManager/DepotStop.h" name="Engine/SceneManager/DepotStop.h">
+<area shape="rect" id="node2" href="$_stop_8h.html" title="Stop.h" alt="" coords="970,104,1029,131"/>
+<area shape="rect" id="node4" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="1246,277,1463,304"/>
+<area shape="rect" id="node29" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="1589,97,1768,138"/>
+<area shape="rect" id="node3" href="$_actualizable_8h.html" title="Actualizable.h" alt="" coords="1273,195,1377,221"/>
+<area shape="rect" id="node6" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="243,195,415,221"/>
+<area shape="rect" id="node20" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="5,195,219,221"/>
+<area shape="rect" id="node25" href="$_route_actualizer_8h.html" title="RouteActualizer.h" alt="" coords="937,195,1063,221"/>
+<area shape="rect" id="node26" href="$_location_8h.html" title="Location.h" alt="" coords="1088,195,1169,221"/>
+<area shape="rect" id="node7" href="$_distance_8h.html" title="Distance.h" alt="" coords="479,352,564,379"/>
+<area shape="rect" id="node11" href="$_duration_8h.html" title="Duration.h" alt="" coords="251,352,332,379"/>
+<area shape="rect" id="node14" href="$_site_8h.html" title="Site.h" alt="" coords="743,277,797,304"/>
+<area shape="rect" id="node8" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="430,427,612,453"/>
+<area shape="rect" id="node15" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="792,352,888,379"/>
+<area shape="rect" id="node16" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="739,427,940,453"/>
+<area shape="rect" id="node17" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="765,501,875,528"/>
+<area shape="rect" id="node21" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="162,277,253,304"/>
+<area shape="rect" id="node27" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="926,277,1068,304"/>
+</map>

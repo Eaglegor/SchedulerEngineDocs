@@ -1,0 +1,26 @@
+<map id="Engine/SceneManager/Constraints/Scene/SceneConstraints.h" name="Engine/SceneManager/Constraints/Scene/SceneConstraints.h">
+<area shape="rect" id="node2" href="$_scene_8h.html" title="Engine/SceneManager\l/Scene.h" alt="" coords="2302,97,2455,138"/>
+<area shape="rect" id="node23" href="$_scene_context_8h.html" title="Engine/SceneManager\l/SceneContext.h" alt="" coords="1138,97,1291,138"/>
+<area shape="rect" id="node25" href="$_scene_constraints_8cpp.html" title="Engine/SceneManager\l/Constraints/Scene/SceneConstraints.cpp" alt="" coords="2480,97,2747,138"/>
+<area shape="rect" id="node3" href="$_taillard___benchmark_8cpp.html" title="Benchmarks/Taillard\l/Taillard_Benchmark.cpp" alt="" coords="182,194,348,235"/>
+<area shape="rect" id="node4" href="$_tsp_lib___benchmark_8cpp.html" title="Benchmarks/TspLib/TspLib\l_Benchmark.cpp" alt="" coords="2552,194,2733,235"/>
+<area shape="rect" id="node5" href="$_simulated_annealing_t_s_p_solver_8cpp.html" title="Engine/Algorithms/TSPSolvers\l/SimulatedAnnealing/SimulatedAnnealing\lTSPSolver.cpp" alt="" coords="2758,187,3017,243"/>
+<area shape="rect" id="node6" href="$_best_of_t_s_p_solver_8cpp.html" title="Engine/Algorithms/TSPSolvers\l/Utilitary/BestOf/BestOfTSPSolver.cpp" alt="" coords="3042,194,3291,235"/>
+<area shape="rect" id="node7" href="$_iterative_t_s_p_solver_8cpp.html" title="Engine/Algorithms/TSPSolvers\l/Utilitary/Iterative/IterativeTSPSolver.cpp" alt="" coords="3315,194,3575,235"/>
+<area shape="rect" id="node8" href="$_anchor_insertion_v_r_p_solver_8cpp.html" title="Engine/Algorithms/VRPSolvers\l/AnchorInsertion/AnchorInsertion\lVRPSolver.cpp" alt="" coords="373,187,584,243"/>
+<area shape="rect" id="node9" href="$_classic_savings_generator_8h.html" title="Engine/Algorithms/VRPSolvers\l/CWSavings/Generators/ClassicSavings\lGenerator.h" alt="" coords="1751,187,2008,243"/>
+<area shape="rect" id="node10" href="$_c_w_savings_v_r_p_solver_8cpp.html" title="Engine/Algorithms/VRPSolvers\l/CWSavings/CWSavingsVRPSolver.cpp" alt="" coords="2067,291,2327,333"/>
+<area shape="rect" id="node11" href="$_sweep_v_r_p_solver_8cpp.html" title="Engine/Algorithms/VRPSolvers\l/Sweep/SweepVRPSolver.cpp" alt="" coords="609,194,812,235"/>
+<area shape="rect" id="node12" href="$_t_s_p_only_v_r_p_solver_8cpp.html" title="Engine/Algorithms/VRPSolvers\l/Utilitary/TSPOnly/TSPOnlyVRPSolver.cpp" alt="" coords="3600,194,3875,235"/>
+<area shape="rect" id="node13" href="$_total_distance_scene_cost_function_8cpp.html" title="Engine/CostFunctions\l/TotalDistance/TotalDistance\lSceneCostFunction.cpp" alt="" coords="3899,187,4091,243"/>
+<area shape="rect" id="node14" href="$_operation_stop_mapping_query_8cpp.html" title="Engine/SceneManager\l/Queries/OperationStopMapping\lQuery.cpp" alt="" coords="4115,187,4321,243"/>
+<area shape="rect" id="node15" href="$_scene_8cpp.html" title="Engine/SceneManager\l/Scene.cpp" alt="" coords="4346,194,4499,235"/>
+<area shape="rect" id="node16" href="$_scene_manager_8cpp.html" title="Engine/SceneManager\l/SceneManager.cpp" alt="" coords="837,194,989,235"/>
+<area shape="rect" id="node17" href="$_schedule_variant_8cpp.html" title="Engine/SceneManager\l/ScheduleVariant.cpp" alt="" coords="4523,194,4676,235"/>
+<area shape="rect" id="node18" href="$_scene_cloner_8cpp.html" title="Engine/SceneManager\l/Utils/SceneCloner.cpp" alt="" coords="1015,194,1172,235"/>
+<area shape="rect" id="node19" href="$_j_s_o_n_scene_loader_8cpp.html" title="Persistence/SceneLoaders\l/JSONSceneLoader/JSONSceneLoader.cpp" alt="" coords="1197,194,1475,235"/>
+<area shape="rect" id="node20" href="$_taillard_scene_loader_8cpp.html" title="Persistence/SceneLoaders\l/TaillardSceneLoader/TaillardScene\lLoader.cpp" alt="" coords="1500,187,1727,243"/>
+<area shape="rect" id="node21" href="$_tsp_lib_scene_loader_8cpp.html" title="Persistence/SceneLoaders\l/TspLibSceneLoader/TspLibScene\lLoader.cpp" alt="" coords="2033,187,2255,243"/>
+<area shape="rect" id="node22" href="$_png_renderer_8cpp.html" title="Tools/Renderers/PngRenderer\l/PngRenderer.cpp" alt="" coords="2279,194,2477,235"/>
+<area shape="rect" id="node24" href="$_scene_context_8cpp.html" title="Engine/SceneManager\l/SceneContext.cpp" alt="" coords="5,194,157,235"/>
+</map>

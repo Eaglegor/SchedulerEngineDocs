@@ -1,0 +1,9 @@
+<map id="Scheduler::AllocateOrder::perform" name="Scheduler::AllocateOrder::perform">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a08d3a0e4cee2cace4b4cbcd0837f3c36" title="Scheduler::Run::allocate\lOrder" alt="" coords="221,169,387,210"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Scheduler::Order::getWork\lOperation" alt="" coords="453,5,630,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="435,70,647,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="444,135,639,177"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_structural_changes_observer.html#a29df1b2764abaffbf2028dd410da568e" title="Scheduler::StructuralChanges\lObserver::afterWorkStopCreated" alt="" coords="435,201,648,242"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Scheduler::Order::getStart\lOperation" alt="" coords="454,266,629,307"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Scheduler::Order::getEnd\lOperation" alt="" coords="457,331,626,373"/>
+</map>

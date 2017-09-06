@@ -1,0 +1,4 @@
+<map id="Scheduler::MemoryManager::destroyMemoryStore" name="Scheduler::MemoryManager::destroyMemoryStore">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_pool_memory_store.html#ac04fb1a2451075812d4bbef8cdfeb9ae" title="Scheduler::PoolMemoryStore\l::~PoolMemoryStore" alt="" coords="247,5,439,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_malloc_memory_store.html#a7d2677e3d7270f125bb5310a21abd6af" title="Releases memory by calling std::free() " alt="" coords="241,70,445,111"/>
+</map>

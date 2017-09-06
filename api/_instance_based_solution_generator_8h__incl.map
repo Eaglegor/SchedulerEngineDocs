@@ -1,0 +1,36 @@
+<map id="Engine/Algorithms/TSPSolvers/SimulatedAnnealing/InstanceBasedSolutionGenerator.h" name="Engine/Algorithms/TSPSolvers/SimulatedAnnealing/InstanceBasedSolutionGenerator.h">
+<area shape="rect" id="node2" href="$_solution_generator_8h.html" title="SolutionGenerator.h" alt="" coords="1814,109,1951,136"/>
+<area shape="rect" id="node3" href="$_scene_editor_8h.html" title="Engine/SceneEditor\l/SceneEditor.h" alt="" coords="371,275,508,317"/>
+<area shape="rect" id="node18" href="$_run_8h.html" title="Engine/SceneManager\l/Run.h" alt="" coords="1926,185,2079,226"/>
+<area shape="rect" id="node4" href="$_action_8h.html" title="Action.h" alt="" coords="535,464,605,491"/>
+<area shape="rect" id="node5" href="$_checkpoint_8h.html" title="Checkpoint.h" alt="" coords="435,373,533,400"/>
+<area shape="rect" id="node6" href="$_patch_8h.html" title="Patch.h" alt="" coords="343,464,409,491"/>
+<area shape="rect" id="node7" href="$_logging_manager_8h.html" title="Engine/LoggingManager\l/LoggingManager.h" alt="" coords="5,547,165,589"/>
+<area shape="rect" id="node10" href="$_memory_manager_8h.html" title="MemoryManager.h" alt="" coords="179,637,308,664"/>
+<area shape="rect" id="node9" href="$_malloc_allocator_8h.html" title="Engine/MemoryManager\l/MallocAllocator.h" alt="" coords="384,547,547,589"/>
+<area shape="rect" id="node11" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="169,712,317,739"/>
+<area shape="rect" id="node19" href="$_depot_stop_8h.html" title="DepotStop.h" alt="" coords="1523,283,1617,309"/>
+<area shape="rect" id="node26" href="$_duration_actualizer_8h.html" title="DurationActualizer.h" alt="" coords="2714,283,2853,309"/>
+<area shape="rect" id="node27" href="$_operation_8h.html" title="Operation.h" alt="" coords="2078,283,2167,309"/>
+<area shape="rect" id="node32" href="$_immutable_vector_8h.html" title="Engine/Utils/Collections\l/ImmutableVector.h" alt="" coords="2667,457,2829,498"/>
+<area shape="rect" id="node33" href="$_scene_objects_factory_8h.html" title="SceneObjectsFactory.h" alt="" coords="921,464,1079,491"/>
+<area shape="rect" id="node35" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="2102,464,2257,491"/>
+<area shape="rect" id="node38" href="$_site_8h.html" title="Site.h" alt="" coords="1693,373,1748,400"/>
+<area shape="rect" id="node39" href="$_schedule_8h.html" title="Schedule.h" alt="" coords="1395,283,1481,309"/>
+<area shape="rect" id="node41" href="$_linked_pointers_list_8h.html" title="Engine/Utils/Collections\l/LinkedPointersList.h" alt="" coords="1037,366,1200,407"/>
+<area shape="rect" id="node42" href="$_work_stop_8h.html" title="Engine/SceneManager\l/WorkStop.h" alt="" coords="2313,275,2465,317"/>
+<area shape="rect" id="node43" href="$_range_type_adapter_8h.html" title="Engine/Utils/Collections\l/RangeTypeAdapter.h" alt="" coords="2763,366,2925,407"/>
+<area shape="rect" id="node44" href="$_derived_type_caster_8h.html" title="../DerivedTypeCaster.h" alt="" coords="2905,464,3063,491"/>
+<area shape="rect" id="node45" href="$_auto_cast_range_8h.html" title="Engine/Utils/AutoCastRange.h" alt="" coords="2981,283,3181,309"/>
+<area shape="rect" id="node47" href="$_linked_pointers_sublist_8h.html" title="Engine/Utils/Collections\l/LinkedPointersSublist.h" alt="" coords="1055,275,1217,317"/>
+<area shape="rect" id="node20" href="$_stop_8h.html" title="Stop.h" alt="" coords="1558,373,1617,400"/>
+<area shape="rect" id="node24" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="2333,457,2512,498"/>
+<area shape="rect" id="node25" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="1358,464,1575,491"/>
+<area shape="rect" id="node21" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="1651,464,1864,491"/>
+<area shape="rect" id="node28" href="$_operation_constraints_8h.html" title="Constraints/Operation\l/OperationConstraints.h" alt="" coords="1773,366,1932,407"/>
+<area shape="rect" id="node29" href="$_capacity_8h.html" title="Engine/Concepts/Capacity.h" alt="" coords="1888,464,2077,491"/>
+<area shape="rect" id="node30" href="$_order_8h.html" title="Order.h" alt="" coords="2211,373,2276,400"/>
+<area shape="rect" id="node37" href="$_duration_8h.html" title="Duration.h" alt="" coords="2504,373,2585,400"/>
+<area shape="rect" id="node34" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="775,555,927,581"/>
+<area shape="rect" id="node40" href="$_arrival_time_actualizer_8h.html" title="ArrivalTimeActualizer.h" alt="" coords="1275,373,1432,400"/>
+</map>

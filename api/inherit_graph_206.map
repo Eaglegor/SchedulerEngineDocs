@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_tsp_lib_test_instance.html" title="TspLibTestInstance" alt="" coords="6,216,143,243"/>
+<area shape="rect" id="node2" href="$class_double_su_int_tsp_lib_instance.html" title="DoubleSuIntTspLibInstance" alt="" coords="214,5,397,32"/>
+<area shape="rect" id="node3" href="$class_greedy__2_opt___tsp_lib_instance.html" title="Greedy_2Opt_TspLibInstance" alt="" coords="208,56,403,83"/>
+<area shape="rect" id="node4" href="$class_greedy___hybrid_opt___tsp_lib_instance.html" title="Greedy_HybridOpt_TspLibInstance" alt="" coords="192,107,419,133"/>
+<area shape="rect" id="node5" href="$class_greedy___tsp_lib_instance.html" title="Greedy_TspLibInstance" alt="" coords="225,157,385,184"/>
+<area shape="rect" id="node6" href="$class_greedy___two_opt___one_relocate___tsp_lib_instance.html" title="Greedy_TwoOpt_OneRelocate\l_TspLibInstance" alt="" coords="205,209,405,250"/>
+<area shape="rect" id="node7" href="$class_one_relocate___tsp_lib_instance.html" title="OneRelocate_TspLibInstance" alt="" coords="208,275,403,301"/>
+<area shape="rect" id="node8" href="$class_optimal___tsp_lib_instance.html" title="Optimal_TspLibInstance" alt="" coords="224,325,387,352"/>
+<area shape="rect" id="node9" href="$class_simulated_annealing_tsp_lib_instance.html" title="SimulatedAnnealingTspLib\lInstance" alt="" coords="217,377,393,418"/>
+<area shape="rect" id="node10" href="$class_su_int_tsp_lib_instance.html" title="SuIntTspLibInstance" alt="" coords="234,443,377,469"/>
+</map>

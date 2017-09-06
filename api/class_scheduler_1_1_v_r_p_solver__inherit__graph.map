@@ -1,0 +1,9 @@
+<map id="Scheduler::VRPSolver" name="Scheduler::VRPSolver">
+<area shape="rect" id="node3" href="$class_scheduler_1_1_anchor_insertion_v_r_p_solver.html" title="Scheduler::AnchorInsertion\lVRPSolver" alt="" coords="423,5,601,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_chain_v_r_p_solver.html" title="Scheduler::ChainVRPSolver" alt="" coords="419,71,605,97"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_c_w_savings_v_r_p_solver.html" title="Scheduler::CWSavingsVRPSolver" alt="" coords="401,121,623,148"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_sweep_v_r_p_solver.html" title="Scheduler::SweepVRPSolver" alt="" coords="415,172,609,199"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_transparent_v_r_p_solver.html" title="Scheduler::TransparentVRPSolver" alt="" coords="401,223,623,249"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_t_s_p_only_v_r_p_solver.html" title="Scheduler::TSPOnlyVRPSolver" alt="" coords="409,273,615,300"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="6,147,149,173"/>
+</map>

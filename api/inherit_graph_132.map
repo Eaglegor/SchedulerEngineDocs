@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_scheduler_1_1_routing_service.html" title="Represents the abstract routing service interface. " alt="" coords="6,77,183,104"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_crow_fly_routing_service.html" title="Routing service providing the routes based on &quot;as the crow flies&quot; distance metric. " alt="" coords="233,5,415,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_taillard_routing_service.html" title="Routing service providing the routes calculated as described in the Taillard CVRP benchmark..." alt="" coords="237,70,411,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_tsp_lib_routing_service.html" title="Routing service providing routes from the custom distance matrix. " alt="" coords="238,135,410,177"/>
+</map>

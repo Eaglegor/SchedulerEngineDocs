@@ -1,0 +1,6 @@
+<map id="Scheduler::TaillardRoutingService::calculateRoute" name="Scheduler::TaillardRoutingService::calculateRoute">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_site.html#a546872c902a49da9fe03d1491eadaf50" title="Gets the latitude. " alt="" coords="235,5,418,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_coordinate.html#a42ffef0f31d0362b575eae0ac4aee1ad" title="Gets a value of coordinate. " alt="" coords="251,57,402,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_site.html#ac4164b41b18a96033e2a0b67ccd0f62f" title="Gets the latitude. " alt="" coords="230,123,423,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_routing_profile.html#aa370b9258a70f94c67ff1cf363e268f3" title="Gets average speed of the vehicle. " alt="" coords="241,174,412,215"/>
+</map>

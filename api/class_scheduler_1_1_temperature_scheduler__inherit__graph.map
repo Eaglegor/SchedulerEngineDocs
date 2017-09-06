@@ -1,0 +1,6 @@
+<map id="Scheduler::TemperatureScheduler" name="Scheduler::TemperatureScheduler">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_default_temperature_scheduler.html" title="Scheduler::DefaultTemperature\lScheduler" alt="" coords="5,81,208,122"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_list_temperature_scheduler.html" title="Scheduler::ListTemperature\lScheduler" alt="" coords="233,81,415,122"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_fast_list_temperature_scheduler.html" title="Scheduler::FastListTemperature\lScheduler" alt="" coords="104,171,312,213"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_slow_list_temperature_scheduler.html" title="Scheduler::SlowListTemperature\lScheduler" alt="" coords="336,171,545,213"/>
+</map>

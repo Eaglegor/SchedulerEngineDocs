@@ -1,0 +1,6 @@
+<map id="Scheduler::ScrambleTSPSolver::optimize" name="Scheduler::ScrambleTSPSolver::optimize">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="262,5,421,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="262,70,421,111"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="469,5,624,46"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="469,70,624,111"/>
+</map>

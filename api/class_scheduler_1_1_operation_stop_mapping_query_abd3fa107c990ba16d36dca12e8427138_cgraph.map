@@ -1,0 +1,4 @@
+<map id="Scheduler::OperationStopMappingQuery::OperationStopMappingQuery" name="Scheduler::OperationStopMappingQuery::OperationStopMappingQuery">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene.html#abd67310ba59fe53c4af502391c33a81b" title="Scheduler::Scene::addStructural\lChangesListener" alt="" coords="336,5,547,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a6acc5e2e2700dc64792d616cdc98d852" title="Scheduler::StructuralChanges\lObserver::addListener" alt="" coords="595,5,791,46"/>
+</map>

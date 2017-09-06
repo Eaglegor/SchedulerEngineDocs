@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_scheduler_1_1_benchmark_publisher.html" title="Scheduler::BenchmarkPublisher" alt="" coords="5,45,213,72"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_markdown_benchmark_publisher.html" title="Scheduler::MarkdownBenchmark\lPublisher" alt="" coords="262,5,477,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_stdout_benchmark_publisher.html" title="Scheduler::StdoutBenchmark\lPublisher" alt="" coords="273,70,465,111"/>
+</map>

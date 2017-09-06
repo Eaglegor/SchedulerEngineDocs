@@ -1,0 +1,5 @@
+<map id="Scheduler::TotalDistanceRunCostFunction::calculateCost" name="Scheduler::TotalDistanceRunCostFunction::calculateCost">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="267,5,439,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Scheduler::Range::begin" alt="" coords="271,56,436,83"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range.html#a069983b63b50eb7b5b2ac3ecdb92b6a2" title="Scheduler::Range::end" alt="" coords="276,107,431,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Scheduler::SImpl::dispatch" name="Scheduler::SImpl::dispatch">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Scheduler::WorkStop\l::getOperation" alt="" coords="264,5,411,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_operation.html#a73b20691b5f34b1f6cc413f990e05ab0" title="Scheduler::Operation\l::constraints" alt="" coords="265,70,409,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_operation_constraints.html#a04704cf32ea5f6f8b02b4b9b52069468" title="Scheduler::OperationConstraints\l::timeWindows" alt="" coords="232,135,443,177"/>
+</map>

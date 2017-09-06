@@ -1,0 +1,8 @@
+<map id="Scheduler::TspLibRoutingService::calculateRoute" name="Scheduler::TspLibRoutingService::calculateRoute">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_site.html#a546872c902a49da9fe03d1491eadaf50" title="Gets the latitude. " alt="" coords="237,5,419,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_coordinate.html#a42ffef0f31d0362b575eae0ac4aee1ad" title="Gets a value of coordinate. " alt="" coords="253,57,403,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_route.html#acba898b98a84ed16ba980d1cdbf35c98" title="Sets distance between start and end point. " alt="" coords="227,123,429,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_route.html#aa92502c230a223b6c0f72c76f7045be0" title="Sets time needed to travel between start and end point. " alt="" coords="229,173,427,200"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_route.html#a043db1ca9b50703ad5852ffc066cf287" title="Sets start point of the route. " alt="" coords="239,224,417,251"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_route.html#af7b58304182f1bb7d5449a1641faea7d" title="Sets end point of the route. " alt="" coords="246,275,410,301"/>
+</map>

@@ -1,0 +1,22 @@
+<map id="Persistence/StrategyLoaders/JSONStrategyLoader/Loaders/SceneCostFunctions/TotalDistanceSceneCostFunctionLoader.cpp" name="Persistence/StrategyLoaders/JSONStrategyLoader/Loaders/SceneCostFunctions/TotalDistanceSceneCostFunctionLoader.cpp">
+<area shape="rect" id="node2" href="$_total_distance_scene_cost_function_loader_8h.html" title="TotalDistanceSceneCostFunction\lLoader.h" alt="" coords="2233,133,2452,174"/>
+<area shape="rect" id="node5" href="$_algorithms_manager_8h.html" title="Engine/AlgorithmsManager\l/AlgorithmsManager.h" alt="" coords="639,133,817,174"/>
+<area shape="rect" id="node23" href="$_total_distance_scene_cost_function_8h.html" title="Engine/CostFunctions\l/TotalDistance/TotalDistance\lSceneCostFunction.h" alt="" coords="1304,125,1496,181"/>
+<area shape="rect" id="node29" href="$_loader_impl_8h.html" title="Persistence/StrategyLoaders\l/JSONStrategyLoader/LoaderImpl.h" alt="" coords="1733,133,1963,174"/>
+<area shape="rect" id="node3" href="$_scene_cost_function_loader_8h.html" title="SceneCostFunctionLoader.h" alt="" coords="2497,237,2684,264"/>
+<area shape="rect" id="node6" href="$_algorithm_8h.html" title="Algorithm.h" alt="" coords="435,237,523,264"/>
+<area shape="rect" id="node7" href="$_cost_function_8h.html" title="CostFunction.h" alt="" coords="989,328,1099,355"/>
+<area shape="rect" id="node8" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="547,237,699,264"/>
+<area shape="rect" id="node20" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="723,237,940,264"/>
+<area shape="rect" id="node13" href="$_memory_manager_8h.html" title="Engine/MemoryManager\l/MemoryManager.h" alt="" coords="291,321,453,362"/>
+<area shape="rect" id="node16" href="$_pool_memory_store_8h.html" title="Engine/MemoryManager\l/PoolMemoryStore.h" alt="" coords="477,321,640,362"/>
+<area shape="rect" id="node14" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="33,411,181,437"/>
+<area shape="rect" id="node15" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="279,485,389,512"/>
+<area shape="rect" id="node24" href="$_scene_cost_function_8h.html" title="Engine/SceneManager\l/CostFunctions/SceneCostFunction.h" alt="" coords="1067,230,1308,271"/>
+<area shape="rect" id="node25" href="$_cost_8h.html" title="Engine/Concepts/Cost.h" alt="" coords="1124,328,1288,355"/>
+<area shape="rect" id="node26" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="1050,411,1232,437"/>
+<area shape="rect" id="node33" href="$_run_cost_function_loader_8h.html" title="Loaders/RunCostFunctions\l/RunCostFunctionLoader.h" alt="" coords="1333,230,1515,271"/>
+<area shape="rect" id="node34" href="$_schedule_cost_function_loader_8h.html" title="Loaders/ScheduleCostFunctions\l/ScheduleCostFunctionLoader.h" alt="" coords="1928,230,2137,271"/>
+<area shape="rect" id="node35" href="$_t_s_p_solver_loader_8h.html" title="Loaders/TSPSolvers\l/TSPSolverLoader.h" alt="" coords="2162,230,2304,271"/>
+<area shape="rect" id="node36" href="$_v_r_p_solver_loader_8h.html" title="Loaders/VRPSolvers\l/VRPSolverLoader.h" alt="" coords="2329,230,2473,271"/>
+</map>

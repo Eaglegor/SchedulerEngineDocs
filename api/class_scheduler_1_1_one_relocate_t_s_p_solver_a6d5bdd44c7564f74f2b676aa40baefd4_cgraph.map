@@ -1,0 +1,11 @@
+<map id="Scheduler::OneRelocateTSPSolver::optimize" name="Scheduler::OneRelocateTSPSolver::optimize">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="280,5,483,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a086466509ecac557c954df963510e760" title="Scheduler::RangeTypeAdapter\l::empty" alt="" coords="281,57,481,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="285,123,477,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="302,174,461,215"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="531,233,690,274"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#a16bda1e28e806c0513788945870a0066" title="Scheduler::SceneEditor\l::rollbackAll" alt="" coords="302,291,461,333"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="533,167,688,209"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="739,291,893,333"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="531,350,690,391"/>
+</map>

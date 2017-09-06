@@ -1,0 +1,21 @@
+<map id="Engine/SceneManager/WorkStop.h" name="Engine/SceneManager/WorkStop.h">
+<area shape="rect" id="node2" href="$_stop_8h.html" title="Stop.h" alt="" coords="731,104,791,131"/>
+<area shape="rect" id="node29" href="$_range_type_adapter_8h.html" title="Engine/Utils/Collections\l/RangeTypeAdapter.h" alt="" coords="1673,97,1836,138"/>
+<area shape="rect" id="node33" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="1869,97,2048,138"/>
+<area shape="rect" id="node3" href="$_actualizable_8h.html" title="Actualizable.h" alt="" coords="167,195,271,221"/>
+<area shape="rect" id="node6" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="301,195,472,221"/>
+<area shape="rect" id="node20" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="655,195,868,221"/>
+<area shape="rect" id="node25" href="$_route_actualizer_8h.html" title="RouteActualizer.h" alt="" coords="1390,195,1516,221"/>
+<area shape="rect" id="node26" href="$_location_8h.html" title="Location.h" alt="" coords="548,195,629,221"/>
+<area shape="rect" id="node4" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="107,277,324,304"/>
+<area shape="rect" id="node7" href="$_distance_8h.html" title="Distance.h" alt="" coords="153,352,239,379"/>
+<area shape="rect" id="node11" href="$_duration_8h.html" title="Duration.h" alt="" coords="789,352,871,379"/>
+<area shape="rect" id="node14" href="$_site_8h.html" title="Site.h" alt="" coords="400,277,455,304"/>
+<area shape="rect" id="node8" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="5,427,187,453"/>
+<area shape="rect" id="node15" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="377,352,473,379"/>
+<area shape="rect" id="node16" href="$_fixed_point_math_8h.html" title="Engine/Math/FixedPointMath.h" alt="" coords="314,427,515,453"/>
+<area shape="rect" id="node17" href="$_integer_power_8h.html" title="IntegerPower.h" alt="" coords="406,501,516,528"/>
+<area shape="rect" id="node21" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="869,277,960,304"/>
+<area shape="rect" id="node27" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="650,277,792,304"/>
+<area shape="rect" id="node30" href="$_derived_type_caster_8h.html" title="../DerivedTypeCaster.h" alt="" coords="1541,195,1699,221"/>
+</map>

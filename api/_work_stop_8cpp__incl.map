@@ -1,0 +1,34 @@
+<map id="Engine/SceneManager/WorkStop.cpp" name="Engine/SceneManager/WorkStop.cpp">
+<area shape="rect" id="node2" href="$_work_stop_8h.html" title="WorkStop.h" alt="" coords="1681,96,1772,123"/>
+<area shape="rect" id="node32" href="$_work_operation_8h.html" title="WorkOperation.h" alt="" coords="1404,96,1524,123"/>
+<area shape="rect" id="node33" href="$_operation_8h.html" title="Operation.h" alt="" coords="1409,179,1497,205"/>
+<area shape="rect" id="node48" href="$_algorithms_8h.html" title="Engine/Utils/Collections\l/Algorithms.h" alt="" coords="1967,353,2129,394"/>
+<area shape="rect" id="node49" href="$_const_stop_visitor_8h.html" title="ConstStopVisitor.h" alt="" coords="1797,96,1928,123"/>
+<area shape="rect" id="node50" href="$_stop_visitor_8h.html" title="StopVisitor.h" alt="" coords="1953,96,2049,123"/>
+<area shape="rect" id="node3" href="$_stop_8h.html" title="Stop.h" alt="" coords="2622,179,2681,205"/>
+<area shape="rect" id="node26" href="$_range_type_adapter_8h.html" title="Engine/Utils/Collections\l/RangeTypeAdapter.h" alt="" coords="1745,171,1908,213"/>
+<area shape="rect" id="node30" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="993,353,1172,394"/>
+<area shape="rect" id="node4" href="$_actualizable_8h.html" title="Actualizable.h" alt="" coords="2141,269,2245,296"/>
+<area shape="rect" id="node7" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="2949,269,3120,296"/>
+<area shape="rect" id="node17" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="1465,360,1679,387"/>
+<area shape="rect" id="node22" href="$_route_actualizer_8h.html" title="RouteActualizer.h" alt="" coords="2589,269,2715,296"/>
+<area shape="rect" id="node23" href="$_location_8h.html" title="Location.h" alt="" coords="2740,269,2821,296"/>
+<area shape="rect" id="node5" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="2154,360,2371,387"/>
+<area shape="rect" id="node8" href="$_distance_8h.html" title="Distance.h" alt="" coords="3048,360,3133,387"/>
+<area shape="rect" id="node11" href="$_duration_8h.html" title="Duration.h" alt="" coords="1891,517,1972,544"/>
+<area shape="rect" id="node14" href="$_site_8h.html" title="Site.h" alt="" coords="2817,360,2872,387"/>
+<area shape="rect" id="node9" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="2999,443,3181,469"/>
+<area shape="rect" id="node15" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="2683,443,2779,469"/>
+<area shape="rect" id="node18" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="1526,443,1617,469"/>
+<area shape="rect" id="node24" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="1247,360,1389,387"/>
+<area shape="rect" id="node27" href="$_derived_type_caster_8h.html" title="../DerivedTypeCaster.h" alt="" coords="1907,269,2065,296"/>
+<area shape="rect" id="node34" href="$_operation_constraints_8h.html" title="Constraints/Operation\l/OperationConstraints.h" alt="" coords="1231,262,1389,303"/>
+<area shape="rect" id="node38" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="107,517,263,544"/>
+<area shape="rect" id="node41" href="$_capacity_8h.html" title="Engine/Concepts/Capacity.h" alt="" coords="1753,360,1943,387"/>
+<area shape="rect" id="node43" href="$_order_8h.html" title="Order.h" alt="" coords="703,269,768,296"/>
+<area shape="rect" id="node44" href="$_immutable_vector_8h.html" title="Engine/Utils/Collections\l/ImmutableVector.h" alt="" coords="655,353,817,394"/>
+<area shape="rect" id="node37" href="$_constraint_holder_8h.html" title="../ConstraintHolder.h" alt="" coords="725,443,867,469"/>
+<area shape="rect" id="node45" href="$_order_constraints_8h.html" title="Constraints/Order/OrderConstraints.h" alt="" coords="209,360,447,387"/>
+<area shape="rect" id="node46" href="$_scene_objects_factory_8h.html" title="SceneObjectsFactory.h" alt="" coords="471,360,629,387"/>
+<area shape="rect" id="node47" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="943,443,1095,469"/>
+</map>

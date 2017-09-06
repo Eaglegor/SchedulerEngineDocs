@@ -1,0 +1,7 @@
+<map id="Engine/SceneEditor/Patch.h" name="Engine/SceneEditor/Patch.h">
+<area shape="rect" id="node2" href="$_logging_manager_8h.html" title="Engine/LoggingManager\l/LoggingManager.h" alt="" coords="5,97,165,138"/>
+<area shape="rect" id="node4" href="$_malloc_allocator_8h.html" title="Engine/MemoryManager\l/MallocAllocator.h" alt="" coords="209,97,372,138"/>
+<area shape="rect" id="node5" href="$_memory_manager_8h.html" title="MemoryManager.h" alt="" coords="145,187,275,213"/>
+<area shape="rect" id="node6" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="136,261,284,288"/>
+<area shape="rect" id="node7" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="165,336,275,363"/>
+</map>

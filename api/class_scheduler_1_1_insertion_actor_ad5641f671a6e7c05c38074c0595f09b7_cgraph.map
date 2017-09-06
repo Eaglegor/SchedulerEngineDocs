@@ -1,0 +1,7 @@
+<map id="Scheduler::InsertionActor::apply" name="Scheduler::InsertionActor::apply">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="225,5,383,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="225,70,383,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="225,135,383,177"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="432,70,587,111"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="432,135,587,177"/>
+</map>

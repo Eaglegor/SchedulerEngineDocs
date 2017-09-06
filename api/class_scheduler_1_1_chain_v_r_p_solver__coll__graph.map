@@ -1,0 +1,4 @@
+<map id="Scheduler::ChainVRPSolver" name="Scheduler::ChainVRPSolver">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_v_r_p_solver.html" title="Represents abstract VRP solver interface. " alt="" coords="22,80,175,107"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="27,5,169,32"/>
+</map>

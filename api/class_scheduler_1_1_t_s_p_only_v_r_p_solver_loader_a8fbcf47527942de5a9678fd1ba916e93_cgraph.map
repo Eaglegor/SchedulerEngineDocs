@@ -1,0 +1,4 @@
+<map id="Scheduler::TSPOnlyVRPSolverLoader::load" name="Scheduler::TSPOnlyVRPSolverLoader::load">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_loader_impl.html#a12d9158a840e3520c3db75d0a2404206" title="Scheduler::LoaderImpl\l::loadTSPSolver" alt="" coords="285,5,437,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_algorithms_manager.html#a45db9cc614915289aeed40c086a0892a" title="Creates new algorithm. " alt="" coords="261,70,461,111"/>
+</map>

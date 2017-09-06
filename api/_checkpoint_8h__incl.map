@@ -1,0 +1,9 @@
+<map id="Engine/SceneEditor/Checkpoint.h" name="Engine/SceneEditor/Checkpoint.h">
+<area shape="rect" id="node2" href="$_action_8h.html" title="Action.h" alt="" coords="310,96,380,123"/>
+<area shape="rect" id="node3" href="$_patch_8h.html" title="Patch.h" alt="" coords="456,96,523,123"/>
+<area shape="rect" id="node6" href="$_malloc_allocator_8h.html" title="Engine/MemoryManager\l/MallocAllocator.h" alt="" coords="31,171,193,213"/>
+<area shape="rect" id="node4" href="$_logging_manager_8h.html" title="Engine/LoggingManager\l/LoggingManager.h" alt="" coords="218,171,379,213"/>
+<area shape="rect" id="node7" href="$_memory_manager_8h.html" title="MemoryManager.h" alt="" coords="5,261,135,288"/>
+<area shape="rect" id="node8" href="$_malloc_memory_store_8h.html" title="MallocMemoryStore.h" alt="" coords="108,336,256,363"/>
+<area shape="rect" id="node9" href="$_memory_store_8h.html" title="MemoryStore.h" alt="" coords="127,411,237,437"/>
+</map>

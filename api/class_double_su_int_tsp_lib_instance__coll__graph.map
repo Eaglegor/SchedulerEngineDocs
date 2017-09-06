@@ -1,0 +1,11 @@
+<map id="DoubleSuIntTspLibInstance" name="DoubleSuIntTspLibInstance">
+<area shape="rect" id="node2" href="$class_tsp_lib_test_instance.html" title="TspLibTestInstance" alt="" coords="833,131,970,157"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_schedule_cost_function.html" title="Scheduler::ScheduleCostFunction" alt="" coords="470,5,690,32"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_cost_function.html" title="Represents abstract cost function interface. " alt="" coords="190,5,357,32"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_benchmark_publisher.html" title="Scheduler::BenchmarkPublisher" alt="" coords="476,56,684,83"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="233,157,313,184"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="6,150,133,191"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_engine.html" title="Scheduler::Engine" alt="" coords="516,208,644,235"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_tsp_lib_routing_service.html" title="Routing service providing routes from the custom distance matrix. " alt="" coords="494,259,666,301"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_routing_service.html" title="Represents the abstract routing service interface. " alt="" coords="185,267,362,293"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Scheduler::SceneDesc" name="Scheduler::SceneDesc">
+<area shape="rect" id="node2" href="$struct_scheduler_1_1_fleet_desc.html" title="Scheduler::FleetDesc" alt="" coords="1942,105,2090,132"/>
+<area shape="rect" id="node4" href="$struct_scheduler_1_1_performer_desc.html" title="Scheduler::PerformerDesc" alt="" coords="1237,73,1413,100"/>
+<area shape="rect" id="node11" href="$struct_scheduler_1_1_vehicle_desc.html" title="Scheduler::VehicleDesc" alt="" coords="1244,240,1407,267"/>
+<area shape="rect" id="node26" href="$struct_scheduler_1_1_operation_desc.html" title="Scheduler::OperationDesc" alt="" coords="1238,451,1413,477"/>
+<area shape="rect" id="node6" href="$struct_scheduler_1_1_time_window_desc.html" title="Scheduler::TimeWindowDesc" alt="" coords="389,631,584,657"/>
+<area shape="rect" id="node18" href="$struct_scheduler_1_1_schedule_shift_desc.html" title="Scheduler::ScheduleShiftDesc" alt="" coords="835,803,1035,829"/>
+<area shape="rect" id="node22" href="$struct_scheduler_1_1_stop_desc.html" title="Scheduler::StopDesc" alt="" coords="861,660,1008,687"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="184,547,264,573"/>
+<area shape="rect" id="node12" href="$struct_scheduler_1_1_routing_profile_desc.html" title="Scheduler::RoutingProfileDesc" alt="" coords="609,348,810,375"/>
+<area shape="rect" id="node15" href="$struct_scheduler_1_1_site_desc.html" title="Scheduler::SiteDesc" alt="" coords="415,580,558,607"/>
+<area shape="rect" id="node17" href="$struct_scheduler_1_1_schedule_desc.html" title="Scheduler::ScheduleDesc" alt="" coords="2200,776,2373,803"/>
+<area shape="rect" id="node20" href="$struct_scheduler_1_1_run_desc.html" title="Scheduler::RunDesc" alt="" coords="1641,741,1783,768"/>
+<area shape="rect" id="node24" href="$struct_scheduler_1_1_order_desc.html" title="Scheduler::OrderDesc" alt="" coords="1941,441,2091,468"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="6,539,133,581"/>
+</map>

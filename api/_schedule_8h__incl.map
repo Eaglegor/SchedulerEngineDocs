@@ -1,0 +1,33 @@
+<map id="Engine/SceneManager/Schedule.h" name="Engine/SceneManager/Schedule.h">
+<area shape="rect" id="node2" href="$_arrival_time_actualizer_8h.html" title="ArrivalTimeActualizer.h" alt="" coords="5,104,163,131"/>
+<area shape="rect" id="node3" href="$_schedule_constraints_8h.html" title="Constraints/Schedule\l/ScheduleConstraints.h" alt="" coords="911,97,1069,138"/>
+<area shape="rect" id="node15" href="$_site_8h.html" title="Engine/Concepts/Site.h" alt="" coords="1029,291,1188,317"/>
+<area shape="rect" id="node19" href="$_string_8h.html" title="Engine/Utils/String.h" alt="" coords="710,291,852,317"/>
+<area shape="rect" id="node21" href="$_performer_8h.html" title="Performer.h" alt="" coords="1291,104,1381,131"/>
+<area shape="rect" id="node28" href="$_immutable_vector_8h.html" title="Engine/Utils/Collections\l/ImmutableVector.h" alt="" coords="1737,194,1900,235"/>
+<area shape="rect" id="node33" href="$_scene_objects_factory_8h.html" title="SceneObjectsFactory.h" alt="" coords="54,291,212,317"/>
+<area shape="rect" id="node37" href="$_stop_8h.html" title="Stop.h" alt="" coords="2307,104,2367,131"/>
+<area shape="rect" id="node44" href="$_linked_pointers_list_8h.html" title="Engine/Utils/Collections\l/LinkedPointersList.h" alt="" coords="240,366,403,407"/>
+<area shape="rect" id="node46" href="$_range_8h.html" title="Engine/Utils/Collections\l/Range.h" alt="" coords="3483,97,3645,138"/>
+<area shape="rect" id="node48" href="$_schedule_actualization_model_8h.html" title="ScheduleActualizationModel.h" alt="" coords="2789,104,2987,131"/>
+<area shape="rect" id="node49" href="$_schedule_validation_model_8h.html" title="ScheduleValidationModel.h" alt="" coords="3127,104,3305,131"/>
+<area shape="rect" id="node4" href="$_distance_8h.html" title="Engine/Concepts/Distance.h" alt="" coords="1632,291,1821,317"/>
+<area shape="rect" id="node7" href="$_duration_8h.html" title="Engine/Concepts/Duration.h" alt="" coords="1997,456,2184,483"/>
+<area shape="rect" id="node11" href="$_constraint_holder_8h.html" title="../ConstraintHolder.h" alt="" coords="441,291,583,317"/>
+<area shape="rect" id="node18" href="$_location_8h.html" title="Engine/SceneManager\l/Location.h" alt="" coords="866,194,1019,235"/>
+<area shape="rect" id="node5" href="$_float_epsilon_8h.html" title="Engine/Math/FloatEpsilon.h" alt="" coords="1506,373,1688,400"/>
+<area shape="rect" id="node12" href="$_optional_8h.html" title="Engine/Utils/Optional.h" alt="" coords="1157,373,1312,400"/>
+<area shape="rect" id="node16" href="$_coordinate_8h.html" title="Coordinate.h" alt="" coords="1031,373,1127,400"/>
+<area shape="rect" id="node22" href="$_cost_8h.html" title="Engine/Concepts/Cost.h" alt="" coords="1443,291,1607,317"/>
+<area shape="rect" id="node23" href="$_time_window_8h.html" title="Engine/Concepts/TimeWindow.h" alt="" coords="1979,291,2192,317"/>
+<area shape="rect" id="node25" href="$_attribute_8h.html" title="Attribute.h" alt="" coords="760,201,841,228"/>
+<area shape="rect" id="node26" href="$_immutable_unordered_set_8h.html" title="Engine/Utils/Collections\l/ImmutableUnorderedSet.h" alt="" coords="1145,194,1324,235"/>
+<area shape="rect" id="node30" href="$_reference_wrapper_8h.html" title="Engine/Utils/ReferenceWrapper.h" alt="" coords="3057,291,3273,317"/>
+<area shape="rect" id="node32" href="$_performer_constraints_8h.html" title="Constraints/Performer\l/PerformerConstraints.h" alt="" coords="1551,194,1712,235"/>
+<area shape="rect" id="node24" href="$_time_point_8h.html" title="TimePoint.h" alt="" coords="2042,373,2133,400"/>
+<area shape="rect" id="node34" href="$_factory_8h.html" title="Engine/Utils/Factory.h" alt="" coords="64,373,216,400"/>
+<area shape="rect" id="node38" href="$_actualizable_8h.html" title="Actualizable.h" alt="" coords="2845,201,2949,228"/>
+<area shape="rect" id="node39" href="$_route_8h.html" title="Engine/Concepts/Route.h" alt="" coords="2026,201,2197,228"/>
+<area shape="rect" id="node43" href="$_route_actualizer_8h.html" title="RouteActualizer.h" alt="" coords="2694,201,2820,228"/>
+<area shape="rect" id="node50" href="$_validation_algorithm_8h.html" title="Engine/SceneManager\l/Algorithms/Validation\l/ValidationAlgorithm.h" alt="" coords="3254,187,3407,243"/>
+</map>

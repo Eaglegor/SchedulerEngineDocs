@@ -1,0 +1,13 @@
+<map id="Scheduler::InsertionSuggestor::reset" name="Scheduler::InsertionSuggestor::reset">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="251,5,453,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_scene.html#a30d0bbf20c700180b1a0d9552dc2f8af" title="Scheduler::Scene::getContext" alt="" coords="253,56,451,83"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_context.html#a99dfe309a4829ed419a234a85f0261e1" title="Scheduler::SceneContext\l::getOrders" alt="" coords="267,107,437,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene.html#a3be29a20d88b58ec0cb38ded983fdcd6" title="Scheduler::Scene::query" alt="" coords="269,173,435,200"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_scene_queries.html#ab42dc8aaf937426ed4175121f006322a" title="Scheduler::SceneQueries\l::operationStopMapping" alt="" coords="267,225,437,266"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_operation_stop_mapping_query.html#aad2d71eda64f96babfab41cf5ac2b6fb" title="Scheduler::OperationStop\lMappingQuery::findWorkStop" alt="" coords="255,290,449,331"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_run.html#accc59013f14166a0abed95e946c0f882" title="Scheduler::Run::findStop" alt="" coords="268,356,436,383"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_run.html#aa78c783217789945f764f6756b83993a" title="Scheduler::Run::findWorkStop" alt="" coords="253,407,451,433"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_routing_service.html#a313b056253fdcc4384c54336d0fa6893" title="Calculates route information. " alt="" coords="263,458,441,499"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Scheduler::Location\l::getSite" alt="" coords="283,523,421,565"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_route.html#a6417b98854fb5a926309deb1d5eaba2b" title="Gets time needed to travel between start and end point. " alt="" coords="253,589,451,616"/>
+</map>

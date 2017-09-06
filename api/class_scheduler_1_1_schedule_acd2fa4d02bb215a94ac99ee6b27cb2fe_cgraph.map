@@ -1,0 +1,4 @@
+<map id="Scheduler::Schedule::detachRun" name="Scheduler::Schedule::detachRun">
+<area shape="rect" id="node2" href="$class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Scheduler::StructuralChanges\lObserver::beforeRunDestroyed" alt="" coords="203,5,405,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,70,410,111"/>
+</map>
