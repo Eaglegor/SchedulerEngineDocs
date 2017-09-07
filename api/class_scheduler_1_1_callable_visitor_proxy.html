@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -73,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,15 +97,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_callable_visitor_proxy_8h_source.html">CallableVisitorProxy.h</a>&gt;</code></p>
+<p>This class incapsulates the call to the visitor and retrieving results of the visitor operation.  
+ <a href="class_scheduler_1_1_callable_visitor_proxy.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_callable_visitor_proxy_8h_source.html">Engine/Utils/CallableVisitorProxy.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a122b6b8e8cdd8902b970093222bd931c"><td class="memTemplParams" colspan="2">template&lt;typename VisitorType , typename ObjectType , typename... VisitorArgs&gt; </td></tr>
 <tr class="memitem:a122b6b8e8cdd8902b970093222bd931c"><td class="memTemplItemLeft" align="right" valign="top">static VisitorType::ReturnType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">call</a> (ObjectType &amp;type, VisitorArgs &amp;&amp;...visitor_args)</td></tr>
+<tr class="memdesc:a122b6b8e8cdd8902b970093222bd931c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the specified visitor, passes it to the object and returns the result of the operation store inside the visitor.  <a href="#a122b6b8e8cdd8902b970093222bd931c">More...</a><br/></td></tr>
 <tr class="separator:a122b6b8e8cdd8902b970093222bd931c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class incapsulates the call to the visitor and retrieving results of the visitor operation. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a122b6b8e8cdd8902b970093222bd931c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -139,6 +146,35 @@ template&lt;typename VisitorType , typename ObjectType , typename... VisitorArgs
 </table>
 </div><div class="memdoc">
 
+<p>Constructs the specified visitor, passes it to the object and returns the result of the operation store inside the visitor. </p>
+<p>{ The visitor type must meet the following requirements:</p>
+<ul>
+<li>The type of operation result must be declared as VisitorType::ReturnType</li>
+<li>The visitor must define the getRetVal() method returning VisitorType::ReturnType</li>
+</ul>
+<p>The object must define the acceptVisitor(VisitorType&amp;) method</p>
+<p>When calling this method the following steps are performed:</p>
+<ol type="1">
+<li>The visitor is created using the passed constructor arguments</li>
+<li>acceptVisitor(visitor) is called on the passed object</li>
+<li>visitor.getRetVal() is returned from this method }</li>
+</ol>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">VisitorType</td><td>The visitor type to pass to the object </td></tr>
+    <tr><td class="paramname">ObjectType</td><td>The type of object to pass the visitor to </td></tr>
+    <tr><td class="paramname">VisitorArgs</td><td>The types of the arguments passed to the visitor's constructor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The object to pass the visitor to </td></tr>
+    <tr><td class="paramname">visitor_args</td><td>The arguments to pass to the visitor's constructor </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -147,7 +183,7 @@ template&lt;typename VisitorType , typename ObjectType , typename... VisitorArgs
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:59 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:10 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

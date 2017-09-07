@@ -21,10 +21,10 @@
 <area shape="rect" id="node25" href="$class_scheduler_1_1_run.html#a244089113699551f5a399bf9c5c10fd1" title="Scheduler::Run::setVehicle" alt="" coords="289,593,471,620"/>
 <area shape="rect" id="node26" href="$class_scheduler_1_1_run.html#a08d3a0e4cee2cace4b4cbcd0837f3c36" title="Scheduler::Run::allocate\lOrder" alt="" coords="297,695,463,737"/>
 <area shape="rect" id="node31" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="279,1349,481,1376"/>
-<area shape="rect" id="node32" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="265,1400,495,1427"/>
+<area shape="rect" id="node32" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="265,1400,495,1427"/>
 <area shape="rect" id="node20" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="553,579,765,621"/>
 <area shape="rect" id="node21" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="573,477,745,504"/>
-<area shape="rect" id="node22" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Scheduler::Range::begin" alt="" coords="576,528,741,555"/>
+<area shape="rect" id="node22" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="576,528,741,555"/>
 <area shape="rect" id="node23" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="561,411,757,453"/>
 <area shape="rect" id="node27" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="561,906,756,947"/>
 <area shape="rect" id="node28" href="$class_scheduler_1_1_structural_changes_observer.html#a29df1b2764abaffbf2028dd410da568e" title="Scheduler::StructuralChanges\lObserver::afterWorkStopCreated" alt="" coords="552,710,765,751"/>

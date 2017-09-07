@@ -18,7 +18,8 @@ var indexSectionsWithContent =
   8: "abcdhilnoprsvx",
   9: "cirs",
   10: "_clort",
-  11: "c"
+  11: "acelmprstuv",
+  12: "d"
 };
 
 var indexSectionNames =
@@ -34,7 +35,8 @@ var indexSectionNames =
   8: "enumvalues",
   9: "related",
   10: "defines",
-  11: "groups"
+  11: "groups",
+  12: "pages"
 };
 
 function convertToId(search)

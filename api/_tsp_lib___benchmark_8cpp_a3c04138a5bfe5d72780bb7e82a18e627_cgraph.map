@@ -1,5 +1,5 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_logging_manager.html#af723c6a54c5e59aada8c1fa2f179b943" title="Scheduler::LoggingManager\l::configure" alt="" coords="117,43,299,85"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_logging_manager.html#af723c6a54c5e59aada8c1fa2f179b943" title="Configures the logging system using the specified config file. " alt="" coords="117,43,299,85"/>
 <area shape="rect" id="node3" href="$_tsp_lib___benchmark_8cpp.html#a5f700da46c3ce50eac230e38733dc79b" title="parseCommandLine" alt="" coords="139,109,277,136"/>
 <area shape="rect" id="node8" href="$class_tsp_lib_test_instance.html#a946764c15cfa6fbba9dd8f5153705379" title="TspLibTestInstance::run" alt="" coords="127,160,289,187"/>
 <area shape="rect" id="node9" href="$class_simulated_annealing_tsp_lib_instance.html#a7ab000e969eb379c6370c92e0555712e" title="SimulatedAnnealingTspLib\lInstance::setOptions" alt="" coords="120,211,296,253"/>

@@ -1,6 +1,6 @@
 <map id="Scheduler::Schedule::createRun" name="Scheduler::Schedule::createRun">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,5,410,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="218,71,390,97"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Scheduler::Range::begin" alt="" coords="221,121,387,148"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,121,387,148"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="206,173,402,214"/>
 </map>

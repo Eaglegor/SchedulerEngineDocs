@@ -1,6 +1,6 @@
 <map id="Scheduler::InvariantWorkStopsList::getRunWorkStopIterator" name="Scheduler::InvariantWorkStopsList::getRunWorkStopIterator">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_invariant_work_stops_list.html#a5ce595a419b3031f473b30a622484bfd" title="Scheduler::InvariantWork\lStopsList::end" alt="" coords="310,5,479,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="293,71,496,97"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="280,121,509,148"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="280,121,509,148"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_run.html#aa78c783217789945f764f6756b83993a" title="Scheduler::Run::findWorkStop" alt="" coords="295,172,494,199"/>
 </map>

@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -73,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -97,128 +98,192 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_range_8h_source.html">Range.h</a>&gt;</code></p>
+<p>Represents range between 2 iterators in the container.  
+ <a href="class_scheduler_1_1_range.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_range_8h_source.html">Engine/Utils/Collections/Range.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a56c248c4a8318aa8099e30daca22e2ab"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a56c248c4a8318aa8099e30daca22e2ab">base_container</a> = BaseContainer</td></tr>
+<tr class="memdesc:a56c248c4a8318aa8099e30daca22e2ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the base container.  <a href="#a56c248c4a8318aa8099e30daca22e2ab">More...</a><br/></td></tr>
 <tr class="separator:a56c248c4a8318aa8099e30daca22e2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67a7bf2df05502a3bf58a6c826b460c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a> = typename base_container::iterator</td></tr>
+<tr class="memdesc:af67a7bf2df05502a3bf58a6c826b460c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator type.  <a href="#af67a7bf2df05502a3bf58a6c826b460c">More...</a><br/></td></tr>
 <tr class="separator:af67a7bf2df05502a3bf58a6c826b460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4e2216f925bd6d58b5e276f8f5a0e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> = typename base_container::const_iterator</td></tr>
+<tr class="memdesc:a4c4e2216f925bd6d58b5e276f8f5a0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterator type.  <a href="#a4c4e2216f925bd6d58b5e276f8f5a0e1">More...</a><br/></td></tr>
 <tr class="separator:a4c4e2216f925bd6d58b5e276f8f5a0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2ea97a9b948868ffc97e4c61bb01b21"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#af2ea97a9b948868ffc97e4c61bb01b21">reverse_iterator</a> = typename base_container::reverse_iterator</td></tr>
+<tr class="memdesc:af2ea97a9b948868ffc97e4c61bb01b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse iterator type.  <a href="#af2ea97a9b948868ffc97e4c61bb01b21">More...</a><br/></td></tr>
 <tr class="separator:af2ea97a9b948868ffc97e4c61bb01b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad224c8a0b87a84b8ef3323ae14005958"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ad224c8a0b87a84b8ef3323ae14005958">const_reverse_iterator</a> = typename base_container::const_reverse_iterator</td></tr>
+<tr class="memdesc:ad224c8a0b87a84b8ef3323ae14005958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const reverse iterator type.  <a href="#ad224c8a0b87a84b8ef3323ae14005958">More...</a><br/></td></tr>
 <tr class="separator:ad224c8a0b87a84b8ef3323ae14005958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a036465699f0ce003dd608fcbec6fbc41"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a036465699f0ce003dd608fcbec6fbc41">value_type</a> = typename base_container::value_type</td></tr>
+<tr class="memdesc:a036465699f0ce003dd608fcbec6fbc41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value type.  <a href="#a036465699f0ce003dd608fcbec6fbc41">More...</a><br/></td></tr>
 <tr class="separator:a036465699f0ce003dd608fcbec6fbc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177fe433382e5ae6bff29524d2332bfa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a> = typename base_container::reference</td></tr>
+<tr class="memdesc:a177fe433382e5ae6bff29524d2332bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference type.  <a href="#a177fe433382e5ae6bff29524d2332bfa">More...</a><br/></td></tr>
 <tr class="separator:a177fe433382e5ae6bff29524d2332bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0b03122c5626221bef95ab9d9325a7f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ae0b03122c5626221bef95ab9d9325a7f">const_reference</a> = typename base_container::const_reference</td></tr>
+<tr class="memdesc:ae0b03122c5626221bef95ab9d9325a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const reference type.  <a href="#ae0b03122c5626221bef95ab9d9325a7f">More...</a><br/></td></tr>
 <tr class="separator:ae0b03122c5626221bef95ab9d9325a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82ab4f2d3f8dd85c57b4bb76dba6a4bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a82ab4f2d3f8dd85c57b4bb76dba6a4bc">Range</a> ()</td></tr>
+<tr class="memdesc:a82ab4f2d3f8dd85c57b4bb76dba6a4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default construtor.  <a href="#a82ab4f2d3f8dd85c57b4bb76dba6a4bc">More...</a><br/></td></tr>
 <tr class="separator:a82ab4f2d3f8dd85c57b4bb76dba6a4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab96faced299beb92b11d5ff579e5de3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ab96faced299beb92b11d5ff579e5de3e">Range</a> (<a class="el" href="class_scheduler_1_1_range.html#a56c248c4a8318aa8099e30daca22e2ab">base_container</a> *parent, <a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a> begin_iterator, <a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a> end_iterator)</td></tr>
+<tr class="memdesc:ab96faced299beb92b11d5ff579e5de3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the range limited by 2 iterator.  <a href="#ab96faced299beb92b11d5ff579e5de3e">More...</a><br/></td></tr>
 <tr class="separator:ab96faced299beb92b11d5ff579e5de3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b3089fa87e0717b71ebc52ba4c1dda9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a1b3089fa87e0717b71ebc52ba4c1dda9">Range</a> (<a class="el" href="class_scheduler_1_1_range.html#a56c248c4a8318aa8099e30daca22e2ab">base_container</a> *parent, <a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a> begin_iterator, <a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a> end_iterator, size_t n)</td></tr>
+<tr class="memdesc:a1b3089fa87e0717b71ebc52ba4c1dda9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the range limited by 2 iterators.  <a href="#a1b3089fa87e0717b71ebc52ba4c1dda9">More...</a><br/></td></tr>
 <tr class="separator:a1b3089fa87e0717b71ebc52ba4c1dda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a555799095f2d5017c1aeacc8037f47bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a555799095f2d5017c1aeacc8037f47bc">Range</a> (<a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;&amp;rhs)</td></tr>
+<tr class="memdesc:a555799095f2d5017c1aeacc8037f47bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a555799095f2d5017c1aeacc8037f47bc">More...</a><br/></td></tr>
 <tr class="separator:a555799095f2d5017c1aeacc8037f47bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b95a898086df152afb7faba5a20173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a73b95a898086df152afb7faba5a20173">operator=</a> (<a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;&amp;rhs)</td></tr>
+<tr class="memdesc:a73b95a898086df152afb7faba5a20173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <a href="#a73b95a898086df152afb7faba5a20173">More...</a><br/></td></tr>
 <tr class="separator:a73b95a898086df152afb7faba5a20173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacee5e21a3258d10079c067e5a620f81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ae0b03122c5626221bef95ab9d9325a7f">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#aacee5e21a3258d10079c067e5a620f81">front</a> () const </td></tr>
+<tr class="memdesc:aacee5e21a3258d10079c067e5a620f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the first element.  <a href="#aacee5e21a3258d10079c067e5a620f81">More...</a><br/></td></tr>
 <tr class="separator:aacee5e21a3258d10079c067e5a620f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6ba6a5d648982f722b1c34d4e337fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ae6ba6a5d648982f722b1c34d4e337fed">front</a> ()</td></tr>
+<tr class="memdesc:ae6ba6a5d648982f722b1c34d4e337fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the first element.  <a href="#ae6ba6a5d648982f722b1c34d4e337fed">More...</a><br/></td></tr>
 <tr class="separator:ae6ba6a5d648982f722b1c34d4e337fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2314f6b54cfa7230b6fb408255b7131"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ae0b03122c5626221bef95ab9d9325a7f">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ae2314f6b54cfa7230b6fb408255b7131">back</a> () const </td></tr>
+<tr class="memdesc:ae2314f6b54cfa7230b6fb408255b7131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the last element.  <a href="#ae2314f6b54cfa7230b6fb408255b7131">More...</a><br/></td></tr>
 <tr class="separator:ae2314f6b54cfa7230b6fb408255b7131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bd51bc234ca4f2f2d8ec4618a3a0ac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a0bd51bc234ca4f2f2d8ec4618a3a0ac9">back</a> ()</td></tr>
+<tr class="memdesc:a0bd51bc234ca4f2f2d8ec4618a3a0ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the last element.  <a href="#a0bd51bc234ca4f2f2d8ec4618a3a0ac9">More...</a><br/></td></tr>
 <tr class="separator:a0bd51bc234ca4f2f2d8ec4618a3a0ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64870eea70d6a7c706a4de6cafed3ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab">begin</a> ()</td></tr>
+<tr class="memdesc:ab64870eea70d6a7c706a4de6cafed3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the iterator to the beginning.  <a href="#ab64870eea70d6a7c706a4de6cafed3ab">More...</a><br/></td></tr>
 <tr class="separator:ab64870eea70d6a7c706a4de6cafed3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b53b97aa3e8cc63eb4e72ad8b3e698b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a3b53b97aa3e8cc63eb4e72ad8b3e698b">begin</a> () const </td></tr>
+<tr class="memdesc:a3b53b97aa3e8cc63eb4e72ad8b3e698b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the const iterator to the beginning.  <a href="#a3b53b97aa3e8cc63eb4e72ad8b3e698b">More...</a><br/></td></tr>
 <tr class="separator:a3b53b97aa3e8cc63eb4e72ad8b3e698b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9318482869e449cc1fe36e166229f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a5d9318482869e449cc1fe36e166229f3">cbegin</a> () const </td></tr>
+<tr class="memdesc:a5d9318482869e449cc1fe36e166229f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the const iterator to the beginning.  <a href="#a5d9318482869e449cc1fe36e166229f3">More...</a><br/></td></tr>
 <tr class="separator:a5d9318482869e449cc1fe36e166229f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069983b63b50eb7b5b2ac3ecdb92b6a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a069983b63b50eb7b5b2ac3ecdb92b6a2">end</a> ()</td></tr>
+<tr class="memdesc:a069983b63b50eb7b5b2ac3ecdb92b6a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end.  <a href="#a069983b63b50eb7b5b2ac3ecdb92b6a2">More...</a><br/></td></tr>
 <tr class="separator:a069983b63b50eb7b5b2ac3ecdb92b6a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f77e0098c424985a5ea22cf9029566"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#af0f77e0098c424985a5ea22cf9029566">end</a> () const </td></tr>
+<tr class="memdesc:af0f77e0098c424985a5ea22cf9029566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const iterator to the end.  <a href="#af0f77e0098c424985a5ea22cf9029566">More...</a><br/></td></tr>
 <tr class="separator:af0f77e0098c424985a5ea22cf9029566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd7e61b2382fed84b501865282cd8a74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#afd7e61b2382fed84b501865282cd8a74">cend</a> () const </td></tr>
+<tr class="memdesc:afd7e61b2382fed84b501865282cd8a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const iterator to the end.  <a href="#afd7e61b2382fed84b501865282cd8a74">More...</a><br/></td></tr>
 <tr class="separator:afd7e61b2382fed84b501865282cd8a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da91b60327f217496c315347fd19b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af2ea97a9b948868ffc97e4c61bb01b21">reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a1da91b60327f217496c315347fd19b42">rbegin</a> ()</td></tr>
+<tr class="memdesc:a1da91b60327f217496c315347fd19b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an reverse iterator to the beginning.  <a href="#a1da91b60327f217496c315347fd19b42">More...</a><br/></td></tr>
 <tr class="separator:a1da91b60327f217496c315347fd19b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41f0ea15acb7340aa9ae7a4418e5d6d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ad224c8a0b87a84b8ef3323ae14005958">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a41f0ea15acb7340aa9ae7a4418e5d6d3">rbegin</a> () const </td></tr>
+<tr class="memdesc:a41f0ea15acb7340aa9ae7a4418e5d6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const reverse iterator to the beginning.  <a href="#a41f0ea15acb7340aa9ae7a4418e5d6d3">More...</a><br/></td></tr>
 <tr class="separator:a41f0ea15acb7340aa9ae7a4418e5d6d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affb5360dafec9962f3fe165b4e3c3289"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ad224c8a0b87a84b8ef3323ae14005958">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#affb5360dafec9962f3fe165b4e3c3289">crbegin</a> () const </td></tr>
+<tr class="memdesc:affb5360dafec9962f3fe165b4e3c3289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const reverse iterator to the beginning.  <a href="#affb5360dafec9962f3fe165b4e3c3289">More...</a><br/></td></tr>
 <tr class="separator:affb5360dafec9962f3fe165b4e3c3289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d8284a8b9e8fee600696b4b3ee539c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af2ea97a9b948868ffc97e4c61bb01b21">reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a8d8284a8b9e8fee600696b4b3ee539c9">rend</a> ()</td></tr>
+<tr class="memdesc:a8d8284a8b9e8fee600696b4b3ee539c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an reverse iterator to the end.  <a href="#a8d8284a8b9e8fee600696b4b3ee539c9">More...</a><br/></td></tr>
 <tr class="separator:a8d8284a8b9e8fee600696b4b3ee539c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a129e9719cb72eed32a5bb1ab9251c496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ad224c8a0b87a84b8ef3323ae14005958">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a129e9719cb72eed32a5bb1ab9251c496">rend</a> () const </td></tr>
+<tr class="memdesc:a129e9719cb72eed32a5bb1ab9251c496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const reverse iterator to the end.  <a href="#a129e9719cb72eed32a5bb1ab9251c496">More...</a><br/></td></tr>
 <tr class="separator:a129e9719cb72eed32a5bb1ab9251c496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3a3b9bcc81d4d793279da5bd83bac63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#ad224c8a0b87a84b8ef3323ae14005958">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ad3a3b9bcc81d4d793279da5bd83bac63">crend</a> () const </td></tr>
+<tr class="memdesc:ad3a3b9bcc81d4d793279da5bd83bac63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const reverse iterator to the end.  <a href="#ad3a3b9bcc81d4d793279da5bd83bac63">More...</a><br/></td></tr>
 <tr class="separator:ad3a3b9bcc81d4d793279da5bd83bac63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7dfa2eab8b1074f857416c3ba9bef8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ad7dfa2eab8b1074f857416c3ba9bef8f">empty</a> () const </td></tr>
+<tr class="memdesc:ad7dfa2eab8b1074f857416c3ba9bef8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the container is empty.  <a href="#ad7dfa2eab8b1074f857416c3ba9bef8f">More...</a><br/></td></tr>
 <tr class="separator:ad7dfa2eab8b1074f857416c3ba9bef8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38fc6fa53b869008effa31572f395258"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a38fc6fa53b869008effa31572f395258">size</a> () const </td></tr>
+<tr class="memdesc:a38fc6fa53b869008effa31572f395258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements.  <a href="#a38fc6fa53b869008effa31572f395258">More...</a><br/></td></tr>
 <tr class="separator:a38fc6fa53b869008effa31572f395258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82839b7d519de1e12898a7310b64072b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a82839b7d519de1e12898a7310b64072b">clear</a> ()</td></tr>
+<tr class="memdesc:a82839b7d519de1e12898a7310b64072b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the contents.  <a href="#a82839b7d519de1e12898a7310b64072b">More...</a><br/></td></tr>
 <tr class="separator:a82839b7d519de1e12898a7310b64072b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1896dce737abea48528dfd68ef1c7635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a1896dce737abea48528dfd68ef1c7635">insert</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, <a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a> value)</td></tr>
+<tr class="memdesc:a1896dce737abea48528dfd68ef1c7635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts single element.  <a href="#a1896dce737abea48528dfd68ef1c7635">More...</a><br/></td></tr>
 <tr class="separator:a1896dce737abea48528dfd68ef1c7635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1aa17c8634a6b02add841ec8a3a3cd9"><td class="memTemplParams" colspan="2">template&lt;typename InputIterator &gt; </td></tr>
 <tr class="memitem:ab1aa17c8634a6b02add841ec8a3a3cd9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ab1aa17c8634a6b02add841ec8a3a3cd9">insert</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, InputIterator first, InputIterator last)</td></tr>
+<tr class="memdesc:ab1aa17c8634a6b02add841ec8a3a3cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the range of elements.  <a href="#ab1aa17c8634a6b02add841ec8a3a3cd9">More...</a><br/></td></tr>
 <tr class="separator:ab1aa17c8634a6b02add841ec8a3a3cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f25367624447a905be5923b7b7b8ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a91f25367624447a905be5923b7b7b8ee">erase</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos)</td></tr>
+<tr class="memdesc:a91f25367624447a905be5923b7b7b8ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases single element.  <a href="#a91f25367624447a905be5923b7b7b8ee">More...</a><br/></td></tr>
 <tr class="separator:a91f25367624447a905be5923b7b7b8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdb15ce1afa1ff66a2d0efd16a748c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#acfdb15ce1afa1ff66a2d0efd16a748c6">erase</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last)</td></tr>
+<tr class="memdesc:acfdb15ce1afa1ff66a2d0efd16a748c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases a range of elements.  <a href="#acfdb15ce1afa1ff66a2d0efd16a748c6">More...</a><br/></td></tr>
 <tr class="separator:acfdb15ce1afa1ff66a2d0efd16a748c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5be3e3287d898aa40f93ab6dba61ed27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_range.html#af67a7bf2df05502a3bf58a6c826b460c">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a5be3e3287d898aa40f93ab6dba61ed27">erase</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last, size_t n)</td></tr>
+<tr class="memdesc:a5be3e3287d898aa40f93ab6dba61ed27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases a range of elements assuming n to be the count of removed elements.  <a href="#a5be3e3287d898aa40f93ab6dba61ed27">More...</a><br/></td></tr>
 <tr class="separator:a5be3e3287d898aa40f93ab6dba61ed27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab296f95647ac19371b9b8feb62114971"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ab296f95647ac19371b9b8feb62114971">push_back</a> (<a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a> value)</td></tr>
+<tr class="memdesc:ab296f95647ac19371b9b8feb62114971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an element to the end.  <a href="#ab296f95647ac19371b9b8feb62114971">More...</a><br/></td></tr>
 <tr class="separator:ab296f95647ac19371b9b8feb62114971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9ed6bf235df032143e7e670cce3a953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ae9ed6bf235df032143e7e670cce3a953">push_front</a> (<a class="el" href="class_scheduler_1_1_range.html#a177fe433382e5ae6bff29524d2332bfa">reference</a> value)</td></tr>
+<tr class="memdesc:ae9ed6bf235df032143e7e670cce3a953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds and element to the beginning.  <a href="#ae9ed6bf235df032143e7e670cce3a953">More...</a><br/></td></tr>
 <tr class="separator:ae9ed6bf235df032143e7e670cce3a953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0508b743ea610a0216cb8bf8258270c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a0508b743ea610a0216cb8bf8258270c8">pop_back</a> ()</td></tr>
+<tr class="memdesc:a0508b743ea610a0216cb8bf8258270c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the last element.  <a href="#a0508b743ea610a0216cb8bf8258270c8">More...</a><br/></td></tr>
 <tr class="separator:a0508b743ea610a0216cb8bf8258270c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b3dce41400ee9821bc1f279f83ff56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a97b3dce41400ee9821bc1f279f83ff56">pop_front</a> ()</td></tr>
+<tr class="memdesc:a97b3dce41400ee9821bc1f279f83ff56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the first element.  <a href="#a97b3dce41400ee9821bc1f279f83ff56">More...</a><br/></td></tr>
 <tr class="separator:a97b3dce41400ee9821bc1f279f83ff56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b2f9a9e84a4ecd753fb4cf87fe64be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a74b2f9a9e84a4ecd753fb4cf87fe64be">splice</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, <a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;rhs)</td></tr>
+<tr class="memdesc:a74b2f9a9e84a4ecd753fb4cf87fe64be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves all elements from another range.  <a href="#a74b2f9a9e84a4ecd753fb4cf87fe64be">More...</a><br/></td></tr>
 <tr class="separator:a74b2f9a9e84a4ecd753fb4cf87fe64be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4338b214c3d81d17b088875849a749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#aba4338b214c3d81d17b088875849a749">splice</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, <a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;rhs, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> new_element)</td></tr>
+<tr class="memdesc:aba4338b214c3d81d17b088875849a749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves single element from another range.  <a href="#aba4338b214c3d81d17b088875849a749">More...</a><br/></td></tr>
 <tr class="separator:aba4338b214c3d81d17b088875849a749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb77ea7a3dc5201d979afc5e1506eaa4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#afb77ea7a3dc5201d979afc5e1506eaa4">splice</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, <a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;rhs, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last)</td></tr>
+<tr class="memdesc:afb77ea7a3dc5201d979afc5e1506eaa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer the range of elements from another range.  <a href="#afb77ea7a3dc5201d979afc5e1506eaa4">More...</a><br/></td></tr>
 <tr class="separator:afb77ea7a3dc5201d979afc5e1506eaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa485a667f28f1667258ddff3357471f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#aa485a667f28f1667258ddff3357471f2">splice</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> pos, <a class="el" href="class_scheduler_1_1_range.html">Range</a> &amp;rhs, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last, size_t n)</td></tr>
+<tr class="memdesc:aa485a667f28f1667258ddff3357471f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfers the range of elements assuming n to be the count of removed elements.  <a href="#aa485a667f28f1667258ddff3357471f2">More...</a><br/></td></tr>
 <tr class="separator:aa485a667f28f1667258ddff3357471f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08acc6e4be1306a11c80efbba21d4288"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a08acc6e4be1306a11c80efbba21d4288">reverse</a> ()</td></tr>
+<tr class="memdesc:a08acc6e4be1306a11c80efbba21d4288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverses the order of the elements.  <a href="#a08acc6e4be1306a11c80efbba21d4288">More...</a><br/></td></tr>
 <tr class="separator:a08acc6e4be1306a11c80efbba21d4288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f94a5bd1ce9c0d087e2f70cb8dfbfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a79f94a5bd1ce9c0d087e2f70cb8dfbfb">reverse</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last)</td></tr>
+<tr class="memdesc:a79f94a5bd1ce9c0d087e2f70cb8dfbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverses the order of the elements in the range.  <a href="#a79f94a5bd1ce9c0d087e2f70cb8dfbfb">More...</a><br/></td></tr>
 <tr class="separator:a79f94a5bd1ce9c0d087e2f70cb8dfbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30564753430e08a0a4248530f2e3d996"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a30564753430e08a0a4248530f2e3d996">remove</a> (<a class="el" href="class_scheduler_1_1_range.html#ae0b03122c5626221bef95ab9d9325a7f">const_reference</a> value)</td></tr>
+<tr class="memdesc:a30564753430e08a0a4248530f2e3d996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements with specified value.  <a href="#a30564753430e08a0a4248530f2e3d996">More...</a><br/></td></tr>
 <tr class="separator:a30564753430e08a0a4248530f2e3d996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e86ff72af1814b4761311c72477bcaa"><td class="memTemplParams" colspan="2">template&lt;typename Predicate &gt; </td></tr>
 <tr class="memitem:a1e86ff72af1814b4761311c72477bcaa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a1e86ff72af1814b4761311c72477bcaa">remove_if</a> (Predicate pred)</td></tr>
+<tr class="memdesc:a1e86ff72af1814b4761311c72477bcaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements satisfying specific criteria.  <a href="#a1e86ff72af1814b4761311c72477bcaa">More...</a><br/></td></tr>
 <tr class="separator:a1e86ff72af1814b4761311c72477bcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a3a1ea7f54d8f8b3e08892a2065209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a91a3a1ea7f54d8f8b3e08892a2065209">setEnd</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> new_end_iterator)</td></tr>
+<tr class="memdesc:a91a3a1ea7f54d8f8b3e08892a2065209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts the end of the range.  <a href="#a91a3a1ea7f54d8f8b3e08892a2065209">More...</a><br/></td></tr>
 <tr class="separator:a91a3a1ea7f54d8f8b3e08892a2065209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4037b76beb80d7005d3d7a542b48342"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#ab4037b76beb80d7005d3d7a542b48342">setEnd</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> new_end_iterator, size_t new_size)</td></tr>
+<tr class="memdesc:ab4037b76beb80d7005d3d7a542b48342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjusts the end of the range assuming new_size being the new range size.  <a href="#ab4037b76beb80d7005d3d7a542b48342">More...</a><br/></td></tr>
 <tr class="separator:ab4037b76beb80d7005d3d7a542b48342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e18964c90bee0c93732dea32e2c0b3"><td class="memTemplParams" colspan="2">template&lt;typename Disposer &gt; </td></tr>
 <tr class="memitem:a13e18964c90bee0c93732dea32e2c0b3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a13e18964c90bee0c93732dea32e2c0b3">erase_and_dispose</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last, size_t n, Disposer disposer)</td></tr>
+<tr class="memdesc:a13e18964c90bee0c93732dea32e2c0b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases and disposes elements in the range [first, last) assuming n to be the count of erased elements.  <a href="#a13e18964c90bee0c93732dea32e2c0b3">More...</a><br/></td></tr>
 <tr class="separator:a13e18964c90bee0c93732dea32e2c0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6349c396a52acf10abf410d46a9e800e"><td class="memTemplParams" colspan="2">template&lt;typename Disposer &gt; </td></tr>
 <tr class="memitem:a6349c396a52acf10abf410d46a9e800e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a6349c396a52acf10abf410d46a9e800e">erase_and_dispose</a> (<a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> first, <a class="el" href="class_scheduler_1_1_range.html#a4c4e2216f925bd6d58b5e276f8f5a0e1">const_iterator</a> last, Disposer disposer)</td></tr>
+<tr class="memdesc:a6349c396a52acf10abf410d46a9e800e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases and disposes elements in the range [first, last)  <a href="#a6349c396a52acf10abf410d46a9e800e">More...</a><br/></td></tr>
 <tr class="separator:a6349c396a52acf10abf410d46a9e800e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c9929fbc8aa769ebfa4e8f12ac41ba5"><td class="memTemplParams" colspan="2">template&lt;typename Disposer &gt; </td></tr>
 <tr class="memitem:a1c9929fbc8aa769ebfa4e8f12ac41ba5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_range.html#a1c9929fbc8aa769ebfa4e8f12ac41ba5">clear_and_dispose</a> (Disposer disposer)</td></tr>
+<tr class="memdesc:a1c9929fbc8aa769ebfa4e8f12ac41ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and disposes all elements in the range.  <a href="#a1c9929fbc8aa769ebfa4e8f12ac41ba5">More...</a><br/></td></tr>
 <tr class="separator:a1c9929fbc8aa769ebfa4e8f12ac41ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseContainer&gt;<br/>
+class Scheduler::Range&lt; BaseContainer &gt;</h3>
+
+<p>Represents range between 2 iterators in the container. </p>
+<p><a class="el" href="class_scheduler_1_1_range.html" title="Represents range between 2 iterators in the container. ">Range</a> is a part of the container limited by 2 iterators. It behaves like the standalone container and all structural changes (insertions, removals) are automatically forwarded to the underlying container. Since range itself behaves as another container, nested ranges may be introduced where the changes are forwarded in the cascade way.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Since the structure of the underlying container isn't known the <a class="el" href="class_scheduler_1_1_range.html#a38fc6fa53b869008effa31572f395258" title="Returns the number of elements. ">size()</a> operation can't be performed in constant time using only the iterators. The size variable is used to avoid the slow linear operations. This variable is updated on all modifying operations made through the range interface. But the direct modifications of the underlying container aren't mirrored in the range and may leave it in the inconsistend state </dd></dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a56c248c4a8318aa8099e30daca22e2ab"></a>
 <div class="memitem">
 <div class="memproto">
@@ -230,6 +295,8 @@ template&lt;typename BaseContainer&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The type of the base container. </p>
 
 </div>
 </div>
@@ -245,6 +312,8 @@ template&lt;typename BaseContainer&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Const iterator type. </p>
+
 </div>
 </div>
 <a class="anchor" id="ae0b03122c5626221bef95ab9d9325a7f"></a>
@@ -258,6 +327,8 @@ template&lt;typename BaseContainer&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Const reference type. </p>
 
 </div>
 </div>
@@ -273,6 +344,8 @@ template&lt;typename BaseContainer&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Const reverse iterator type. </p>
+
 </div>
 </div>
 <a class="anchor" id="af67a7bf2df05502a3bf58a6c826b460c"></a>
@@ -286,6 +359,8 @@ template&lt;typename BaseContainer&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator type. </p>
 
 </div>
 </div>
@@ -301,6 +376,8 @@ template&lt;typename BaseContainer&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Reference type. </p>
+
 </div>
 </div>
 <a class="anchor" id="af2ea97a9b948868ffc97e4c61bb01b21"></a>
@@ -315,6 +392,8 @@ template&lt;typename BaseContainer&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Reverse iterator type. </p>
+
 </div>
 </div>
 <a class="anchor" id="a036465699f0ce003dd608fcbec6fbc41"></a>
@@ -328,6 +407,8 @@ template&lt;typename BaseContainer&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Value type. </p>
 
 </div>
 </div>
@@ -354,6 +435,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Default construtor. </p>
+<dl class="section note"><dt>Note</dt><dd>Resulting range will have no parent so it won't be useful for anything </dd></dl>
 
 </div>
 </div>
@@ -396,6 +480,17 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs the range limited by 2 iterator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The underlying container </td></tr>
+    <tr><td class="paramname">begin_iterator</td><td>The left inclusive bound of range </td></tr>
+    <tr><td class="paramname">end_iterator</td><td>The right exclusive bound of range</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The size variable is set by std::distance(begin_iterator, end_iterator) </dd></dl>
 
 </div>
 </div>
@@ -445,6 +540,18 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Constructs the range limited by 2 iterators. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The underlying container </td></tr>
+    <tr><td class="paramname">begin_iterator</td><td>The left inclusive bound of range </td></tr>
+    <tr><td class="paramname">end_iterator</td><td>The right exclusive bound of range </td></tr>
+    <tr><td class="paramname">n</td><td>The distance between begin_iterator and end_iterator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>Passing the value not equal to the distance between begin_iterator and end_iterator will create the range with inconsistent state that causes the undefined behavior </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a555799095f2d5017c1aeacc8037f47bc"></a>
@@ -470,6 +577,14 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Move constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The range to move </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -497,6 +612,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Accesses the last element. </p>
+<dl class="section return"><dt>Returns</dt><dd>The const reference to the last element </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a0bd51bc234ca4f2f2d8ec4618a3a0ac9"></a>
@@ -521,6 +639,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Accesses the last element. </p>
+<dl class="section return"><dt>Returns</dt><dd>The reference to the last element </dd></dl>
 
 </div>
 </div>
@@ -547,6 +668,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the first element </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a3b53b97aa3e8cc63eb4e72ad8b3e698b"></a>
@@ -571,6 +695,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the const iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first element </dd></dl>
 
 </div>
 </div>
@@ -597,6 +724,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the const iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the first element </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="afd7e61b2382fed84b501865282cd8a74"></a>
@@ -622,6 +752,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns an const iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the element following the last element. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a82839b7d519de1e12898a7310b64072b"></a>
@@ -646,6 +779,8 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Clears the contents. </p>
 
 </div>
 </div>
@@ -675,6 +810,20 @@ template&lt;typename Disposer &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Removes and disposes all elements in the range. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Disposer</td><td>The type of elements disposer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">disposer</td><td>Functor performing elements disposal </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="affb5360dafec9962f3fe165b4e3c3289"></a>
@@ -699,6 +848,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns an const reverse iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reverse iterator to the first element. </dd></dl>
 
 </div>
 </div>
@@ -725,6 +877,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns an const reverse iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reverse iterator to the element following the last element. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ad7dfa2eab8b1074f857416c3ba9bef8f"></a>
@@ -749,6 +904,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Checks whether the container is empty. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the container is empty </dd></dl>
 
 </div>
 </div>
@@ -775,6 +933,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns an iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element following the last element. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="af0f77e0098c424985a5ea22cf9029566"></a>
@@ -799,6 +960,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns an const iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const iterator to the element following the last element. </dd></dl>
 
 </div>
 </div>
@@ -825,6 +989,15 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Erases single element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Iterator to the element to erase</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element following the erased one </dd></dl>
 
 </div>
 </div>
@@ -861,6 +1034,17 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Erases a range of elements. </p>
+<dl class="section note"><dt>Note</dt><dd>The method calls std::distance(first, last) to calculate the count of erased elements</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>Iterator to the first element to erase </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element following the last element to erase</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element following the last erased element </dd></dl>
 
 </div>
 </div>
@@ -903,6 +1087,18 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Erases a range of elements assuming n to be the count of removed elements. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Passsing n value not equal to the count of elements in the range [first, last) causes undefined behavior</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>Iterator to the first element to erase </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element following the last element to erase </td></tr>
+    <tr><td class="paramname">n</td><td>Count of removed elements</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element following the last erased element </dd></dl>
 
 </div>
 </div>
@@ -954,6 +1150,24 @@ template&lt;typename Disposer &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Erases and disposes elements in the range [first, last) assuming n to be the count of erased elements. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Passing n not equal to the count of erased elements causes the undefined behavior</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Disposer</td><td>The type of elements disposer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>Iterator to the first element to erase </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element after the lase element to erase </td></tr>
+    <tr><td class="paramname">n</td><td>Count of erased elements </td></tr>
+    <tr><td class="paramname">disposer</td><td>Functor performing elements disposal </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a6349c396a52acf10abf410d46a9e800e"></a>
@@ -998,6 +1212,23 @@ template&lt;typename Disposer &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Erases and disposes elements in the range [first, last) </p>
+<dl class="section warning"><dt>Warning</dt><dd>This method calls std::distance(first, last) to calculate the count of erased elements</dd></dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Disposer</td><td>The type of elements disposer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>Iterator to the first element to erase </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element after the lase element to erase </td></tr>
+    <tr><td class="paramname">disposer</td><td>Functor performing elements disposal </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aacee5e21a3258d10079c067e5a620f81"></a>
@@ -1023,6 +1254,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Accesses the first element. </p>
+<dl class="section return"><dt>Returns</dt><dd>The const reference to the first element </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ae6ba6a5d648982f722b1c34d4e337fed"></a>
@@ -1047,6 +1281,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Accesses the first element. </p>
+<dl class="section return"><dt>Returns</dt><dd>The reference to the first element </dd></dl>
 
 </div>
 </div>
@@ -1083,6 +1320,16 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Inserts single element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Position to insert the element to </td></tr>
+    <tr><td class="paramname">value</td><td>The element to insert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The iterator to the inserted element </dd></dl>
 
 </div>
 </div>
@@ -1128,6 +1375,17 @@ template&lt;typename InputIterator &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Inserts the range of elements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Position to insert the elements to </td></tr>
+    <tr><td class="paramname">first</td><td>Iterator to the first element to insert </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the last element to insert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the first inserted element </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a73b95a898086df152afb7faba5a20173"></a>
@@ -1154,6 +1412,15 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The range to transfer the state from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a0508b743ea610a0216cb8bf8258270c8"></a>
@@ -1179,6 +1446,8 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Removes the last element. </p>
+
 </div>
 </div>
 <a class="anchor" id="a97b3dce41400ee9821bc1f279f83ff56"></a>
@@ -1203,6 +1472,8 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Removes the first element. </p>
 
 </div>
 </div>
@@ -1230,6 +1501,14 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Adds an element to the end. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value of the element to append </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="ae9ed6bf235df032143e7e670cce3a953"></a>
@@ -1256,6 +1535,14 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Adds and element to the beginning. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value of the element to prepend </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a1da91b60327f217496c315347fd19b42"></a>
@@ -1280,6 +1567,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns an reverse iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse iterator to the first element. </dd></dl>
 
 </div>
 </div>
@@ -1306,6 +1596,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns an const reverse iterator to the beginning. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reverse iterator to the first element. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a30564753430e08a0a4248530f2e3d996"></a>
@@ -1331,6 +1624,14 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Removes all elements with specified value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value of elements to remove </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1360,6 +1661,21 @@ template&lt;typename Predicate &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Removes all elements satisfying specific criteria. </p>
+<p>Removes elements for which the passed predicate has returned true</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Predicate</td><td>The type of passed predicate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pred</td><td>The predicate to test the elements against </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a8d8284a8b9e8fee600696b4b3ee539c9"></a>
@@ -1384,6 +1700,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns an reverse iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse iterator to the element following the last element. </dd></dl>
 
 </div>
 </div>
@@ -1410,6 +1729,9 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns an const reverse iterator to the end. </p>
+<dl class="section return"><dt>Returns</dt><dd>Const reverse iterator to the element following the last element. </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a08acc6e4be1306a11c80efbba21d4288"></a>
@@ -1434,6 +1756,8 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Reverses the order of the elements. </p>
 
 </div>
 </div>
@@ -1471,6 +1795,15 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Reverses the order of the elements in the range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The iterator to the first element of range to reverse </td></tr>
+    <tr><td class="paramname">last</td><td>The element pointing to the element after the last element of range to reverse </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a91a3a1ea7f54d8f8b3e08892a2065209"></a>
@@ -1496,6 +1829,15 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Adjusts the end of the range. </p>
+<dl class="section note"><dt>Note</dt><dd>The method calls std::distance(begin(), new_end_iterator) to calculate the new range size</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_end_iterator</td><td>The iterator that must be considered as <a class="el" href="class_scheduler_1_1_range.html#a069983b63b50eb7b5b2ac3ecdb92b6a2" title="Returns an iterator to the end. ">end()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1533,6 +1875,16 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Adjusts the end of the range assuming new_size being the new range size. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Passing new_size not equal to the new range size causes the undefined behavior</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_end_iterator</td><td>The iterator that must be considered as <a class="el" href="class_scheduler_1_1_range.html#a069983b63b50eb7b5b2ac3ecdb92b6a2" title="Returns an iterator to the end. ">end()</a> </td></tr>
+    <tr><td class="paramname">new_size</td><td>The new size of range after adjusting the end </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a38fc6fa53b869008effa31572f395258"></a>
@@ -1557,6 +1909,9 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the number of elements. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of elements in the range </dd></dl>
 
 </div>
 </div>
@@ -1593,6 +1948,15 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Moves all elements from another range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Element before which the content will be inserted </td></tr>
+    <tr><td class="paramname">rhs</td><td>Another range to transfer the content from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1635,6 +1999,16 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Moves single element from another range. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Element before which the content will be inserted </td></tr>
+    <tr><td class="paramname">rhs</td><td>Another range to transfer the content from </td></tr>
+    <tr><td class="paramname">new_element</td><td>The element to transfer from another range </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1683,6 +2057,18 @@ template&lt;typename BaseContainer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Transfer the range of elements from another range. </p>
+<dl class="section note"><dt>Note</dt><dd>This method calls std::distance(first, last) to calculate the count of transferred elements</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Element before which the content will be inserted </td></tr>
+    <tr><td class="paramname">rhs</td><td>Another range to transfer the content from </td></tr>
+    <tr><td class="paramname">first</td><td>Iterator to the first element to transfer </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element after the last element to transfer </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1738,6 +2124,19 @@ template&lt;typename BaseContainer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Transfers the range of elements assuming n to be the count of removed elements. </p>
+<dl class="section warning"><dt>Warning</dt><dd>Passsing n value not equal to the count of elements in the range [first, last) causes undefined behavior</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Element before which the content will be inserted </td></tr>
+    <tr><td class="paramname">rhs</td><td>Another range to transfer the content from </td></tr>
+    <tr><td class="paramname">first</td><td>Iterator to the first element to transfer </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the element after the last element to transfer </td></tr>
+    <tr><td class="paramname">n</td><td>The count of transferred elements </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -1746,7 +2145,7 @@ template&lt;typename BaseContainer&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:59 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:10 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

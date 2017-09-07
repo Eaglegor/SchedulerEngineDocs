@@ -1,6 +1,6 @@
 <map id="Scheduler::InstanceBasedSolutionGenerator::addEdgeWithVertexSwap" name="Scheduler::InstanceBasedSolutionGenerator::addEdgeWithVertexSwap">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="544,60,747,87"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="267,31,496,57"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="267,31,496,57"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_solution_generator.html#a6595274c0d93f92c0359665e1635b576" title="Scheduler::SolutionGenerator\l::vertexSwap" alt="" coords="285,82,477,123"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Scheduler::RangeTypeAdapter\l::begin" alt="" coords="545,126,745,167"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Returns iterator pointing to the beginning. " alt="" coords="545,126,745,167"/>
 </map>

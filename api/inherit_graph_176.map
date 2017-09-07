@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_scheduler_1_1_spinlock.html" title="Scheduler::Spinlock" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node1" href="$class_scheduler_1_1_spinlock.html" title="Fast synchronization primitive based on CAS operation. " alt="" coords="5,5,144,32"/>
 </map>

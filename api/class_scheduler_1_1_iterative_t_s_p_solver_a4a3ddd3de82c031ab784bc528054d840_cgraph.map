@@ -24,13 +24,13 @@
 <area shape="rect" id="node27" href="$class_scheduler_1_1_run.html#a244089113699551f5a399bf9c5c10fd1" title="Scheduler::Run::setVehicle" alt="" coords="997,789,1179,816"/>
 <area shape="rect" id="node28" href="$class_scheduler_1_1_run.html#a08d3a0e4cee2cace4b4cbcd0837f3c36" title="Scheduler::Run::allocate\lOrder" alt="" coords="1005,906,1171,947"/>
 <area shape="rect" id="node34" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="987,1037,1189,1064"/>
-<area shape="rect" id="node35" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Scheduler::RangeTypeAdapter::end" alt="" coords="973,1088,1203,1115"/>
+<area shape="rect" id="node35" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="973,1088,1203,1115"/>
 <area shape="rect" id="node36" href="$class_scheduler_1_1_stop.html#a453f8f317300362fa32307dc58b25808" title="Scheduler::Stop::setDuration" alt="" coords="993,1139,1183,1165"/>
 <area shape="rect" id="node37" href="$class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Scheduler::Stop::setAllocationTime" alt="" coords="975,1189,1201,1216"/>
 <area shape="rect" id="node38" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Scheduler::Run::getStartStop" alt="" coords="991,1240,1185,1267"/>
 <area shape="rect" id="node39" href="$class_scheduler_1_1_run.html#af0925aa22d20d122a79e0a5d66786774" title="Scheduler::Run::getEndStop" alt="" coords="994,1291,1182,1317"/>
 <area shape="rect" id="node24" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="1271,739,1443,765"/>
-<area shape="rect" id="node25" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Scheduler::Range::begin" alt="" coords="1275,789,1440,816"/>
+<area shape="rect" id="node25" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="1275,789,1440,816"/>
 <area shape="rect" id="node26" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="1259,841,1455,882"/>
 <area shape="rect" id="node29" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Scheduler::Order::getWork\lOperation" alt="" coords="1269,1037,1446,1078"/>
 <area shape="rect" id="node30" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="1260,1102,1455,1143"/>

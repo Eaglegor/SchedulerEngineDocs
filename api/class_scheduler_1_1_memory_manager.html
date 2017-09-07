@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -73,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -99,7 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>This class manages memory allocations inside the engine.  
  <a href="class_scheduler_1_1_memory_manager.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_memory_manager_8h_source.html">MemoryManager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_memory_manager_8h_source.html">Engine/MemoryManager/MemoryManager.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -118,7 +119,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class manages memory allocations inside the engine. </p>
-<p>{This class provides 2 memory allocation strategies: direct malloc call and pool allocator. To use the provided strategy, the user has to create the corresponding memory store (either <a class="el" href="class_scheduler_1_1_malloc_memory_store.html" title="This class represents the memory store allocating memory by calling std::malloc() and std::free() ...">MallocMemoryStore</a> or <a class="el" href="class_scheduler_1_1_pool_memory_store.html" title="This class represents the memory store allocating memory by returning fixed-sized blocks stored in th...">PoolMemoryStore</a>) and then request memory allocations over the returned <a class="el" href="class_scheduler_1_1_memory_store.html" title="This class represents the abstract memory store interface. ">MemoryStore</a> instance} </p>
+<p>This class provides 2 memory allocation strategies: direct malloc call and pool allocator. To use the provided strategy, the user has to create the corresponding memory store (either <a class="el" href="class_scheduler_1_1_malloc_memory_store.html" title="This class represents the memory store allocating memory by calling std::malloc() and std::free() ...">MallocMemoryStore</a> or <a class="el" href="class_scheduler_1_1_pool_memory_store.html" title="This class represents the memory store allocating memory by returning fixed-sized blocks stored in th...">PoolMemoryStore</a>) and then request memory allocations over the returned <a class="el" href="class_scheduler_1_1_memory_store.html" title="This class represents the abstract memory store interface. ">MemoryStore</a> instance </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab6aaa917526728671d2522a1716ec646"></a>
 <div class="memitem">
@@ -142,7 +143,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates malloc memory store. </p>
-<p>{Requesting memory from resulting memory store implies syscall to malloc(). Freeing memory implies syscall to free(). Since the underlying memory store is completely stateless, the single shared instance pointer is always returned by this method}</p>
+<p>Requesting memory from resulting memory store implies syscall to malloc(). Freeing memory implies syscall to free(). Since the underlying memory store is completely stateless, the single shared instance pointer is always returned by this method</p>
 <dl class="section return"><dt>Returns</dt><dd>Shared instance of <a class="el" href="class_scheduler_1_1_malloc_memory_store.html" title="This class represents the memory store allocating memory by calling std::malloc() and std::free() ...">MallocMemoryStore</a> </dd></dl>
 
 </div>
@@ -186,7 +187,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates pool memory store. </p>
-<p>{Resulting memory store uses the pre-allocated memory pool of fixed-sized chunks. When new memory allocation is requested, a pointer to the next free chunk is returned and the chunk is removed from the pool. When the memory is released, the chunk is returned to the pool and becomes available for the next memory allocations. The pool size starts from the passed initial capacity and automatically grows by allocating new memory areas if there are no more free chunks left.</p>
+<p>{ Resulting memory store uses the pre-allocated memory pool of fixed-sized chunks. When new memory allocation is requested, a pointer to the next free chunk is returned and the chunk is removed from the pool. When the memory is released, the chunk is returned to the pool and becomes available for the next memory allocations. The pool size starts from the passed initial capacity and automatically grows by allocating new memory areas if there are no more free chunks left.</p>
 <p>The sizeof() for the objects constructed in the returned memory must be less than or equal to the chunk size.</p>
 <p>By default the returned memory store isn't thread-safe but the thread-safety can be turned on. Generally the thread-safe version is slower since it uses the blocking synchnorization primitives, so, if it's possible, the concurrent calls to the single pool memory store should be avoided and the thread-unsafe version should be used.</p>
 <p>The calls to this method are thread-safe.</p>
@@ -292,7 +293,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:58 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_invariant_work_stops_list_1_1_iterator.html" title="Scheduler::InvariantWork\lStopsList::Iterator" alt="" coords="137,5,306,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_linked_pointers_list_1_1_iterator.html" title="Scheduler::LinkedPointers\lList\&lt; T \&gt;::Iterator" alt="" coords="134,70,309,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter_1_1_iterator.html" title="Scheduler::RangeTypeAdapter\l\&lt; CollectionType, AdoptedType\l \&gt;::Iterator\&lt; T, BaseIterator \&gt;" alt="" coords="118,135,325,191"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter_1_1_iterator.html" title="Iterator class wrapping the underlying collection iterator and casting values to the specified class..." alt="" coords="118,135,325,191"/>
 </map>

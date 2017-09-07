@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -73,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,20 +97,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_derived_type_caster_8h_source.html">DerivedTypeCaster.h</a>&gt;</code></p>
+<p>This class performs the static_cast of base class pointer/reference to the derived class pointer/reference.  
+ <a href="struct_scheduler_1_1_derived_type_caster.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_derived_type_caster_8h_source.html">Engine/Utils/DerivedTypeCaster.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a989a53c83c63fd1137def123fed95e67"><td class="memItemLeft" align="right" valign="top">Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_derived_type_caster.html#a989a53c83c63fd1137def123fed95e67">operator()</a> (Base &amp;value) const </td></tr>
+<tr class="memdesc:a989a53c83c63fd1137def123fed95e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts the base class reference to the derived class reference.  <a href="#a989a53c83c63fd1137def123fed95e67">More...</a><br/></td></tr>
 <tr class="separator:a989a53c83c63fd1137def123fed95e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f88a92b7f5bcbc6a13cfc3854bce5ab"><td class="memItemLeft" align="right" valign="top">const Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_derived_type_caster.html#a8f88a92b7f5bcbc6a13cfc3854bce5ab">operator()</a> (const Base &amp;value) const </td></tr>
+<tr class="memdesc:a8f88a92b7f5bcbc6a13cfc3854bce5ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts the const base class reference to the const derived class reference.  <a href="#a8f88a92b7f5bcbc6a13cfc3854bce5ab">More...</a><br/></td></tr>
 <tr class="separator:a8f88a92b7f5bcbc6a13cfc3854bce5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d457fcf082e94baca20f3c18d92433"><td class="memItemLeft" align="right" valign="top">Derived *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_derived_type_caster.html#af8d457fcf082e94baca20f3c18d92433">operator()</a> (Base *value) const </td></tr>
+<tr class="memdesc:af8d457fcf082e94baca20f3c18d92433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts the base class pointer to the derived class pointer.  <a href="#af8d457fcf082e94baca20f3c18d92433">More...</a><br/></td></tr>
 <tr class="separator:af8d457fcf082e94baca20f3c18d92433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34e186cb36a35a568505444a3d232d8d"><td class="memItemLeft" align="right" valign="top">const Derived *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_derived_type_caster.html#a34e186cb36a35a568505444a3d232d8d">operator()</a> (const Base *value) const </td></tr>
+<tr class="memdesc:a34e186cb36a35a568505444a3d232d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts the const base class pointer to the const derived class pointer.  <a href="#a34e186cb36a35a568505444a3d232d8d">More...</a><br/></td></tr>
 <tr class="separator:a34e186cb36a35a568505444a3d232d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename Base, typename Derived&gt;<br/>
+struct Scheduler::DerivedTypeCaster&lt; Base, Derived &gt;</h3>
+
+<p>This class performs the static_cast of base class pointer/reference to the derived class pointer/reference. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Base</td><td>Base class to cast from </td></tr>
+    <tr><td class="paramname">Derived</td><td>Derived class to cast to </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a989a53c83c63fd1137def123fed95e67"></a>
 <div class="memitem">
 <div class="memproto">
@@ -133,6 +153,15 @@ template&lt;typename Base, typename Derived&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Casts the base class reference to the derived class reference. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Reference to the base class object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the derived class object </dd></dl>
 
 </div>
 </div>
@@ -160,6 +189,15 @@ template&lt;typename Base, typename Derived&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Casts the const base class reference to the const derived class reference. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Reference to the const base class object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the const derived class object </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="af8d457fcf082e94baca20f3c18d92433"></a>
@@ -185,6 +223,15 @@ template&lt;typename Base, typename Derived&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Casts the base class pointer to the derived class pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Pointer to the base class object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the derived class object </dd></dl>
 
 </div>
 </div>
@@ -212,6 +259,15 @@ template&lt;typename Base, typename Derived&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Casts the const base class pointer to the const derived class pointer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Pointer to the const base class object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the const derived class object </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -220,7 +276,7 @@ template&lt;typename Base, typename Derived&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:59 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:10 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

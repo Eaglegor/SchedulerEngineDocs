@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
@@ -73,7 +74,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,21 +97,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_factory_8h_source.html">Factory.h</a>&gt;</code></p>
+<p>Templated factory class used to create the objects inside the scheduler engine.  
+ <a href="class_scheduler_1_1_factory.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_factory_8h_source.html">Engine/Utils/Factory.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ba5442127d0075706b2edd2df17638e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_factory.html#a9ba5442127d0075706b2edd2df17638e">Factory</a> (size_t max_object_size, size_t initial_capacity=10)</td></tr>
+<tr class="memdesc:a9ba5442127d0075706b2edd2df17638e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a9ba5442127d0075706b2edd2df17638e">More...</a><br/></td></tr>
 <tr class="separator:a9ba5442127d0075706b2edd2df17638e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d535f2261c9ddb6b836e2ce4e006db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_factory.html#ab7d535f2261c9ddb6b836e2ce4e006db">~Factory</a> ()</td></tr>
 <tr class="separator:ab7d535f2261c9ddb6b836e2ce4e006db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e1d01015acd1dd10bcdb0116ef91f2b"><td class="memTemplParams" colspan="2">template&lt;typename DerivedClass , typename... Args&gt; </td></tr>
 <tr class="memitem:a9e1d01015acd1dd10bcdb0116ef91f2b"><td class="memTemplItemLeft" align="right" valign="top">DerivedClass *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_factory.html#a9e1d01015acd1dd10bcdb0116ef91f2b">createObject</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a9e1d01015acd1dd10bcdb0116ef91f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the new object.  <a href="#a9e1d01015acd1dd10bcdb0116ef91f2b">More...</a><br/></td></tr>
 <tr class="separator:a9e1d01015acd1dd10bcdb0116ef91f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb984739133c3b43c5bc43971683034b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_factory.html#abb984739133c3b43c5bc43971683034b">destroyObject</a> (BaseClass *object)</td></tr>
+<tr class="memdesc:abb984739133c3b43c5bc43971683034b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the previously created object.  <a href="#abb984739133c3b43c5bc43971683034b">More...</a><br/></td></tr>
 <tr class="separator:abb984739133c3b43c5bc43971683034b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename BaseClass&gt;<br/>
+class Scheduler::Factory&lt; BaseClass &gt;</h3>
+
+<p>Templated factory class used to create the objects inside the scheduler engine. </p>
+<p>Internally this factory uses pool allocator to allocate memory so the size of create objects is limited by a fixed number passed on factory construction</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">BaseClass</td><td>The type of base class for the objects created by this factory. Base class and the classes derived from base class can be instantiated using this factory </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9ba5442127d0075706b2edd2df17638e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -144,6 +163,15 @@ template&lt;typename BaseClass&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">max_object_size</td><td>The maximal size of object that can be instantiated by this factory </td></tr>
+    <tr><td class="paramname">initial_capacity</td><td>The initial capacity of the underlying pool memory allocator </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -199,6 +227,22 @@ template&lt;typename DerivedClass , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Creates the new object. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">DerivedClass</td><td>The actual class, the object of which is constructed. Must be BaseClass or the class derived from it </td></tr>
+    <tr><td class="paramname">Args</td><td>The types of arguments passed to the new object's constructor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>The arguments passed to the new object's constructor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the created object or nullptr if sizeof(DerivedClass) is greater than max_object_size </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="abb984739133c3b43c5bc43971683034b"></a>
@@ -225,6 +269,15 @@ template&lt;typename BaseClass&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Destroys the previously created object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>The object to be destoyed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Passing the object that wasn't created by this factory causes undefined behavior </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -233,7 +286,7 @@ template&lt;typename BaseClass&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:59 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:10 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

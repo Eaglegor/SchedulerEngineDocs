@@ -38,6 +38,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
@@ -71,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -99,43 +100,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator.html">   10</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_distance_accumulator.html">DistanceAccumulator</a></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator.html#a7ddbd2d394c10ae7635a0256d509d23e">   13</a></span>&#160;                <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> operator( )(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_distance.html">Distance</a>&amp; distance, <span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop) <span class="keyword">const</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        <span class="keywordflow">return</span> distance + stop.getNextRoute( ).getDistance( );</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        };</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator_alg.html">   19</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_distance_accumulator_alg.html">DistanceAccumulatorAlg</a></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">   22</a></span>&#160;                <span class="keyword">static</span> <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> <a class="code" href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">accumulateDistance</a>(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a>&amp; start_stop, <span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a>&amp; end_stop)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> total_distance;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">for</span>(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop : boost::iterator_range&lt;Stop::const_iterator_type&gt;(start_stop, end_stop))</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                total_distance += stop.getNextRoute( ).getDistance( );</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        <span class="keywordflow">return</span> total_distance;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                }</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        };</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator.html">   13</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_distance_accumulator.html">DistanceAccumulator</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator.html#a7ddbd2d394c10ae7635a0256d509d23e">   24</a></span>&#160;                <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> operator( )(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_distance.html">Distance</a>&amp; distance, <span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop) <span class="keyword">const</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> distance + stop.getNextRoute( ).getDistance( );</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator_alg.html">   33</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_distance_accumulator_alg.html">DistanceAccumulatorAlg</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">   44</a></span>&#160;                <span class="keyword">static</span> <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> <a class="code" href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">accumulateDistance</a>(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a>&amp; start_stop, <span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a>&amp; end_stop)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                        <a class="code" href="class_scheduler_1_1_distance.html">Distance</a> total_distance;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        <span class="keywordflow">for</span>(<span class="keyword">const</span> <a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop : boost::iterator_range&lt;Stop::const_iterator_type&gt;(start_stop, end_stop))</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                total_distance += stop.getNextRoute( ).getDistance( );</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        <span class="keywordflow">return</span> total_distance;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        };</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 <div class="ttc" id="class_scheduler_1_1_stop_html"><div class="ttname"><a href="class_scheduler_1_1_stop.html">Scheduler::Stop</a></div><div class="ttdef"><b>Definition:</b> Stop.h:33</div></div>
-<div class="ttc" id="class_scheduler_1_1_distance_accumulator_alg_html_a264927c664a063b857a4d6a0740d5be1"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">Scheduler::DistanceAccumulatorAlg::accumulateDistance</a></div><div class="ttdeci">static Distance accumulateDistance(const Run::ConstStopIterator &amp;start_stop, const Run::ConstStopIterator &amp;end_stop)</div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:22</div></div>
+<div class="ttc" id="class_scheduler_1_1_distance_accumulator_alg_html_a264927c664a063b857a4d6a0740d5be1"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator_alg.html#a264927c664a063b857a4d6a0740d5be1">Scheduler::DistanceAccumulatorAlg::accumulateDistance</a></div><div class="ttdeci">static Distance accumulateDistance(const Run::ConstStopIterator &amp;start_stop, const Run::ConstStopIterator &amp;end_stop)</div><div class="ttdoc">Sums the next route distances of all stops starting from start_stop (inclusive) and ending at end_sto...</div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:44</div></div>
 <div class="ttc" id="_distance_8h_html"><div class="ttname"><a href="_distance_8h.html">Distance.h</a></div></div>
 <div class="ttc" id="_stop_8h_html"><div class="ttname"><a href="_stop_8h.html">Stop.h</a></div></div>
 <div class="ttc" id="class_scheduler_1_1_run_html_ae4350afd41bef5dbc9362fea9e8ff71f"><div class="ttname"><a href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Scheduler::Run::ConstStopIterator</a></div><div class="ttdeci">StopsList::const_iterator ConstStopIterator</div><div class="ttdef"><b>Definition:</b> Run.h:42</div></div>
-<div class="ttc" id="class_scheduler_1_1_distance_accumulator_html"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator.html">Scheduler::DistanceAccumulator</a></div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:10</div></div>
-<div class="ttc" id="class_scheduler_1_1_distance_accumulator_alg_html"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator_alg.html">Scheduler::DistanceAccumulatorAlg</a></div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:19</div></div>
+<div class="ttc" id="class_scheduler_1_1_distance_accumulator_html"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator.html">Scheduler::DistanceAccumulator</a></div><div class="ttdoc">Sums the passed distance and the passed stop&#39;s next route distance. </div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:13</div></div>
+<div class="ttc" id="class_scheduler_1_1_distance_accumulator_alg_html"><div class="ttname"><a href="class_scheduler_1_1_distance_accumulator_alg.html">Scheduler::DistanceAccumulatorAlg</a></div><div class="ttdoc">Calculates the total distance of the run stops subsequence. </div><div class="ttdef"><b>Definition:</b> DistanceAccumulator.h:33</div></div>
 <div class="ttc" id="class_scheduler_1_1_distance_html"><div class="ttname"><a href="class_scheduler_1_1_distance.html">Scheduler::Distance</a></div><div class="ttdoc">Represents the distance value. </div><div class="ttdef"><b>Definition:</b> Distance.h:13</div></div>
 <div class="ttc" id="_run_8h_html"><div class="ttname"><a href="_run_8h.html">Run.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 6 2017 11:19:57 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
