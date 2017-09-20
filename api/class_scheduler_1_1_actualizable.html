@@ -93,24 +93,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_actualizable-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::Actualizable&lt; T, Actualizer &gt; Class Template Reference</div>  </div>
+<div class="title">Scheduler::Actualizable&lt; T, Actualizer &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Wraps an object and triggers actualization every time the value is requested.  
+ <a href="class_scheduler_1_1_actualizable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_actualizable_8h_source.html">Engine/SceneManager/Actualizable.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d75beb8e4911998d0fadc43649761fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">Actualizable</a> (const Actualizer &amp;actualizer)</td></tr>
+<tr class="memdesc:a5d75beb8e4911998d0fadc43649761fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a5d75beb8e4911998d0fadc43649761fa">More...</a><br/></td></tr>
 <tr class="separator:a5d75beb8e4911998d0fadc43649761fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d33f7409b30bf9c8654a1b9bc6bf6d0"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0">get</a> () const </td></tr>
+<tr class="memdesc:a5d33f7409b30bf9c8654a1b9bc6bf6d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of wrapped object.  <a href="#a5d33f7409b30bf9c8654a1b9bc6bf6d0">More...</a><br/></td></tr>
 <tr class="separator:a5d33f7409b30bf9c8654a1b9bc6bf6d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc773427260d50eee1d2d69ee08a53ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_actualizable.html">Actualizable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">operator=</a> (const T &amp;value)</td></tr>
+<tr class="memdesc:adc773427260d50eee1d2d69ee08a53ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#adc773427260d50eee1d2d69ee08a53ea">More...</a><br/></td></tr>
 <tr class="separator:adc773427260d50eee1d2d69ee08a53ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab7fbc2a3a9548e662c6587d80835242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">setActualizer</a> (const Actualizer &amp;actualizer)</td></tr>
+<tr class="memdesc:aab7fbc2a3a9548e662c6587d80835242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actualization functor.  <a href="#aab7fbc2a3a9548e662c6587d80835242">More...</a><br/></td></tr>
 <tr class="separator:aab7fbc2a3a9548e662c6587d80835242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, typename Actualizer&gt;<br/>
+class Scheduler::Actualizable&lt; T, Actualizer &gt;</h3>
+
+<p>Wraps an object and triggers actualization every time the value is requested. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of wrapped object </td></tr>
+    <tr><td class="paramname">Actualizer</td><td>Type of the actualization functor </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5d75beb8e4911998d0fadc43649761fa"></a>
 <div class="memitem">
 <div class="memproto">
@@ -134,6 +153,8 @@ template&lt;typename T, typename Actualizer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Copy constructor. </p>
 
 </div>
 </div>
@@ -161,6 +182,10 @@ template&lt;typename T, typename Actualizer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the value of wrapped object. </p>
+<p>Calls the actualizer actualize() method to perform value update and then returns the reference to the wrapped object</p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the stored value </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="adc773427260d50eee1d2d69ee08a53ea"></a>
@@ -186,6 +211,15 @@ template&lt;typename T, typename Actualizer&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>New value to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to this </dd></dl>
 
 </div>
 </div>
@@ -213,6 +247,14 @@ template&lt;typename T, typename Actualizer&gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Sets the actualization functor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actualizer</td><td>The functor to be called when the value is requested </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -221,7 +263,7 @@ template&lt;typename T, typename Actualizer&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

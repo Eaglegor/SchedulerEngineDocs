@@ -1,4 +1,4 @@
 <map id="Scheduler::Stop::setStartTime" name="Scheduler::Stop::setStartTime">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Scheduler::Stop::setAllocationTime" alt="" coords="253,5,480,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="274,56,459,83"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Sets the planned allocation time of the stop. " alt="" coords="253,5,480,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="274,56,459,83"/>
 </map>

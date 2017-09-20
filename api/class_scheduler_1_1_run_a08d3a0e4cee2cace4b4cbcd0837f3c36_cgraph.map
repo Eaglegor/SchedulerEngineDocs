@@ -1,8 +1,8 @@
 <map id="Scheduler::Run::allocateOrder" name="Scheduler::Run::allocateOrder">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Scheduler::Order::getWork\lOperation" alt="" coords="237,5,414,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="219,70,431,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="228,135,423,177"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Returns the work operation of the order. " alt="" coords="237,5,414,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="219,70,431,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Sets dirty flag to the specified value. " alt="" coords="228,135,423,177"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_structural_changes_observer.html#a29df1b2764abaffbf2028dd410da568e" title="Scheduler::StructuralChanges\lObserver::afterWorkStopCreated" alt="" coords="219,201,432,242"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Scheduler::Order::getStart\lOperation" alt="" coords="238,266,413,307"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Scheduler::Order::getEnd\lOperation" alt="" coords="241,331,410,373"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Returns the optional start operation of the order. " alt="" coords="238,266,413,307"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Returns the optional end operation of the order. " alt="" coords="241,331,410,373"/>
 </map>

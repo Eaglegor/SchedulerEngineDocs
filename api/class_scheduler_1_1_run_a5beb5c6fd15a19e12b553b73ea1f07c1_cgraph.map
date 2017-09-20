@@ -1,7 +1,7 @@
 <map id="Scheduler::Run::unallocateOrder" name="Scheduler::Run::unallocateOrder">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Scheduler::Order::getEnd\lOperation" alt="" coords="266,5,435,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Scheduler::Order::getStart\lOperation" alt="" coords="263,70,438,111"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Returns the optional end operation of the order. " alt="" coords="266,5,435,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Returns the optional start operation of the order. " alt="" coords="263,70,438,111"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_structural_changes_observer.html#a04e51e4387080a0789635f9b5d688c72" title="Scheduler::StructuralChanges\lObserver::beforeWorkStopDestroyed" alt="" coords="232,135,469,177"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="245,201,457,242"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="253,266,448,307"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="245,201,457,242"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Sets dirty flag to the specified value. " alt="" coords="253,266,448,307"/>
 </map>

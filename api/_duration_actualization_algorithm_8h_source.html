@@ -99,21 +99,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keyword">class </span>Run;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_duration_actualization_algorithm.html">    9</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_duration_actualization_algorithm.html">DurationActualizationAlgorithm</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_algorithm.html">Algorithm</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_duration_actualization_algorithm.html#a2b3ce6c8e15865c9481566f9e7bd0332">actualize</a>(<a class="code" href="class_scheduler_1_1_run.html">Run</a>&amp; run) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        };</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="class_scheduler_1_1_duration_actualization_algorithm_html_a2b3ce6c8e15865c9481566f9e7bd0332"><div class="ttname"><a href="class_scheduler_1_1_duration_actualization_algorithm.html#a2b3ce6c8e15865c9481566f9e7bd0332">Scheduler::DurationActualizationAlgorithm::actualize</a></div><div class="ttdeci">virtual void actualize(Run &amp;run) const =0</div></div>
-<div class="ttc" id="class_scheduler_1_1_duration_actualization_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_duration_actualization_algorithm.html">Scheduler::DurationActualizationAlgorithm</a></div><div class="ttdef"><b>Definition:</b> DurationActualizationAlgorithm.h:9</div></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_duration_actualization_algorithm.html">   16</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_duration_actualization_algorithm.html">DurationActualizationAlgorithm</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_algorithm.html">Algorithm</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_duration_actualization_algorithm.html#a2b3ce6c8e15865c9481566f9e7bd0332">actualize</a>(<a class="code" href="class_scheduler_1_1_run.html">Run</a>&amp; run) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="ttc" id="class_scheduler_1_1_duration_actualization_algorithm_html_a2b3ce6c8e15865c9481566f9e7bd0332"><div class="ttname"><a href="class_scheduler_1_1_duration_actualization_algorithm.html#a2b3ce6c8e15865c9481566f9e7bd0332">Scheduler::DurationActualizationAlgorithm::actualize</a></div><div class="ttdeci">virtual void actualize(Run &amp;run) const =0</div><div class="ttdoc">Updates durations of the stops in the run. </div></div>
+<div class="ttc" id="class_scheduler_1_1_duration_actualization_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_duration_actualization_algorithm.html">Scheduler::DurationActualizationAlgorithm</a></div><div class="ttdoc">Algorithm used to update the durations of the stops in the run. </div><div class="ttdef"><b>Definition:</b> DurationActualizationAlgorithm.h:16</div></div>
 <div class="ttc" id="_algorithm_8h_html"><div class="ttname"><a href="_algorithm_8h.html">Algorithm.h</a></div></div>
-<div class="ttc" id="class_scheduler_1_1_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_algorithm.html">Scheduler::Algorithm</a></div><div class="ttdoc">Represents the abstract algorithm interface. </div><div class="ttdef"><b>Definition:</b> Algorithm.h:8</div></div>
-<div class="ttc" id="class_scheduler_1_1_run_html"><div class="ttname"><a href="class_scheduler_1_1_run.html">Scheduler::Run</a></div><div class="ttdef"><b>Definition:</b> Run.h:33</div></div>
+<div class="ttc" id="class_scheduler_1_1_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_algorithm.html">Scheduler::Algorithm</a></div><div class="ttdoc">Represents the abstract algorithm interface. </div><div class="ttdef"><b>Definition:</b> Algorithm.h:10</div></div>
+<div class="ttc" id="class_scheduler_1_1_run_html"><div class="ttname"><a href="class_scheduler_1_1_run.html">Scheduler::Run</a></div><div class="ttdoc">Part of resource schedule. </div><div class="ttdef"><b>Definition:</b> Run.h:52</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

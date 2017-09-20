@@ -102,23 +102,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        Distance <a class="code" href="namespace_scheduler.html#af8fb0750484aa47ddb3cfdc5fbf86b14">operator*</a>(<span class="keyword">const</span> Speed&amp; speed, <span class="keyword">const</span> Duration&amp; duration);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        Distance <a class="code" href="namespace_scheduler.html#af8fb0750484aa47ddb3cfdc5fbf86b14">operator*</a>(<span class="keyword">const</span> Duration&amp; duration, <span class="keyword">const</span> Speed&amp; speed);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Duration <a class="code" href="namespace_scheduler.html#abd45f5db069a07815efe0a345ead0547">operator/</a>(<span class="keyword">const</span> Distance&amp; distance, <span class="keyword">const</span> Speed&amp; speed);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        Speed <a class="code" href="namespace_scheduler.html#abd45f5db069a07815efe0a345ead0547">operator/</a>(<span class="keyword">const</span> Distance&amp; distance, <span class="keyword">const</span> Duration&amp; duration);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        Distance <a class="code" href="group__concepts.html#gaf8fb0750484aa47ddb3cfdc5fbf86b14">operator*</a>(<span class="keyword">const</span> Speed&amp; speed, <span class="keyword">const</span> Duration&amp; duration);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        Distance <a class="code" href="group__concepts.html#gaf8fb0750484aa47ddb3cfdc5fbf86b14">operator*</a>(<span class="keyword">const</span> Duration&amp; duration, <span class="keyword">const</span> Speed&amp; speed);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        Duration <a class="code" href="group__concepts.html#gabd45f5db069a07815efe0a345ead0547">operator/</a>(<span class="keyword">const</span> Distance&amp; distance, <span class="keyword">const</span> Speed&amp; speed);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        Speed <a class="code" href="group__concepts.html#gabd45f5db069a07815efe0a345ead0547">operator/</a>(<span class="keyword">const</span> Distance&amp; distance, <span class="keyword">const</span> Duration&amp; duration);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="ttc" id="_duration_8h_html"><div class="ttname"><a href="_duration_8h.html">Duration.h</a></div></div>
+<div class="ttc" id="group__concepts_html_gabd45f5db069a07815efe0a345ead0547"><div class="ttname"><a href="group__concepts.html#gabd45f5db069a07815efe0a345ead0547">Scheduler::operator/</a></div><div class="ttdeci">Duration operator/(const Distance &amp;distance, const Speed &amp;speed)</div><div class="ttdoc">Calculates the route duration value based on distance and speed. </div><div class="ttdef"><b>Definition:</b> SpeedDurationDistanceOperations.cpp:16</div></div>
 <div class="ttc" id="_distance_8h_html"><div class="ttname"><a href="_distance_8h.html">Distance.h</a></div></div>
-<div class="ttc" id="namespace_scheduler_html_abd45f5db069a07815efe0a345ead0547"><div class="ttname"><a href="namespace_scheduler.html#abd45f5db069a07815efe0a345ead0547">Scheduler::operator/</a></div><div class="ttdeci">Duration operator/(const Distance &amp;distance, const Speed &amp;speed)</div><div class="ttdoc">Calculates the route duration value based on distance and speed. </div><div class="ttdef"><b>Definition:</b> SpeedDurationDistanceOperations.cpp:16</div></div>
+<div class="ttc" id="group__concepts_html_gaf8fb0750484aa47ddb3cfdc5fbf86b14"><div class="ttname"><a href="group__concepts.html#gaf8fb0750484aa47ddb3cfdc5fbf86b14">Scheduler::operator*</a></div><div class="ttdeci">Distance operator*(const Speed &amp;speed, const Duration &amp;duration)</div><div class="ttdoc">Calculates the route distance value based on speed and duration. </div><div class="ttdef"><b>Definition:</b> SpeedDurationDistanceOperations.cpp:6</div></div>
 <div class="ttc" id="_speed_8h_html"><div class="ttname"><a href="_speed_8h.html">Speed.h</a></div></div>
-<div class="ttc" id="namespace_scheduler_html_af8fb0750484aa47ddb3cfdc5fbf86b14"><div class="ttname"><a href="namespace_scheduler.html#af8fb0750484aa47ddb3cfdc5fbf86b14">Scheduler::operator*</a></div><div class="ttdeci">Distance operator*(const Speed &amp;speed, const Duration &amp;duration)</div><div class="ttdoc">Calculates the route distance value based on speed and duration. </div><div class="ttdef"><b>Definition:</b> SpeedDurationDistanceOperations.cpp:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

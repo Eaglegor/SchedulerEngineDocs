@@ -1,5 +1,5 @@
 <map id="Scheduler::SuIntTSPSolver::optimize" name="Scheduler::SuIntTSPSolver::optimize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="237,5,440,32"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="237,5,440,32"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a771b9e2b748e7e736f823b3055c5cc15" title="Returns the size of the underlying container. " alt="" coords="239,57,439,98"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="489,115,647,157"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_scene_editor.html#a16bda1e28e806c0513788945870a0066" title="Scheduler::SceneEditor\l::rollbackAll" alt="" coords="259,174,418,215"/>

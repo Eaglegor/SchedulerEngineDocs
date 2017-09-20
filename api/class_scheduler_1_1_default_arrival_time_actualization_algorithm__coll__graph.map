@@ -1,4 +1,4 @@
 <map id="Scheduler::DefaultArrivalTimeActualizationAlgorithm" name="Scheduler::DefaultArrivalTimeActualizationAlgorithm">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Scheduler::ArrivalTimeActualization\lAlgorithm" alt="" coords="5,81,235,122"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Algorithm used to update the arrival times of the stops in the schedule. " alt="" coords="5,81,235,122"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="49,5,191,32"/>
 </map>

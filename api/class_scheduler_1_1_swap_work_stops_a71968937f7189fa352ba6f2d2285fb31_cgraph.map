@@ -1,6 +1,6 @@
 <map id="Scheduler::SwapWorkStops::perform" name="Scheduler::SwapWorkStops::perform">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a352db3a32c640257319006e659a791b7" title="Scheduler::Run::swapWork\lStops" alt="" coords="241,70,423,111"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a30b675777c36f869430abfcba0d2aaa6" title="Scheduler::StructuralChanges\lObserver::beforeWorkStopsSwapped" alt="" coords="473,5,711,46"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="486,70,698,111"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="495,135,689,177"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a352db3a32c640257319006e659a791b7" title="Swaps work stops pointed by first and second. " alt="" coords="241,70,423,111"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a30b675777c36f869430abfcba0d2aaa6" title="Is called before any actions in Run::swapWorkStops are performed. " alt="" coords="473,5,711,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="486,70,698,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Sets dirty flag to the specified value. " alt="" coords="495,135,689,177"/>
 </map>

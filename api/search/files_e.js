@@ -19,6 +19,7 @@ var searchData=
   ['routeactualizationalgorithm_2eh',['RouteActualizationAlgorithm.h',['../_route_actualization_algorithm_8h.html',1,'']]],
   ['routeactualizer_2ecpp',['RouteActualizer.cpp',['../_route_actualizer_8cpp.html',1,'']]],
   ['routeactualizer_2eh',['RouteActualizer.h',['../_route_actualizer_8h.html',1,'']]],
+  ['routing_2edoxy',['Routing.doxy',['../_routing_8doxy.html',1,'']]],
   ['routingprofile_2ecpp',['RoutingProfile.cpp',['../_routing_profile_8cpp.html',1,'']]],
   ['routingprofile_2eh',['RoutingProfile.h',['../_routing_profile_8h.html',1,'']]],
   ['routingprofiledesc_2eh',['RoutingProfileDesc.h',['../_routing_profile_desc_8h.html',1,'']]],

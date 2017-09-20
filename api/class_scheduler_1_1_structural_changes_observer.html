@@ -93,9 +93,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_structural_changes_observer-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::StructuralChangesObserver Class Reference</div>  </div>
+<div class="title">Scheduler::StructuralChangesObserver Class Reference<div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Observer notifying subscribed listeners about the structural change in the scene.  
+ <a href="class_scheduler_1_1_structural_changes_observer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_structural_changes_observer_8h_source.html">Engine/SceneManager/Listeners/StructuralChangesObserver.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -103,29 +106,33 @@ Inheritance diagram for Scheduler::StructuralChangesObserver:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_structural_changes_observer__inherit__graph.png" border="0" usemap="#_scheduler_1_1_structural_changes_observer_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_structural_changes_observer_inherit__map" id="_scheduler_1_1_structural_changes_observer_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_listener.html" title="Scheduler::StructuralChanges\lListener" alt="" coords="5,6,200,47"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_listener.html" title="Listener of the structural changes in the scene. " alt="" coords="5,6,200,47"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Scheduler::StructuralChangesObserver:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_structural_changes_observer__coll__graph.png" border="0" usemap="#_scheduler_1_1_structural_changes_observer_coll__map" alt="Collaboration graph"/></div>
 <map name="_scheduler_1_1_structural_changes_observer_coll__map" id="_scheduler_1_1_structural_changes_observer_coll__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_listener.html" title="Scheduler::StructuralChanges\lListener" alt="" coords="5,6,200,47"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_listener.html" title="Listener of the structural changes in the scene. " alt="" coords="5,6,200,47"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6acc5e2e2700dc64792d616cdc98d852"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a6acc5e2e2700dc64792d616cdc98d852">addListener</a> (<a class="el" href="class_scheduler_1_1_structural_changes_listener.html">StructuralChangesListener</a> &amp;listener)</td></tr>
+<tr class="memdesc:a6acc5e2e2700dc64792d616cdc98d852"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subscribes the new structural changes listener.  <a href="#a6acc5e2e2700dc64792d616cdc98d852">More...</a><br/></td></tr>
 <tr class="separator:a6acc5e2e2700dc64792d616cdc98d852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44cb80bf0164c41ffb268514c515e572"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a44cb80bf0164c41ffb268514c515e572">removeListener</a> (<a class="el" href="class_scheduler_1_1_structural_changes_listener.html">StructuralChangesListener</a> &amp;listener)</td></tr>
+<tr class="memdesc:a44cb80bf0164c41ffb268514c515e572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribes the new structural changes listener.  <a href="#a44cb80bf0164c41ffb268514c515e572">More...</a><br/></td></tr>
 <tr class="separator:a44cb80bf0164c41ffb268514c515e572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29df1b2764abaffbf2028dd410da568e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a29df1b2764abaffbf2028dd410da568e">afterWorkStopCreated</a> (<a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> iter)</td></tr>
 <tr class="separator:a29df1b2764abaffbf2028dd410da568e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e51e4387080a0789635f9b5d688c72"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a04e51e4387080a0789635f9b5d688c72">beforeWorkStopDestroyed</a> (<a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> iter)</td></tr>
 <tr class="separator:a04e51e4387080a0789635f9b5d688c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7236741dcc789d142f01e16e03125ee9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9">afterRunCreated</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">Schedule::ConstRunIterator</a> iter)</td></tr>
+<tr class="memdesc:a7236741dcc789d142f01e16e03125ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called after the new run was created in the schedule.  <a href="#a7236741dcc789d142f01e16e03125ee9">More...</a><br/></td></tr>
 <tr class="separator:a7236741dcc789d142f01e16e03125ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb9f24aeb1cd723e31989bcd9445fb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9">beforeRunDestroyed</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">Schedule::ConstRunIterator</a> iter)</td></tr>
+<tr class="memdesc:a3eb9f24aeb1cd723e31989bcd9445fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called before the run is destroyed.  <a href="#a3eb9f24aeb1cd723e31989bcd9445fb9">More...</a><br/></td></tr>
 <tr class="separator:a3eb9f24aeb1cd723e31989bcd9445fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b08d4cee8e995dab1ccb4c4d0a8ff4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#aa2b08d4cee8e995dab1ccb4c4d0a8ff4">afterStartOperationAdded</a> (<a class="el" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a> iter, const <a class="el" href="class_scheduler_1_1_depot_operation.html">DepotOperation</a> &amp;operation)</td></tr>
 <tr class="separator:aa2b08d4cee8e995dab1ccb4c4d0a8ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,16 +143,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0bbbbaef5ff129fe46ce8697184b8eba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a0bbbbaef5ff129fe46ce8697184b8eba">beforeEndOperationRemoved</a> (<a class="el" href="class_scheduler_1_1_run.html#ae4350afd41bef5dbc9362fea9e8ff71f">Run::ConstStopIterator</a> iter, const <a class="el" href="class_scheduler_1_1_depot_operation.html">DepotOperation</a> &amp;operation)</td></tr>
 <tr class="separator:a0bbbbaef5ff129fe46ce8697184b8eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30b675777c36f869430abfcba0d2aaa6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a30b675777c36f869430abfcba0d2aaa6">beforeWorkStopsSwapped</a> (<a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> first, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> second)</td></tr>
+<tr class="memdesc:a30b675777c36f869430abfcba0d2aaa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a352db3a32c640257319006e659a791b7" title="Swaps work stops pointed by first and second. ">Run::swapWorkStops</a> are performed.  <a href="#a30b675777c36f869430abfcba0d2aaa6">More...</a><br/></td></tr>
 <tr class="separator:a30b675777c36f869430abfcba0d2aaa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a473f08d33bc9025dbeec449a5b3b1040"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a473f08d33bc9025dbeec449a5b3b1040">beforeWorkStopsReversed</a> (<a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> range_begin, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> range_end)</td></tr>
+<tr class="memdesc:a473f08d33bc9025dbeec449a5b3b1040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a4753cef90d948b0d3253c93052318565" title="Reverses the order of work stops in the run. ">Run::reverseWorkStops</a> are performed.  <a href="#a473f08d33bc9025dbeec449a5b3b1040">More...</a><br/></td></tr>
 <tr class="separator:a473f08d33bc9025dbeec449a5b3b1040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a695cbef6ba8d84dd37204d71031cefac"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_observer.html#a695cbef6ba8d84dd37204d71031cefac">beforeWorkStopsSpliced</a> (const <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;to_run, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> pos, const <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;from_run, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> range_begin, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> range_end)</td></tr>
+<tr class="memdesc:a695cbef6ba8d84dd37204d71031cefac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a6edb8c82ad48689f3b86ef6d6fa5c61f" title="Moves work stops range inside the run. ">Run::spliceWorkStops</a> are performed.  <a href="#a695cbef6ba8d84dd37204d71031cefac">More...</a><br/></td></tr>
 <tr class="separator:a695cbef6ba8d84dd37204d71031cefac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_scheduler_1_1_structural_changes_listener"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_scheduler_1_1_structural_changes_listener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html">Scheduler::StructuralChangesListener</a></td></tr>
 <tr class="memitem:a86cfc0a63b59a2bf26dbc306f863b314 inherit pub_methods_class_scheduler_1_1_structural_changes_listener"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_structural_changes_listener.html#a86cfc0a63b59a2bf26dbc306f863b314">~StructuralChangesListener</a> ()</td></tr>
 <tr class="separator:a86cfc0a63b59a2bf26dbc306f863b314 inherit pub_methods_class_scheduler_1_1_structural_changes_listener"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Observer notifying subscribed listeners about the structural change in the scene. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="changes_listeners.html">Structural changes listeners</a> </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a6acc5e2e2700dc64792d616cdc98d852"></a>
 <div class="memitem">
 <div class="memproto">
@@ -159,6 +172,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Subscribes the new structural changes listener. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listener</td><td>Listener to subscribe </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -219,6 +240,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Is called after the new run was created in the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iter</td><td>Iterator to the created run </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Reimplemented from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html#a00ed83cd233a32c01325b7666da7d073">Scheduler::StructuralChangesListener</a>.</p>
 
@@ -344,6 +373,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Is called before the run is destroyed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">iter</td><td>Iterator to the run that will be destroyed </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html#a23e2209092cff56fdefee1b2892ee880">Scheduler::StructuralChangesListener</a>.</p>
 
 </div>
@@ -442,6 +479,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a4753cef90d948b0d3253c93052318565" title="Reverses the order of work stops in the run. ">Run::reverseWorkStops</a> are performed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">range_begin</td><td>Iterator to the first stop in the range to be reversed </td></tr>
+    <tr><td class="paramname">range_end</td><td>Iterator to the stop after the last stop in the range to be reversed </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html#a67b26ca13c3c780d347cc96e7255dca6">Scheduler::StructuralChangesListener</a>.</p>
 
 </div>
@@ -496,6 +542,18 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a6edb8c82ad48689f3b86ef6d6fa5c61f" title="Moves work stops range inside the run. ">Run::spliceWorkStops</a> are performed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">to_run</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> into which the transfer is to be done </td></tr>
+    <tr><td class="paramname">pos</td><td>Position where the spliced stops will be inserted </td></tr>
+    <tr><td class="paramname">from_run</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> from which the transfer is to be done </td></tr>
+    <tr><td class="paramname">range_start</td><td>Iterator to the first stop in the range to be transferred </td></tr>
+    <tr><td class="paramname">range_end</td><td>Iterator to the stop after the last stop in the range to be transferred </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html#ae64f0ad72bb8850cd998a05004f61120">Scheduler::StructuralChangesListener</a>.</p>
 
 </div>
@@ -532,6 +590,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Is called before any actions in <a class="el" href="class_scheduler_1_1_run.html#a352db3a32c640257319006e659a791b7" title="Swaps work stops pointed by first and second. ">Run::swapWorkStops</a> are performed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The first stop to swap </td></tr>
+    <tr><td class="paramname">second</td><td>The second stop to swap </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Reimplemented from <a class="el" href="class_scheduler_1_1_structural_changes_listener.html#ad4c68fe417fb4b9fbdb6b8b8f44977bc">Scheduler::StructuralChangesListener</a>.</p>
 
 </div>
@@ -550,6 +617,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Unsubscribes the new structural changes listener. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listener</td><td>Listener to unsubscribe </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -559,7 +634,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

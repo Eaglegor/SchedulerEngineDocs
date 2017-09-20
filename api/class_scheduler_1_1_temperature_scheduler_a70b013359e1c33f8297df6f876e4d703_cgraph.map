@@ -1,6 +1,6 @@
 <map id="Scheduler::TemperatureScheduler::create_initial_costs" name="Scheduler::TemperatureScheduler::create_initial_costs">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_schedule_cost_function.html#afb4267f09e050f3637a2cbc448705bb1" title="Scheduler::ScheduleCostFunction\l::calculateCost" alt="" coords="273,5,493,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="287,71,479,97"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="287,71,479,97"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_solution_generator.html#affd0d7deaffcb1ce2ed134ea263036cc" title="Scheduler::SolutionGenerator\l::enableMutation" alt="" coords="287,122,479,163"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_solution_generator.html#a93cea5e47bfa8bbcc1e1de2472b3ca4c" title="Scheduler::SolutionGenerator\l::checkpoint" alt="" coords="287,187,479,229"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_solution_generator_classic.html#ad7a37b391a04f47abd9a8a2ffadd0a1a" title="Scheduler::SolutionGenerator\lClassic::neighbour" alt="" coords="287,253,479,294"/>

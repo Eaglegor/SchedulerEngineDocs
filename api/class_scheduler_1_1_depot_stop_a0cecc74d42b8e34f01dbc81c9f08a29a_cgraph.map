@@ -1,3 +1,3 @@
 <map id="Scheduler::DepotStop::acceptVisitor" name="Scheduler::DepotStop::acceptVisitor">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c" title="Scheduler::StopVisitor\l::dispatch" alt="" coords="205,5,357,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c" title="Performs action on the instance of WorkStop. " alt="" coords="205,5,357,46"/>
 </map>

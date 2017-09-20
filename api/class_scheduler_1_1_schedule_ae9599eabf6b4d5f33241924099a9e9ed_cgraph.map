@@ -1,6 +1,6 @@
 <map id="Scheduler::Schedule::isValid" name="Scheduler::Schedule::isValid">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a9785243a0fccc688e38f5aa9ceee9048" title="Scheduler::Schedule\l::validate" alt="" coords="198,37,341,78"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Scheduler::Validator\l::getValidationResult" alt="" coords="198,102,341,143"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Scheduler::ScheduleValidation\lModel::getScheduleValidationAlgorithm" alt="" coords="390,5,639,46"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Scheduler::ValidationAlgorithm\l::validate" alt="" coords="415,70,615,111"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a9785243a0fccc688e38f5aa9ceee9048" title="Reports hard constraints violations to the specified consumer. " alt="" coords="198,37,341,78"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Returns the validation result. " alt="" coords="198,102,341,143"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Returns current schedule validation algorithm. " alt="" coords="390,5,639,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Checks the object and reports violations to the provided consumer. " alt="" coords="415,70,615,111"/>
 </map>

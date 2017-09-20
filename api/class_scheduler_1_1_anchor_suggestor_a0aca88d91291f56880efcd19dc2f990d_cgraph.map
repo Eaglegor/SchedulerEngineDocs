@@ -1,12 +1,12 @@
 <map id="Scheduler::AnchorSuggestor::AnchorSuggestor" name="Scheduler::AnchorSuggestor::AnchorSuggestor">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_anchor_suggestor.html#a723b5842caee1accccb460e6d30d6f41" title="Scheduler::AnchorSuggestor\l::reset" alt="" coords="243,239,431,281"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_scene.html#a30d0bbf20c700180b1a0d9552dc2f8af" title="Scheduler::Scene::getContext" alt="" coords="488,5,685,32"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_context.html#a99dfe309a4829ed419a234a85f0261e1" title="Scheduler::SceneContext\l::getOrders" alt="" coords="501,57,672,98"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_scene.html#a3be29a20d88b58ec0cb38ded983fdcd6" title="Scheduler::Scene::query" alt="" coords="504,123,669,149"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_scene_queries.html#ab42dc8aaf937426ed4175121f006322a" title="Scheduler::SceneQueries\l::operationStopMapping" alt="" coords="501,174,672,215"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_operation_stop_mapping_query.html#aad2d71eda64f96babfab41cf5ac2b6fb" title="Scheduler::OperationStop\lMappingQuery::findWorkStop" alt="" coords="490,239,683,281"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_scene.html#a00fee45c88fcdbd4080f1940bdda870e" title="Scheduler::Scene::getSchedules" alt="" coords="481,305,693,332"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_scene.html#a30d0bbf20c700180b1a0d9552dc2f8af" title="Returns context for which the scene was defined. " alt="" coords="488,5,685,32"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_context.html#a99dfe309a4829ed419a234a85f0261e1" title="Returns the list of orders. " alt="" coords="501,57,672,98"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene.html#a3be29a20d88b58ec0cb38ded983fdcd6" title="Returns the interface to execure scene queries. " alt="" coords="504,123,669,149"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_scene_queries.html#ab42dc8aaf937426ed4175121f006322a" title="Returns interface to find allocated stops iterators by the operations. " alt="" coords="501,174,672,215"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_operation_stop_mapping_query.html#aad2d71eda64f96babfab41cf5ac2b6fb" title="Returns iterator to the work stop holding the specified operation. " alt="" coords="490,239,683,281"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_scene.html#a00fee45c88fcdbd4080f1940bdda870e" title="Returns the list of the schedules in the scene. " alt="" coords="481,305,693,332"/>
 <area shape="rect" id="node9" href="$class_scheduler_1_1_routing_service.html#a313b056253fdcc4384c54336d0fa6893" title="Calculates route information. " alt="" coords="498,357,675,398"/>
-<area shape="rect" id="node10" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Scheduler::Location\l::getSite" alt="" coords="518,422,655,463"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Returns location coordinates. " alt="" coords="518,422,655,463"/>
 <area shape="rect" id="node11" href="$class_scheduler_1_1_route.html#a6417b98854fb5a926309deb1d5eaba2b" title="Gets time needed to travel between start and end point. " alt="" coords="487,488,686,515"/>
 </map>

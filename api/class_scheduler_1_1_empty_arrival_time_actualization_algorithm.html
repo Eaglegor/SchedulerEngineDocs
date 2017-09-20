@@ -101,19 +101,20 @@ Inheritance diagram for Scheduler::EmptyArrivalTimeActualizationAlgorithm:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_empty_arrival_time_actualization_algorithm__inherit__graph.png" border="0" usemap="#_scheduler_1_1_empty_arrival_time_actualization_algorithm_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_empty_arrival_time_actualization_algorithm_inherit__map" id="_scheduler_1_1_empty_arrival_time_actualization_algorithm_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Scheduler::ArrivalTimeActualization\lAlgorithm" alt="" coords="5,81,235,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="49,5,191,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Algorithm used to update the arrival times of the stops in the schedule. " alt="" coords="5,81,235,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="49,5,191,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Scheduler::EmptyArrivalTimeActualizationAlgorithm:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_empty_arrival_time_actualization_algorithm__coll__graph.png" border="0" usemap="#_scheduler_1_1_empty_arrival_time_actualization_algorithm_coll__map" alt="Collaboration graph"/></div>
 <map name="_scheduler_1_1_empty_arrival_time_actualization_algorithm_coll__map" id="_scheduler_1_1_empty_arrival_time_actualization_algorithm_coll__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Scheduler::ArrivalTimeActualization\lAlgorithm" alt="" coords="5,81,235,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="49,5,191,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Algorithm used to update the arrival times of the stops in the schedule. " alt="" coords="5,81,235,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="49,5,191,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac05bb9f46cc8fc79240ad634914e6838"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_empty_arrival_time_actualization_algorithm.html#ac05bb9f46cc8fc79240ad634914e6838">actualize</a> (<a class="el" href="class_scheduler_1_1_schedule.html">Schedule</a> &amp;stop) const override</td></tr>
+<tr class="memdesc:ac05bb9f46cc8fc79240ad634914e6838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates arrival times of the stops in the schedule.  <a href="#ac05bb9f46cc8fc79240ad634914e6838">More...</a><br/></td></tr>
 <tr class="separator:ac05bb9f46cc8fc79240ad634914e6838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9b21a855b20c468a7ae6162d3c17eee"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_empty_arrival_time_actualization_algorithm.html#ab9b21a855b20c468a7ae6162d3c17eee">getName</a> () const override</td></tr>
 <tr class="memdesc:ab9b21a855b20c468a7ae6162d3c17eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the algorithm name.  <a href="#ab9b21a855b20c468a7ae6162d3c17eee">More...</a><br/></td></tr>
@@ -134,7 +135,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual void Scheduler::EmptyArrivalTimeActualizationAlgorithm::actualize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_scheduler_1_1_schedule.html">Schedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>stop</em></td><td>)</td>
+          <td class="paramname"><em>schedule</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -144,6 +145,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Updates arrival times of the stops in the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">schedule</td><td><a class="el" href="class_scheduler_1_1_schedule.html" title="The work shift plan of the resource. ">Schedule</a> to actualize arrival times in </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_scheduler_1_1_arrival_time_actualization_algorithm.html#a8df5688f01f01c9fb18eabb9b0e0e73b">Scheduler::ArrivalTimeActualizationAlgorithm</a>.</p>
 
@@ -183,7 +192,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

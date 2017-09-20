@@ -102,34 +102,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_pool_memory_store.html">   18</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_pool_memory_store.html">PoolMemoryStore</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_memory_store.html">MemoryStore</a></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a3a8551eb078f3a2073313649693ad59e">PoolMemoryStore</a>(std::size_t chunk_size, std::size_t initial_capacity, <span class="keywordtype">bool</span> enable_mutex);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keyword">virtual</span> <a class="code" href="class_scheduler_1_1_pool_memory_store.html#ac04fb1a2451075812d4bbef8cdfeb9ae">~PoolMemoryStore</a>( );</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a13d8d4149b25d43abb42ff9a381f45a9">allocate</a>(<span class="keywordtype">size_t</span> memory_size) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a8cc81114b27bbd07cb7a43fec861ad23">deallocate</a>(<span class="keywordtype">void</span>* ptr) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <span class="keyword">const</span> std::size_t chunk_size;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">bool</span> enable_mutex;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                boost::pool&lt;boost::default_user_allocator_malloc_free&gt; storage;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                boost::mutex mutex;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        };</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="ttc" id="class_scheduler_1_1_memory_store_html"><div class="ttname"><a href="class_scheduler_1_1_memory_store.html">Scheduler::MemoryStore</a></div><div class="ttdoc">This class represents the abstract memory store interface. </div><div class="ttdef"><b>Definition:</b> MemoryStore.h:12</div></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_pool_memory_store.html">   20</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_pool_memory_store.html">PoolMemoryStore</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_memory_store.html">MemoryStore</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a3a8551eb078f3a2073313649693ad59e">PoolMemoryStore</a>(std::size_t chunk_size, std::size_t initial_capacity, <span class="keywordtype">bool</span> enable_mutex);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keyword">virtual</span> <a class="code" href="class_scheduler_1_1_pool_memory_store.html#ac04fb1a2451075812d4bbef8cdfeb9ae">~PoolMemoryStore</a>( );</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a13d8d4149b25d43abb42ff9a381f45a9">allocate</a>(<span class="keywordtype">size_t</span> memory_size) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_pool_memory_store.html#a8cc81114b27bbd07cb7a43fec861ad23">deallocate</a>(<span class="keywordtype">void</span>* ptr) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keyword">const</span> std::size_t chunk_size;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">bool</span> enable_mutex;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                boost::pool&lt;boost::default_user_allocator_malloc_free&gt; storage;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                boost::mutex mutex;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        };</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="ttc" id="class_scheduler_1_1_memory_store_html"><div class="ttname"><a href="class_scheduler_1_1_memory_store.html">Scheduler::MemoryStore</a></div><div class="ttdoc">This class represents the abstract memory store interface. </div><div class="ttdef"><b>Definition:</b> MemoryStore.h:14</div></div>
 <div class="ttc" id="_memory_store_8h_html"><div class="ttname"><a href="_memory_store_8h.html">MemoryStore.h</a></div></div>
 <div class="ttc" id="class_scheduler_1_1_pool_memory_store_html_a3a8551eb078f3a2073313649693ad59e"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html#a3a8551eb078f3a2073313649693ad59e">Scheduler::PoolMemoryStore::PoolMemoryStore</a></div><div class="ttdeci">PoolMemoryStore(std::size_t chunk_size, std::size_t initial_capacity, bool enable_mutex)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.cpp:9</div></div>
 <div class="ttc" id="class_scheduler_1_1_pool_memory_store_html_ac04fb1a2451075812d4bbef8cdfeb9ae"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html#ac04fb1a2451075812d4bbef8cdfeb9ae">Scheduler::PoolMemoryStore::~PoolMemoryStore</a></div><div class="ttdeci">virtual ~PoolMemoryStore()</div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.cpp:16</div></div>
-<div class="ttc" id="class_scheduler_1_1_pool_memory_store_html"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html">Scheduler::PoolMemoryStore</a></div><div class="ttdoc">This class represents the memory store allocating memory by returning fixed-sized blocks stored in th...</div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.h:18</div></div>
+<div class="ttc" id="class_scheduler_1_1_pool_memory_store_html"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html">Scheduler::PoolMemoryStore</a></div><div class="ttdoc">This class represents the memory store allocating memory by returning fixed-sized blocks stored in th...</div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.h:20</div></div>
 <div class="ttc" id="class_scheduler_1_1_pool_memory_store_html_a13d8d4149b25d43abb42ff9a381f45a9"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html#a13d8d4149b25d43abb42ff9a381f45a9">Scheduler::PoolMemoryStore::allocate</a></div><div class="ttdeci">virtual void * allocate(size_t memory_size) override</div><div class="ttdoc">Allocates the next memory chunk if the requested memory amount fits into the fixed chunk size...</div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.cpp:21</div></div>
 <div class="ttc" id="class_scheduler_1_1_pool_memory_store_html_a8cc81114b27bbd07cb7a43fec861ad23"><div class="ttname"><a href="class_scheduler_1_1_pool_memory_store.html#a8cc81114b27bbd07cb7a43fec861ad23">Scheduler::PoolMemoryStore::deallocate</a></div><div class="ttdeci">virtual void deallocate(void *ptr) override</div><div class="ttdoc">Releases the previously allocated chunk. </div><div class="ttdef"><b>Definition:</b> PoolMemoryStore.cpp:31</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

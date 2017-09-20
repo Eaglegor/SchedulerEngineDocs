@@ -19,7 +19,7 @@ var indexSectionsWithContent =
   9: "cirs",
   10: "_clort",
   11: "acelmprstuv",
-  12: "d"
+  12: "ds"
 };
 
 var indexSectionNames =

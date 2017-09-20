@@ -1,4 +1,4 @@
 <map id="Scheduler::ValidStopsRunValidationAlgorithm::validate" name="Scheduler::ValidStopsRunValidationAlgorithm::validate">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="266,5,438,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_proxy_violations_consumer.html#a5f1420e324d71dd464cf7617a1022349" title="Scheduler::ProxyViolations\lConsumer::getCurrentContinuance\lPolicy" alt="" coords="240,56,464,112"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Returns all stops of the run. " alt="" coords="266,5,438,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_proxy_violations_consumer.html#a5f1420e324d71dd464cf7617a1022349" title="Returns the continuance policy returned by the last call to the backend consumer. ..." alt="" coords="240,56,464,112"/>
 </map>

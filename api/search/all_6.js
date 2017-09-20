@@ -31,13 +31,13 @@ var searchData=
   ['firsttimewindowselector_2ecpp',['FirstTimeWindowSelector.cpp',['../_first_time_window_selector_8cpp.html',1,'']]],
   ['firsttimewindowselector_2eh',['FirstTimeWindowSelector.h',['../_first_time_window_selector_8h.html',1,'']]],
   ['fixedpointmath_2eh',['FixedPointMath.h',['../_fixed_point_math_8h.html',1,'']]],
-  ['fixedpointtype',['FixedPointType',['../namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6',1,'Scheduler']]],
+  ['fixedpointtype',['FixedPointType',['../group__math.html#ga98d58141d7278350988593cf194fa0e6',1,'Scheduler']]],
   ['fleet',['fleet',['../struct_scheduler_1_1_scene_desc.html#a590d76b4e4c9df88ad464daaa4ebddc3',1,'Scheduler::SceneDesc']]],
   ['fleetdesc',['FleetDesc',['../struct_scheduler_1_1_fleet_desc.html',1,'Scheduler']]],
   ['fleetdesc_2eh',['FleetDesc.h',['../_fleet_desc_8h.html',1,'']]],
   ['float_5fdistr_5ft',['float_distr_t',['../class_scheduler_1_1_solution_generator.html#a537f435e6aeee1f8b9b47db0db8db570',1,'Scheduler::SolutionGenerator']]],
   ['float_5fdistribution',['float_distribution',['../class_scheduler_1_1_solution_generator.html#ad9f411a80dca26e30b901e558148addd',1,'Scheduler::SolutionGenerator']]],
-  ['float_5fepsilon',['FLOAT_EPSILON',['../namespace_scheduler.html#a7e0cfb7c65268d113f848e7615c42df1',1,'Scheduler']]],
+  ['float_5fepsilon',['FLOAT_EPSILON',['../group__math.html#ga7e0cfb7c65268d113f848e7615c42df1',1,'Scheduler']]],
   ['float_5fparam_5ft',['float_param_t',['../class_scheduler_1_1_solution_generator.html#a6d01ae65b9b2844e394ef64a81535b1b',1,'Scheduler::SolutionGenerator']]],
   ['floatepsilon_2eh',['FloatEpsilon.h',['../_float_epsilon_8h.html',1,'']]],
   ['format',['Format',['../class_scheduler_1_1_tsp_lib_scene_loader.html#a9f7b9df55e829438ef93ce7f5b99069b',1,'Scheduler::TspLibSceneLoader::Format()'],['../struct_scheduler_1_1_time_window_desc.html#acb22c313b58a5a5c07b52d9bb9bf6256',1,'Scheduler::TimeWindowDesc::format()']]],
@@ -45,6 +45,6 @@ var searchData=
   ['free_5foperations',['free_operations',['../struct_scheduler_1_1_scene_desc.html#a06c9124b804de2f2294e854e78993b82',1,'Scheduler::SceneDesc']]],
   ['from',['from',['../struct_scheduler_1_1_line.html#a8ab4297d68665e04b01969cecc4d11d7',1,'Scheduler::Line']]],
   ['from_5findex',['from_index',['../struct_scheduler_1_1_suggested_edge.html#a1c640930c73427564d16912ee88d3094',1,'Scheduler::SuggestedEdge']]],
-  ['fromfixedpoint',['fromFixedPoint',['../namespace_scheduler.html#aec800da4605b71742f3bac16e85d52a4',1,'Scheduler']]],
+  ['fromfixedpoint',['fromFixedPoint',['../group__math.html#gaec800da4605b71742f3bac16e85d52a4',1,'Scheduler']]],
   ['front',['front',['../class_scheduler_1_1_linked_pointers_list.html#ab20f20f23a181e4550cf9855176d8dfd',1,'Scheduler::LinkedPointersList::front()'],['../class_scheduler_1_1_linked_pointers_list.html#a3901d9a39c72ad1b641d180a9b2ea1bd',1,'Scheduler::LinkedPointersList::front() const '],['../class_scheduler_1_1_linked_pointers_sublist.html#a3f524f995d9e7f6a02acba2a8da04522',1,'Scheduler::LinkedPointersSublist::front()'],['../class_scheduler_1_1_linked_pointers_sublist.html#a0f0281a28e68f7f1c60dfaa89fef7cd1',1,'Scheduler::LinkedPointersSublist::front() const '],['../class_scheduler_1_1_range.html#aacee5e21a3258d10079c067e5a620f81',1,'Scheduler::Range::front() const '],['../class_scheduler_1_1_range.html#ae6ba6a5d648982f722b1c34d4e337fed',1,'Scheduler::Range::front()'],['../class_scheduler_1_1_range_type_adapter.html#a39e47b117751a7bb0b47944f17490a01',1,'Scheduler::RangeTypeAdapter::front()'],['../class_scheduler_1_1_range_type_adapter.html#a65ffe48fd72ae053a50cf7f803fe98ec',1,'Scheduler::RangeTypeAdapter::front() const ']]]
 ];

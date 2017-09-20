@@ -1,4 +1,4 @@
 <map id="Scheduler::Stop" name="Scheduler::Stop">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_depot_stop.html" title="Scheduler::DepotStop" alt="" coords="5,80,155,107"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_work_stop.html" title="Scheduler::WorkStop" alt="" coords="180,80,327,107"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_depot_stop.html" title="Represents being in depot in the beginning or in the end of vehicle&#39;s run. " alt="" coords="5,80,155,107"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_work_stop.html" title="Represents work at customer. " alt="" coords="180,80,327,107"/>
 </map>

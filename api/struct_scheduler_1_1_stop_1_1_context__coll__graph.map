@@ -1,4 +1,4 @@
 <map id="Scheduler::Stop::Context" name="Scheduler::Stop::Context">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualizer.html" title="Scheduler::ArrivalTimeActualizer" alt="" coords="5,5,216,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_duration_actualizer.html" title="Scheduler::DurationActualizer" alt="" coords="241,5,436,32"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualizer.html" title="Recalculates arrival times of all stops in the schedule. " alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_duration_actualizer.html" title="Updates durations of all stops in the run. " alt="" coords="241,5,436,32"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Scheduler::OperationStopMappingQuery::~OperationStopMappingQuery" name="Scheduler::OperationStopMappingQuery::~OperationStopMappingQuery">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_scene.html#a4856419d0029e58ead0da5eda7d2251b" title="Scheduler::Scene::remove\lStructuralChangesListener" alt="" coords="259,11,435,53"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a44cb80bf0164c41ffb268514c515e572" title="Scheduler::StructuralChanges\lObserver::removeListener" alt="" coords="483,11,679,53"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene.html#a4856419d0029e58ead0da5eda7d2251b" title="Removes structural changes listener. " alt="" coords="259,11,435,53"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a44cb80bf0164c41ffb268514c515e572" title="Unsubscribes the new structural changes listener. " alt="" coords="483,11,679,53"/>
 </map>

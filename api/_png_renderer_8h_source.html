@@ -107,15 +107,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_png_renderer.html">   14</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_png_renderer.html">PngRenderer</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_renderer.html">Renderer</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keyword">explicit</span> <a class="code" href="class_scheduler_1_1_png_renderer.html#a5c74cda85af31d738c8379e523961e75">PngRenderer</a>(<span class="keyword">const</span> <a class="code" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a>&amp; output_path, std::size_t width = 800, std::size_t height = 600);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keyword">explicit</span> <a class="code" href="class_scheduler_1_1_png_renderer.html#a5c74cda85af31d738c8379e523961e75">PngRenderer</a>(<span class="keyword">const</span> <a class="code" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a>&amp; output_path, std::size_t width = 800, std::size_t height = 600);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <a class="code" href="class_scheduler_1_1_frame.html">Frame</a>&amp; <a class="code" href="class_scheduler_1_1_png_renderer.html#a001d06d762193e881379c83cf2ec5852">nextFrame</a>( ) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keyword">static</span> <a class="code" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> generateName(std::size_t frame_id);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keyword">static</span> <a class="code" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> generateName(std::size_t frame_id);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                std::size_t current_frame_id;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <a class="code" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> output_path;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <a class="code" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> output_path;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                std::shared_ptr&lt;Frame&gt; current_frame;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                std::size_t width;</div>
@@ -125,16 +125,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="_optional_8h_html"><div class="ttname"><a href="_optional_8h.html">Optional.h</a></div></div>
 <div class="ttc" id="class_scheduler_1_1_png_renderer_html"><div class="ttname"><a href="class_scheduler_1_1_png_renderer.html">Scheduler::PngRenderer</a></div><div class="ttdef"><b>Definition:</b> PngRenderer.h:14</div></div>
 <div class="ttc" id="class_scheduler_1_1_png_renderer_html_a001d06d762193e881379c83cf2ec5852"><div class="ttname"><a href="class_scheduler_1_1_png_renderer.html#a001d06d762193e881379c83cf2ec5852">Scheduler::PngRenderer::nextFrame</a></div><div class="ttdeci">Frame &amp; nextFrame() override</div><div class="ttdoc">Starts the next animation frame. </div><div class="ttdef"><b>Definition:</b> PngRenderer.cpp:233</div></div>
-<div class="ttc" id="class_scheduler_1_1_renderer_html"><div class="ttname"><a href="class_scheduler_1_1_renderer.html">Scheduler::Renderer</a></div><div class="ttdoc">Represents debug renderer intefrace. </div><div class="ttdef"><b>Definition:</b> Renderer.h:85</div></div>
+<div class="ttc" id="class_scheduler_1_1_renderer_html"><div class="ttname"><a href="class_scheduler_1_1_renderer.html">Scheduler::Renderer</a></div><div class="ttdoc">Represents debug renderer intefrace. </div><div class="ttdef"><b>Definition:</b> Renderer.h:87</div></div>
 <div class="ttc" id="_renderer_8h_html"><div class="ttname"><a href="_renderer_8h.html">Renderer.h</a></div></div>
-<div class="ttc" id="namespace_scheduler_html_af697328a4e2db88abc5e81af52b4dc23"><div class="ttname"><a href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">Scheduler::String</a></div><div class="ttdeci">std::string String</div><div class="ttdoc">String class to be used inside the scheduler. </div><div class="ttdef"><b>Definition:</b> String.h:10</div></div>
-<div class="ttc" id="class_scheduler_1_1_frame_html"><div class="ttname"><a href="class_scheduler_1_1_frame.html">Scheduler::Frame</a></div><div class="ttdoc">Represents the single animation frame interface where the algorithms can draw their current state...</div><div class="ttdef"><b>Definition:</b> Renderer.h:15</div></div>
+<div class="ttc" id="group__utils_html_gaf697328a4e2db88abc5e81af52b4dc23"><div class="ttname"><a href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">Scheduler::String</a></div><div class="ttdeci">std::string String</div><div class="ttdoc">String class to be used inside the scheduler. </div><div class="ttdef"><b>Definition:</b> String.h:12</div></div>
+<div class="ttc" id="class_scheduler_1_1_frame_html"><div class="ttname"><a href="class_scheduler_1_1_frame.html">Scheduler::Frame</a></div><div class="ttdoc">Represents the single animation frame interface where the algorithms can draw their current state...</div><div class="ttdef"><b>Definition:</b> Renderer.h:17</div></div>
 <div class="ttc" id="class_scheduler_1_1_png_renderer_html_a5c74cda85af31d738c8379e523961e75"><div class="ttname"><a href="class_scheduler_1_1_png_renderer.html#a5c74cda85af31d738c8379e523961e75">Scheduler::PngRenderer::PngRenderer</a></div><div class="ttdeci">PngRenderer(const String &amp;output_path, std::size_t width=800, std::size_t height=600)</div><div class="ttdef"><b>Definition:</b> PngRenderer.cpp:224</div></div>
 <div class="ttc" id="_string_8h_html"><div class="ttname"><a href="_string_8h.html">String.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:08 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

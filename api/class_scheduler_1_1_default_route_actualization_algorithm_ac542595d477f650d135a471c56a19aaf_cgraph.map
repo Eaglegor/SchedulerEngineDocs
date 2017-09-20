@@ -1,11 +1,11 @@
 <map id="Scheduler::DefaultRouteActualizationAlgorithm::actualize" name="Scheduler::DefaultRouteActualizationAlgorithm::actualize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_stop.html#ab823c0744602141694283d5582b72068" title="Scheduler::Stop::getRun" alt="" coords="307,5,472,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="293,56,485,83"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#accc59013f14166a0abed95e946c0f882" title="Scheduler::Run::findStop" alt="" coords="305,107,473,133"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Scheduler::Schedule\l::getStops" alt="" coords="318,158,461,199"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a137a7f0fd441f8df172368f2202438dd" title="Scheduler::Stop::setNext\lRoute" alt="" coords="305,223,474,265"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_stop.html#ace2bb9c4fc45901674bf8fb6a9832ee3" title="Scheduler::Stop::getLocation" alt="" coords="294,289,485,316"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Scheduler::Location\l::getSite" alt="" coords="321,341,458,382"/>
-<area shape="rect" id="node9" href="$class_scheduler_1_1_run.html#ab04d3964415f7841ac20ea7e4b5732da" title="Scheduler::Run::getVehicle" alt="" coords="299,407,480,433"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_stop.html#ab823c0744602141694283d5582b72068" title="Returns the run the stop belongs to. " alt="" coords="307,5,472,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="293,56,485,83"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#accc59013f14166a0abed95e946c0f882" title="Returns iterator to the specified stop. " alt="" coords="305,107,473,133"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Returns list of the stops in the schedule. " alt="" coords="318,158,461,199"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a137a7f0fd441f8df172368f2202438dd" title="Sets the route to the next stop in the schedule. " alt="" coords="305,223,474,265"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_stop.html#ace2bb9c4fc45901674bf8fb6a9832ee3" title="Returns the location of the stop. " alt="" coords="294,289,485,316"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Returns location coordinates. " alt="" coords="321,341,458,382"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_run.html#ab04d3964415f7841ac20ea7e4b5732da" title="Returns the vehicle assigned to the run. " alt="" coords="299,407,480,433"/>
 <area shape="rect" id="node10" href="$class_scheduler_1_1_routing_service.html#a313b056253fdcc4384c54336d0fa6893" title="Calculates route information. " alt="" coords="301,458,478,499"/>
 </map>

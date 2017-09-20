@@ -99,29 +99,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6">   12</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6">FixedPointType</a> = int32_t;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> PRECISION&gt;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="namespace_scheduler.html#a457576ca1462549bbf58f46abff4c984">   23</a></span>&#160;        <a class="code" href="namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6">FixedPointType</a> <a class="code" href="namespace_scheduler.html#a457576ca1462549bbf58f46abff4c984">toFixedPoint</a>(<span class="keywordtype">float</span> value)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(std::trunc(value * <a class="code" href="struct_scheduler_1_1_integer_power.html">IntegerPower&lt;10, PRECISION&gt;::val</a>));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> PRECISION&gt;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="namespace_scheduler.html#aec800da4605b71742f3bac16e85d52a4">   37</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="namespace_scheduler.html#aec800da4605b71742f3bac16e85d52a4">fromFixedPoint</a>(<a class="code" href="namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6">FixedPointType</a> value)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(value) / static_cast&lt;float&gt;(<a class="code" href="struct_scheduler_1_1_integer_power.html">IntegerPower&lt;10, PRECISION&gt;::val</a>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="ttc" id="namespace_scheduler_html_a457576ca1462549bbf58f46abff4c984"><div class="ttname"><a href="namespace_scheduler.html#a457576ca1462549bbf58f46abff4c984">Scheduler::toFixedPoint</a></div><div class="ttdeci">FixedPointType toFixedPoint(float value)</div><div class="ttdoc">Converts the passed floating point value to the fixed point representation. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:23</div></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">   17</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">FixedPointType</a> = int32_t;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> PRECISION&gt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="group__math.html#ga457576ca1462549bbf58f46abff4c984">   28</a></span>&#160;        <a class="code" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">FixedPointType</a> <a class="code" href="group__math.html#ga457576ca1462549bbf58f46abff4c984">toFixedPoint</a>(<span class="keywordtype">float</span> value)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>int32_t<span class="keyword">&gt;</span>(std::trunc(value * <a class="code" href="struct_scheduler_1_1_integer_power.html">IntegerPower&lt;10, PRECISION&gt;::val</a>));</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keyword">template</span> &lt;std::<span class="keywordtype">size_t</span> PRECISION&gt;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="group__math.html#gaec800da4605b71742f3bac16e85d52a4">   42</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="group__math.html#gaec800da4605b71742f3bac16e85d52a4">fromFixedPoint</a>(<a class="code" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">FixedPointType</a> value)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(value) / static_cast&lt;float&gt;(<a class="code" href="struct_scheduler_1_1_integer_power.html">IntegerPower&lt;10, PRECISION&gt;::val</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="ttc" id="group__math_html_gaec800da4605b71742f3bac16e85d52a4"><div class="ttname"><a href="group__math.html#gaec800da4605b71742f3bac16e85d52a4">Scheduler::fromFixedPoint</a></div><div class="ttdeci">float fromFixedPoint(FixedPointType value)</div><div class="ttdoc">Converts the passed fixed point value to the floating point representation. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:42</div></div>
+<div class="ttc" id="group__math_html_ga98d58141d7278350988593cf194fa0e6"><div class="ttname"><a href="group__math.html#ga98d58141d7278350988593cf194fa0e6">Scheduler::FixedPointType</a></div><div class="ttdeci">int32_t FixedPointType</div><div class="ttdoc">Type capable to store the fixed point values used by the engine. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:17</div></div>
 <div class="ttc" id="_integer_power_8h_html"><div class="ttname"><a href="_integer_power_8h.html">IntegerPower.h</a></div></div>
 <div class="ttc" id="struct_scheduler_1_1_integer_power_html"><div class="ttname"><a href="struct_scheduler_1_1_integer_power.html">Scheduler::IntegerPower</a></div><div class="ttdef"><b>Definition:</b> IntegerPower.h:18</div></div>
-<div class="ttc" id="namespace_scheduler_html_a98d58141d7278350988593cf194fa0e6"><div class="ttname"><a href="namespace_scheduler.html#a98d58141d7278350988593cf194fa0e6">Scheduler::FixedPointType</a></div><div class="ttdeci">int32_t FixedPointType</div><div class="ttdoc">Type capable to store the fixed point values used by the engine. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:12</div></div>
-<div class="ttc" id="namespace_scheduler_html_aec800da4605b71742f3bac16e85d52a4"><div class="ttname"><a href="namespace_scheduler.html#aec800da4605b71742f3bac16e85d52a4">Scheduler::fromFixedPoint</a></div><div class="ttdeci">float fromFixedPoint(FixedPointType value)</div><div class="ttdoc">Converts the passed fixed point value to the floating point representation. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:37</div></div>
+<div class="ttc" id="group__math_html_ga457576ca1462549bbf58f46abff4c984"><div class="ttname"><a href="group__math.html#ga457576ca1462549bbf58f46abff4c984">Scheduler::toFixedPoint</a></div><div class="ttdeci">FixedPointType toFixedPoint(float value)</div><div class="ttdoc">Converts the passed floating point value to the fixed point representation. </div><div class="ttdef"><b>Definition:</b> FixedPointMath.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

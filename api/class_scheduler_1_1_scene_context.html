@@ -94,69 +94,101 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_scene_context-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::SceneContext Class Reference</div>  </div>
+<div class="title">Scheduler::SceneContext Class Reference<div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> Routing Problem task definition.  
+ <a href="class_scheduler_1_1_scene_context.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scene_context_8h_source.html">Engine/SceneManager/SceneContext.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab3ac0a03f530d641cebcd65d7e9f06c3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#ab3ac0a03f530d641cebcd65d7e9f06c3">OrdersList</a> = ReferencesVector&lt; const <a class="el" href="class_scheduler_1_1_order.html">Order</a> &gt;</td></tr>
+<tr class="memdesc:ab3ac0a03f530d641cebcd65d7e9f06c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of orders.  <a href="#ab3ac0a03f530d641cebcd65d7e9f06c3">More...</a><br/></td></tr>
 <tr class="separator:ab3ac0a03f530d641cebcd65d7e9f06c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa70e6b72ddb03594ea279a15f8b79d19"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#aa70e6b72ddb03594ea279a15f8b79d19">PerformersList</a> = ReferencesVector&lt; const <a class="el" href="class_scheduler_1_1_performer.html">Performer</a> &gt;</td></tr>
+<tr class="memdesc:aa70e6b72ddb03594ea279a15f8b79d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of performers.  <a href="#aa70e6b72ddb03594ea279a15f8b79d19">More...</a><br/></td></tr>
 <tr class="separator:aa70e6b72ddb03594ea279a15f8b79d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1691aa3b95bf2a63813cf7358fc8ead2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a1691aa3b95bf2a63813cf7358fc8ead2">VehiclesList</a> = ReferencesVector&lt; const <a class="el" href="class_scheduler_1_1_vehicle.html">Vehicle</a> &gt;</td></tr>
+<tr class="memdesc:a1691aa3b95bf2a63813cf7358fc8ead2"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of vehicles.  <a href="#a1691aa3b95bf2a63813cf7358fc8ead2">More...</a><br/></td></tr>
 <tr class="separator:a1691aa3b95bf2a63813cf7358fc8ead2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54f9301f5a8e167ebc973be2371b0a89"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a54f9301f5a8e167ebc973be2371b0a89">LocationsList</a> = ReferencesVector&lt; const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &gt;</td></tr>
+<tr class="memdesc:a54f9301f5a8e167ebc973be2371b0a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of locations.  <a href="#a54f9301f5a8e167ebc973be2371b0a89">More...</a><br/></td></tr>
 <tr class="separator:a54f9301f5a8e167ebc973be2371b0a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a399027eb1c3e9dd30d43fd8b4732dec8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a399027eb1c3e9dd30d43fd8b4732dec8">DepotsList</a> = ReferencesVector&lt; const <a class="el" href="class_scheduler_1_1_depot.html">Depot</a> &gt;</td></tr>
+<tr class="memdesc:a399027eb1c3e9dd30d43fd8b4732dec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of depots.  <a href="#a399027eb1c3e9dd30d43fd8b4732dec8">More...</a><br/></td></tr>
 <tr class="separator:a399027eb1c3e9dd30d43fd8b4732dec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa89f3151520d807c1b9b8c2d05ec2886"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#aa89f3151520d807c1b9b8c2d05ec2886">AttributesMap</a> = std::unordered_map&lt; std::string, <a class="el" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper</a>&lt; const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &gt;&gt;</td></tr>
+<tr class="memdesc:aa89f3151520d807c1b9b8c2d05ec2886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of the attributes.  <a href="#aa89f3151520d807c1b9b8c2d05ec2886">More...</a><br/></td></tr>
 <tr class="separator:aa89f3151520d807c1b9b8c2d05ec2886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a30cc257079bcb3323feb1765c8d03b53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a30cc257079bcb3323feb1765c8d03b53">SceneContext</a> (std::size_t id)</td></tr>
+<tr class="memdesc:a30cc257079bcb3323feb1765c8d03b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a30cc257079bcb3323feb1765c8d03b53">More...</a><br/></td></tr>
 <tr class="separator:a30cc257079bcb3323feb1765c8d03b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b48c5b151c3e7bb860dbc2e8f65d81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a99b48c5b151c3e7bb860dbc2e8f65d81">~SceneContext</a> ()</td></tr>
+<tr class="memdesc:a99b48c5b151c3e7bb860dbc2e8f65d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a99b48c5b151c3e7bb860dbc2e8f65d81">More...</a><br/></td></tr>
 <tr class="separator:a99b48c5b151c3e7bb860dbc2e8f65d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa3bc1c2350083fc9a48074ff10c86d2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#afa3bc1c2350083fc9a48074ff10c86d2">getId</a> () const </td></tr>
+<tr class="memdesc:afa3bc1c2350083fc9a48074ff10c86d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns identifier of scene context.  <a href="#afa3bc1c2350083fc9a48074ff10c86d2">More...</a><br/></td></tr>
 <tr class="separator:afa3bc1c2350083fc9a48074ff10c86d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99dfe309a4829ed419a234a85f0261e1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#ab3ac0a03f530d641cebcd65d7e9f06c3">OrdersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a99dfe309a4829ed419a234a85f0261e1">getOrders</a> () const </td></tr>
+<tr class="memdesc:a99dfe309a4829ed419a234a85f0261e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of orders.  <a href="#a99dfe309a4829ed419a234a85f0261e1">More...</a><br/></td></tr>
 <tr class="separator:a99dfe309a4829ed419a234a85f0261e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4cb2b84947819b913affad0eb68370"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#aa70e6b72ddb03594ea279a15f8b79d19">PerformersList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a4c4cb2b84947819b913affad0eb68370">getPerformers</a> () const </td></tr>
+<tr class="memdesc:a4c4cb2b84947819b913affad0eb68370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of performers.  <a href="#a4c4cb2b84947819b913affad0eb68370">More...</a><br/></td></tr>
 <tr class="separator:a4c4cb2b84947819b913affad0eb68370"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50986cb8864e5feeb4dda7cea4cf0301"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#a1691aa3b95bf2a63813cf7358fc8ead2">VehiclesList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a50986cb8864e5feeb4dda7cea4cf0301">getVehicles</a> () const </td></tr>
+<tr class="memdesc:a50986cb8864e5feeb4dda7cea4cf0301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of vehicles.  <a href="#a50986cb8864e5feeb4dda7cea4cf0301">More...</a><br/></td></tr>
 <tr class="separator:a50986cb8864e5feeb4dda7cea4cf0301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad16353bd48c96c7c83964a39fd02b6d1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#a54f9301f5a8e167ebc973be2371b0a89">LocationsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#ad16353bd48c96c7c83964a39fd02b6d1">getLocations</a> () const </td></tr>
+<tr class="memdesc:ad16353bd48c96c7c83964a39fd02b6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of locations.  <a href="#ad16353bd48c96c7c83964a39fd02b6d1">More...</a><br/></td></tr>
 <tr class="separator:ad16353bd48c96c7c83964a39fd02b6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad774f6da03bf152efe6235bac196aa86"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#a399027eb1c3e9dd30d43fd8b4732dec8">DepotsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#ad774f6da03bf152efe6235bac196aa86">getDepots</a> () const </td></tr>
+<tr class="memdesc:ad774f6da03bf152efe6235bac196aa86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of depots.  <a href="#ad774f6da03bf152efe6235bac196aa86">More...</a><br/></td></tr>
 <tr class="separator:ad774f6da03bf152efe6235bac196aa86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1b847da6cf255fe4d1b19f4bdbe7168"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_context.html#aa89f3151520d807c1b9b8c2d05ec2886">AttributesMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#ac1b847da6cf255fe4d1b19f4bdbe7168">getAttributes</a> () const </td></tr>
+<tr class="memdesc:ac1b847da6cf255fe4d1b19f4bdbe7168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the map of attributes.  <a href="#ac1b847da6cf255fe4d1b19f4bdbe7168">More...</a><br/></td></tr>
 <tr class="separator:ac1b847da6cf255fe4d1b19f4bdbe7168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b048884d2cedf12a0f806ed46f559b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_order.html">Order</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a8b048884d2cedf12a0f806ed46f559b2">createOrder</a> (const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;location)</td></tr>
+<tr class="memdesc:a8b048884d2cedf12a0f806ed46f559b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new order.  <a href="#a8b048884d2cedf12a0f806ed46f559b2">More...</a><br/></td></tr>
 <tr class="separator:a8b048884d2cedf12a0f806ed46f559b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef2cb8cbedde30796412e59753ff9d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_performer.html">Performer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#aef2cb8cbedde30796412e59753ff9d0e">createPerformer</a> ()</td></tr>
+<tr class="memdesc:aef2cb8cbedde30796412e59753ff9d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new performer.  <a href="#aef2cb8cbedde30796412e59753ff9d0e">More...</a><br/></td></tr>
 <tr class="separator:aef2cb8cbedde30796412e59753ff9d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b2fb0e71893d165b457b2301f0159f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_vehicle.html">Vehicle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#ab5b2fb0e71893d165b457b2301f0159f">createVehicle</a> ()</td></tr>
+<tr class="memdesc:ab5b2fb0e71893d165b457b2301f0159f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new vehicle.  <a href="#ab5b2fb0e71893d165b457b2301f0159f">More...</a><br/></td></tr>
 <tr class="separator:ab5b2fb0e71893d165b457b2301f0159f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace065a95dc04c1a2e5327030e8b6294"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#aace065a95dc04c1a2e5327030e8b6294">createLocation</a> (const <a class="el" href="class_scheduler_1_1_site.html">Site</a> &amp;site)</td></tr>
+<tr class="memdesc:aace065a95dc04c1a2e5327030e8b6294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new location.  <a href="#aace065a95dc04c1a2e5327030e8b6294">More...</a><br/></td></tr>
 <tr class="separator:aace065a95dc04c1a2e5327030e8b6294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1f2896aa3456f07f9669903a2e27a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_depot.html">Depot</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a5f1f2896aa3456f07f9669903a2e27a7">createDepot</a> (const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;location)</td></tr>
+<tr class="memdesc:a5f1f2896aa3456f07f9669903a2e27a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new depot.  <a href="#a5f1f2896aa3456f07f9669903a2e27a7">More...</a><br/></td></tr>
 <tr class="separator:a5f1f2896aa3456f07f9669903a2e27a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0c7672e364e0694e2c509d1d06c0fe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a0d0c7672e364e0694e2c509d1d06c0fe">createAttribute</a> (const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp;name)</td></tr>
+<tr class="memitem:a0d0c7672e364e0694e2c509d1d06c0fe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a0d0c7672e364e0694e2c509d1d06c0fe">createAttribute</a> (const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp;name)</td></tr>
+<tr class="memdesc:a0d0c7672e364e0694e2c509d1d06c0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new attribute.  <a href="#a0d0c7672e364e0694e2c509d1d06c0fe">More...</a><br/></td></tr>
 <tr class="separator:a0d0c7672e364e0694e2c509d1d06c0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a825b1d6a5bd872364bc922ee687050ed"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene_constraints.html">SceneConstraints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a825b1d6a5bd872364bc922ee687050ed">constraints</a> () const </td></tr>
+<tr class="memdesc:a825b1d6a5bd872364bc922ee687050ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to the scene constraints.  <a href="#a825b1d6a5bd872364bc922ee687050ed">More...</a><br/></td></tr>
 <tr class="separator:a825b1d6a5bd872364bc922ee687050ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb1e9cac13d4454a66093fd08724761e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_scene_constraints.html">SceneConstraints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#acb1e9cac13d4454a66093fd08724761e">constraints</a> ()</td></tr>
+<tr class="memdesc:acb1e9cac13d4454a66093fd08724761e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to the scene constraints.  <a href="#acb1e9cac13d4454a66093fd08724761e">More...</a><br/></td></tr>
 <tr class="separator:acb1e9cac13d4454a66093fd08724761e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d74e3f83a7508b513feb8cedddec607"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a5d74e3f83a7508b513feb8cedddec607">operator==</a> (const <a class="el" href="class_scheduler_1_1_scene_context.html">SceneContext</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a5d74e3f83a7508b513feb8cedddec607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a5d74e3f83a7508b513feb8cedddec607">More...</a><br/></td></tr>
 <tr class="separator:a5d74e3f83a7508b513feb8cedddec607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a302edd926da07550ca0cf0483cc3cc8a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scene_context.html#a302edd926da07550ca0cf0483cc3cc8a">operator!=</a> (const <a class="el" href="class_scheduler_1_1_scene_context.html">SceneContext</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a302edd926da07550ca0cf0483cc3cc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a302edd926da07550ca0cf0483cc3cc8a">More...</a><br/></td></tr>
 <tr class="separator:a302edd926da07550ca0cf0483cc3cc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> Routing Problem task definition. </p>
+<p><a class="el" href="class_scheduler_1_1_scene.html" title="Solution of Vehicle Routing Problem. ">Scene</a> context is a shared immutable part of VRP solution. It contains orders, resources (performers and vehicles), locations, attributes, depots. <a class="el" href="class_scheduler_1_1_scene.html" title="Solution of Vehicle Routing Problem. ">Scene</a> context doesn't contain any assignments of orders to the resources so it doesn't represent the solution.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_scene.html" title="Solution of Vehicle Routing Problem. ">Scene</a>, <a class="el" href="scene_structure.html">Scene structure</a> </dd></dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa89f3151520d807c1b9b8c2d05ec2886"></a>
 <div class="memitem">
 <div class="memproto">
@@ -166,6 +198,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Map of the attributes. </p>
+<p>Only single attribute is created for every name, this mapping is used to find already created attributes with the same name </p>
 
 </div>
 </div>
@@ -179,6 +214,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>List of depots. </p>
+
 </div>
 </div>
 <a class="anchor" id="a54f9301f5a8e167ebc973be2371b0a89"></a>
@@ -190,6 +227,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>List of locations. </p>
 
 </div>
 </div>
@@ -203,6 +242,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>List of orders. </p>
+
 </div>
 </div>
 <a class="anchor" id="aa70e6b72ddb03594ea279a15f8b79d19"></a>
@@ -215,6 +256,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>List of performers. </p>
+
 </div>
 </div>
 <a class="anchor" id="a1691aa3b95bf2a63813cf7358fc8ead2"></a>
@@ -226,6 +269,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>List of vehicles. </p>
 
 </div>
 </div>
@@ -252,6 +297,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identifier of scene context </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a99b48c5b151c3e7bb860dbc2e8f65d81"></a>
@@ -266,6 +319,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructor. </p>
+<p>Destroys all data (performers, vehicles, depots etc.) </p>
 
 </div>
 </div>
@@ -283,6 +339,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns reference to the scene constraints. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the scene constraints </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="acb1e9cac13d4454a66093fd08724761e"></a>
@@ -298,6 +357,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns reference to the scene constraints. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the scene constraints </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a0d0c7672e364e0694e2c509d1d06c0fe"></a>
@@ -307,12 +369,22 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &amp; Scheduler::SceneContext::createAttribute </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates new attribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of new attribute</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>If the attribute with the specified name was already created reference to it is returned. If no such attribute was defined, it is created.</p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created attribute of the existing one if it was created earlier </dd></dl>
 
 </div>
 </div>
@@ -330,6 +402,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates new depot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">location</td><td><a class="el" href="class_scheduler_1_1_location.html" title="Geographic location. ">Location</a> of the depot</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created depot </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="aace065a95dc04c1a2e5327030e8b6294"></a>
@@ -345,6 +426,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates new location. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">site</td><td>Geographic coordinates of the location</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created location </dd></dl>
 
 </div>
 </div>
@@ -362,6 +452,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates new order. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">location</td><td><a class="el" href="class_scheduler_1_1_location.html" title="Geographic location. ">Location</a> of work operation of order</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created order </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="aef2cb8cbedde30796412e59753ff9d0e"></a>
@@ -376,6 +475,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates new performer. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created performer </dd></dl>
 
 </div>
 </div>
@@ -392,6 +494,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Creates new vehicle. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the created vehicle </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ac1b847da6cf255fe4d1b19f4bdbe7168"></a>
@@ -406,6 +511,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the map of attributes. </p>
+<dl class="section return"><dt>Returns</dt><dd>Map of attributes </dd></dl>
 
 </div>
 </div>
@@ -422,6 +530,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the list of depots. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of depots </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="afa3bc1c2350083fc9a48074ff10c86d2"></a>
@@ -436,6 +547,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns identifier of scene context. </p>
+<dl class="section return"><dt>Returns</dt><dd>Identifier of scene context </dd></dl>
 
 </div>
 </div>
@@ -452,6 +566,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the list of locations. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of locations </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a99dfe309a4829ed419a234a85f0261e1"></a>
@@ -466,6 +583,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the list of orders. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of orders </dd></dl>
 
 </div>
 </div>
@@ -482,6 +602,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the list of performers. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of performers </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a50986cb8864e5feeb4dda7cea4cf0301"></a>
@@ -496,6 +619,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the list of vehicles. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of vehicles </dd></dl>
 
 </div>
 </div>
@@ -513,6 +639,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Inequality operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>another scene context</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of !(rhs == *this) </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a5d74e3f83a7508b513feb8cedddec607"></a>
@@ -529,6 +664,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Equality operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>Another scene context</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true, if rhs is the same object as this, false otherwise </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -538,7 +682,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

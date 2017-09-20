@@ -1,7 +1,7 @@
 <map id="Scheduler::RotateTSPSolver::optimize" name="Scheduler::RotateTSPSolver::optimize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="270,57,413,98"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. " alt="" coords="270,57,413,98"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_rotate_t_s_p_solver.html#a71e1e3645a489b310324b5982461fa2a" title="Optimizes the sequence of orders in the single run of the schedule. " alt="" coords="246,122,437,163"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="485,5,688,32"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="485,5,688,32"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_range_type_adapter.html#a086466509ecac557c954df963510e760" title="Checks if the underlying container is empty. " alt="" coords="487,57,687,98"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_range_type_adapter.html#a771b9e2b748e7e736f823b3055c5cc15" title="Returns the size of the underlying container. " alt="" coords="487,122,687,163"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="507,187,666,229"/>

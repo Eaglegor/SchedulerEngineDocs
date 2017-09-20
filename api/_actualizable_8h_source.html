@@ -99,48 +99,48 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keyword">class </span>Stop;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> Actualizer&gt;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html">   10</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_actualizable.html">Actualizable</a></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">   13</a></span>&#160;                <span class="keyword">explicit</span> <a class="code" href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">Actualizable</a>(<span class="keyword">const</span> Actualizer&amp; actualizer)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                    : actualizer(actualizer)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                }</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0">   18</a></span>&#160;                <span class="keyword">const</span> T&amp; <span class="keyword">get</span>( ) <span class="keyword">const</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        actualizer.get( ).actualize( );</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                        <span class="keywordflow">return</span> value;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">   24</a></span>&#160;                <a class="code" href="class_scheduler_1_1_actualizable.html">Actualizable</a>&amp; <a class="code" href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">operator=</a>(<span class="keyword">const</span> T&amp; value)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        this-&gt;value = value;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">   30</a></span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">setActualizer</a>(<span class="keyword">const</span> Actualizer&amp; actualizer)</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        this-&gt;actualizer = actualizer;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                T value;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper&lt;const Actualizer&gt;</a> actualizer;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        };</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> Actualizer&gt;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html">   18</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_actualizable.html">Actualizable</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">   24</a></span>&#160;                <span class="keyword">explicit</span> <a class="code" href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">Actualizable</a>(<span class="keyword">const</span> Actualizer&amp; actualizer)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    : actualizer(actualizer)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0">   37</a></span>&#160;                <span class="keyword">const</span> T&amp; <span class="keyword">get</span>( ) <span class="keyword">const</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                        actualizer.get( ).actualize( );</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        <span class="keywordflow">return</span> value;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">   50</a></span>&#160;                <a class="code" href="class_scheduler_1_1_actualizable.html">Actualizable</a>&amp; <a class="code" href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">operator=</a>(<span class="keyword">const</span> T&amp; value)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        this-&gt;value = value;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">   61</a></span>&#160;                <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">setActualizer</a>(<span class="keyword">const</span> Actualizer&amp; actualizer)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                        this-&gt;actualizer = actualizer;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                T value;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <a class="code" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper&lt;const Actualizer&gt;</a> actualizer;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        };</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
 <div class="ttc" id="_reference_wrapper_8h_html"><div class="ttname"><a href="_reference_wrapper_8h.html">ReferenceWrapper.h</a></div></div>
-<div class="ttc" id="class_scheduler_1_1_actualizable_html"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html">Scheduler::Actualizable</a></div><div class="ttdef"><b>Definition:</b> Actualizable.h:10</div></div>
-<div class="ttc" id="class_scheduler_1_1_actualizable_html_adc773427260d50eee1d2d69ee08a53ea"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">Scheduler::Actualizable::operator=</a></div><div class="ttdeci">Actualizable &amp; operator=(const T &amp;value)</div><div class="ttdef"><b>Definition:</b> Actualizable.h:24</div></div>
+<div class="ttc" id="class_scheduler_1_1_actualizable_html"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html">Scheduler::Actualizable</a></div><div class="ttdoc">Wraps an object and triggers actualization every time the value is requested. </div><div class="ttdef"><b>Definition:</b> Actualizable.h:18</div></div>
+<div class="ttc" id="class_scheduler_1_1_actualizable_html_adc773427260d50eee1d2d69ee08a53ea"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#adc773427260d50eee1d2d69ee08a53ea">Scheduler::Actualizable::operator=</a></div><div class="ttdeci">Actualizable &amp; operator=(const T &amp;value)</div><div class="ttdoc">Assignment operator. </div><div class="ttdef"><b>Definition:</b> Actualizable.h:50</div></div>
 <div class="ttc" id="namespace_scheduler_html_a4670f86e05085ed3f244375f76d86d48"><div class="ttname"><a href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">Scheduler::ReferenceWrapper</a></div><div class="ttdeci">std::reference_wrapper&lt; T &gt; ReferenceWrapper</div><div class="ttdef"><b>Definition:</b> ReferenceWrapper.h:38</div></div>
-<div class="ttc" id="class_scheduler_1_1_actualizable_html_aab7fbc2a3a9548e662c6587d80835242"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">Scheduler::Actualizable::setActualizer</a></div><div class="ttdeci">void setActualizer(const Actualizer &amp;actualizer)</div><div class="ttdef"><b>Definition:</b> Actualizable.h:30</div></div>
-<div class="ttc" id="class_scheduler_1_1_actualizable_html_a5d75beb8e4911998d0fadc43649761fa"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">Scheduler::Actualizable::Actualizable</a></div><div class="ttdeci">Actualizable(const Actualizer &amp;actualizer)</div><div class="ttdef"><b>Definition:</b> Actualizable.h:13</div></div>
+<div class="ttc" id="class_scheduler_1_1_actualizable_html_aab7fbc2a3a9548e662c6587d80835242"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#aab7fbc2a3a9548e662c6587d80835242">Scheduler::Actualizable::setActualizer</a></div><div class="ttdeci">void setActualizer(const Actualizer &amp;actualizer)</div><div class="ttdoc">Sets the actualization functor. </div><div class="ttdef"><b>Definition:</b> Actualizable.h:61</div></div>
+<div class="ttc" id="class_scheduler_1_1_actualizable_html_a5d75beb8e4911998d0fadc43649761fa"><div class="ttname"><a href="class_scheduler_1_1_actualizable.html#a5d75beb8e4911998d0fadc43649761fa">Scheduler::Actualizable::Actualizable</a></div><div class="ttdeci">Actualizable(const Actualizer &amp;actualizer)</div><div class="ttdoc">Copy constructor. </div><div class="ttdef"><b>Definition:</b> Actualizable.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

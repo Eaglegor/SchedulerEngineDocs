@@ -1,4 +1,4 @@
 <map id="Scheduler::Insertion" name="Scheduler::Insertion">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_cost.html" title="Represents the value type for cost calculations. " alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_order.html" title="Scheduler::Order" alt="" coords="145,5,265,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_order.html" title="Order that has to be completed. " alt="" coords="145,5,265,32"/>
 </map>

@@ -33,8 +33,6 @@ var searchData=
   ['scheduledistancelimitviolation',['ScheduleDistanceLimitViolation',['../class_scheduler_1_1_schedule_distance_limit_violation.html',1,'Scheduler']]],
   ['scheduledrivingtimelimitviolation',['ScheduleDrivingTimeLimitViolation',['../class_scheduler_1_1_schedule_driving_time_limit_violation.html',1,'Scheduler']]],
   ['scheduleshiftdesc',['ScheduleShiftDesc',['../struct_scheduler_1_1_schedule_shift_desc.html',1,'Scheduler']]],
-  ['scheduleshiftendlocationviolation',['ScheduleShiftEndLocationViolation',['../class_scheduler_1_1_schedule_shift_end_location_violation.html',1,'Scheduler']]],
-  ['scheduleshiftstartlocationviolation',['ScheduleShiftStartLocationViolation',['../class_scheduler_1_1_schedule_shift_start_location_violation.html',1,'Scheduler']]],
   ['schedulevalidationmodel',['ScheduleValidationModel',['../class_scheduler_1_1_schedule_validation_model.html',1,'Scheduler']]],
   ['schedulevariant',['ScheduleVariant',['../class_scheduler_1_1_schedule_variant.html',1,'Scheduler']]],
   ['scheduleworkingtimelimitviolation',['ScheduleWorkingTimeLimitViolation',['../class_scheduler_1_1_schedule_working_time_limit_violation.html',1,'Scheduler']]],

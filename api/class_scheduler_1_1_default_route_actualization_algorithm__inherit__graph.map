@@ -1,4 +1,4 @@
 <map id="Scheduler::DefaultRouteActualizationAlgorithm" name="Scheduler::DefaultRouteActualizationAlgorithm">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_route_actualization_algorithm.html" title="Scheduler::RouteActualization\lAlgorithm" alt="" coords="26,81,224,122"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_route_actualization_algorithm.html" title="Algorithm used to update next route for the stop. " alt="" coords="26,81,224,122"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="54,5,196,32"/>
 </map>

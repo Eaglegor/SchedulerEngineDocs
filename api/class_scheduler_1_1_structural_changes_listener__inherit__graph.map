@@ -1,4 +1,4 @@
 <map id="Scheduler::StructuralChangesListener" name="Scheduler::StructuralChangesListener">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_operation_stop_mapping_query.html" title="Scheduler::OperationStop\lMappingQuery" alt="" coords="5,97,176,138"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html" title="Scheduler::StructuralChanges\lObserver" alt="" coords="201,97,396,138"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_operation_stop_mapping_query.html" title="Query interface searching the allocated stop iterator for the specified operation. " alt="" coords="5,97,176,138"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html" title="Observer notifying subscribed listeners about the structural change in the scene. ..." alt="" coords="201,97,396,138"/>
 </map>

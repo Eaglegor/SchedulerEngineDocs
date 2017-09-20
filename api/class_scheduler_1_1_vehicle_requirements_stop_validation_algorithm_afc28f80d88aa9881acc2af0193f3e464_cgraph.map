@@ -1,4 +1,4 @@
 <map id="Scheduler::VehicleRequirementsStopValidationAlgorithm::validate" name="Scheduler::VehicleRequirementsStopValidationAlgorithm::validate">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99" title="Scheduler::ViolationsConsumer\l::supportsViolationType" alt="" coords="267,5,472,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_stop.html#a2972a3bf707259e65fd64a2bc9d6739a" title="Scheduler::Stop::acceptVisitor" alt="" coords="270,71,469,97"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99" title="Checks if the consumer supports processing of the specified violation type. " alt="" coords="267,5,472,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_stop.html#a2972a3bf707259e65fd64a2bc9d6739a" title="Accepts the stop visitor. " alt="" coords="270,71,469,97"/>
 </map>

@@ -1,34 +1,34 @@
 <map id="Scheduler::TspLibSceneLoader::loadScene" name="Scheduler::TspLibSceneLoader::loadScene">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_tsp_lib_scene_loader.html#a3e85cea442066290cc27ba4b57692a7b" title="Scheduler::TspLibSceneLoader\l::loadScene" alt="" coords="256,695,459,737"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_engine.html#a96ff367e43da269dcb75791d32fa1a6b" title="Scheduler::Engine::\lgetSceneManager" alt="" coords="563,5,699,46"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_manager.html#a7030c6d2b00856e9c72bfaf98de087a0" title="Scheduler::SceneManager\l::createSceneContext" alt="" coords="543,70,718,111"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_context.html#ab5b2fb0e71893d165b457b2301f0159f" title="Scheduler::SceneContext\l::createVehicle" alt="" coords="545,135,716,177"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_vehicle.html#ad4632b694f154ca12ed4fcfecfeb227d" title="Scheduler::Vehicle\l::setName" alt="" coords="565,201,696,242"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_context.html#aef2cb8cbedde30796412e59753ff9d0e" title="Scheduler::SceneContext\l::createPerformer" alt="" coords="545,266,716,307"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_performer.html#ad86348892383386a45824ab8bb77c364" title="Scheduler::Performer\l::setName" alt="" coords="558,331,703,373"/>
-<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_context.html#aace065a95dc04c1a2e5327030e8b6294" title="Scheduler::SceneContext\l::createLocation" alt="" coords="545,397,716,438"/>
-<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_context.html#a8b048884d2cedf12a0f806ed46f559b2" title="Scheduler::SceneContext\l::createOrder" alt="" coords="545,462,716,503"/>
-<area shape="rect" id="node11" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Scheduler::Order::getWork\lOperation" alt="" coords="821,645,998,686"/>
-<area shape="rect" id="node12" href="$class_scheduler_1_1_operation.html#a4533efc68d75709240f0e6d8a8d5cae1" title="Scheduler::Operation\l::setName" alt="" coords="559,761,703,802"/>
-<area shape="rect" id="node13" href="$class_scheduler_1_1_operation.html#a16dbd5e3d98f7f145420eaafc493091b" title="Scheduler::Operation\l::setDuration" alt="" coords="559,826,703,867"/>
-<area shape="rect" id="node14" href="$class_scheduler_1_1_scene_manager.html#a038e9f4fd2b98db4154311e5d703311d" title="Scheduler::SceneManager\l::createScene" alt="" coords="543,891,718,933"/>
-<area shape="rect" id="node15" href="$class_scheduler_1_1_scene.html#a94f3422684b6cb90b6fa497601136e7d" title="Scheduler::Scene::create\lSchedule" alt="" coords="546,957,715,998"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_scene_manager.html#a7030c6d2b00856e9c72bfaf98de087a0" title="Creates new scene context. " alt="" coords="543,70,718,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_context.html#ab5b2fb0e71893d165b457b2301f0159f" title="Creates new vehicle. " alt="" coords="545,135,716,177"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_vehicle.html#ad4632b694f154ca12ed4fcfecfeb227d" title="Sets name of the vehicle. " alt="" coords="565,201,696,242"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_context.html#aef2cb8cbedde30796412e59753ff9d0e" title="Creates new performer. " alt="" coords="545,266,716,307"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_performer.html#ad86348892383386a45824ab8bb77c364" title="Sets name of the performer. " alt="" coords="558,331,703,373"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_context.html#aace065a95dc04c1a2e5327030e8b6294" title="Creates new location. " alt="" coords="545,397,716,438"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_context.html#a8b048884d2cedf12a0f806ed46f559b2" title="Creates new order. " alt="" coords="545,462,716,503"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_order.html#a425e7d922e39a8846818caf368b0bf4e" title="Returns the work operation of the order. " alt="" coords="821,645,998,686"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_operation.html#a4533efc68d75709240f0e6d8a8d5cae1" title="Sets name of the operation. " alt="" coords="559,761,703,802"/>
+<area shape="rect" id="node13" href="$class_scheduler_1_1_operation.html#a16dbd5e3d98f7f145420eaafc493091b" title="Sets duration of the operation. " alt="" coords="559,826,703,867"/>
+<area shape="rect" id="node14" href="$class_scheduler_1_1_scene_manager.html#a038e9f4fd2b98db4154311e5d703311d" title="Creates new scene. " alt="" coords="543,891,718,933"/>
+<area shape="rect" id="node15" href="$class_scheduler_1_1_scene.html#a94f3422684b6cb90b6fa497601136e7d" title="Creates new schedule for the specified performer. " alt="" coords="546,957,715,998"/>
 <area shape="rect" id="node16" href="$class_scheduler_1_1_engine.html#ac639bfaee71fff3b85f781be1da314b3" title="Scheduler::Engine::\lgetAlgorithmsManager" alt="" coords="555,1022,707,1063"/>
 <area shape="rect" id="node17" href="$class_scheduler_1_1_algorithms_manager.html#a45db9cc614915289aeed40c086a0892a" title="Creates new algorithm. " alt="" coords="531,1087,731,1129"/>
-<area shape="rect" id="node18" href="$class_scheduler_1_1_schedule_actualization_model.html#a3aaef9e34d1b8d7b06fc03149c90a8eb" title="Scheduler::ScheduleActualization\lModel::setRouteActualizationAlgorithm" alt="" coords="507,1153,755,1194"/>
-<area shape="rect" id="node19" href="$class_scheduler_1_1_schedule.html#a31c26816e30c795b869547e855b1abe4" title="Scheduler::Schedule\l::setActualizationModel" alt="" coords="551,1218,710,1259"/>
-<area shape="rect" id="node20" href="$class_scheduler_1_1_schedule.html#a50d6df3a6c85438ee07018db163266d1" title="Scheduler::Schedule\l::createRun" alt="" coords="559,527,702,569"/>
-<area shape="rect" id="node25" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="559,1283,702,1325"/>
-<area shape="rect" id="node26" href="$class_scheduler_1_1_run.html#a244089113699551f5a399bf9c5c10fd1" title="Scheduler::Run::setVehicle" alt="" coords="540,593,721,620"/>
-<area shape="rect" id="node27" href="$class_scheduler_1_1_run.html#a08d3a0e4cee2cace4b4cbcd0837f3c36" title="Scheduler::Run::allocate\lOrder" alt="" coords="548,695,713,737"/>
-<area shape="rect" id="node32" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="529,1349,732,1376"/>
+<area shape="rect" id="node18" href="$class_scheduler_1_1_schedule_actualization_model.html#a3aaef9e34d1b8d7b06fc03149c90a8eb" title="Sets current route actualization algorithm. " alt="" coords="507,1153,755,1194"/>
+<area shape="rect" id="node19" href="$class_scheduler_1_1_schedule.html#a31c26816e30c795b869547e855b1abe4" title="Sets actualization model for the schedule. " alt="" coords="551,1218,710,1259"/>
+<area shape="rect" id="node20" href="$class_scheduler_1_1_schedule.html#a50d6df3a6c85438ee07018db163266d1" title="Creates new run. " alt="" coords="559,527,702,569"/>
+<area shape="rect" id="node25" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. " alt="" coords="559,1283,702,1325"/>
+<area shape="rect" id="node26" href="$class_scheduler_1_1_run.html#a244089113699551f5a399bf9c5c10fd1" title="Assigns the vehicle to the run. " alt="" coords="540,593,721,620"/>
+<area shape="rect" id="node27" href="$class_scheduler_1_1_run.html#a08d3a0e4cee2cace4b4cbcd0837f3c36" title="Allocates order into the specified position of the run. " alt="" coords="548,695,713,737"/>
+<area shape="rect" id="node32" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="529,1349,732,1376"/>
 <area shape="rect" id="node33" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="516,1400,745,1427"/>
-<area shape="rect" id="node21" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="803,579,1015,621"/>
-<area shape="rect" id="node22" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="823,477,995,504"/>
+<area shape="rect" id="node21" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="803,579,1015,621"/>
+<area shape="rect" id="node22" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Returns all stops of the run. " alt="" coords="823,477,995,504"/>
 <area shape="rect" id="node23" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="827,528,992,555"/>
-<area shape="rect" id="node24" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="811,411,1007,453"/>
-<area shape="rect" id="node28" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="812,906,1007,947"/>
+<area shape="rect" id="node24" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Is called after the new run was created in the schedule. " alt="" coords="811,411,1007,453"/>
+<area shape="rect" id="node28" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Sets dirty flag to the specified value. " alt="" coords="812,906,1007,947"/>
 <area shape="rect" id="node29" href="$class_scheduler_1_1_structural_changes_observer.html#a29df1b2764abaffbf2028dd410da568e" title="Scheduler::StructuralChanges\lObserver::afterWorkStopCreated" alt="" coords="803,710,1016,751"/>
-<area shape="rect" id="node30" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Scheduler::Order::getStart\lOperation" alt="" coords="822,775,997,817"/>
-<area shape="rect" id="node31" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Scheduler::Order::getEnd\lOperation" alt="" coords="825,841,994,882"/>
+<area shape="rect" id="node30" href="$class_scheduler_1_1_order.html#aff8e15e62420e96ce276513c34ed59fa" title="Returns the optional start operation of the order. " alt="" coords="822,775,997,817"/>
+<area shape="rect" id="node31" href="$class_scheduler_1_1_order.html#a60d036fac824f41e29937da2ec745c25" title="Returns the optional end operation of the order. " alt="" coords="825,841,994,882"/>
 </map>

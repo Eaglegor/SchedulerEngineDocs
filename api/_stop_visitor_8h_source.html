@@ -98,26 +98,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keyword">class </span>WorkStop;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keyword">class </span>DepotStop;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_stop_visitor.html">    8</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_stop_visitor.html">StopVisitor</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">   11</a></span>&#160;                <span class="keyword">virtual</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">~StopVisitor</a>( )</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                }</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">dispatch</a>(<a class="code" href="class_scheduler_1_1_work_stop.html">WorkStop</a>&amp; work_stop)          = 0;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">dispatch</a>(<a class="code" href="class_scheduler_1_1_depot_stop.html">DepotStop</a>&amp; run_boundary_stop) = 0;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        };</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="class_scheduler_1_1_work_stop_html"><div class="ttname"><a href="class_scheduler_1_1_work_stop.html">Scheduler::WorkStop</a></div><div class="ttdef"><b>Definition:</b> WorkStop.h:13</div></div>
-<div class="ttc" id="class_scheduler_1_1_stop_visitor_html"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html">Scheduler::StopVisitor</a></div><div class="ttdef"><b>Definition:</b> StopVisitor.h:8</div></div>
-<div class="ttc" id="class_scheduler_1_1_stop_visitor_html_acdb9c7de4f18c048d549b76677f43026"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">Scheduler::StopVisitor::~StopVisitor</a></div><div class="ttdeci">virtual ~StopVisitor()</div><div class="ttdef"><b>Definition:</b> StopVisitor.h:11</div></div>
-<div class="ttc" id="class_scheduler_1_1_stop_visitor_html_adbdcc489aa21f422ba31da170590fb2c"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">Scheduler::StopVisitor::dispatch</a></div><div class="ttdeci">virtual void dispatch(WorkStop &amp;work_stop)=0</div></div>
-<div class="ttc" id="class_scheduler_1_1_depot_stop_html"><div class="ttname"><a href="class_scheduler_1_1_depot_stop.html">Scheduler::DepotStop</a></div><div class="ttdef"><b>Definition:</b> DepotStop.h:14</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_stop_visitor.html">   13</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_stop_visitor.html">StopVisitor</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">   16</a></span>&#160;                <span class="keyword">virtual</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">~StopVisitor</a>( )</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">dispatch</a>(<a class="code" href="class_scheduler_1_1_work_stop.html">WorkStop</a>&amp; work_stop)          = 0;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">dispatch</a>(<a class="code" href="class_scheduler_1_1_depot_stop.html">DepotStop</a>&amp; run_boundary_stop) = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="ttc" id="class_scheduler_1_1_work_stop_html"><div class="ttname"><a href="class_scheduler_1_1_work_stop.html">Scheduler::WorkStop</a></div><div class="ttdoc">Represents work at customer. </div><div class="ttdef"><b>Definition:</b> WorkStop.h:20</div></div>
+<div class="ttc" id="class_scheduler_1_1_stop_visitor_html"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html">Scheduler::StopVisitor</a></div><div class="ttdoc">Represents visitor to process WorkStop and DepotStop in an unified manner. </div><div class="ttdef"><b>Definition:</b> StopVisitor.h:13</div></div>
+<div class="ttc" id="class_scheduler_1_1_stop_visitor_html_acdb9c7de4f18c048d549b76677f43026"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html#acdb9c7de4f18c048d549b76677f43026">Scheduler::StopVisitor::~StopVisitor</a></div><div class="ttdeci">virtual ~StopVisitor()</div><div class="ttdef"><b>Definition:</b> StopVisitor.h:16</div></div>
+<div class="ttc" id="class_scheduler_1_1_stop_visitor_html_adbdcc489aa21f422ba31da170590fb2c"><div class="ttname"><a href="class_scheduler_1_1_stop_visitor.html#adbdcc489aa21f422ba31da170590fb2c">Scheduler::StopVisitor::dispatch</a></div><div class="ttdeci">virtual void dispatch(WorkStop &amp;work_stop)=0</div><div class="ttdoc">Performs action on the instance of WorkStop. </div></div>
+<div class="ttc" id="class_scheduler_1_1_depot_stop_html"><div class="ttname"><a href="class_scheduler_1_1_depot_stop.html">Scheduler::DepotStop</a></div><div class="ttdoc">Represents being in depot in the beginning or in the end of vehicle&#39;s run. </div><div class="ttdef"><b>Definition:</b> DepotStop.h:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

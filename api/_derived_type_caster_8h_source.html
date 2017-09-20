@@ -95,35 +95,35 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Base, <span class="keyword">typename</span> Derived&gt;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html">   12</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        {</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a989a53c83c63fd1137def123fed95e67">   21</a></span>&#160;                Derived&amp; operator( )(Base&amp; value) <span class="keyword">const</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived&amp;<span class="keyword">&gt;</span>(value);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                };</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a8f88a92b7f5bcbc6a13cfc3854bce5ab">   33</a></span>&#160;                <span class="keyword">const</span> Derived&amp; operator( )(<span class="keyword">const</span> Base&amp; value) <span class="keyword">const</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived&amp;<span class="keyword">&gt;</span>(value);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                };</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#af8d457fcf082e94baca20f3c18d92433">   45</a></span>&#160;                Derived* operator( )(Base* value) <span class="keyword">const</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived*<span class="keyword">&gt;</span>(value);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                };</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a34e186cb36a35a568505444a3d232d8d">   57</a></span>&#160;                <span class="keyword">const</span> Derived* operator( )(<span class="keyword">const</span> Base* value) <span class="keyword">const</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived*<span class="keyword">&gt;</span>(value);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                };</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        };</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="ttc" id="struct_scheduler_1_1_derived_type_caster_html"><div class="ttname"><a href="struct_scheduler_1_1_derived_type_caster.html">Scheduler::DerivedTypeCaster</a></div><div class="ttdoc">This class performs the static_cast of base class pointer/reference to the derived class pointer/refe...</div><div class="ttdef"><b>Definition:</b> DerivedTypeCaster.h:12</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Base, <span class="keyword">typename</span> Derived&gt;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html">   14</a></span>&#160;        <span class="keyword">struct </span><a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        {</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a989a53c83c63fd1137def123fed95e67">   23</a></span>&#160;                Derived&amp; operator( )(Base&amp; value) <span class="keyword">const</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived&amp;<span class="keyword">&gt;</span>(value);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                };</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a8f88a92b7f5bcbc6a13cfc3854bce5ab">   35</a></span>&#160;                <span class="keyword">const</span> Derived&amp; operator( )(<span class="keyword">const</span> Base&amp; value) <span class="keyword">const</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived&amp;<span class="keyword">&gt;</span>(value);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                };</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#af8d457fcf082e94baca20f3c18d92433">   47</a></span>&#160;                Derived* operator( )(Base* value) <span class="keyword">const</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived*<span class="keyword">&gt;</span>(value);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                };</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="struct_scheduler_1_1_derived_type_caster.html#a34e186cb36a35a568505444a3d232d8d">   59</a></span>&#160;                <span class="keyword">const</span> Derived* operator( )(<span class="keyword">const</span> Base* value) <span class="keyword">const</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived*<span class="keyword">&gt;</span>(value);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                };</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        };</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="ttc" id="struct_scheduler_1_1_derived_type_caster_html"><div class="ttname"><a href="struct_scheduler_1_1_derived_type_caster.html">Scheduler::DerivedTypeCaster</a></div><div class="ttdoc">This class performs the static_cast of base class pointer/reference to the derived class pointer/refe...</div><div class="ttdef"><b>Definition:</b> DerivedTypeCaster.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:08 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

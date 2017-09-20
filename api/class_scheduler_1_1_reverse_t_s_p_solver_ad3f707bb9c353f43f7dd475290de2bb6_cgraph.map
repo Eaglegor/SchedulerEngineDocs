@@ -1,3 +1,3 @@
 <map id="Scheduler::ReverseTSPSolver::optimize" name="Scheduler::ReverseTSPSolver::optimize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a4753cef90d948b0d3253c93052318565" title="Scheduler::Run::reverseWork\lStops" alt="" coords="253,5,448,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a4753cef90d948b0d3253c93052318565" title="Reverses the order of work stops in the run. " alt="" coords="253,5,448,46"/>
 </map>

@@ -97,24 +97,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_callable_visitor_proxy.html">   11</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_callable_visitor_proxy.html">CallableVisitorProxy</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keyword">template</span> &lt;<span class="keyword">typename</span> VisitorType, <span class="keyword">typename</span> ObjectType, <span class="keyword">typename</span>... VisitorArgs&gt;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">   37</a></span>&#160;                <span class="keyword">static</span> <span class="keyword">typename</span> VisitorType::ReturnType <a class="code" href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">call</a>(ObjectType&amp; type, VisitorArgs&amp;&amp;... visitor_args)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                        VisitorType visitor(std::forward&lt;VisitorArgs&gt;(visitor_args)...);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        type.acceptVisitor(visitor);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        <span class="keywordflow">return</span> visitor.getRetVal( );</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        };</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
-<div class="ttc" id="class_scheduler_1_1_callable_visitor_proxy_html"><div class="ttname"><a href="class_scheduler_1_1_callable_visitor_proxy.html">Scheduler::CallableVisitorProxy</a></div><div class="ttdoc">This class incapsulates the call to the visitor and retrieving results of the visitor operation...</div><div class="ttdef"><b>Definition:</b> CallableVisitorProxy.h:11</div></div>
-<div class="ttc" id="class_scheduler_1_1_callable_visitor_proxy_html_a122b6b8e8cdd8902b970093222bd931c"><div class="ttname"><a href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">Scheduler::CallableVisitorProxy::call</a></div><div class="ttdeci">static VisitorType::ReturnType call(ObjectType &amp;type, VisitorArgs &amp;&amp;...visitor_args)</div><div class="ttdoc">Constructs the specified visitor, passes it to the object and returns the result of the operation sto...</div><div class="ttdef"><b>Definition:</b> CallableVisitorProxy.h:37</div></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_callable_visitor_proxy.html">   13</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_callable_visitor_proxy.html">CallableVisitorProxy</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keyword">template</span> &lt;<span class="keyword">typename</span> VisitorType, <span class="keyword">typename</span> ObjectType, <span class="keyword">typename</span>... VisitorArgs&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">   38</a></span>&#160;                <span class="keyword">static</span> <span class="keyword">typename</span> VisitorType::ReturnType <a class="code" href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">call</a>(ObjectType&amp; type, VisitorArgs&amp;&amp;... visitor_args)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        VisitorType visitor(std::forward&lt;VisitorArgs&gt;(visitor_args)...);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                        type.acceptVisitor(visitor);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                        <span class="keywordflow">return</span> visitor.getRetVal( );</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        };</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<div class="ttc" id="class_scheduler_1_1_callable_visitor_proxy_html"><div class="ttname"><a href="class_scheduler_1_1_callable_visitor_proxy.html">Scheduler::CallableVisitorProxy</a></div><div class="ttdoc">This class incapsulates the call to the visitor and retrieving results of the visitor operation...</div><div class="ttdef"><b>Definition:</b> CallableVisitorProxy.h:13</div></div>
+<div class="ttc" id="class_scheduler_1_1_callable_visitor_proxy_html_a122b6b8e8cdd8902b970093222bd931c"><div class="ttname"><a href="class_scheduler_1_1_callable_visitor_proxy.html#a122b6b8e8cdd8902b970093222bd931c">Scheduler::CallableVisitorProxy::call</a></div><div class="ttdeci">static VisitorType::ReturnType call(ObjectType &amp;type, VisitorArgs &amp;&amp;...visitor_args)</div><div class="ttdoc">Constructs the specified visitor, passes it to the object and returns the result of the operation sto...</div><div class="ttdef"><b>Definition:</b> CallableVisitorProxy.h:38</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

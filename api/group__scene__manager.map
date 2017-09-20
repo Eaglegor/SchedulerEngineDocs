@@ -1,3 +1,5 @@
 <map id="Scene manager" name="Scene manager">
-<area shape="rect" id="node2" href="$group__engine.html" title="Engine" alt="" coords="6,5,69,32"/>
+<area shape="rect" id="node1" href="$group__constraints.html" title="Constraints" alt="" coords="289,5,378,32"/>
+<area shape="rect" id="node4" href="$group__scene__queries.html" title="Scene queries" alt="" coords="281,56,386,83"/>
+<area shape="rect" id="node3" href="$group__engine.html" title="Engine" alt="" coords="6,31,69,57"/>
 </map>

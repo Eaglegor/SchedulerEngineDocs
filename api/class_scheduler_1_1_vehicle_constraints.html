@@ -94,38 +94,52 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_vehicle_constraints-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::VehicleConstraints Class Reference</div>  </div>
+<div class="title">Scheduler::VehicleConstraints Class Reference<div class="ingroups"><a class="el" href="group__constraints.html">Constraints</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> constraints set.  
+ <a href="class_scheduler_1_1_vehicle_constraints.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_vehicle_constraints_8h_source.html">Engine/SceneManager/Constraints/Vehicle/VehicleConstraints.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a62400eff98e6686d52c05544f8b48f3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a62400eff98e6686d52c05544f8b48f3d">CapacityConstraint</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; <a class="el" href="class_scheduler_1_1_capacity.html">Capacity</a> &gt;</td></tr>
+<tr class="memdesc:a62400eff98e6686d52c05544f8b48f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> capacity constraint.  <a href="#a62400eff98e6686d52c05544f8b48f3d">More...</a><br/></td></tr>
 <tr class="separator:a62400eff98e6686d52c05544f8b48f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad278aadc455257ec6fe1de903bd7eaa3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ad278aadc455257ec6fe1de903bd7eaa3">AvailabilityWindowsConstraint</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; std::vector&lt; <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &gt;&gt;</td></tr>
+<tr class="memdesc:ad278aadc455257ec6fe1de903bd7eaa3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> availability windows constraint.  <a href="#ad278aadc455257ec6fe1de903bd7eaa3">More...</a><br/></td></tr>
 <tr class="separator:ad278aadc455257ec6fe1de903bd7eaa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a121aec8ea4daa1107730f48780f314db"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a121aec8ea4daa1107730f48780f314db">DepotConstraint</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; const <a class="el" href="class_scheduler_1_1_depot.html">Depot</a> &amp; &gt;</td></tr>
+<tr class="memdesc:a121aec8ea4daa1107730f48780f314db"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_depot.html" title="Represents the distribution base (warehouse, headquarter etc.) ">Depot</a> binding constraint.  <a href="#a121aec8ea4daa1107730f48780f314db">More...</a><br/></td></tr>
 <tr class="separator:a121aec8ea4daa1107730f48780f314db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a82c7b81017189245bbd358cef50eb3b3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a62400eff98e6686d52c05544f8b48f3d">CapacityConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a82c7b81017189245bbd358cef50eb3b3">capacity</a> () const </td></tr>
+<tr class="memdesc:a82c7b81017189245bbd358cef50eb3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle capacity constraint.  <a href="#a82c7b81017189245bbd358cef50eb3b3">More...</a><br/></td></tr>
 <tr class="separator:a82c7b81017189245bbd358cef50eb3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad92d1cb4abc077cf8374b6fce5f80987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a62400eff98e6686d52c05544f8b48f3d">CapacityConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ad92d1cb4abc077cf8374b6fce5f80987">capacity</a> ()</td></tr>
+<tr class="memdesc:ad92d1cb4abc077cf8374b6fce5f80987"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle capacity constraint.  <a href="#ad92d1cb4abc077cf8374b6fce5f80987">More...</a><br/></td></tr>
 <tr class="separator:ad92d1cb4abc077cf8374b6fce5f80987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45723208aaf14d8e4107f462c87c6915"><td class="memItemLeft" align="right" valign="top">const <br class="typebreak"/>
 <a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ad278aadc455257ec6fe1de903bd7eaa3">AvailabilityWindowsConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a45723208aaf14d8e4107f462c87c6915">availabilityWindows</a> () const </td></tr>
+<tr class="memdesc:a45723208aaf14d8e4107f462c87c6915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle availability windows constraint.  <a href="#a45723208aaf14d8e4107f462c87c6915">More...</a><br/></td></tr>
 <tr class="separator:a45723208aaf14d8e4107f462c87c6915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5421cc90820aa69d194ddc80b438ed86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ad278aadc455257ec6fe1de903bd7eaa3">AvailabilityWindowsConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a5421cc90820aa69d194ddc80b438ed86">availabilityWindows</a> ()</td></tr>
+<tr class="memdesc:a5421cc90820aa69d194ddc80b438ed86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle availability windows constraint.  <a href="#a5421cc90820aa69d194ddc80b438ed86">More...</a><br/></td></tr>
 <tr class="separator:a5421cc90820aa69d194ddc80b438ed86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6df739460e1660390852bb6452a53eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a121aec8ea4daa1107730f48780f314db">DepotConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ac6df739460e1660390852bb6452a53eb">depot</a> () const </td></tr>
+<tr class="memdesc:ac6df739460e1660390852bb6452a53eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns depot binding constraint.  <a href="#ac6df739460e1660390852bb6452a53eb">More...</a><br/></td></tr>
 <tr class="separator:ac6df739460e1660390852bb6452a53eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25be008ed2d18fc5b8cc0fdfa637644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#a121aec8ea4daa1107730f48780f314db">DepotConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_vehicle_constraints.html#ad25be008ed2d18fc5b8cc0fdfa637644">depot</a> ()</td></tr>
+<tr class="memdesc:ad25be008ed2d18fc5b8cc0fdfa637644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns depot binding constraint.  <a href="#ad25be008ed2d18fc5b8cc0fdfa637644">More...</a><br/></td></tr>
 <tr class="separator:ad25be008ed2d18fc5b8cc0fdfa637644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> constraints set. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="ad278aadc455257ec6fe1de903bd7eaa3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -135,6 +149,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> availability windows constraint. </p>
 
 </div>
 </div>
@@ -148,6 +164,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> capacity constraint. </p>
+
 </div>
 </div>
 <a class="anchor" id="a121aec8ea4daa1107730f48780f314db"></a>
@@ -159,6 +177,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="class_scheduler_1_1_depot.html" title="Represents the distribution base (warehouse, headquarter etc.) ">Depot</a> binding constraint. </p>
 
 </div>
 </div>
@@ -176,6 +196,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns vehicle availability windows constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> availability windows constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a5421cc90820aa69d194ddc80b438ed86"></a>
@@ -190,6 +213,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns vehicle availability windows constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> availability windows constraint </dd></dl>
 
 </div>
 </div>
@@ -206,6 +232,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns vehicle capacity constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> capacity constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ad92d1cb4abc077cf8374b6fce5f80987"></a>
@@ -220,6 +249,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns vehicle capacity constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> capacity constraint </dd></dl>
 
 </div>
 </div>
@@ -236,6 +268,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns depot binding constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_depot.html" title="Represents the distribution base (warehouse, headquarter etc.) ">Depot</a> binding constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ad25be008ed2d18fc5b8cc0fdfa637644"></a>
@@ -251,6 +286,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns depot binding constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_depot.html" title="Represents the distribution base (warehouse, headquarter etc.) ">Depot</a> binding constraint </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -260,7 +298,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

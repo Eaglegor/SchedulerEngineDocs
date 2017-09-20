@@ -1,5 +1,5 @@
 <map id="Scheduler::DestroyRun::perform" name="Scheduler::DestroyRun::perform">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Scheduler::Schedule\l::detachRun" alt="" coords="214,38,357,79"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Scheduler::StructuralChanges\lObserver::beforeRunDestroyed" alt="" coords="411,5,613,46"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="406,70,618,111"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Detaches the run. " alt="" coords="214,38,357,79"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Is called before the run is destroyed. " alt="" coords="411,5,613,46"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="406,70,618,111"/>
 </map>

@@ -4,7 +4,7 @@
 <area shape="rect" id="node12" href="$class_scheduler_1_1_instance_based_solution_generator.html#ad7ee55f42e98c338f69e12a3ef21af4d" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lBlockInsert" alt="" coords="771,551,983,607"/>
 <area shape="rect" id="node14" href="$class_scheduler_1_1_instance_based_solution_generator.html#a0ab3fcfabd289e05393f538673b2517c" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lVertexInsert" alt="" coords="771,712,983,768"/>
 <area shape="rect" id="node16" href="$class_scheduler_1_1_instance_based_solution_generator.html#a9270af22c54cf36d206eefa2a52ea0ec" title="Scheduler::InstanceBased\lSolutionGenerator::addEdgeWith\lVertexSwap" alt="" coords="771,311,983,367"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="1312,441,1515,468"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="1312,441,1515,468"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a3f4ac3a518816bf074f8808dad2fe427" title="Returns iterator pointing to the end. " alt="" coords="1035,391,1264,417"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Returns iterator pointing to the beginning. " alt="" coords="1313,631,1513,673"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_solution_generator.html#af059761f06b71482e94a7bf95fd83e10" title="Scheduler::SolutionGenerator\l::selectRandomMutation" alt="" coords="1053,5,1245,46"/>

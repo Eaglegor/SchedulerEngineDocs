@@ -1,6 +1,6 @@
 <map id="Scheduler::OperationStopMappingQuery::beforeRunDestroyed" name="Scheduler::OperationStopMappingQuery::beforeRunDestroyed">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Scheduler::Run::getStartStop" alt="" coords="293,5,486,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_depot_stop.html#a5f39d9a133c8ff77981edbe56ba101e8" title="Scheduler::DepotStop\l::getOperations" alt="" coords="314,57,465,98"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="288,123,491,149"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html#af0925aa22d20d122a79e0a5d66786774" title="Scheduler::Run::getEndStop" alt="" coords="295,173,483,200"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Returns start stop of the run (e.g. depot or performer&#39;s home) " alt="" coords="293,5,486,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_depot_stop.html#a5f39d9a133c8ff77981edbe56ba101e8" title="Returns operations belonging to this stop. " alt="" coords="314,57,465,98"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="288,123,491,149"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html#af0925aa22d20d122a79e0a5d66786774" title="Returns end stop of the run (e.g. depot or performer&#39;s home) " alt="" coords="295,173,483,200"/>
 </map>

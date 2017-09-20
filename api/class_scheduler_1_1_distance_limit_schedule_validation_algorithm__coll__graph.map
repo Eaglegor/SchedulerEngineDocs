@@ -1,4 +1,4 @@
 <map id="Scheduler::DistanceLimitScheduleValidationAlgorithm" name="Scheduler::DistanceLimitScheduleValidationAlgorithm">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_validation_algorithm.html" title="ScheduleValidationAlgorithm" alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_validation_algorithm.html" title="Interface of the algorithm used to validate constraints satisfaction. " alt="" coords="5,80,192,107"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="27,5,169,32"/>
 </map>

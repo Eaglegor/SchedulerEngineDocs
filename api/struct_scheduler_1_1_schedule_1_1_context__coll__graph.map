@@ -1,6 +1,6 @@
 <map id="Scheduler::Schedule::Context" name="Scheduler::Schedule::Context">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_scene_objects_factory.html" title="Scheduler::SceneObjectsFactory\l\&lt; Scheduler::Run \&gt;" alt="" coords="254,5,469,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html" title="Scheduler::StructuralChanges\lObserver" alt="" coords="263,70,459,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_structural_changes_listener.html" title="Scheduler::StructuralChanges\lListener" alt="" coords="6,70,202,111"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_structural_changes_observer.html" title="Observer notifying subscribed listeners about the structural change in the scene. ..." alt="" coords="263,70,459,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_structural_changes_listener.html" title="Listener of the structural changes in the scene. " alt="" coords="6,70,202,111"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_scene_objects_factory.html" title="Scheduler::SceneObjectsFactory\l\&lt; Scheduler::WorkStop \&gt;" alt="" coords="254,135,469,177"/>
 </map>

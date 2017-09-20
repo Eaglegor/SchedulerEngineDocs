@@ -99,19 +99,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> BaseContainer&gt;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="namespace_scheduler.html#a203b0dc899d8c29b2b85472b22358c5e">   18</a></span>&#160;        <span class="keyword">auto</span> <a class="code" href="namespace_scheduler.html#a203b0dc899d8c29b2b85472b22358c5e">make_autocast_range</a>(BaseContainer&amp; container) -&gt; decltype(container | boost::adaptors::transformed(<a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster&lt;typename BaseContainer::value_type, T&gt;</a>( )))</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">return</span> container | boost::adaptors::transformed(<a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster&lt;typename BaseContainer::value_type, T&gt;</a>( ));</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="ttc" id="struct_scheduler_1_1_derived_type_caster_html"><div class="ttname"><a href="struct_scheduler_1_1_derived_type_caster.html">Scheduler::DerivedTypeCaster</a></div><div class="ttdoc">This class performs the static_cast of base class pointer/reference to the derived class pointer/refe...</div><div class="ttdef"><b>Definition:</b> DerivedTypeCaster.h:12</div></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> BaseContainer&gt;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="group__utils.html#ga203b0dc899d8c29b2b85472b22358c5e">   20</a></span>&#160;        <span class="keyword">auto</span> <a class="code" href="group__utils.html#ga203b0dc899d8c29b2b85472b22358c5e">make_autocast_range</a>(BaseContainer&amp; container) -&gt; decltype(container | boost::adaptors::transformed(<a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster&lt;typename BaseContainer::value_type, T&gt;</a>( )))</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> container | boost::adaptors::transformed(<a class="code" href="struct_scheduler_1_1_derived_type_caster.html">DerivedTypeCaster&lt;typename BaseContainer::value_type, T&gt;</a>( ));</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="ttc" id="group__utils_html_ga203b0dc899d8c29b2b85472b22358c5e"><div class="ttname"><a href="group__utils.html#ga203b0dc899d8c29b2b85472b22358c5e">Scheduler::make_autocast_range</a></div><div class="ttdeci">auto make_autocast_range(BaseContainer &amp;container) -&gt; decltype(container|boost::adaptors::transformed(DerivedTypeCaster&lt; typename BaseContainer::value_type, T &gt;()))</div><div class="ttdoc">Creates an autocast range, i.e. container adapter that casts all elements to T on retrieving...</div><div class="ttdef"><b>Definition:</b> AutoCastRange.h:20</div></div>
+<div class="ttc" id="struct_scheduler_1_1_derived_type_caster_html"><div class="ttname"><a href="struct_scheduler_1_1_derived_type_caster.html">Scheduler::DerivedTypeCaster</a></div><div class="ttdoc">This class performs the static_cast of base class pointer/reference to the derived class pointer/refe...</div><div class="ttdef"><b>Definition:</b> DerivedTypeCaster.h:14</div></div>
 <div class="ttc" id="_derived_type_caster_8h_html"><div class="ttname"><a href="_derived_type_caster_8h.html">DerivedTypeCaster.h</a></div></div>
-<div class="ttc" id="namespace_scheduler_html_a203b0dc899d8c29b2b85472b22358c5e"><div class="ttname"><a href="namespace_scheduler.html#a203b0dc899d8c29b2b85472b22358c5e">Scheduler::make_autocast_range</a></div><div class="ttdeci">auto make_autocast_range(BaseContainer &amp;container) -&gt; decltype(container|boost::adaptors::transformed(DerivedTypeCaster&lt; typename BaseContainer::value_type, T &gt;()))</div><div class="ttdoc">Creates an autocast range, i.e. container adapter that casts all elements to T on retrieving...</div><div class="ttdef"><b>Definition:</b> AutoCastRange.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

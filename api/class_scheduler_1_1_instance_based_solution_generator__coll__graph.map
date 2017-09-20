@@ -1,7 +1,7 @@
 <map id="Scheduler::InstanceBasedSolutionGenerator" name="Scheduler::InstanceBasedSolutionGenerator">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_solution_generator.html" title="Scheduler::SolutionGenerator" alt="" coords="629,56,821,83"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_scene_editor.html" title="Scheduler::SceneEditor" alt="" coords="283,5,442,32"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html" title="Scheduler::Run" alt="" coords="307,107,419,133"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html" title="Part of resource schedule. " alt="" coords="307,107,419,133"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_range_type_adapter_1_1_iterator.html" title="Iterator class wrapping the underlying collection iterator and casting values to the specified class..." alt="" coords="259,157,466,213"/>
 <area shape="rect" id="node11" title="STL class. " alt="" coords="305,244,421,271"/>
 </map>

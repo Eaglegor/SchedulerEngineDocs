@@ -98,22 +98,22 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span>Scheduler</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keyword">class </span>Stop;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_route_actualization_algorithm.html">    9</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_route_actualization_algorithm.html">RouteActualizationAlgorithm</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_algorithm.html">Algorithm</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f">actualize</a>(<a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        };</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="class_scheduler_1_1_stop_html"><div class="ttname"><a href="class_scheduler_1_1_stop.html">Scheduler::Stop</a></div><div class="ttdef"><b>Definition:</b> Stop.h:33</div></div>
-<div class="ttc" id="class_scheduler_1_1_route_actualization_algorithm_html_a5342ccd7871ece428d690555df92bb5f"><div class="ttname"><a href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f">Scheduler::RouteActualizationAlgorithm::actualize</a></div><div class="ttdeci">virtual void actualize(Stop &amp;stop) const =0</div></div>
-<div class="ttc" id="class_scheduler_1_1_route_actualization_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_route_actualization_algorithm.html">Scheduler::RouteActualizationAlgorithm</a></div><div class="ttdef"><b>Definition:</b> RouteActualizationAlgorithm.h:9</div></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_scheduler_1_1_route_actualization_algorithm.html">   16</a></span>&#160;        <span class="keyword">class </span><a class="code" href="class_scheduler_1_1_route_actualization_algorithm.html">RouteActualizationAlgorithm</a> : <span class="keyword">public</span> <a class="code" href="class_scheduler_1_1_algorithm.html">Algorithm</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f">actualize</a>(<a class="code" href="class_scheduler_1_1_stop.html">Stop</a>&amp; stop) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="ttc" id="class_scheduler_1_1_stop_html"><div class="ttname"><a href="class_scheduler_1_1_stop.html">Scheduler::Stop</a></div><div class="ttdoc">Planned operation performance (servicing order, loading at depot, unloading at depot) ...</div><div class="ttdef"><b>Definition:</b> Stop.h:40</div></div>
+<div class="ttc" id="class_scheduler_1_1_route_actualization_algorithm_html_a5342ccd7871ece428d690555df92bb5f"><div class="ttname"><a href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f">Scheduler::RouteActualizationAlgorithm::actualize</a></div><div class="ttdeci">virtual void actualize(Stop &amp;stop) const =0</div><div class="ttdoc">Updates next route for the stop. </div></div>
+<div class="ttc" id="class_scheduler_1_1_route_actualization_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_route_actualization_algorithm.html">Scheduler::RouteActualizationAlgorithm</a></div><div class="ttdoc">Algorithm used to update next route for the stop. </div><div class="ttdef"><b>Definition:</b> RouteActualizationAlgorithm.h:16</div></div>
 <div class="ttc" id="_algorithm_8h_html"><div class="ttname"><a href="_algorithm_8h.html">Algorithm.h</a></div></div>
-<div class="ttc" id="class_scheduler_1_1_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_algorithm.html">Scheduler::Algorithm</a></div><div class="ttdoc">Represents the abstract algorithm interface. </div><div class="ttdef"><b>Definition:</b> Algorithm.h:8</div></div>
+<div class="ttc" id="class_scheduler_1_1_algorithm_html"><div class="ttname"><a href="class_scheduler_1_1_algorithm.html">Scheduler::Algorithm</a></div><div class="ttdoc">Represents the abstract algorithm interface. </div><div class="ttdef"><b>Definition:</b> Algorithm.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:07 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:15 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_scheduler_1_1_stop_visitor.html" title="Scheduler::StopVisitor" alt="" coords="5,12,157,39"/>
+<area shape="rect" id="node1" href="$class_scheduler_1_1_stop_visitor.html" title="Represents visitor to process WorkStop and DepotStop in an unified manner. " alt="" coords="5,12,157,39"/>
 <area shape="rect" id="node2" href="$class_scheduler_1_1_total_operation_duration_getter.html" title="Scheduler::TotalOperation\lDurationGetter" alt="" coords="205,5,379,46"/>
 </map>

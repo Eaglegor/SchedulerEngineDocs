@@ -1,7 +1,7 @@
 <map id="Scheduler::Schedule::attachRun" name="Scheduler::Schedule::attachRun">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="208,5,400,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="218,56,390,83"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="208,5,400,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Returns all stops of the run. " alt="" coords="218,56,390,83"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,107,387,133"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,158,410,199"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="206,223,402,265"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,158,410,199"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Is called after the new run was created in the schedule. " alt="" coords="206,223,402,265"/>
 </map>

@@ -95,101 +95,144 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_schedule-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::Schedule Class Reference</div>  </div>
+<div class="title">Scheduler::Schedule Class Reference<div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The work shift plan of the resource.  
+ <a href="class_scheduler_1_1_schedule.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_schedule_8h_source.html">Engine/SceneManager/Schedule.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_schedule_1_1_context.html">Context</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal context of the schedule.  <a href="struct_scheduler_1_1_schedule_1_1_context.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ac619acf7bcc9d8b21cdf64d6e715cef3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ac619acf7bcc9d8b21cdf64d6e715cef3">RunsList</a> = std::vector&lt; <a class="el" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper</a>&lt; <a class="el" href="class_scheduler_1_1_run.html">Run</a> &gt;&gt;</td></tr>
+<tr class="memdesc:ac619acf7bcc9d8b21cdf64d6e715cef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of runs in the schedule.  <a href="#ac619acf7bcc9d8b21cdf64d6e715cef3">More...</a><br/></td></tr>
 <tr class="separator:ac619acf7bcc9d8b21cdf64d6e715cef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d309d7e9e175bce4bca7be445093bf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a> = RunsList::iterator</td></tr>
+<tr class="memdesc:ac0d309d7e9e175bce4bca7be445093bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to the run of the schedule.  <a href="#ac0d309d7e9e175bce4bca7be445093bf">More...</a><br/></td></tr>
 <tr class="separator:ac0d309d7e9e175bce4bca7be445093bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c27f398e356d4ebd21f826a6a542272"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a> = RunsList::const_iterator</td></tr>
+<tr class="memdesc:a7c27f398e356d4ebd21f826a6a542272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator to the run of the schedule.  <a href="#a7c27f398e356d4ebd21f826a6a542272">More...</a><br/></td></tr>
 <tr class="separator:a7c27f398e356d4ebd21f826a6a542272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b112e69b91182e000967dcc46cf944"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ac2b112e69b91182e000967dcc46cf944">RunDestructor</a> = std::function&lt; void(<a class="el" href="class_scheduler_1_1_run.html">Run</a> *)&gt;</td></tr>
+<tr class="memdesc:ac2b112e69b91182e000967dcc46cf944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface of destruction functor for the run.  <a href="#ac2b112e69b91182e000967dcc46cf944">More...</a><br/></td></tr>
 <tr class="separator:ac2b112e69b91182e000967dcc46cf944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7eeed77a699cfaeb3290cf941c5feb7a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a7eeed77a699cfaeb3290cf941c5feb7a">StopsList</a> = StopsIntrusiveList</td></tr>
+<tr class="memdesc:a7eeed77a699cfaeb3290cf941c5feb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of stops in the schedule.  <a href="#a7eeed77a699cfaeb3290cf941c5feb7a">More...</a><br/></td></tr>
 <tr class="separator:a7eeed77a699cfaeb3290cf941c5feb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a09044f532fa2b17e3635c730765d7f1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a09044f532fa2b17e3635c730765d7f1c">Schedule</a> (std::size_t id, const <a class="el" href="struct_scheduler_1_1_schedule_1_1_context.html">Context</a> &amp;context, const <a class="el" href="class_scheduler_1_1_performer.html">Performer</a> &amp;performer, const <a class="el" href="class_scheduler_1_1_scene.html">Scene</a> &amp;scene)</td></tr>
+<tr class="memdesc:a09044f532fa2b17e3635c730765d7f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a09044f532fa2b17e3635c730765d7f1c">More...</a><br/></td></tr>
 <tr class="separator:a09044f532fa2b17e3635c730765d7f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d85fc339cb5213ee623233684ad9e40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a1d85fc339cb5213ee623233684ad9e40">~Schedule</a> ()</td></tr>
+<tr class="memdesc:a1d85fc339cb5213ee623233684ad9e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1d85fc339cb5213ee623233684ad9e40">More...</a><br/></td></tr>
 <tr class="separator:a1d85fc339cb5213ee623233684ad9e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7629b1ed50681cb4076e971a573cb4"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a1c7629b1ed50681cb4076e971a573cb4">getId</a> () const </td></tr>
+<tr class="memdesc:a1c7629b1ed50681cb4076e971a573cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns identifier of the schedule.  <a href="#a1c7629b1ed50681cb4076e971a573cb4">More...</a><br/></td></tr>
 <tr class="separator:a1c7629b1ed50681cb4076e971a573cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbddae6a24881e276cfc1eea6e04c0f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#acbddae6a24881e276cfc1eea6e04c0f0">getName</a> () const </td></tr>
+<tr class="memitem:acbddae6a24881e276cfc1eea6e04c0f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#acbddae6a24881e276cfc1eea6e04c0f0">getName</a> () const </td></tr>
+<tr class="memdesc:acbddae6a24881e276cfc1eea6e04c0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns name of the schedule.  <a href="#acbddae6a24881e276cfc1eea6e04c0f0">More...</a><br/></td></tr>
 <tr class="separator:acbddae6a24881e276cfc1eea6e04c0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27eb66887e3c26413932b73e4035fb60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a27eb66887e3c26413932b73e4035fb60">setName</a> (const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp;name)</td></tr>
+<tr class="memitem:a27eb66887e3c26413932b73e4035fb60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a27eb66887e3c26413932b73e4035fb60">setName</a> (const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp;name)</td></tr>
+<tr class="memdesc:a27eb66887e3c26413932b73e4035fb60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets name of the schedule.  <a href="#a27eb66887e3c26413932b73e4035fb60">More...</a><br/></td></tr>
 <tr class="separator:a27eb66887e3c26413932b73e4035fb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd00fd9ac91137f6764c8d1c9340f78"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_performer.html">Performer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a2cd00fd9ac91137f6764c8d1c9340f78">getPerformer</a> () const </td></tr>
+<tr class="memdesc:a2cd00fd9ac91137f6764c8d1c9340f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns performer which the schedule is defined for.  <a href="#a2cd00fd9ac91137f6764c8d1c9340f78">More...</a><br/></td></tr>
 <tr class="separator:a2cd00fd9ac91137f6764c8d1c9340f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c8610da600575f35dde83a7d845fb1d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_schedule.html#ac619acf7bcc9d8b21cdf64d6e715cef3">RunsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d">getRuns</a> () const </td></tr>
+<tr class="memdesc:a0c8610da600575f35dde83a7d845fb1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of runs in the schedule.  <a href="#a0c8610da600575f35dde83a7d845fb1d">More...</a><br/></td></tr>
 <tr class="separator:a0c8610da600575f35dde83a7d845fb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50d6df3a6c85438ee07018db163266d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a50d6df3a6c85438ee07018db163266d1">createRun</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a> pos, const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;from, const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;to)</td></tr>
+<tr class="memdesc:a50d6df3a6c85438ee07018db163266d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new run.  <a href="#a50d6df3a6c85438ee07018db163266d1">More...</a><br/></td></tr>
 <tr class="separator:a50d6df3a6c85438ee07018db163266d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e97b7d4b739b191182992c7f579fc01"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_schedule.html#a7eeed77a699cfaeb3290cf941c5feb7a">StopsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01">getStops</a> () const </td></tr>
+<tr class="memdesc:a1e97b7d4b739b191182992c7f579fc01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns list of the stops in the schedule.  <a href="#a1e97b7d4b739b191182992c7f579fc01">More...</a><br/></td></tr>
 <tr class="separator:a1e97b7d4b739b191182992c7f579fc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e9381a9f19fab80f4fd01858b3b2b82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#a7eeed77a699cfaeb3290cf941c5feb7a">StopsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a3e9381a9f19fab80f4fd01858b3b2b82">getStops</a> ()</td></tr>
+<tr class="memdesc:a3e9381a9f19fab80f4fd01858b3b2b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns list of the stops in the schedule.  <a href="#a3e9381a9f19fab80f4fd01858b3b2b82">More...</a><br/></td></tr>
 <tr class="separator:a3e9381a9f19fab80f4fd01858b3b2b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b81959509311eea1351b169f36c4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ac4b81959509311eea1351b169f36c4ac">empty</a> () const </td></tr>
+<tr class="memdesc:ac4b81959509311eea1351b169f36c4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the schedule is empty.  <a href="#ac4b81959509311eea1351b169f36c4ac">More...</a><br/></td></tr>
 <tr class="separator:ac4b81959509311eea1351b169f36c4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ac425292ed8db3e0890351faa17d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a10ac425292ed8db3e0890351faa17d1f">destroyRun</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a> pos)</td></tr>
+<tr class="memdesc:a10ac425292ed8db3e0890351faa17d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the run.  <a href="#a10ac425292ed8db3e0890351faa17d1f">More...</a><br/></td></tr>
 <tr class="separator:a10ac425292ed8db3e0890351faa17d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd2fa4d02bb215a94ac99ee6b27cb2fe"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a>, <br class="typebreak"/>
 <a class="el" href="class_scheduler_1_1_schedule.html#ac2b112e69b91182e000967dcc46cf944">RunDestructor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe">detachRun</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a> pos)</td></tr>
+<tr class="memdesc:acd2fa4d02bb215a94ac99ee6b27cb2fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detaches the run.  <a href="#acd2fa4d02bb215a94ac99ee6b27cb2fe">More...</a><br/></td></tr>
 <tr class="separator:acd2fa4d02bb215a94ac99ee6b27cb2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fe229a0ce9f7321c40f8207254cc317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a4fe229a0ce9f7321c40f8207254cc317">attachRun</a> (<a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a> pos, <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;run)</td></tr>
+<tr class="memdesc:a4fe229a0ce9f7321c40f8207254cc317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches the previously detached run.  <a href="#a4fe229a0ce9f7321c40f8207254cc317">More...</a><br/></td></tr>
 <tr class="separator:a4fe229a0ce9f7321c40f8207254cc317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9599eabf6b4d5f33241924099a9e9ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ae9599eabf6b4d5f33241924099a9e9ed">isValid</a> () const </td></tr>
+<tr class="memdesc:ae9599eabf6b4d5f33241924099a9e9ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if schedule is valid in terms of hard constraints satisfaction.  <a href="#ae9599eabf6b4d5f33241924099a9e9ed">More...</a><br/></td></tr>
 <tr class="separator:ae9599eabf6b4d5f33241924099a9e9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9785243a0fccc688e38f5aa9ceee9048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a9785243a0fccc688e38f5aa9ceee9048">validate</a> (<a class="el" href="class_scheduler_1_1_violations_consumer.html">ViolationsConsumer</a> &amp;violations_consumer) const </td></tr>
+<tr class="memdesc:a9785243a0fccc688e38f5aa9ceee9048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports hard constraints violations to the specified consumer.  <a href="#a9785243a0fccc688e38f5aa9ceee9048">More...</a><br/></td></tr>
 <tr class="separator:a9785243a0fccc688e38f5aa9ceee9048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31c26816e30c795b869547e855b1abe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a31c26816e30c795b869547e855b1abe4">setActualizationModel</a> (const <a class="el" href="class_scheduler_1_1_schedule_actualization_model.html">ScheduleActualizationModel</a> &amp;model)</td></tr>
+<tr class="memdesc:a31c26816e30c795b869547e855b1abe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets actualization model for the schedule.  <a href="#a31c26816e30c795b869547e855b1abe4">More...</a><br/></td></tr>
 <tr class="separator:a31c26816e30c795b869547e855b1abe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01087a6632318155da9e49e3f13a0ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#af01087a6632318155da9e49e3f13a0ff">setValidationModel</a> (const <a class="el" href="class_scheduler_1_1_schedule_validation_model.html">ScheduleValidationModel</a> &amp;model)</td></tr>
+<tr class="memdesc:af01087a6632318155da9e49e3f13a0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets validation model for the schedule.  <a href="#af01087a6632318155da9e49e3f13a0ff">More...</a><br/></td></tr>
 <tr class="separator:af01087a6632318155da9e49e3f13a0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfdd5043916e35a5ed6b1839a80df1e4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_schedule_actualization_model.html">ScheduleActualizationModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#acfdd5043916e35a5ed6b1839a80df1e4">getActualizationModel</a> () const </td></tr>
+<tr class="memdesc:acfdd5043916e35a5ed6b1839a80df1e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the schedule actualization model.  <a href="#acfdd5043916e35a5ed6b1839a80df1e4">More...</a><br/></td></tr>
 <tr class="separator:acfdd5043916e35a5ed6b1839a80df1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a292468bb970f65524ed0158272c71abe"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_schedule_validation_model.html">ScheduleValidationModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a292468bb970f65524ed0158272c71abe">getValidationModel</a> () const </td></tr>
+<tr class="memdesc:a292468bb970f65524ed0158272c71abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the schedule validation model.  <a href="#a292468bb970f65524ed0158272c71abe">More...</a><br/></td></tr>
 <tr class="separator:a292468bb970f65524ed0158272c71abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d33ee59145b2f4e579803028f06df32"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a2d33ee59145b2f4e579803028f06df32">getShift</a> () const </td></tr>
+<tr class="memdesc:a2d33ee59145b2f4e579803028f06df32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the work shift time window of the schedule.  <a href="#a2d33ee59145b2f4e579803028f06df32">More...</a><br/></td></tr>
 <tr class="separator:a2d33ee59145b2f4e579803028f06df32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c82fc8b7e76d650f7ddcc452ec3ada2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a5c82fc8b7e76d650f7ddcc452ec3ada2">setShift</a> (const <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &amp;shift)</td></tr>
+<tr class="memdesc:a5c82fc8b7e76d650f7ddcc452ec3ada2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the work shift time window of the schedule.  <a href="#a5c82fc8b7e76d650f7ddcc452ec3ada2">More...</a><br/></td></tr>
 <tr class="separator:a5c82fc8b7e76d650f7ddcc452ec3ada2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19cd7118e147f85db462d05e1fcd8857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a19cd7118e147f85db462d05e1fcd8857">clear</a> ()</td></tr>
+<tr class="memdesc:a19cd7118e147f85db462d05e1fcd8857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all runs from the schedule.  <a href="#a19cd7118e147f85db462d05e1fcd8857">More...</a><br/></td></tr>
 <tr class="separator:a19cd7118e147f85db462d05e1fcd8857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab75eddb3254b856b4cfc94399322c8a7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_scene.html">Scene</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ab75eddb3254b856b4cfc94399322c8a7">getScene</a> () const </td></tr>
+<tr class="memdesc:ab75eddb3254b856b4cfc94399322c8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the scene this schedule belongs to.  <a href="#ab75eddb3254b856b4cfc94399322c8a7">More...</a><br/></td></tr>
 <tr class="separator:ab75eddb3254b856b4cfc94399322c8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae30555bae2ae14d799833e7391661f3c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_schedule_constraints.html">ScheduleConstraints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ae30555bae2ae14d799833e7391661f3c">constraints</a> () const </td></tr>
+<tr class="memdesc:ae30555bae2ae14d799833e7391661f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns schedule constraints.  <a href="#ae30555bae2ae14d799833e7391661f3c">More...</a><br/></td></tr>
 <tr class="separator:ae30555bae2ae14d799833e7391661f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0b172d7b2e26c43510c0b49982c455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule_constraints.html">ScheduleConstraints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a8a0b172d7b2e26c43510c0b49982c455">constraints</a> ()</td></tr>
+<tr class="memdesc:a8a0b172d7b2e26c43510c0b49982c455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns schedule constraints.  <a href="#a8a0b172d7b2e26c43510c0b49982c455">More...</a><br/></td></tr>
 <tr class="separator:a8a0b172d7b2e26c43510c0b49982c455"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa10006fed5388fad2bec3ce0f2f1327a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#aa10006fed5388fad2bec3ce0f2f1327a">setRunVehicleBinder</a> (<a class="el" href="namespace_scheduler.html#aa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt; run_vehicle_binder)</td></tr>
+<tr class="memitem:aa10006fed5388fad2bec3ce0f2f1327a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#aa10006fed5388fad2bec3ce0f2f1327a">setRunVehicleBinder</a> (<a class="el" href="group__utils.html#gaa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt; run_vehicle_binder)</td></tr>
+<tr class="memdesc:aa10006fed5388fad2bec3ce0f2f1327a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets optional vehicle binder for this schedule.  <a href="#aa10006fed5388fad2bec3ce0f2f1327a">More...</a><br/></td></tr>
 <tr class="separator:aa10006fed5388fad2bec3ce0f2f1327a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2db6598f471c7f261d9cf773effb5629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_scheduler.html#aa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <br class="typebreak"/>
+<tr class="memitem:a2db6598f471c7f261d9cf773effb5629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__utils.html#gaa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <br class="typebreak"/>
 <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a2db6598f471c7f261d9cf773effb5629">getRunVehicleBinder</a> () const </td></tr>
+<tr class="memdesc:a2db6598f471c7f261d9cf773effb5629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle binder of this schedule.  <a href="#a2db6598f471c7f261d9cf773effb5629">More...</a><br/></td></tr>
 <tr class="separator:a2db6598f471c7f261d9cf773effb5629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf662f4f68de7fa6292b42e6260e9a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a1bf662f4f68de7fa6292b42e6260e9a1">operator==</a> (const <a class="el" href="class_scheduler_1_1_schedule.html">Schedule</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a1bf662f4f68de7fa6292b42e6260e9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a1bf662f4f68de7fa6292b42e6260e9a1">More...</a><br/></td></tr>
 <tr class="separator:a1bf662f4f68de7fa6292b42e6260e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574b8ecdd9955d5d7f86b00fef7808c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a574b8ecdd9955d5d7f86b00fef7808c4">operator!=</a> (const <a class="el" href="class_scheduler_1_1_schedule.html">Schedule</a> &amp;rhs) const </td></tr>
+<tr class="memdesc:a574b8ecdd9955d5d7f86b00fef7808c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a574b8ecdd9955d5d7f86b00fef7808c4">More...</a><br/></td></tr>
 <tr class="separator:a574b8ecdd9955d5d7f86b00fef7808c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c71fa809c6144b777dcca07bd54ff9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#ac0d309d7e9e175bce4bca7be445093bf">RunIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#a6c71fa809c6144b777dcca07bd54ff9e">findRun</a> (<a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;r)</td></tr>
+<tr class="memdesc:a6c71fa809c6144b777dcca07bd54ff9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the iterator to the specified run.  <a href="#a6c71fa809c6144b777dcca07bd54ff9e">More...</a><br/></td></tr>
 <tr class="separator:a6c71fa809c6144b777dcca07bd54ff9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5379ff1ebeb5ea83075b273b7fd6b78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_schedule.html#a7c27f398e356d4ebd21f826a6a542272">ConstRunIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_schedule.html#ab5379ff1ebeb5ea83075b273b7fd6b78">findRun</a> (const <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;r) const </td></tr>
+<tr class="memdesc:ab5379ff1ebeb5ea83075b273b7fd6b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the iterator to the specified run.  <a href="#ab5379ff1ebeb5ea83075b273b7fd6b78">More...</a><br/></td></tr>
 <tr class="separator:ab5379ff1ebeb5ea83075b273b7fd6b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class representing single performer's work shift. </p>
+<div class="textblock"><p>The work shift plan of the resource. </p>
+<p><a class="el" href="class_scheduler_1_1_schedule.html" title="The work shift plan of the resource. ">Schedule</a> represents the working day plan of the resource, i.e. the sequence of orders that are assigned to the resource along with their corresponding planned arrival times and inter-location route information. <a class="el" href="class_scheduler_1_1_schedule.html" title="The work shift plan of the resource. ">Schedule</a> consists of zero, one or multiple runs.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a>, <a class="el" href="scene_structure.html">Scene structure</a> </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a7c27f398e356d4ebd21f826a6a542272"></a>
 <div class="memitem">
@@ -200,6 +243,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator to the run of the schedule. </p>
 
 </div>
 </div>
@@ -213,6 +258,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Interface of destruction functor for the run. </p>
+<p>To improve performance detaching runs can be used in some cases. Destruction procedure doesn't immediately destroy the run but just removes it from the runs list and transfers the ownership to the external code. Since the memory management is performed by the nested factory, external code has to use this factory to correctly destroy the object. To not expose the internals of memory management, this abstract interface is provided to the external code to make it possible to correctly destroy the run. </p>
+
 </div>
 </div>
 <a class="anchor" id="ac0d309d7e9e175bce4bca7be445093bf"></a>
@@ -224,6 +272,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator to the run of the schedule. </p>
 
 </div>
 </div>
@@ -237,6 +287,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>List of runs in the schedule. </p>
+
 </div>
 </div>
 <a class="anchor" id="a7eeed77a699cfaeb3290cf941c5feb7a"></a>
@@ -248,6 +300,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>List of stops in the schedule. </p>
 
 </div>
 </div>
@@ -288,6 +342,17 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Identifier of the schedule </td></tr>
+    <tr><td class="paramname">context</td><td>Internal context of the schedule </td></tr>
+    <tr><td class="paramname">performer</td><td><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> which the schedule is defined for </td></tr>
+    <tr><td class="paramname">scene</td><td>The scene which the schedule belongs to </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a1d85fc339cb5213ee623233684ad9e40"></a>
@@ -303,12 +368,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Destructor. </p>
+<p>Destoys all runs </p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a1d85fc339cb5213ee623233684ad9e40_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a1d85fc339cb5213ee623233684ad9e40_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a1d85fc339cb5213ee623233684ad9e40_cgraph" id="class_scheduler_1_1_schedule_a1d85fc339cb5213ee623233684ad9e40_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#a19cd7118e147f85db462d05e1fcd8857" title="Scheduler::Schedule\l::clear" alt="" coords="198,5,341,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="390,5,602,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#a19cd7118e147f85db462d05e1fcd8857" title="Removes all runs from the schedule. " alt="" coords="198,5,341,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="390,5,602,46"/></map>
 </div>
 </p>
 
@@ -339,12 +407,24 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Attaches the previously detached run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Iterator to the element to insert the run before </td></tr>
+    <tr><td class="paramname">run</td><td>Detached run to attach to the schedule</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>Only the run detached from this schedule has to be attached. Trying to attach the run from another schedule or the attached run may work but has memory management issues (e.g. the factories for different schedules may have different implementations). Doing so causes undefined behavior.</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Detaches the run. ">Schedule::detachRun</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the attached run </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a4fe229a0ce9f7321c40f8207254cc317_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a4fe229a0ce9f7321c40f8207254cc317_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a4fe229a0ce9f7321c40f8207254cc317_cgraph" id="class_scheduler_1_1_schedule_a4fe229a0ce9f7321c40f8207254cc317_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="208,5,400,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="218,56,390,83"/><area shape="rect" id="node4" href="class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,107,387,133"/><area shape="rect" id="node5" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,158,410,199"/><area shape="rect" id="node6" href="class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="206,223,402,265"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="208,5,400,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Returns all stops of the run. " alt="" coords="218,56,390,83"/><area shape="rect" id="node4" href="class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,107,387,133"/><area shape="rect" id="node5" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,158,410,199"/><area shape="rect" id="node6" href="class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Is called after the new run was created in the schedule. " alt="" coords="206,223,402,265"/></map>
 </div>
 </p>
 
@@ -363,12 +443,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Removes all runs from the schedule. </p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a19cd7118e147f85db462d05e1fcd8857_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a19cd7118e147f85db462d05e1fcd8857_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a19cd7118e147f85db462d05e1fcd8857_cgraph" id="class_scheduler_1_1_schedule_a19cd7118e147f85db462d05e1fcd8857_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,5,410,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,5,410,46"/></map>
 </div>
 </p>
 
@@ -387,6 +469,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns schedule constraints. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the schedule constraints </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a8a0b172d7b2e26c43510c0b49982c455"></a>
@@ -401,6 +486,9 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns schedule constraints. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to the schedule constraints </dd></dl>
 
 </div>
 </div>
@@ -434,12 +522,24 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Creates new run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Iterator to the run to place the new run before </td></tr>
+    <tr><td class="paramname">from</td><td>The start location of the run (e.g. depot location) </td></tr>
+    <tr><td class="paramname">to</td><td>The end location of the run (e.g. depot location)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html#a10ac425292ed8db3e0890351faa17d1f" title="Destroys the run. ">Schedule::destroyRun</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the created run </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a50d6df3a6c85438ee07018db163266d1_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a50d6df3a6c85438ee07018db163266d1_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a50d6df3a6c85438ee07018db163266d1_cgraph" id="class_scheduler_1_1_schedule_a50d6df3a6c85438ee07018db163266d1_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,5,410,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Scheduler::Run::getStops" alt="" coords="218,71,390,97"/><area shape="rect" id="node4" href="class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,121,387,148"/><area shape="rect" id="node5" href="class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Scheduler::StructuralChanges\lObserver::afterRunCreated" alt="" coords="206,173,402,214"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,5,410,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_run.html#a79682501bf5daff7348746c0caf90cdd" title="Returns all stops of the run. " alt="" coords="218,71,390,97"/><area shape="rect" id="node4" href="class_scheduler_1_1_range.html#ab64870eea70d6a7c706a4de6cafed3ab" title="Returns the iterator to the beginning. " alt="" coords="221,121,387,148"/><area shape="rect" id="node5" href="class_scheduler_1_1_structural_changes_observer.html#a7236741dcc789d142f01e16e03125ee9" title="Is called after the new run was created in the schedule. " alt="" coords="206,173,402,214"/></map>
 </div>
 </p>
 
@@ -459,12 +559,22 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Destroys the run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Iterator to the run to destroy</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html#a50d6df3a6c85438ee07018db163266d1" title="Creates new run. ">Schedule::createRun</a> <a class="el" href="class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Detaches the run. ">Schedule::detachRun</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the run after the destroyed one </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a10ac425292ed8db3e0890351faa17d1f_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a10ac425292ed8db3e0890351faa17d1f_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a10ac425292ed8db3e0890351faa17d1f_cgraph" id="class_scheduler_1_1_schedule_a10ac425292ed8db3e0890351faa17d1f_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Scheduler::Schedule\l::detachRun" alt="" coords="198,38,341,79"/><area shape="rect" id="node3" href="class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Scheduler::StructuralChanges\lObserver::beforeRunDestroyed" alt="" coords="395,5,597,46"/><area shape="rect" id="node4" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="390,70,602,111"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#acd2fa4d02bb215a94ac99ee6b27cb2fe" title="Detaches the run. " alt="" coords="198,38,341,79"/><area shape="rect" id="node3" href="class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Is called before the run is destroyed. " alt="" coords="395,5,597,46"/><area shape="rect" id="node4" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="390,70,602,111"/></map>
 </div>
 </p>
 
@@ -484,12 +594,24 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Detaches the run. </p>
+<p>If there is a probability that the run will have to be restored after destruction it's a good idea to avoid reallocations of memory on destruction and creation procedures. One good way is to spare the run object for later and detach it from the schedule as if it was actually destroyed and then either destroy the run completely (performing memory deallocation) or just attach it back to the schedule as if it wasn't removed at all. Detached run has to be managed by the caller code. It can either be destroyed using the returned destruction functor or attached back (then the ownership is transferred back) to the schedule.</p>
+<dl class="section warning"><dt>Warning</dt><dd>No operations are allowed on detached runs</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>Iterator to the run to detach</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html#a4fe229a0ce9f7321c40f8207254cc317" title="Attaches the previously detached run. ">Schedule::attachRun</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The pair of iterator pointing to the run after the detached one and the run destruction functor </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_acd2fa4d02bb215a94ac99ee6b27cb2fe_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_acd2fa4d02bb215a94ac99ee6b27cb2fe_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_acd2fa4d02bb215a94ac99ee6b27cb2fe_cgraph" id="class_scheduler_1_1_schedule_acd2fa4d02bb215a94ac99ee6b27cb2fe_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Scheduler::StructuralChanges\lObserver::beforeRunDestroyed" alt="" coords="203,5,405,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,70,410,111"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_structural_changes_observer.html#a3eb9f24aeb1cd723e31989bcd9445fb9" title="Is called before the run is destroyed. " alt="" coords="203,5,405,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,70,410,111"/></map>
 </div>
 </p>
 
@@ -508,6 +630,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Checks if the schedule is empty. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if the schedule contains no runs, <code>false</code> otherwise </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a6c71fa809c6144b777dcca07bd54ff9e"></a>
@@ -523,6 +648,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the iterator to the specified run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> to get the iterator to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to <code>r</code> or <a class="el" href="class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. ">getRuns()</a>::end() if there's no such run </dd></dl>
 
 </div>
 </div>
@@ -540,6 +674,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the iterator to the specified run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> to get the iterator to</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to <code>r</code> or <a class="el" href="class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. ">getRuns()</a>::end() if there's no such run </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="acfdd5043916e35a5ed6b1839a80df1e4"></a>
@@ -554,6 +697,10 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the schedule actualization model. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html" title="The work shift plan of the resource. ">Schedule</a> actualization model</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule_actualization_model.html" title="Algorithms used to perform schedule actualization after the structural changes. ">ScheduleActualizationModel</a> </dd></dl>
 
 </div>
 </div>
@@ -570,6 +717,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns identifier of the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>Identifier of the schedule </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="acbddae6a24881e276cfc1eea6e04c0f0"></a>
@@ -577,13 +727,16 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp; Scheduler::Schedule::getName </td>
+          <td class="memname">const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp; Scheduler::Schedule::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns name of the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>Name of the schedule </dd></dl>
 
 </div>
 </div>
@@ -600,6 +753,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns performer which the schedule is defined for. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> which the schedule is defined for </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a0c8610da600575f35dde83a7d845fb1d"></a>
@@ -615,6 +771,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the list of runs in the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of runs in the schedule </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a2db6598f471c7f261d9cf773effb5629"></a>
@@ -622,13 +781,22 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_scheduler.html#aa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt; Scheduler::Schedule::getRunVehicleBinder </td>
+          <td class="memname"><a class="el" href="group__utils.html#gaa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt; Scheduler::Schedule::getRunVehicleBinder </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns vehicle binder of this schedule. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html#aa10006fed5388fad2bec3ce0f2f1327a" title="Sets optional vehicle binder for this schedule. ">Schedule::setRunVehicleBinder</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a></td><td>binder of the schedule </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -645,6 +813,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the scene this schedule belongs to. </p>
+<dl class="section return"><dt>Returns</dt><dd>The scene this schedule belongs to </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a2d33ee59145b2f4e579803028f06df32"></a>
@@ -659,6 +830,9 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the work shift time window of the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>Work shift time window of the scheduel </dd></dl>
 
 </div>
 </div>
@@ -675,6 +849,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns list of the stops in the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of the stops in the schedule </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a3e9381a9f19fab80f4fd01858b3b2b82"></a>
@@ -689,6 +866,9 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns list of the stops in the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd>List of the stops in the schedule </dd></dl>
 
 </div>
 </div>
@@ -705,6 +885,10 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the schedule validation model. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_schedule.html" title="The work shift plan of the resource. ">Schedule</a> validation model</dd></dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule_validation_model.html" title="Algorithm used to detect the constraints violations. ">ScheduleValidationModel</a> </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ae9599eabf6b4d5f33241924099a9e9ed"></a>
@@ -720,12 +904,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Checks if schedule is valid in terms of hard constraints satisfaction. </p>
+<dl class="section return"><dt>Returns</dt><dd>true, if no hard constraints are violated </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_ae9599eabf6b4d5f33241924099a9e9ed_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_ae9599eabf6b4d5f33241924099a9e9ed_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_ae9599eabf6b4d5f33241924099a9e9ed_cgraph" id="class_scheduler_1_1_schedule_ae9599eabf6b4d5f33241924099a9e9ed_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#a9785243a0fccc688e38f5aa9ceee9048" title="Scheduler::Schedule\l::validate" alt="" coords="198,37,341,78"/><area shape="rect" id="node5" href="class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Scheduler::Validator\l::getValidationResult" alt="" coords="198,102,341,143"/><area shape="rect" id="node3" href="class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Scheduler::ScheduleValidation\lModel::getScheduleValidationAlgorithm" alt="" coords="390,5,639,46"/><area shape="rect" id="node4" href="class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Scheduler::ValidationAlgorithm\l::validate" alt="" coords="415,70,615,111"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_schedule.html#a9785243a0fccc688e38f5aa9ceee9048" title="Reports hard constraints violations to the specified consumer. " alt="" coords="198,37,341,78"/><area shape="rect" id="node5" href="class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Returns the validation result. " alt="" coords="198,102,341,143"/><area shape="rect" id="node3" href="class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Returns current schedule validation algorithm. " alt="" coords="390,5,639,46"/><area shape="rect" id="node4" href="class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Checks the object and reports violations to the provided consumer. " alt="" coords="415,70,615,111"/></map>
 </div>
 </p>
 
@@ -745,6 +932,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Inequality operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>Another schedule</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result of !(rhs == *this) </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a1bf662f4f68de7fa6292b42e6260e9a1"></a>
@@ -760,6 +956,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Equality operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>Another schedule</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if <code>rhs</code> is the same object as <code>this</code>, <code>false</code> otherwise </dd></dl>
 
 </div>
 </div>
@@ -777,6 +982,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets actualization model for the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">model</td><td>Actualization model for the schedule</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule_actualization_model.html" title="Algorithms used to perform schedule actualization after the structural changes. ">ScheduleActualizationModel</a> </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a27eb66887e3c26413932b73e4035fb60"></a>
@@ -786,12 +1000,20 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void Scheduler::Schedule::setName </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespace_scheduler.html#af697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__utils.html#gaf697328a4e2db88abc5e81af52b4dc23">String</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets name of the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the schedule </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -802,19 +1024,28 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void Scheduler::Schedule::setRunVehicleBinder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_scheduler.html#aa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__utils.html#gaa76f0e6d64fe478ffeffa80019c2b263">Optional</a>&lt; const <a class="el" href="class_scheduler_1_1_run_vehicle_binder.html">RunVehicleBinder</a> &amp; &gt;&#160;</td>
           <td class="paramname"><em>run_vehicle_binder</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets optional vehicle binder for this schedule. </p>
+<p>If the vehicle binder is set for the schedule the vehicles will automatically be assigned to the created runs. <a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> can't be performed without the vehicle assigned so to allow the algorithmic code not to manage these assignments explicitly the vehicle binder can be assigned to the schedule</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">run_vehicle_binder</td><td><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> binder for the schedule </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_aa10006fed5388fad2bec3ce0f2f1327a_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_aa10006fed5388fad2bec3ce0f2f1327a_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_aa10006fed5388fad2bec3ce0f2f1327a_cgraph" id="class_scheduler_1_1_schedule_aa10006fed5388fad2bec3ce0f2f1327a_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="206,5,418,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="206,5,418,46"/></map>
 </div>
 </p>
 
@@ -834,12 +1065,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the work shift time window of the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shift</td><td>Work shift time window of the scheduel </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a5c82fc8b7e76d650f7ddcc452ec3ada2_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a5c82fc8b7e76d650f7ddcc452ec3ada2_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a5c82fc8b7e76d650f7ddcc452ec3ada2_cgraph" id="class_scheduler_1_1_schedule_a5c82fc8b7e76d650f7ddcc452ec3ada2_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="198,5,410,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="198,5,410,46"/></map>
 </div>
 </p>
 
@@ -859,6 +1098,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets validation model for the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">model</td><td>Validation model for the schedule</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_scheduler_1_1_schedule_validation_model.html" title="Algorithm used to detect the constraints violations. ">ScheduleValidationModel</a> </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a9785243a0fccc688e38f5aa9ceee9048"></a>
@@ -875,12 +1123,20 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Reports hard constraints violations to the specified consumer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violations_consumer</td><td>Consumer that will process the reported violations </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_schedule_a9785243a0fccc688e38f5aa9ceee9048_cgraph.png" border="0" usemap="#class_scheduler_1_1_schedule_a9785243a0fccc688e38f5aa9ceee9048_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_schedule_a9785243a0fccc688e38f5aa9ceee9048_cgraph" id="class_scheduler_1_1_schedule_a9785243a0fccc688e38f5aa9ceee9048_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Scheduler::ScheduleValidation\lModel::getScheduleValidationAlgorithm" alt="" coords="198,5,447,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Scheduler::ValidationAlgorithm\l::validate" alt="" coords="223,70,423,111"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_schedule_validation_model.html#aae755f05ccb06271dc82ae61e084cd8c" title="Returns current schedule validation algorithm. " alt="" coords="198,5,447,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_validation_algorithm.html#afbbe200ec3aabb1c87395031b6ecb931" title="Checks the object and reports violations to the provided consumer. " alt="" coords="223,70,423,111"/></map>
 </div>
 </p>
 
@@ -893,7 +1149,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

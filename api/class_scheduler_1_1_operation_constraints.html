@@ -94,44 +94,61 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_operation_constraints-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::OperationConstraints Class Reference</div>  </div>
+<div class="title">Scheduler::OperationConstraints Class Reference<div class="ingroups"><a class="el" href="group__constraints.html">Constraints</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_scheduler_1_1_operation.html">Operation</a> constraints set.  
+ <a href="class_scheduler_1_1_operation_constraints.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_operation_constraints_8h_source.html">Engine/SceneManager/Constraints/Operation/OperationConstraints.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ac9a23d6a540be49cb0341ae39faed122"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#ac9a23d6a540be49cb0341ae39faed122">TimeWindowsConstraint</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; std::vector&lt; <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &gt;&gt;</td></tr>
+<tr class="memdesc:ac9a23d6a540be49cb0341ae39faed122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time windows constraint.  <a href="#ac9a23d6a540be49cb0341ae39faed122">More...</a><br/></td></tr>
 <tr class="separator:ac9a23d6a540be49cb0341ae39faed122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfb6d14e2bf224db8299cb8803f3f5e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#adfb6d14e2bf224db8299cb8803f3f5e8">DemandConstraint</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; <a class="el" href="class_scheduler_1_1_capacity.html">Capacity</a> &gt;</td></tr>
+<tr class="memdesc:adfb6d14e2bf224db8299cb8803f3f5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_capacity.html" title="Represents capacity of vehicle and capacity demands of order. ">Capacity</a> demand constraint.  <a href="#adfb6d14e2bf224db8299cb8803f3f5e8">More...</a><br/></td></tr>
 <tr class="separator:adfb6d14e2bf224db8299cb8803f3f5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac571a1f9cfd066d60f98a23b64081e57"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#ac571a1f9cfd066d60f98a23b64081e57">PerformerSkillsRequirements</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; std::vector&lt; <a class="el" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper</a>&lt; const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &gt;&gt;&gt;</td></tr>
+<tr class="memdesc:ac571a1f9cfd066d60f98a23b64081e57"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> skills requirements constraint.  <a href="#ac571a1f9cfd066d60f98a23b64081e57">More...</a><br/></td></tr>
 <tr class="separator:ac571a1f9cfd066d60f98a23b64081e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749c0876b473542a7c73891f363b1938"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a749c0876b473542a7c73891f363b1938">VehicleAttributesRequirements</a> = <a class="el" href="class_scheduler_1_1_constraint_holder.html">ConstraintHolder</a>&lt; std::vector&lt; <a class="el" href="namespace_scheduler.html#a4670f86e05085ed3f244375f76d86d48">ReferenceWrapper</a>&lt; const <a class="el" href="class_scheduler_1_1_attribute.html">Attribute</a> &gt;&gt;&gt;</td></tr>
+<tr class="memdesc:a749c0876b473542a7c73891f363b1938"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> attributes requirements constraint.  <a href="#a749c0876b473542a7c73891f363b1938">More...</a><br/></td></tr>
 <tr class="separator:a749c0876b473542a7c73891f363b1938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a04704cf32ea5f6f8b02b4b9b52069468"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_operation_constraints.html#ac9a23d6a540be49cb0341ae39faed122">TimeWindowsConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a04704cf32ea5f6f8b02b4b9b52069468">timeWindows</a> () const </td></tr>
+<tr class="memdesc:a04704cf32ea5f6f8b02b4b9b52069468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns time windows constraint.  <a href="#a04704cf32ea5f6f8b02b4b9b52069468">More...</a><br/></td></tr>
 <tr class="separator:a04704cf32ea5f6f8b02b4b9b52069468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e4f01f47e23eab600bf4e92506e1fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_operation_constraints.html#ac9a23d6a540be49cb0341ae39faed122">TimeWindowsConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a09e4f01f47e23eab600bf4e92506e1fd">timeWindows</a> ()</td></tr>
+<tr class="memdesc:a09e4f01f47e23eab600bf4e92506e1fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns time windows constraint.  <a href="#a09e4f01f47e23eab600bf4e92506e1fd">More...</a><br/></td></tr>
 <tr class="separator:a09e4f01f47e23eab600bf4e92506e1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1639a3b4596bec2b52a1d83ab7c981a3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_operation_constraints.html#adfb6d14e2bf224db8299cb8803f3f5e8">DemandConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a1639a3b4596bec2b52a1d83ab7c981a3">demand</a> () const </td></tr>
+<tr class="memdesc:a1639a3b4596bec2b52a1d83ab7c981a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns demand constraint.  <a href="#a1639a3b4596bec2b52a1d83ab7c981a3">More...</a><br/></td></tr>
 <tr class="separator:a1639a3b4596bec2b52a1d83ab7c981a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca4a00ba1ed3ddfe2dcdeb23518ca46d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_operation_constraints.html#adfb6d14e2bf224db8299cb8803f3f5e8">DemandConstraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#aca4a00ba1ed3ddfe2dcdeb23518ca46d">demand</a> ()</td></tr>
+<tr class="memdesc:aca4a00ba1ed3ddfe2dcdeb23518ca46d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns demand constraint.  <a href="#aca4a00ba1ed3ddfe2dcdeb23518ca46d">More...</a><br/></td></tr>
 <tr class="separator:aca4a00ba1ed3ddfe2dcdeb23518ca46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f2727290310700ddef09fb295558c3e"><td class="memItemLeft" align="right" valign="top">const <br class="typebreak"/>
 <a class="el" href="class_scheduler_1_1_operation_constraints.html#a749c0876b473542a7c73891f363b1938">VehicleAttributesRequirements</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a2f2727290310700ddef09fb295558c3e">vehicleAttributesRequirements</a> () const </td></tr>
+<tr class="memdesc:a2f2727290310700ddef09fb295558c3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle attributes requiments constraint.  <a href="#a2f2727290310700ddef09fb295558c3e">More...</a><br/></td></tr>
 <tr class="separator:a2f2727290310700ddef09fb295558c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e896c419b8fed2f81442226cdb84b84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a749c0876b473542a7c73891f363b1938">VehicleAttributesRequirements</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a8e896c419b8fed2f81442226cdb84b84">vehicleAttributesRequirements</a> ()</td></tr>
+<tr class="memdesc:a8e896c419b8fed2f81442226cdb84b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns vehicle attributes requiments constraint.  <a href="#a8e896c419b8fed2f81442226cdb84b84">More...</a><br/></td></tr>
 <tr class="separator:a8e896c419b8fed2f81442226cdb84b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2729546f4e750af164c694ed473e10de"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_operation_constraints.html#ac571a1f9cfd066d60f98a23b64081e57">PerformerSkillsRequirements</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#a2729546f4e750af164c694ed473e10de">performerSkillsRequirements</a> () const </td></tr>
+<tr class="memdesc:a2729546f4e750af164c694ed473e10de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns performer skills requiments constraint.  <a href="#a2729546f4e750af164c694ed473e10de">More...</a><br/></td></tr>
 <tr class="separator:a2729546f4e750af164c694ed473e10de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb3fe53db55aab4652e7ecf339306283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_operation_constraints.html#ac571a1f9cfd066d60f98a23b64081e57">PerformerSkillsRequirements</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_operation_constraints.html#acb3fe53db55aab4652e7ecf339306283">performerSkillsRequirements</a> ()</td></tr>
+<tr class="memdesc:acb3fe53db55aab4652e7ecf339306283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns performer skills requiments constraint.  <a href="#acb3fe53db55aab4652e7ecf339306283">More...</a><br/></td></tr>
 <tr class="separator:acb3fe53db55aab4652e7ecf339306283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_scheduler_1_1_operation.html">Operation</a> constraints set. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="adfb6d14e2bf224db8299cb8803f3f5e8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -141,6 +158,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="class_scheduler_1_1_capacity.html" title="Represents capacity of vehicle and capacity demands of order. ">Capacity</a> demand constraint. </p>
 
 </div>
 </div>
@@ -154,6 +173,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> skills requirements constraint. </p>
+
 </div>
 </div>
 <a class="anchor" id="ac9a23d6a540be49cb0341ae39faed122"></a>
@@ -166,6 +187,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Time windows constraint. </p>
+
 </div>
 </div>
 <a class="anchor" id="a749c0876b473542a7c73891f363b1938"></a>
@@ -177,6 +200,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> attributes requirements constraint. </p>
 
 </div>
 </div>
@@ -194,6 +219,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns demand constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd>Demand constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="aca4a00ba1ed3ddfe2dcdeb23518ca46d"></a>
@@ -208,6 +236,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns demand constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd>Demand constraint </dd></dl>
 
 </div>
 </div>
@@ -224,6 +255,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns performer skills requiments constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> skills requirements constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="acb3fe53db55aab4652e7ecf339306283"></a>
@@ -238,6 +272,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns performer skills requiments constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_performer.html" title="A person who serves customers. ">Performer</a> skills requirements constraint </dd></dl>
 
 </div>
 </div>
@@ -254,6 +291,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns time windows constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd>Time windows constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a09e4f01f47e23eab600bf4e92506e1fd"></a>
@@ -268,6 +308,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns time windows constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd>Time windows constraint </dd></dl>
 
 </div>
 </div>
@@ -284,6 +327,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns vehicle attributes requiments constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> attributes requirements constraint </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a8e896c419b8fed2f81442226cdb84b84"></a>
@@ -299,6 +345,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns vehicle attributes requiments constraint. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_vehicle.html" title="Vehicle used to perform the run. ">Vehicle</a> attributes requirements constraint </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -308,7 +357,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

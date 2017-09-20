@@ -1,9 +1,9 @@
 <map id="Scheduler::AnchorActor::apply" name="Scheduler::AnchorActor::apply">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a2cd00fd9ac91137f6764c8d1c9340f78" title="Scheduler::Schedule\l::getPerformer" alt="" coords="249,5,391,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_performer.html#a3f5778fbc588ee019f67215b061c61fa" title="Scheduler::Performer\l::constraints" alt="" coords="247,70,393,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_performer_constraints.html#a218a6e8b2c1b81f8559f2a4db7fe1bdf" title="Scheduler::PerformerConstraints\l::depot" alt="" coords="214,135,426,177"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a2cd00fd9ac91137f6764c8d1c9340f78" title="Returns performer which the schedule is defined for. " alt="" coords="249,5,391,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_performer.html#a3f5778fbc588ee019f67215b061c61fa" title="Returns reference to the performer constraints. " alt="" coords="247,70,393,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_performer_constraints.html#a218a6e8b2c1b81f8559f2a4db7fe1bdf" title="Returns depot binding constraint. " alt="" coords="214,135,426,177"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_constraint_holder.html#a2014174208141c8f9d5d87738ac1cddf" title="Scheduler::ConstraintHolder::get" alt="" coords="214,201,426,228"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_depot.html#a9622f842b32cc1a5e3ffb4de57ca6480" title="Scheduler::Depot::getLocation" alt="" coords="221,252,419,279"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_depot.html#a9622f842b32cc1a5e3ffb4de57ca6480" title="Returns location of the depot. " alt="" coords="221,252,419,279"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="241,303,399,345"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="241,369,399,410"/>
 <area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="241,434,399,475"/>

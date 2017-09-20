@@ -1,7 +1,7 @@
 var searchData=
 [
   ['main',['main',['../_taillard___benchmark_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;Taillard_Benchmark.cpp'],['../_tsp_lib___benchmark_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;TspLib_Benchmark.cpp'],['../_tsp_lib_format_converter_8cpp.html#ace7f414039e764f5229a85f450521d1c',1,'main(int ac, const char **av):&#160;TspLibFormatConverter.cpp']]],
-  ['make_5fautocast_5frange',['make_autocast_range',['../namespace_scheduler.html#a203b0dc899d8c29b2b85472b22358c5e',1,'Scheduler']]],
+  ['make_5fautocast_5frange',['make_autocast_range',['../group__utils.html#ga203b0dc899d8c29b2b85472b22358c5e',1,'Scheduler']]],
   ['mallocallocator',['MallocAllocator',['../class_scheduler_1_1_malloc_allocator.html#a833b882c8039168d0c6ba4dbf3d8e953',1,'Scheduler::MallocAllocator::MallocAllocator()'],['../class_scheduler_1_1_malloc_allocator.html#a2bcd10b735e3599c3dd1b71c67d1de73',1,'Scheduler::MallocAllocator::MallocAllocator(const MallocAllocator&lt; U &gt; &amp;rhs)']]],
   ['markdownbenchmarkpublisher',['MarkdownBenchmarkPublisher',['../class_scheduler_1_1_markdown_benchmark_publisher.html#add07d9c49f1415af715893b211e7ef91',1,'Scheduler::MarkdownBenchmarkPublisher']]],
   ['markov_5fchain_5flength_5fscale',['markov_chain_length_scale',['../namespace_scheduler.html#a148b2bcea1fec54b3d1b4f46bbb80af1',1,'Scheduler']]],

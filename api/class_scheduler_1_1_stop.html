@@ -97,9 +97,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#friends">Friends</a> &#124;
 <a href="class_scheduler_1_1_stop-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::Stop Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">Scheduler::Stop Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Planned operation performance (servicing order, loading at depot, unloading at depot)  
+ <a href="class_scheduler_1_1_stop.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_stop_8h_source.html">Engine/SceneManager/Stop.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -107,73 +110,96 @@ Inheritance diagram for Scheduler::Stop:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop__inherit__graph.png" border="0" usemap="#_scheduler_1_1_stop_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_stop_inherit__map" id="_scheduler_1_1_stop_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_depot_stop.html" title="Scheduler::DepotStop" alt="" coords="5,80,155,107"/><area shape="rect" id="node3" href="class_scheduler_1_1_work_stop.html" title="Scheduler::WorkStop" alt="" coords="180,80,327,107"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_depot_stop.html" title="Represents being in depot in the beginning or in the end of vehicle&#39;s run. " alt="" coords="5,80,155,107"/><area shape="rect" id="node3" href="class_scheduler_1_1_work_stop.html" title="Represents work at customer. " alt="" coords="180,80,327,107"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Scheduler::Stop:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop__coll__graph.png" border="0" usemap="#_scheduler_1_1_stop_coll__map" alt="Collaboration graph"/></div>
 <map name="_scheduler_1_1_stop_coll__map" id="_scheduler_1_1_stop_coll__map">
-<area shape="rect" id="node2" href="struct_scheduler_1_1_stop_1_1_context.html" title="Scheduler::Stop::Context" alt="" coords="139,96,308,123"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html" title="Scheduler::ArrivalTimeActualizer" alt="" coords="5,5,216,32"/><area shape="rect" id="node4" href="class_scheduler_1_1_duration_actualizer.html" title="Scheduler::DurationActualizer" alt="" coords="241,5,436,32"/><area shape="rect" id="node5" href="class_scheduler_1_1_route_actualizer.html" title="Scheduler::RouteActualizer" alt="" coords="333,96,515,123"/></map>
+<area shape="rect" id="node2" href="struct_scheduler_1_1_stop_1_1_context.html" title="Internal stop context. " alt="" coords="139,96,308,123"/><area shape="rect" id="node3" href="class_scheduler_1_1_arrival_time_actualizer.html" title="Recalculates arrival times of all stops in the schedule. " alt="" coords="5,5,216,32"/><area shape="rect" id="node4" href="class_scheduler_1_1_duration_actualizer.html" title="Updates durations of all stops in the run. " alt="" coords="241,5,436,32"/><area shape="rect" id="node5" href="class_scheduler_1_1_route_actualizer.html" title="Updates next route of the stop. " alt="" coords="333,96,515,123"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_stop_1_1_context.html">Context</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal stop context.  <a href="struct_scheduler_1_1_stop_1_1_context.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop_1_1_intrusive_list_node.html">IntrusiveListNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The utilitary node class used to store the stop in the boost::intrusive list.  <a href="class_scheduler_1_1_stop_1_1_intrusive_list_node.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_stop_1_1_intrusive_node_traits.html">IntrusiveNodeTraits</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The utilitary node traits class used to store the stop in the boost::intrusive list.  <a href="struct_scheduler_1_1_stop_1_1_intrusive_node_traits.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_scheduler_1_1_stop_1_1_intrusive_value_traits.html">IntrusiveValueTraits</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The utilitary value traits class used to store the stop in the boost::intrusive list.  <a href="struct_scheduler_1_1_stop_1_1_intrusive_value_traits.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:af1db6ef57ce52dcd5f754a88585ca303"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#af1db6ef57ce52dcd5f754a88585ca303">list_t</a> = boost::intrusive::list&lt; <a class="el" href="class_scheduler_1_1_stop.html">Stop</a>, boost::intrusive::value_traits&lt; <a class="el" href="struct_scheduler_1_1_stop_1_1_intrusive_value_traits.html">IntrusiveValueTraits</a> &gt;&gt;</td></tr>
+<tr class="memdesc:af1db6ef57ce52dcd5f754a88585ca303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Intrusive list of the stops.  <a href="#af1db6ef57ce52dcd5f754a88585ca303">More...</a><br/></td></tr>
 <tr class="separator:af1db6ef57ce52dcd5f754a88585ca303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a192ca75680b7ed817c06e90171398b48"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a192ca75680b7ed817c06e90171398b48">iterator_type</a> = list_t::iterator</td></tr>
+<tr class="memdesc:a192ca75680b7ed817c06e90171398b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator of the intrusive stops list.  <a href="#a192ca75680b7ed817c06e90171398b48">More...</a><br/></td></tr>
 <tr class="separator:a192ca75680b7ed817c06e90171398b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23dd0a4e11e98405e8e09e5e483b8fb2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a23dd0a4e11e98405e8e09e5e483b8fb2">const_iterator_type</a> = list_t::const_iterator</td></tr>
+<tr class="memdesc:a23dd0a4e11e98405e8e09e5e483b8fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterator of the intrusive stops list.  <a href="#a23dd0a4e11e98405e8e09e5e483b8fb2">More...</a><br/></td></tr>
 <tr class="separator:a23dd0a4e11e98405e8e09e5e483b8fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a026143d5828bf179ea3ea83ea2aa3443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a026143d5828bf179ea3ea83ea2aa3443">Stop</a> (const <a class="el" href="struct_scheduler_1_1_stop_1_1_context.html">Context</a> &amp;<a class="el" href="class_scheduler_1_1_stop.html#a0f6be185bbdd29e582a2389420881b11">context</a>, <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;run)</td></tr>
+<tr class="memdesc:a026143d5828bf179ea3ea83ea2aa3443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a026143d5828bf179ea3ea83ea2aa3443">More...</a><br/></td></tr>
 <tr class="separator:a026143d5828bf179ea3ea83ea2aa3443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0b2a624e22d3821b3d263806628fa58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#ad0b2a624e22d3821b3d263806628fa58">Stop</a> (const <a class="el" href="class_scheduler_1_1_stop.html">Stop</a> &amp;rhs)=delete</td></tr>
 <tr class="separator:ad0b2a624e22d3821b3d263806628fa58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76362bc14f9811884688cbb0e21827ba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a76362bc14f9811884688cbb0e21827ba">~Stop</a> ()</td></tr>
 <tr class="separator:a76362bc14f9811884688cbb0e21827ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11ddaff9c5e23c02407e123da0ae2927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a11ddaff9c5e23c02407e123da0ae2927">setStartTime</a> (const <a class="el" href="class_scheduler_1_1_time_point.html">TimePoint</a> &amp;time)</td></tr>
+<tr class="memdesc:a11ddaff9c5e23c02407e123da0ae2927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the start time of the operation.  <a href="#a11ddaff9c5e23c02407e123da0ae2927">More...</a><br/></td></tr>
 <tr class="separator:a11ddaff9c5e23c02407e123da0ae2927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1228b3dcbf82923ab9e3fab7466ac2a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a1228b3dcbf82923ab9e3fab7466ac2a5">setEndTime</a> (const <a class="el" href="class_scheduler_1_1_time_point.html">TimePoint</a> &amp;time)</td></tr>
+<tr class="memdesc:a1228b3dcbf82923ab9e3fab7466ac2a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the end time of the operation.  <a href="#a1228b3dcbf82923ab9e3fab7466ac2a5">More...</a><br/></td></tr>
 <tr class="separator:a1228b3dcbf82923ab9e3fab7466ac2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a448605543e54bed7f4aecb4e11f7d0c3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a448605543e54bed7f4aecb4e11f7d0c3">getAllocationTime</a> () const </td></tr>
+<tr class="memdesc:a448605543e54bed7f4aecb4e11f7d0c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the planned allocation time of the stop.  <a href="#a448605543e54bed7f4aecb4e11f7d0c3">More...</a><br/></td></tr>
 <tr class="separator:a448605543e54bed7f4aecb4e11f7d0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7feead1121ca82a1e02cb813eef88d73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73">setAllocationTime</a> (const <a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &amp;time)</td></tr>
+<tr class="memdesc:a7feead1121ca82a1e02cb813eef88d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the planned allocation time of the stop.  <a href="#a7feead1121ca82a1e02cb813eef88d73">More...</a><br/></td></tr>
 <tr class="separator:a7feead1121ca82a1e02cb813eef88d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7241cdf08b3626eaaff9065b7768292e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_duration.html">Duration</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a7241cdf08b3626eaaff9065b7768292e">getDuration</a> () const </td></tr>
+<tr class="memdesc:a7241cdf08b3626eaaff9065b7768292e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the planned duration of servicing operation on the stop.  <a href="#a7241cdf08b3626eaaff9065b7768292e">More...</a><br/></td></tr>
 <tr class="separator:a7241cdf08b3626eaaff9065b7768292e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a453f8f317300362fa32307dc58b25808"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a453f8f317300362fa32307dc58b25808">setDuration</a> (const <a class="el" href="class_scheduler_1_1_duration.html">Duration</a> &amp;duration)</td></tr>
+<tr class="memdesc:a453f8f317300362fa32307dc58b25808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the planned duration of servicing operation on the stop.  <a href="#a453f8f317300362fa32307dc58b25808">More...</a><br/></td></tr>
 <tr class="separator:a453f8f317300362fa32307dc58b25808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a093affb3df40239a4d187d8ecc8bb015"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_route.html">Route</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a093affb3df40239a4d187d8ecc8bb015">getNextRoute</a> () const </td></tr>
+<tr class="memdesc:a093affb3df40239a4d187d8ecc8bb015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the route to the next stop in the schedule.  <a href="#a093affb3df40239a4d187d8ecc8bb015">More...</a><br/></td></tr>
 <tr class="separator:a093affb3df40239a4d187d8ecc8bb015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a137a7f0fd441f8df172368f2202438dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a137a7f0fd441f8df172368f2202438dd">setNextRoute</a> (const <a class="el" href="class_scheduler_1_1_route.html">Route</a> &amp;route)</td></tr>
+<tr class="memdesc:a137a7f0fd441f8df172368f2202438dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the route to the next stop in the schedule.  <a href="#a137a7f0fd441f8df172368f2202438dd">More...</a><br/></td></tr>
 <tr class="separator:a137a7f0fd441f8df172368f2202438dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab823c0744602141694283d5582b72068"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#ab823c0744602141694283d5582b72068">getRun</a> () const </td></tr>
+<tr class="memdesc:ab823c0744602141694283d5582b72068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the run the stop belongs to.  <a href="#ab823c0744602141694283d5582b72068">More...</a><br/></td></tr>
 <tr class="separator:ab823c0744602141694283d5582b72068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8e1942116ecb1b09fdea96c690a240f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#ae8e1942116ecb1b09fdea96c690a240f">getRun</a> ()</td></tr>
+<tr class="memdesc:ae8e1942116ecb1b09fdea96c690a240f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the run the stop belongs to.  <a href="#ae8e1942116ecb1b09fdea96c690a240f">More...</a><br/></td></tr>
 <tr class="separator:ae8e1942116ecb1b09fdea96c690a240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace2bb9c4fc45901674bf8fb6a9832ee3"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="class_scheduler_1_1_location.html">Location</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#ace2bb9c4fc45901674bf8fb6a9832ee3">getLocation</a> () const =0</td></tr>
+<tr class="memdesc:ace2bb9c4fc45901674bf8fb6a9832ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the location of the stop.  <a href="#ace2bb9c4fc45901674bf8fb6a9832ee3">More...</a><br/></td></tr>
 <tr class="separator:ace2bb9c4fc45901674bf8fb6a9832ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2972a3bf707259e65fd64a2bc9d6739a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a2972a3bf707259e65fd64a2bc9d6739a">acceptVisitor</a> (<a class="el" href="class_scheduler_1_1_stop_visitor.html">StopVisitor</a> &amp;visitor)=0</td></tr>
+<tr class="memdesc:a2972a3bf707259e65fd64a2bc9d6739a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts the stop visitor.  <a href="#a2972a3bf707259e65fd64a2bc9d6739a">More...</a><br/></td></tr>
 <tr class="separator:a2972a3bf707259e65fd64a2bc9d6739a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932b24dfed88054ae5d7edd9436f5c16"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a932b24dfed88054ae5d7edd9436f5c16">acceptVisitor</a> (<a class="el" href="class_scheduler_1_1_const_stop_visitor.html">ConstStopVisitor</a> &amp;visitor) const =0</td></tr>
+<tr class="memdesc:a932b24dfed88054ae5d7edd9436f5c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts the stop visitor.  <a href="#a932b24dfed88054ae5d7edd9436f5c16">More...</a><br/></td></tr>
 <tr class="separator:a932b24dfed88054ae5d7edd9436f5c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a066c4bb2f70ccbba7919e3310ce29d80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a066c4bb2f70ccbba7919e3310ce29d80">isValid</a> () const </td></tr>
+<tr class="memdesc:a066c4bb2f70ccbba7919e3310ce29d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the stop is valid in terms of the hard constraints satisfaction.  <a href="#a066c4bb2f70ccbba7919e3310ce29d80">More...</a><br/></td></tr>
 <tr class="separator:a066c4bb2f70ccbba7919e3310ce29d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96feca5c24fab02c97b103269ced0d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#a96feca5c24fab02c97b103269ced0d7a">validate</a> (<a class="el" href="class_scheduler_1_1_violations_consumer.html">ViolationsConsumer</a> &amp;violations_consumer) const </td></tr>
+<tr class="memdesc:a96feca5c24fab02c97b103269ced0d7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reports hard constraints violations to the specified consumer.  <a href="#a96feca5c24fab02c97b103269ced0d7a">More...</a><br/></td></tr>
 <tr class="separator:a96feca5c24fab02c97b103269ced0d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -190,7 +216,10 @@ Friends</h2></td></tr>
 <tr class="memitem:ab766ff8d471e5c5516f08f5e83017071"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_stop.html#ab766ff8d471e5c5516f08f5e83017071">IntrusiveListNode</a></td></tr>
 <tr class="separator:ab766ff8d471e5c5516f08f5e83017071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Planned operation performance (servicing order, loading at depot, unloading at depot) </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="scene_structure.html">Scene structure</a> </dd></dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a23dd0a4e11e98405e8e09e5e483b8fb2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -200,6 +229,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iterator of the intrusive stops list. </p>
 
 </div>
 </div>
@@ -213,6 +244,8 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Iterator of the intrusive stops list. </p>
+
 </div>
 </div>
 <a class="anchor" id="af1db6ef57ce52dcd5f754a88585ca303"></a>
@@ -224,6 +257,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Intrusive list of the stops. </p>
 
 </div>
 </div>
@@ -251,6 +286,15 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">context</td><td>Internal stop context </td></tr>
+    <tr><td class="paramname">run</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> the stop belongs to </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -324,6 +368,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Accepts the stop visitor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Visitor</td><td>to accept </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="class_scheduler_1_1_depot_stop.html#a0cecc74d42b8e34f01dbc81c9f08a29a">Scheduler::DepotStop</a>, and <a class="el" href="class_scheduler_1_1_work_stop.html#adb805c8abb3155876217127df8625ca1">Scheduler::WorkStop</a>.</p>
 
 </div>
@@ -350,6 +402,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Accepts the stop visitor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Visitor</td><td>to accept </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implemented in <a class="el" href="class_scheduler_1_1_depot_stop.html#aa48c99aa999d1eb157441a73f3b57972">Scheduler::DepotStop</a>, and <a class="el" href="class_scheduler_1_1_work_stop.html#a3b71027fafac11eb2070ac86ac4254bd">Scheduler::WorkStop</a>.</p>
 
 </div>
@@ -367,12 +427,15 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the planned allocation time of the stop. </p>
+<dl class="section return"><dt>Returns</dt><dd>Planned allocation time of the stop </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a448605543e54bed7f4aecb4e11f7d0c3_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a448605543e54bed7f4aecb4e11f7d0c3_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a448605543e54bed7f4aecb4e11f7d0c3_cgraph" id="class_scheduler_1_1_stop_a448605543e54bed7f4aecb4e11f7d0c3_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="281,5,466,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="281,5,466,32"/></map>
 </div>
 </p>
 
@@ -391,12 +454,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the planned duration of servicing operation on the stop. </p>
+<dl class="section return"><dt>Returns</dt><dd>Planned duration of servicing operation on the stop </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a7241cdf08b3626eaaff9065b7768292e_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a7241cdf08b3626eaaff9065b7768292e_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a7241cdf08b3626eaaff9065b7768292e_cgraph" id="class_scheduler_1_1_stop_a7241cdf08b3626eaaff9065b7768292e_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="246,5,431,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="246,5,431,32"/></map>
 </div>
 </p>
 
@@ -423,6 +489,9 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the location of the stop. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_location.html" title="Geographic location. ">Location</a> of the stop </dd></dl>
+
 <p>Implemented in <a class="el" href="class_scheduler_1_1_depot_stop.html#a8d6ed5cb1e1f34b4585d3e55e85c2c7b">Scheduler::DepotStop</a>, and <a class="el" href="class_scheduler_1_1_work_stop.html#a1ade6734db923cbe49cf355117940b6b">Scheduler::WorkStop</a>.</p>
 
 </div>
@@ -440,12 +509,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the route to the next stop in the schedule. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_route.html" title="Represents a route between two geographical locations. ">Route</a> to the next stop in the schedule </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a093affb3df40239a4d187d8ecc8bb015_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a093affb3df40239a4d187d8ecc8bb015_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a093affb3df40239a4d187d8ecc8bb015_cgraph" id="class_scheduler_1_1_stop_a093affb3df40239a4d187d8ecc8bb015_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="225,12,410,39"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="225,12,410,39"/></map>
 </div>
 </p>
 
@@ -464,6 +536,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the run the stop belongs to. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> the stop belongs to </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="ae8e1942116ecb1b09fdea96c690a240f"></a>
@@ -478,6 +553,9 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the run the stop belongs to. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> the stop belongs to </dd></dl>
 
 </div>
 </div>
@@ -494,12 +572,15 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Checks if the stop is valid in terms of the hard constraints satisfaction. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if no hard constraints are violated, <code>false</code> otherwise </dd></dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a066c4bb2f70ccbba7919e3310ce29d80_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a066c4bb2f70ccbba7919e3310ce29d80_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a066c4bb2f70ccbba7919e3310ce29d80_cgraph" id="class_scheduler_1_1_stop_a066c4bb2f70ccbba7919e3310ce29d80_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a96feca5c24fab02c97b103269ced0d7a" title="Scheduler::Stop::validate" alt="" coords="216,5,384,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Scheduler::Validator\l::getValidationResult" alt="" coords="229,57,371,98"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a96feca5c24fab02c97b103269ced0d7a" title="Reports hard constraints violations to the specified consumer. " alt="" coords="216,5,384,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_validator.html#a2028b208f15c7e7096d4610a58f1ab39" title="Returns the validation result. " alt="" coords="229,57,371,98"/></map>
 </div>
 </p>
 
@@ -519,6 +600,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the planned allocation time of the stop. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>New planned allocation time of the stop </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a453f8f317300362fa32307dc58b25808"></a>
@@ -534,6 +623,14 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the planned duration of servicing operation on the stop. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">duration</td><td>Planned duration of servicing operation on the stop </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -551,12 +648,21 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the end time of the operation. </p>
+<dl class="section note"><dt>Note</dt><dd>This also updates the start time as <code>endTime</code> - <code>duration</code> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>New end time </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a1228b3dcbf82923ab9e3fab7466ac2a5_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a1228b3dcbf82923ab9e3fab7466ac2a5_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a1228b3dcbf82923ab9e3fab7466ac2a5_cgraph" id="class_scheduler_1_1_stop_a1228b3dcbf82923ab9e3fab7466ac2a5_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Scheduler::Stop::setAllocationTime" alt="" coords="248,5,475,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="269,56,454,83"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Sets the planned allocation time of the stop. " alt="" coords="248,5,475,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="269,56,454,83"/></map>
 </div>
 </p>
 
@@ -576,6 +682,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the route to the next stop in the schedule. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">route</td><td><a class="el" href="class_scheduler_1_1_route.html" title="Represents a route between two geographical locations. ">Route</a> to the next stop in the schedule </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a11ddaff9c5e23c02407e123da0ae2927"></a>
@@ -592,12 +706,21 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the start time of the operation. </p>
+<dl class="section note"><dt>Note</dt><dd>This also updates the end time as <code>startTime</code> + <code>duration</code> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>New start time </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_stop_a11ddaff9c5e23c02407e123da0ae2927_cgraph.png" border="0" usemap="#class_scheduler_1_1_stop_a11ddaff9c5e23c02407e123da0ae2927_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_stop_a11ddaff9c5e23c02407e123da0ae2927_cgraph" id="class_scheduler_1_1_stop_a11ddaff9c5e23c02407e123da0ae2927_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Scheduler::Stop::setAllocationTime" alt="" coords="253,5,480,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="274,56,459,83"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Sets the planned allocation time of the stop. " alt="" coords="253,5,480,32"/><area shape="rect" id="node3" href="class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="274,56,459,83"/></map>
 </div>
 </p>
 
@@ -616,6 +739,14 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reports hard constraints violations to the specified consumer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violations_consumer</td><td>Consumer that will process the reported violations </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -708,7 +839,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:10 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

@@ -1,5 +1,5 @@
 <map id="Scheduler::ScrambleTSPSolver::optimize" name="Scheduler::ScrambleTSPSolver::optimize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="294,5,437,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. " alt="" coords="294,5,437,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_scramble_t_s_p_solver.html#a86a6744ef80183e3057afc0a80f2fcbe" title="Optimizes the sequence of orders in the single run of the schedule. " alt="" coords="262,70,469,111"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="518,37,677,78"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="518,102,677,143"/>

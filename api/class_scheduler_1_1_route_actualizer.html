@@ -93,22 +93,31 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_route_actualizer-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::RouteActualizer Class Reference</div>  </div>
+<div class="title">Scheduler::RouteActualizer Class Reference<div class="ingroups"><a class="el" href="group__scene__manager.html">Scene manager</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Updates next route of the stop.  
+ <a href="class_scheduler_1_1_route_actualizer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_route_actualizer_8h_source.html">Engine/SceneManager/RouteActualizer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a27725960d7c4d71443dbd3c986b586c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_route_actualizer.html#a27725960d7c4d71443dbd3c986b586c7">RouteActualizer</a> (<a class="el" href="class_scheduler_1_1_stop.html">Stop</a> &amp;stop)</td></tr>
+<tr class="memdesc:a27725960d7c4d71443dbd3c986b586c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a27725960d7c4d71443dbd3c986b586c7">More...</a><br/></td></tr>
 <tr class="separator:a27725960d7c4d71443dbd3c986b586c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50466a917341da98797095d28294e28e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_route_actualizer.html#a50466a917341da98797095d28294e28e">actualize</a> () const </td></tr>
+<tr class="memdesc:a50466a917341da98797095d28294e28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculates next route for the stop.  <a href="#a50466a917341da98797095d28294e28e">More...</a><br/></td></tr>
 <tr class="separator:a50466a917341da98797095d28294e28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7e4eaeaa99935482561f9c538a13a81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_route_actualizer.html#af7e4eaeaa99935482561f9c538a13a81">setDirty</a> (bool dirty)</td></tr>
+<tr class="memdesc:af7e4eaeaa99935482561f9c538a13a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets dirty flag to the specified value.  <a href="#af7e4eaeaa99935482561f9c538a13a81">More...</a><br/></td></tr>
 <tr class="separator:af7e4eaeaa99935482561f9c538a13a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Updates next route of the stop. </p>
+<p>Internally this class uses dirty flag to reduce recalculations. This flag must be set explicitly to notify actualizer that the object has changed and recalculation must be performed upon next call to <a class="el" href="class_scheduler_1_1_route_actualizer.html#a50466a917341da98797095d28294e28e" title="Recalculates next route for the stop. ">actualize()</a> </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a27725960d7c4d71443dbd3c986b586c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -131,6 +140,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stop</td><td><a class="el" href="class_scheduler_1_1_stop.html" title="Planned operation performance (servicing order, loading at depot, unloading at depot) ...">Stop</a> to call actualizer for </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -147,12 +164,20 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Recalculates next route for the stop. </p>
+<p>If dirty flag is set to false this method just returns. If dirty flag is set to true recalculation is performed:</p>
+<ol type="1">
+<li><a class="el" href="class_scheduler_1_1_route_actualization_algorithm.html" title="Algorithm used to update next route for the stop. ">RouteActualizationAlgorithm</a> is retrieved from the <a class="el" href="class_scheduler_1_1_schedule_actualization_model.html" title="Algorithms used to perform schedule actualization after the structural changes. ">ScheduleActualizationModel</a></li>
+<li><a class="el" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. ">Algorithm</a> is called to update the next route of the stop</li>
+<li>Dirty flag is set to false </li>
+</ol>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_route_actualizer_a50466a917341da98797095d28294e28e_cgraph.png" border="0" usemap="#class_scheduler_1_1_route_actualizer_a50466a917341da98797095d28294e28e_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_route_actualizer_a50466a917341da98797095d28294e28e_cgraph" id="class_scheduler_1_1_route_actualizer_a50466a917341da98797095d28294e28e_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f" title="Scheduler::RouteActualization\lAlgorithm::actualize" alt="" coords="235,5,434,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_route_actualization_algorithm.html#a5342ccd7871ece428d690555df92bb5f" title="Updates next route for the stop. " alt="" coords="235,5,434,46"/></map>
 </div>
 </p>
 
@@ -172,6 +197,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets dirty flag to the specified value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dirty</td><td>New value of dirty flag </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
@@ -181,7 +214,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

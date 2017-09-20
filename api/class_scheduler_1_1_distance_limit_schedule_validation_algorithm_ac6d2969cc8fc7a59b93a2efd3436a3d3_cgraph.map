@@ -1,10 +1,10 @@
 <map id="Scheduler::DistanceLimitScheduleValidationAlgorithm::validate" name="Scheduler::DistanceLimitScheduleValidationAlgorithm::validate">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99" title="Scheduler::ViolationsConsumer\l::supportsViolationType" alt="" coords="245,5,451,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="277,70,419,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_schedule.html#ae30555bae2ae14d799833e7391661f3c" title="Scheduler::Schedule\l::constraints" alt="" coords="277,135,419,177"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_schedule_constraints.html#a81735b126d30e835903d5f7f138a21a6" title="Scheduler::ScheduleConstraints\l::scheduleDistanceLimit" alt="" coords="243,201,453,242"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99" title="Checks if the consumer supports processing of the specified violation type. " alt="" coords="245,5,451,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. " alt="" coords="277,70,419,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_schedule.html#ae30555bae2ae14d799833e7391661f3c" title="Returns schedule constraints. " alt="" coords="277,135,419,177"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_schedule_constraints.html#a81735b126d30e835903d5f7f138a21a6" title="Returns schedule distance limit constraint. " alt="" coords="243,201,453,242"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_constraint_holder.html#a7c88fa061369eb11c73651cf4444851e" title="Scheduler::ConstraintHolder\l::isSet" alt="" coords="255,266,441,307"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Scheduler::Schedule\l::getStops" alt="" coords="277,331,419,373"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_violations_consumer.html#a04eb15dcdd7d411a296262f3aab11fac" title="Scheduler::ViolationsConsumer\l::consumeViolation" alt="" coords="245,397,451,438"/>
-<area shape="rect" id="node9" href="$class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="501,397,707,438"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Returns list of the stops in the schedule. " alt="" coords="277,331,419,373"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_violations_consumer.html#a04eb15dcdd7d411a296262f3aab11fac" title="Consumes the run distance limit violation. " alt="" coords="245,397,451,438"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="501,397,707,438"/>
 </map>

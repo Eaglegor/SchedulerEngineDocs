@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$class_scheduler_1_1_operation.html" title="Scheduler::Operation" alt="" coords="5,31,149,57"/>
-<area shape="rect" id="node2" href="$class_scheduler_1_1_depot_operation.html" title="Scheduler::DepotOperation" alt="" coords="197,5,376,32"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_work_operation.html" title="Scheduler::WorkOperation" alt="" coords="199,56,374,83"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_depot_operation.html" title="Operation that has to be performed in depot. " alt="" coords="197,5,376,32"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_work_operation.html" title="Operation performed at customer&#39;s location. " alt="" coords="199,56,374,83"/>
 </map>

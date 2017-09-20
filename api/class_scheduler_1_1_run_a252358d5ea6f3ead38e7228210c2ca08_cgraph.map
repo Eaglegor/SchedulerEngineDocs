@@ -1,5 +1,5 @@
 <map id="Scheduler::Run::spliceWorkStops" name="Scheduler::Run::spliceWorkStops">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_structural_changes_observer.html#a695cbef6ba8d84dd37204d71031cefac" title="Scheduler::StructuralChanges\lObserver::beforeWorkStopsSpliced" alt="" coords="240,5,467,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Scheduler::ArrivalTimeActualizer\l::setDirty" alt="" coords="247,70,459,111"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Scheduler::DurationActualizer\l::setDirty" alt="" coords="256,135,451,177"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_structural_changes_observer.html#a695cbef6ba8d84dd37204d71031cefac" title="Is called before any actions in Run::spliceWorkStops are performed. " alt="" coords="240,5,467,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_arrival_time_actualizer.html#ad18409ee3d9feb97f992a45cc8f184a5" title="Sets dirty flag to the specified value. " alt="" coords="247,70,459,111"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_duration_actualizer.html#a16e5e4dab22cc5c04c8e9597aa54d8d6" title="Sets dirty flag to the specified value. " alt="" coords="256,135,451,177"/>
 </map>

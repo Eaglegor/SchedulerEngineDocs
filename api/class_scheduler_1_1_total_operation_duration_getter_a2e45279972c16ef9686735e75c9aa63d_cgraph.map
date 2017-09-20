@@ -1,4 +1,4 @@
 <map id="Scheduler::TotalOperationDurationGetter::dispatch" name="Scheduler::TotalOperationDurationGetter::dispatch">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Scheduler::WorkStop\l::getOperation" alt="" coords="227,5,373,46"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_operation.html#a9fa724c0c2b91f24617e47e5af1a2796" title="Scheduler::Operation\l::getDuration" alt="" coords="228,70,372,111"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Returns the operation that has to be performed. " alt="" coords="227,5,373,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_operation.html#a9fa724c0c2b91f24617e47e5af1a2796" title="Returns duration of the operation. " alt="" coords="228,70,372,111"/>
 </map>

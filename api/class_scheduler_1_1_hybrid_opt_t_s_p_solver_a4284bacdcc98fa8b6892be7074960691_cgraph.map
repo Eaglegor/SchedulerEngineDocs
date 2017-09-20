@@ -1,7 +1,7 @@
 <map id="Scheduler::HybridOptTSPSolver::optimize" name="Scheduler::HybridOptTSPSolver::optimize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="264,5,467,32"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="264,5,467,32"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a086466509ecac557c954df963510e760" title="Checks if the underlying container is empty. " alt="" coords="265,57,465,98"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Scheduler::Run::getSchedule" alt="" coords="269,123,461,149"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="269,123,461,149"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#af71cd1f310cc073af78d4bc1956d26ec" title="Scheduler::SceneEditor\l::createPatch" alt="" coords="286,174,445,215"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_patch.html#ab870620dce88294dd9893b4f2ec06d3f" title="Scheduler::Patch::perform\lAction" alt="" coords="278,239,453,281"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_patch.html#a85443e8ae185e67f50539f27955a9a81" title="Scheduler::Patch::hold" alt="" coords="288,305,443,332"/>

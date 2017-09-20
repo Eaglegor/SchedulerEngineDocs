@@ -1,17 +1,17 @@
 <map id="Scheduler::DefaultArrivalTimeActualizationAlgorithm::actualize" name="Scheduler::DefaultArrivalTimeActualizationAlgorithm::actualize">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Scheduler::Schedule\l::getRuns" alt="" coords="277,5,419,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_schedule.html#a0c8610da600575f35dde83a7d845fb1d" title="Returns the list of runs in the schedule. " alt="" coords="277,5,419,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_first_time_window_selector.html#aeadd56aeeb1906538b442ea858d9a90c" title="Scheduler::FirstTimeWindow\lSelector::selectTimeWindow" alt="" coords="253,70,443,111"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_stop.html#a11ddaff9c5e23c02407e123da0ae2927" title="Scheduler::Stop::setStartTime" alt="" coords="249,136,447,163"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_schedule.html#a2d33ee59145b2f4e579803028f06df32" title="Scheduler::Schedule\l::getShift" alt="" coords="277,187,419,229"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_stop.html#a11ddaff9c5e23c02407e123da0ae2927" title="Sets the start time of the operation. " alt="" coords="249,136,447,163"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_schedule.html#a2d33ee59145b2f4e579803028f06df32" title="Returns the work shift time window of the schedule. " alt="" coords="277,187,419,229"/>
 <area shape="rect" id="node9" href="$class_scheduler_1_1_time_window.html#a2116e2a14785953f0fe22d296d997017" title="Gets the start time of the time window. " alt="" coords="266,253,430,294"/>
 <area shape="rect" id="node10" href="$class_scheduler_1_1_time_window.html#a67ff5723dc3d058b6c8cdf482b1d0790" title="Gets the end time of the time window. " alt="" coords="266,318,430,359"/>
-<area shape="rect" id="node11" href="$class_scheduler_1_1_stop.html#a448605543e54bed7f4aecb4e11f7d0c3" title="Scheduler::Stop::getAllocationTime" alt="" coords="235,384,461,411"/>
-<area shape="rect" id="node12" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Scheduler::Schedule\l::getStops" alt="" coords="277,435,419,477"/>
-<area shape="rect" id="node13" href="$class_scheduler_1_1_stop.html#a093affb3df40239a4d187d8ecc8bb015" title="Scheduler::Stop::getNext\lRoute" alt="" coords="263,501,433,542"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_stop.html#a448605543e54bed7f4aecb4e11f7d0c3" title="Returns the planned allocation time of the stop. " alt="" coords="235,384,461,411"/>
+<area shape="rect" id="node12" href="$class_scheduler_1_1_schedule.html#a1e97b7d4b739b191182992c7f579fc01" title="Returns list of the stops in the schedule. " alt="" coords="277,435,419,477"/>
+<area shape="rect" id="node13" href="$class_scheduler_1_1_stop.html#a093affb3df40239a4d187d8ecc8bb015" title="Returns the route to the next stop in the schedule. " alt="" coords="263,501,433,542"/>
 <area shape="rect" id="node14" href="$class_scheduler_1_1_route.html#a6417b98854fb5a926309deb1d5eaba2b" title="Gets time needed to travel between start and end point. " alt="" coords="249,567,447,593"/>
-<area shape="rect" id="node15" href="$class_scheduler_1_1_stop.html#ab823c0744602141694283d5582b72068" title="Scheduler::Stop::getRun" alt="" coords="265,617,431,644"/>
-<area shape="rect" id="node16" href="$class_scheduler_1_1_run.html#accc59013f14166a0abed95e946c0f882" title="Scheduler::Run::findStop" alt="" coords="264,668,432,695"/>
-<area shape="rect" id="node4" href="$class_scheduler_1_1_stop.html#a2972a3bf707259e65fd64a2bc9d6739a" title="Scheduler::Stop::acceptVisitor" alt="" coords="523,77,722,104"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Scheduler::Stop::setAllocationTime" alt="" coords="509,136,736,163"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="530,384,715,411"/>
+<area shape="rect" id="node15" href="$class_scheduler_1_1_stop.html#ab823c0744602141694283d5582b72068" title="Returns the run the stop belongs to. " alt="" coords="265,617,431,644"/>
+<area shape="rect" id="node16" href="$class_scheduler_1_1_run.html#accc59013f14166a0abed95e946c0f882" title="Returns iterator to the specified stop. " alt="" coords="264,668,432,695"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_stop.html#a2972a3bf707259e65fd64a2bc9d6739a" title="Accepts the stop visitor. " alt="" coords="523,77,722,104"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a7feead1121ca82a1e02cb813eef88d73" title="Sets the planned allocation time of the stop. " alt="" coords="509,136,736,163"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="530,384,715,411"/>
 </map>

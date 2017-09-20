@@ -78,7 +78,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="summary">
-<a href="#groups">Modules</a>  </div>
+<a href="#groups">Modules</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Math<div class="ingroups"><a class="el" href="group__engine.html">Engine</a></div></div>  </div>
 </div><!--header-->
@@ -96,13 +97,127 @@ Collaboration diagram for Math:</div>
 Modules</h2></td></tr>
 <tr class="memitem:group__integer__power"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__integer__power.html">Compile-time integer power</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga7e0cfb7c65268d113f848e7615c42df1"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#ga7e0cfb7c65268d113f848e7615c42df1">Scheduler::FLOAT_EPSILON</a> = FLT_EPSILON</td></tr>
+<tr class="memdesc:ga7e0cfb7c65268d113f848e7615c42df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Epsilon value for floating poing calculations.  <a href="#ga7e0cfb7c65268d113f848e7615c42df1">More...</a><br/></td></tr>
+<tr class="separator:ga7e0cfb7c65268d113f848e7615c42df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98d58141d7278350988593cf194fa0e6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">Scheduler::FixedPointType</a> = int32_t</td></tr>
+<tr class="memdesc:ga98d58141d7278350988593cf194fa0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type capable to store the fixed point values used by the engine.  <a href="#ga98d58141d7278350988593cf194fa0e6">More...</a><br/></td></tr>
+<tr class="separator:ga98d58141d7278350988593cf194fa0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga457576ca1462549bbf58f46abff4c984"><td class="memTemplParams" colspan="2">template&lt;std::size_t PRECISION&gt; </td></tr>
+<tr class="memitem:ga457576ca1462549bbf58f46abff4c984"><td class="memTemplItemLeft" align="right" valign="top">FixedPointType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__math.html#ga457576ca1462549bbf58f46abff4c984">Scheduler::toFixedPoint</a> (float value)</td></tr>
+<tr class="memdesc:ga457576ca1462549bbf58f46abff4c984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the passed floating point value to the fixed point representation.  <a href="#ga457576ca1462549bbf58f46abff4c984">More...</a><br/></td></tr>
+<tr class="separator:ga457576ca1462549bbf58f46abff4c984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec800da4605b71742f3bac16e85d52a4"><td class="memTemplParams" colspan="2">template&lt;std::size_t PRECISION&gt; </td></tr>
+<tr class="memitem:gaec800da4605b71742f3bac16e85d52a4"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__math.html#gaec800da4605b71742f3bac16e85d52a4">Scheduler::fromFixedPoint</a> (FixedPointType value)</td></tr>
+<tr class="memdesc:gaec800da4605b71742f3bac16e85d52a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the passed fixed point value to the floating point representation.  <a href="#gaec800da4605b71742f3bac16e85d52a4">More...</a><br/></td></tr>
+<tr class="separator:gaec800da4605b71742f3bac16e85d52a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This module contains math functions used by algorithms </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ga98d58141d7278350988593cf194fa0e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="group__math.html#ga98d58141d7278350988593cf194fa0e6">Scheduler::FixedPointType</a> = typedef int32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type capable to store the fixed point values used by the engine. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="gaec800da4605b71742f3bac16e85d52a4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t PRECISION&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">float Scheduler::fromFixedPoint </td>
+          <td>(</td>
+          <td class="paramtype">FixedPointType&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the passed fixed point value to the floating point representation. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">PRECISION</td><td>Precision of the passed value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Fixed point value to convert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Floating point representation of value </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga457576ca1462549bbf58f46abff4c984"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t PRECISION&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">FixedPointType Scheduler::toFixedPoint </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts the passed floating point value to the fixed point representation. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">PRECISION</td><td>Precision to store the resulting type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Floating point value to convert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Fixed point representation of value </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ga7e0cfb7c65268d113f848e7615c42df1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float Scheduler::FLOAT_EPSILON = FLT_EPSILON</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Epsilon value for floating poing calculations. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

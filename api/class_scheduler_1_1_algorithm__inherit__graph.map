@@ -1,10 +1,10 @@
 <map id="Scheduler::Algorithm" name="Scheduler::Algorithm">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Scheduler::ArrivalTimeActualization\lAlgorithm" alt="" coords="199,70,428,111"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_duration_actualization_algorithm.html" title="Scheduler::DurationActualization\lAlgorithm" alt="" coords="207,201,419,242"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_route_actualization_algorithm.html" title="Scheduler::RouteActualization\lAlgorithm" alt="" coords="214,331,413,373"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_arrival_time_actualization_algorithm.html" title="Algorithm used to update the arrival times of the stops in the schedule. " alt="" coords="199,70,428,111"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_duration_actualization_algorithm.html" title="Algorithm used to update the durations of the stops in the run. " alt="" coords="207,201,419,242"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_route_actualization_algorithm.html" title="Algorithm used to update next route for the stop. " alt="" coords="214,331,413,373"/>
 <area shape="rect" id="node11" href="$class_scheduler_1_1_run_vehicle_binder.html" title="Scheduler::RunVehicleBinder" alt="" coords="217,404,409,431"/>
 <area shape="rect" id="node13" href="$class_scheduler_1_1_t_s_p_solver.html" title="Represents abstract TSP solver interface. " alt="" coords="238,741,389,768"/>
-<area shape="rect" id="node27" href="$class_scheduler_1_1_validation_algorithm.html" title="Scheduler::ValidationAlgorithm\&lt; T \&gt;" alt="" coords="197,1624,429,1651"/>
+<area shape="rect" id="node27" href="$class_scheduler_1_1_validation_algorithm.html" title="Interface of the algorithm used to validate constraints satisfaction. " alt="" coords="197,1624,429,1651"/>
 <area shape="rect" id="node43" href="$class_scheduler_1_1_v_r_p_solver.html" title="Represents abstract VRP solver interface. " alt="" coords="237,2305,390,2332"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_default_arrival_time_actualization_algorithm.html" title="Scheduler::DefaultArrival\lTimeActualizationAlgorithm" alt="" coords="507,5,688,46"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_empty_arrival_time_actualization_algorithm.html" title="Scheduler::EmptyArrivalTime\lActualizationAlgorithm" alt="" coords="501,70,693,111"/>

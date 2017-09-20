@@ -101,19 +101,20 @@ Inheritance diagram for Scheduler::EmptyDurationActualizationAlgorithm:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_empty_duration_actualization_algorithm__inherit__graph.png" border="0" usemap="#_scheduler_1_1_empty_duration_actualization_algorithm_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_empty_duration_actualization_algorithm_inherit__map" id="_scheduler_1_1_empty_duration_actualization_algorithm_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_duration_actualization_algorithm.html" title="Scheduler::DurationActualization\lAlgorithm" alt="" coords="5,81,216,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="39,5,181,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_duration_actualization_algorithm.html" title="Algorithm used to update the durations of the stops in the run. " alt="" coords="5,81,216,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="39,5,181,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Scheduler::EmptyDurationActualizationAlgorithm:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_empty_duration_actualization_algorithm__coll__graph.png" border="0" usemap="#_scheduler_1_1_empty_duration_actualization_algorithm_coll__map" alt="Collaboration graph"/></div>
 <map name="_scheduler_1_1_empty_duration_actualization_algorithm_coll__map" id="_scheduler_1_1_empty_duration_actualization_algorithm_coll__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_duration_actualization_algorithm.html" title="Scheduler::DurationActualization\lAlgorithm" alt="" coords="5,81,216,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="39,5,181,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_duration_actualization_algorithm.html" title="Algorithm used to update the durations of the stops in the run. " alt="" coords="5,81,216,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_algorithm.html" title="Represents the abstract algorithm interface. " alt="" coords="39,5,181,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0983c7dc1d50fe0786491e3a0670d654"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_empty_duration_actualization_algorithm.html#a0983c7dc1d50fe0786491e3a0670d654">actualize</a> (<a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;stop) const override</td></tr>
+<tr class="memdesc:a0983c7dc1d50fe0786491e3a0670d654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates durations of the stops in the run.  <a href="#a0983c7dc1d50fe0786491e3a0670d654">More...</a><br/></td></tr>
 <tr class="separator:a0983c7dc1d50fe0786491e3a0670d654"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45fba28f6fd0cd4ec8942144f7638610"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_empty_duration_actualization_algorithm.html#a45fba28f6fd0cd4ec8942144f7638610">getName</a> () const override</td></tr>
 <tr class="memdesc:a45fba28f6fd0cd4ec8942144f7638610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the algorithm name.  <a href="#a45fba28f6fd0cd4ec8942144f7638610">More...</a><br/></td></tr>
@@ -134,7 +135,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual void Scheduler::EmptyDurationActualizationAlgorithm::actualize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;&#160;</td>
-          <td class="paramname"><em>stop</em></td><td>)</td>
+          <td class="paramname"><em>run</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -144,6 +145,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Updates durations of the stops in the run. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">run</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> to actualize durations in </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>Implements <a class="el" href="class_scheduler_1_1_duration_actualization_algorithm.html#a2b3ce6c8e15865c9481566f9e7bd0332">Scheduler::DurationActualizationAlgorithm</a>.</p>
 
@@ -183,7 +192,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:17 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

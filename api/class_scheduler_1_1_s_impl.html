@@ -101,14 +101,14 @@ Inheritance diagram for Scheduler::SImpl:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_s_impl__inherit__graph.png" border="0" usemap="#_scheduler_1_1_s_impl_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_s_impl_inherit__map" id="_scheduler_1_1_s_impl_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_const_stop_visitor.html" title="Scheduler::ConstStopVisitor" alt="" coords="5,5,192,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_const_stop_visitor.html" title="Represents visitor to process WorkStop and DepotStop in an unified manner. " alt="" coords="5,5,192,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Scheduler::SImpl:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_s_impl__coll__graph.png" border="0" usemap="#_scheduler_1_1_s_impl_coll__map" alt="Collaboration graph"/></div>
 <map name="_scheduler_1_1_s_impl_coll__map" id="_scheduler_1_1_s_impl_coll__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_const_stop_visitor.html" title="Scheduler::ConstStopVisitor" alt="" coords="5,5,192,32"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_const_stop_visitor.html" title="Represents visitor to process WorkStop and DepotStop in an unified manner. " alt="" coords="5,5,192,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -116,8 +116,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaf67fafc1e6ce0669914cc4b22359e7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_s_impl.html#aaf67fafc1e6ce0669914cc4b22359e7c">SImpl</a> (<a class="el" href="class_scheduler_1_1_time_window.html">TimeWindow</a> &amp;out_time_window)</td></tr>
 <tr class="separator:aaf67fafc1e6ce0669914cc4b22359e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b715117877b35870a5cd3aa4928e327"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_s_impl.html#a3b715117877b35870a5cd3aa4928e327">dispatch</a> (const <a class="el" href="class_scheduler_1_1_work_stop.html">WorkStop</a> &amp;work_stop) override</td></tr>
+<tr class="memdesc:a3b715117877b35870a5cd3aa4928e327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs action on the instance of <a class="el" href="class_scheduler_1_1_work_stop.html" title="Represents work at customer. ">WorkStop</a>.  <a href="#a3b715117877b35870a5cd3aa4928e327">More...</a><br/></td></tr>
 <tr class="separator:a3b715117877b35870a5cd3aa4928e327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8de9747bba4d0bf6949c1c005662fc44"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_s_impl.html#a8de9747bba4d0bf6949c1c005662fc44">dispatch</a> (const <a class="el" href="class_scheduler_1_1_depot_stop.html">DepotStop</a> &amp;run_boundary_stop) override</td></tr>
+<tr class="memdesc:a8de9747bba4d0bf6949c1c005662fc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs action on the instance of <a class="el" href="class_scheduler_1_1_depot_stop.html" title="Represents being in depot in the beginning or in the end of vehicle&#39;s run. ">DepotStop</a>.  <a href="#a8de9747bba4d0bf6949c1c005662fc44">More...</a><br/></td></tr>
 <tr class="separator:a8de9747bba4d0bf6949c1c005662fc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_scheduler_1_1_const_stop_visitor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_scheduler_1_1_const_stop_visitor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_scheduler_1_1_const_stop_visitor.html">Scheduler::ConstStopVisitor</a></td></tr>
 <tr class="memitem:a4cea06b411c6894b1ce649ef48b6cf29 inherit pub_methods_class_scheduler_1_1_const_stop_visitor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_const_stop_visitor.html#a4cea06b411c6894b1ce649ef48b6cf29">~ConstStopVisitor</a> ()</td></tr>
@@ -171,6 +173,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Performs action on the instance of <a class="el" href="class_scheduler_1_1_work_stop.html" title="Represents work at customer. ">WorkStop</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">work_stop</td><td><a class="el" href="class_scheduler_1_1_work_stop.html" title="Represents work at customer. ">WorkStop</a> to perform action on </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implements <a class="el" href="class_scheduler_1_1_const_stop_visitor.html#a79cf496a141fcb80dad31d2112e88799">Scheduler::ConstStopVisitor</a>.</p>
 
 <p><div class="dynheader">
@@ -178,7 +188,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_s_impl_a3b715117877b35870a5cd3aa4928e327_cgraph.png" border="0" usemap="#class_scheduler_1_1_s_impl_a3b715117877b35870a5cd3aa4928e327_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_s_impl_a3b715117877b35870a5cd3aa4928e327_cgraph" id="class_scheduler_1_1_s_impl_a3b715117877b35870a5cd3aa4928e327_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Scheduler::WorkStop\l::getOperation" alt="" coords="264,5,411,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_operation.html#a73b20691b5f34b1f6cc413f990e05ab0" title="Scheduler::Operation\l::constraints" alt="" coords="265,70,409,111"/><area shape="rect" id="node4" href="class_scheduler_1_1_operation_constraints.html#a04704cf32ea5f6f8b02b4b9b52069468" title="Scheduler::OperationConstraints\l::timeWindows" alt="" coords="232,135,443,177"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_work_stop.html#a56593bafa961e073a6ee8ca55e251792" title="Returns the operation that has to be performed. " alt="" coords="264,5,411,46"/><area shape="rect" id="node3" href="class_scheduler_1_1_operation.html#a73b20691b5f34b1f6cc413f990e05ab0" title="Returns reference to the operation constraints. " alt="" coords="265,70,409,111"/><area shape="rect" id="node4" href="class_scheduler_1_1_operation_constraints.html#a04704cf32ea5f6f8b02b4b9b52069468" title="Returns time windows constraint. " alt="" coords="232,135,443,177"/></map>
 </div>
 </p>
 
@@ -206,6 +216,14 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Performs action on the instance of <a class="el" href="class_scheduler_1_1_depot_stop.html" title="Represents being in depot in the beginning or in the end of vehicle&#39;s run. ">DepotStop</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">run_boundary_stop</td><td><a class="el" href="class_scheduler_1_1_depot_stop.html" title="Represents being in depot in the beginning or in the end of vehicle&#39;s run. ">DepotStop</a> to perform action on </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>Implements <a class="el" href="class_scheduler_1_1_const_stop_visitor.html#a8eb9709c3a9dec61fc9e43e218e848a4">Scheduler::ConstStopVisitor</a>.</p>
 
 <p><div class="dynheader">
@@ -213,7 +231,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_s_impl_a8de9747bba4d0bf6949c1c005662fc44_cgraph.png" border="0" usemap="#class_scheduler_1_1_s_impl_a8de9747bba4d0bf6949c1c005662fc44_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_s_impl_a8de9747bba4d0bf6949c1c005662fc44_cgraph" id="class_scheduler_1_1_s_impl_a8de9747bba4d0bf6949c1c005662fc44_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_depot_stop.html#a5f39d9a133c8ff77981edbe56ba101e8" title="Scheduler::DepotStop\l::getOperations" alt="" coords="233,5,383,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_depot_stop.html#a5f39d9a133c8ff77981edbe56ba101e8" title="Returns operations belonging to this stop. " alt="" coords="233,5,383,46"/></map>
 </div>
 </p>
 
@@ -225,7 +243,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

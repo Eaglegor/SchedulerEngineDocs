@@ -1,9 +1,9 @@
 <map id="Scheduler::DistanceRatingEdgeSuggestor::next" name="Scheduler::DistanceRatingEdgeSuggestor::next">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Scheduler::Run::getWorkStops" alt="" coords="232,5,435,32"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="232,5,435,32"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a771b9e2b748e7e736f823b3055c5cc15" title="Returns the size of the underlying container. " alt="" coords="233,57,433,98"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_range_type_adapter.html#a96c95440914f38c49a24a60cdce3bac8" title="Returns iterator pointing to the beginning. " alt="" coords="233,122,433,163"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Scheduler::Run::getStartStop" alt="" coords="237,188,430,215"/>
-<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a093affb3df40239a4d187d8ecc8bb015" title="Scheduler::Stop::getNext\lRoute" alt="" coords="249,239,418,281"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Returns start stop of the run (e.g. depot or performer&#39;s home) " alt="" coords="237,188,430,215"/>
+<area shape="rect" id="node6" href="$class_scheduler_1_1_stop.html#a093affb3df40239a4d187d8ecc8bb015" title="Returns the route to the next stop in the schedule. " alt="" coords="249,239,418,281"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_route.html#a2465a436c95d2fa2f64b5fba00692d49" title="Gets distance between start and end point. " alt="" coords="233,305,434,332"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Scheduler::Actualizable::get" alt="" coords="483,247,669,273"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_actualizable.html#a5d33f7409b30bf9c8654a1b9bc6bf6d0" title="Returns the value of wrapped object. " alt="" coords="483,247,669,273"/>
 </map>

@@ -93,9 +93,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_violations_consumer-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::ViolationsConsumer Class Reference</div>  </div>
+<div class="title">Scheduler::ViolationsConsumer Class Reference<div class="ingroups"><a class="el" href="group__constraints.html">Constraints</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class used to process detected constraints violations.  
+ <a href="class_scheduler_1_1_violations_consumer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_violations_consumer_8h_source.html">Engine/SceneManager/Algorithms/Validation/ViolationsConsumer.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -103,47 +106,60 @@ Inheritance diagram for Scheduler::ViolationsConsumer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer__inherit__graph.png" border="0" usemap="#_scheduler_1_1_violations_consumer_inherit__map" alt="Inheritance graph"/></div>
 <map name="_scheduler_1_1_violations_consumer_inherit__map" id="_scheduler_1_1_violations_consumer_inherit__map">
-<area shape="rect" id="node2" href="class_scheduler_1_1_proxy_violations_consumer.html" title="Scheduler::ProxyViolations\lConsumer" alt="" coords="5,81,184,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_validator.html" title="Scheduler::Validator" alt="" coords="208,88,347,115"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_proxy_violations_consumer.html" title="Utilitary class redirecting the violations to another consumer and storing the returned continuation ..." alt="" coords="5,81,184,122"/><area shape="rect" id="node3" href="class_scheduler_1_1_validator.html" title="Simple validator class that detects if the object has any violations. " alt="" coords="208,88,347,115"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a015ef602629a4f673b889dac2882d872"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a015ef602629a4f673b889dac2882d872">~ViolationsConsumer</a> ()</td></tr>
 <tr class="separator:a015ef602629a4f673b889dac2882d872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dad66f1d314e8400f9ae6f55097d1e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3">genericConsumeViolation</a> (const <a class="el" href="class_scheduler_1_1_constraint_violation.html">ConstraintViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a0dad66f1d314e8400f9ae6f55097d1e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3">genericConsumeViolation</a> (const <a class="el" href="class_scheduler_1_1_constraint_violation.html">ConstraintViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a0dad66f1d314e8400f9ae6f55097d1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes violation not considering it's context.  <a href="#a0dad66f1d314e8400f9ae6f55097d1e3">More...</a><br/></td></tr>
 <tr class="separator:a0dad66f1d314e8400f9ae6f55097d1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04eb15dcdd7d411a296262f3aab11fac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a04eb15dcdd7d411a296262f3aab11fac">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_distance_limit_violation.html">RunDistanceLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a04eb15dcdd7d411a296262f3aab11fac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a04eb15dcdd7d411a296262f3aab11fac">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_distance_limit_violation.html">RunDistanceLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a04eb15dcdd7d411a296262f3aab11fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the run distance limit violation.  <a href="#a04eb15dcdd7d411a296262f3aab11fac">More...</a><br/></td></tr>
 <tr class="separator:a04eb15dcdd7d411a296262f3aab11fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee9f0c8fcae1136b257b26ff9762df0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#aee9f0c8fcae1136b257b26ff9762df0a">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_driving_time_limit_violation.html">RunDrivingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:aee9f0c8fcae1136b257b26ff9762df0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#aee9f0c8fcae1136b257b26ff9762df0a">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_driving_time_limit_violation.html">RunDrivingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:aee9f0c8fcae1136b257b26ff9762df0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the run driving time limit violation.  <a href="#aee9f0c8fcae1136b257b26ff9762df0a">More...</a><br/></td></tr>
 <tr class="separator:aee9f0c8fcae1136b257b26ff9762df0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17635e3f540d2cc74359bf766d899a20"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a17635e3f540d2cc74359bf766d899a20">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_working_time_limit_violation.html">RunWorkingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a17635e3f540d2cc74359bf766d899a20"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a17635e3f540d2cc74359bf766d899a20">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_run_working_time_limit_violation.html">RunWorkingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a17635e3f540d2cc74359bf766d899a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the run working time limit violation.  <a href="#a17635e3f540d2cc74359bf766d899a20">More...</a><br/></td></tr>
 <tr class="separator:a17635e3f540d2cc74359bf766d899a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262bc2739176d3c50b4e8fc611535277"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a262bc2739176d3c50b4e8fc611535277">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_availability_windows_violation.html">VehicleAvailabilityWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a262bc2739176d3c50b4e8fc611535277"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a262bc2739176d3c50b4e8fc611535277">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_availability_windows_violation.html">VehicleAvailabilityWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a262bc2739176d3c50b4e8fc611535277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the vehicle availability windows violation.  <a href="#a262bc2739176d3c50b4e8fc611535277">More...</a><br/></td></tr>
 <tr class="separator:a262bc2739176d3c50b4e8fc611535277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48e4bd23d1e10225c282c82d2ce8124b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a48e4bd23d1e10225c282c82d2ce8124b">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_capacity_violation.html">VehicleCapacityViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a48e4bd23d1e10225c282c82d2ce8124b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a48e4bd23d1e10225c282c82d2ce8124b">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_capacity_violation.html">VehicleCapacityViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a48e4bd23d1e10225c282c82d2ce8124b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the vehicle capacity violation.  <a href="#a48e4bd23d1e10225c282c82d2ce8124b">More...</a><br/></td></tr>
 <tr class="separator:a48e4bd23d1e10225c282c82d2ce8124b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4446f60568ed33313993648653a55873"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a4446f60568ed33313993648653a55873">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_performer_availability_windows_violation.html">PerformerAvailabilityWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a4446f60568ed33313993648653a55873"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a4446f60568ed33313993648653a55873">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_performer_availability_windows_violation.html">PerformerAvailabilityWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a4446f60568ed33313993648653a55873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the performer availability windows violation.  <a href="#a4446f60568ed33313993648653a55873">More...</a><br/></td></tr>
 <tr class="separator:a4446f60568ed33313993648653a55873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b1db1e938b7fe5b1d859b96b74511ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a6b1db1e938b7fe5b1d859b96b74511ff">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_distance_limit_violation.html">ScheduleDistanceLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a6b1db1e938b7fe5b1d859b96b74511ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a6b1db1e938b7fe5b1d859b96b74511ff">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_distance_limit_violation.html">ScheduleDistanceLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a6b1db1e938b7fe5b1d859b96b74511ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the schedule distance limit violation.  <a href="#a6b1db1e938b7fe5b1d859b96b74511ff">More...</a><br/></td></tr>
 <tr class="separator:a6b1db1e938b7fe5b1d859b96b74511ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d6e030a0e4315da8992ba98dee59cd4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a0d6e030a0e4315da8992ba98dee59cd4">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_driving_time_limit_violation.html">ScheduleDrivingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a0d6e030a0e4315da8992ba98dee59cd4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a0d6e030a0e4315da8992ba98dee59cd4">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_driving_time_limit_violation.html">ScheduleDrivingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a0d6e030a0e4315da8992ba98dee59cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the schedule driving time limit violation.  <a href="#a0d6e030a0e4315da8992ba98dee59cd4">More...</a><br/></td></tr>
 <tr class="separator:a0d6e030a0e4315da8992ba98dee59cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e66fba08b7da6fedbb28693d7f5b47"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#ae4e66fba08b7da6fedbb28693d7f5b47">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_shift_end_location_violation.html">ScheduleShiftEndLocationViolation</a> &amp;violation)</td></tr>
-<tr class="separator:ae4e66fba08b7da6fedbb28693d7f5b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77c106d73ad7bcc2cafb4ef8b9812e0e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a77c106d73ad7bcc2cafb4ef8b9812e0e">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_shift_start_location_violation.html">ScheduleShiftStartLocationViolation</a> &amp;violation)</td></tr>
-<tr class="separator:a77c106d73ad7bcc2cafb4ef8b9812e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac97ed41af011ff2537d70b16e5539350"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#ac97ed41af011ff2537d70b16e5539350">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_working_time_limit_violation.html">ScheduleWorkingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:ac97ed41af011ff2537d70b16e5539350"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#ac97ed41af011ff2537d70b16e5539350">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_schedule_working_time_limit_violation.html">ScheduleWorkingTimeLimitViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:ac97ed41af011ff2537d70b16e5539350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the schedule working time limit violation.  <a href="#ac97ed41af011ff2537d70b16e5539350">More...</a><br/></td></tr>
 <tr class="separator:ac97ed41af011ff2537d70b16e5539350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a376d413b09802eefab16a0fac0d3d621"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a376d413b09802eefab16a0fac0d3d621">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_operation_time_windows_violation.html">OperationTimeWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a376d413b09802eefab16a0fac0d3d621"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a376d413b09802eefab16a0fac0d3d621">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_operation_time_windows_violation.html">OperationTimeWindowsViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a376d413b09802eefab16a0fac0d3d621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the operation time windows violation.  <a href="#a376d413b09802eefab16a0fac0d3d621">More...</a><br/></td></tr>
 <tr class="separator:a376d413b09802eefab16a0fac0d3d621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9368ec7cb1db61f98b08680173154619"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a9368ec7cb1db61f98b08680173154619">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_performer_skills_requirements_violation.html">PerformerSkillsRequirementsViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a9368ec7cb1db61f98b08680173154619"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a9368ec7cb1db61f98b08680173154619">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_performer_skills_requirements_violation.html">PerformerSkillsRequirementsViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a9368ec7cb1db61f98b08680173154619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the performer skills requirements violation.  <a href="#a9368ec7cb1db61f98b08680173154619">More...</a><br/></td></tr>
 <tr class="separator:a9368ec7cb1db61f98b08680173154619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0ffad435d099f692e9345796018903"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a5a0ffad435d099f692e9345796018903">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_attributes_requirements_violation.html">VehicleAttributesRequirementsViolation</a> &amp;violation)</td></tr>
+<tr class="memitem:a5a0ffad435d099f692e9345796018903"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a5a0ffad435d099f692e9345796018903">consumeViolation</a> (const <a class="el" href="class_scheduler_1_1_vehicle_attributes_requirements_violation.html">VehicleAttributesRequirementsViolation</a> &amp;violation)</td></tr>
+<tr class="memdesc:a5a0ffad435d099f692e9345796018903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consumes the vehicle attributes requirements violation.  <a href="#a5a0ffad435d099f692e9345796018903">More...</a><br/></td></tr>
 <tr class="separator:a5a0ffad435d099f692e9345796018903"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a7b717ba3cc32a5c75bc1f5cc747a99"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99">supportsViolationType</a> (<a class="el" href="namespace_scheduler.html#a6159cee0fea744e1a2a2b763c810a8f5">ConstraintViolationType</a> type)</td></tr>
+<tr class="memitem:a5a7b717ba3cc32a5c75bc1f5cc747a99"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_violations_consumer.html#a5a7b717ba3cc32a5c75bc1f5cc747a99">supportsViolationType</a> (<a class="el" href="group__constraints.html#ga6159cee0fea744e1a2a2b763c810a8f5">ConstraintViolationType</a> type)</td></tr>
+<tr class="memdesc:a5a7b717ba3cc32a5c75bc1f5cc747a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the consumer supports processing of the specified violation type.  <a href="#a5a7b717ba3cc32a5c75bc1f5cc747a99">More...</a><br/></td></tr>
 <tr class="separator:a5a7b717ba3cc32a5c75bc1f5cc747a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class used to process detected constraints violations. </p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="scene_validation.html">Scene validation</a> </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a015ef602629a4f673b889dac2882d872"></a>
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +192,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_run_distance_limit_violation.html">RunDistanceLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -190,6 +206,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the run distance limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#af281f9769cdf995377757ba6b29c8772">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -197,7 +222,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a04eb15dcdd7d411a296262f3aab11fac_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a04eb15dcdd7d411a296262f3aab11fac_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a04eb15dcdd7d411a296262f3aab11fac_cgraph" id="class_scheduler_1_1_violations_consumer_a04eb15dcdd7d411a296262f3aab11fac_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -211,7 +236,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_run_driving_time_limit_violation.html">RunDrivingTimeLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -225,6 +250,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the run driving time limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a0c380912cf0f1b6894106d63420f4616">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -232,7 +266,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_aee9f0c8fcae1136b257b26ff9762df0a_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_aee9f0c8fcae1136b257b26ff9762df0a_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_aee9f0c8fcae1136b257b26ff9762df0a_cgraph" id="class_scheduler_1_1_violations_consumer_aee9f0c8fcae1136b257b26ff9762df0a_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -246,7 +280,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_run_working_time_limit_violation.html">RunWorkingTimeLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -260,6 +294,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the run working time limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a4caa98e78c49c25efa3d8cf7f2102970">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -267,7 +310,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a17635e3f540d2cc74359bf766d899a20_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a17635e3f540d2cc74359bf766d899a20_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a17635e3f540d2cc74359bf766d899a20_cgraph" id="class_scheduler_1_1_violations_consumer_a17635e3f540d2cc74359bf766d899a20_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -281,7 +324,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_vehicle_availability_windows_violation.html">VehicleAvailabilityWindowsViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -295,6 +338,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the vehicle availability windows violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#aa5c2ab8a2504cc15754f656d6424da92">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -302,7 +354,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a262bc2739176d3c50b4e8fc611535277_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a262bc2739176d3c50b4e8fc611535277_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a262bc2739176d3c50b4e8fc611535277_cgraph" id="class_scheduler_1_1_violations_consumer_a262bc2739176d3c50b4e8fc611535277_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -316,7 +368,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_vehicle_capacity_violation.html">VehicleCapacityViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -330,6 +382,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the vehicle capacity violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a551e0ef0ea36a1a1729f32a2f2b92d8c">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -337,7 +398,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a48e4bd23d1e10225c282c82d2ce8124b_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a48e4bd23d1e10225c282c82d2ce8124b_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a48e4bd23d1e10225c282c82d2ce8124b_cgraph" id="class_scheduler_1_1_violations_consumer_a48e4bd23d1e10225c282c82d2ce8124b_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -351,7 +412,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_performer_availability_windows_violation.html">PerformerAvailabilityWindowsViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -365,6 +426,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the performer availability windows violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a023ffa8bfc0f2b797a9ebe0bc202c28b">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -372,7 +442,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a4446f60568ed33313993648653a55873_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a4446f60568ed33313993648653a55873_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a4446f60568ed33313993648653a55873_cgraph" id="class_scheduler_1_1_violations_consumer_a4446f60568ed33313993648653a55873_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -386,7 +456,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_schedule_distance_limit_violation.html">ScheduleDistanceLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -400,6 +470,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the schedule distance limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#aba330eefe5abfd54a2acb2993ff46a29">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -407,7 +486,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a6b1db1e938b7fe5b1d859b96b74511ff_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a6b1db1e938b7fe5b1d859b96b74511ff_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a6b1db1e938b7fe5b1d859b96b74511ff_cgraph" id="class_scheduler_1_1_violations_consumer_a6b1db1e938b7fe5b1d859b96b74511ff_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -421,7 +500,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_schedule_driving_time_limit_violation.html">ScheduleDrivingTimeLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -435,6 +514,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the schedule driving time limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a999d5266e6e5e7998bad8d269e1382b9">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -442,77 +530,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a0d6e030a0e4315da8992ba98dee59cd4_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a0d6e030a0e4315da8992ba98dee59cd4_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a0d6e030a0e4315da8992ba98dee59cd4_cgraph" id="class_scheduler_1_1_violations_consumer_a0d6e030a0e4315da8992ba98dee59cd4_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ae4e66fba08b7da6fedbb28693d7f5b47"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_scheduler_1_1_schedule_shift_end_location_violation.html">ScheduleShiftEndLocationViolation</a> &amp;&#160;</td>
-          <td class="paramname"><em>violation</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a10261cb7ed0fda56f355bf57ff2be9ac">Scheduler::ProxyViolationsConsumer</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scheduler_1_1_violations_consumer_ae4e66fba08b7da6fedbb28693d7f5b47_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_ae4e66fba08b7da6fedbb28693d7f5b47_cgraph" alt=""/></div>
-<map name="class_scheduler_1_1_violations_consumer_ae4e66fba08b7da6fedbb28693d7f5b47_cgraph" id="class_scheduler_1_1_violations_consumer_ae4e66fba08b7da6fedbb28693d7f5b47_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a77c106d73ad7bcc2cafb4ef8b9812e0e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_scheduler_1_1_schedule_shift_start_location_violation.html">ScheduleShiftStartLocationViolation</a> &amp;&#160;</td>
-          <td class="paramname"><em>violation</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a28892401aaaccf0fad87080bd64ca34c">Scheduler::ProxyViolationsConsumer</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_scheduler_1_1_violations_consumer_a77c106d73ad7bcc2cafb4ef8b9812e0e_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a77c106d73ad7bcc2cafb4ef8b9812e0e_cgraph" alt=""/></div>
-<map name="class_scheduler_1_1_violations_consumer_a77c106d73ad7bcc2cafb4ef8b9812e0e_cgraph" id="class_scheduler_1_1_violations_consumer_a77c106d73ad7bcc2cafb4ef8b9812e0e_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -526,7 +544,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_schedule_working_time_limit_violation.html">ScheduleWorkingTimeLimitViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -540,6 +558,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the schedule working time limit violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#ae4308693d8ed6ed62463f1ed2823cd2b">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -547,7 +574,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_ac97ed41af011ff2537d70b16e5539350_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_ac97ed41af011ff2537d70b16e5539350_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_ac97ed41af011ff2537d70b16e5539350_cgraph" id="class_scheduler_1_1_violations_consumer_ac97ed41af011ff2537d70b16e5539350_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -561,7 +588,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_operation_time_windows_violation.html">OperationTimeWindowsViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -575,6 +602,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the operation time windows violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a15aade17f504bb170b791b053f3526a9">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -582,7 +618,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a376d413b09802eefab16a0fac0d3d621_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a376d413b09802eefab16a0fac0d3d621_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a376d413b09802eefab16a0fac0d3d621_cgraph" id="class_scheduler_1_1_violations_consumer_a376d413b09802eefab16a0fac0d3d621_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -596,7 +632,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_performer_skills_requirements_violation.html">PerformerSkillsRequirementsViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -610,6 +646,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the performer skills requirements violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a3f587b828dfdbf341efb5d30ff36c05a">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -617,7 +662,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a9368ec7cb1db61f98b08680173154619_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a9368ec7cb1db61f98b08680173154619_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a9368ec7cb1db61f98b08680173154619_cgraph" id="class_scheduler_1_1_violations_consumer_a9368ec7cb1db61f98b08680173154619_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -631,7 +676,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::consumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_vehicle_attributes_requirements_violation.html">VehicleAttributesRequirementsViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -645,6 +690,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Consumes the vehicle attributes requirements violation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#a50002cc30ab3a3d23b5b3aa7a641861b">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 <p><div class="dynheader">
@@ -652,7 +706,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_scheduler_1_1_violations_consumer_a5a0ffad435d099f692e9345796018903_cgraph.png" border="0" usemap="#class_scheduler_1_1_violations_consumer_a5a0ffad435d099f692e9345796018903_cgraph" alt=""/></div>
 <map name="class_scheduler_1_1_violations_consumer_a5a0ffad435d099f692e9345796018903_cgraph" id="class_scheduler_1_1_violations_consumer_a5a0ffad435d099f692e9345796018903_cgraph">
-<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Scheduler::ViolationsConsumer\l::genericConsumeViolation" alt="" coords="259,5,464,46"/></map>
+<area shape="rect" id="node2" href="class_scheduler_1_1_violations_consumer.html#a0dad66f1d314e8400f9ae6f55097d1e3" title="Consumes violation not considering it&#39;s context. " alt="" coords="259,5,464,46"/></map>
 </div>
 </p>
 
@@ -666,7 +720,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespace_scheduler.html#abecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::genericConsumeViolation </td>
+          <td class="memname">virtual <a class="el" href="group__constraints.html#gabecd69b6a9c878f3303052cd8c41b0c4">ValidationContinuancePolicy</a> Scheduler::ViolationsConsumer::genericConsumeViolation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_scheduler_1_1_constraint_violation.html">ConstraintViolation</a> &amp;&#160;</td>
           <td class="paramname"><em>violation</em></td><td>)</td>
@@ -679,6 +733,15 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Consumes violation not considering it's context. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">violation</td><td>Violation to consume</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a2f453cfe638e57e27bb0c9512436111e" title="The value returned by the consumer to continue the validation algorithm. ">ValidationContinuancePolicy::CONTINUE</a>, if validation algorithm should continue validation, <a class="el" href="group__constraints.html#ggabecd69b6a9c878f3303052cd8c41b0c4a81b7fe15c43052525db74111aa314cc9" title="The value returned by the consumer to interrupt the validation algorithm. ">ValidationContinuancePolicy::INTERRUPT</a> otherwise </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#adfec32686f94dfa1874aa60e9146783e">Scheduler::ProxyViolationsConsumer</a>, and <a class="el" href="class_scheduler_1_1_validator.html#ad5909ae2928eb5f070e512c257a51be7">Scheduler::Validator</a>.</p>
 
@@ -694,7 +757,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">virtual bool Scheduler::ViolationsConsumer::supportsViolationType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_scheduler.html#a6159cee0fea744e1a2a2b763c810a8f5">ConstraintViolationType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__constraints.html#ga6159cee0fea744e1a2a2b763c810a8f5">ConstraintViolationType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -706,6 +769,15 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
+<p>Checks if the consumer supports processing of the specified violation type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Violation type to check for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code>, if consumer supports the violation, <code>false</code> otherwise </dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_scheduler_1_1_proxy_violations_consumer.html#ae00afb13594516065ae73d84d357e830">Scheduler::ProxyViolationsConsumer</a>.</p>
 
 </div>
@@ -716,7 +788,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 17:56:09 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
