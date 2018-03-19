@@ -1,4 +1,4 @@
 <map id="Scheduler::SolutionGenerator::shuffle" name="Scheduler::SolutionGenerator::shuffle">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="246,5,405,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Performs the specified action. " alt="" coords="246,5,405,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="453,5,608,46"/>
 </map>

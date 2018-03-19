@@ -93,9 +93,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_scheduler_1_1_scramble_work_stops-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Scheduler::ScrambleWorkStops Class Reference</div>  </div>
+<div class="title">Scheduler::ScrambleWorkStops Class Reference<div class="ingroups"><a class="el" href="group__scene__editor__actions.html">Actions</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Shuffles work stops in the specified stops sequence.  
+ <a href="class_scheduler_1_1_scramble_work_stops.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scramble_work_stops_8h_source.html">Engine/SceneEditor/Actions/ScrambleWorkStops.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -116,6 +119,7 @@ Collaboration diagram for Scheduler::ScrambleWorkStops:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5480b790a76979ad760575fd3c0d6188"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scramble_work_stops.html#a5480b790a76979ad760575fd3c0d6188">ScrambleWorkStops</a> (<a class="el" href="class_scheduler_1_1_run.html">Run</a> &amp;run, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> first, <a class="el" href="class_scheduler_1_1_run.html#a4a12fd07ebdd599b1153fb82663cdad7">Run::ConstWorkStopIterator</a> last)</td></tr>
+<tr class="memdesc:a5480b790a76979ad760575fd3c0d6188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a5480b790a76979ad760575fd3c0d6188">More...</a><br/></td></tr>
 <tr class="separator:a5480b790a76979ad760575fd3c0d6188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe9679a7b953265a7560ee9cb12cb7fe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_scramble_work_stops.html#abe9679a7b953265a7560ee9cb12cb7fe">perform</a> () override</td></tr>
 <tr class="separator:abe9679a7b953265a7560ee9cb12cb7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +138,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a965e6168985fcd6b974c733ae7ef8277 inherit pub_types_class_scheduler_1_1_action"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scheduler_1_1_action.html#a965e6168985fcd6b974c733ae7ef8277">return_type</a> = void</td></tr>
 <tr class="separator:a965e6168985fcd6b974c733ae7ef8277 inherit pub_types_class_scheduler_1_1_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Shuffles work stops in the specified stops sequence. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5480b790a76979ad760575fd3c0d6188"></a>
 <div class="memitem">
 <div class="memproto">
@@ -164,6 +170,16 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">run</td><td><a class="el" href="class_scheduler_1_1_run.html" title="Part of resource schedule. ">Run</a> where the stops sequence is located </td></tr>
+    <tr><td class="paramname">first</td><td>Iterator to the first stop in the sequence </td></tr>
+    <tr><td class="paramname">last</td><td>Iterator to the stop after the last stop in the sequence </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -225,7 +241,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 20 2017 22:40:16 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 19 2018 16:04:22 for Scheduler Engine by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

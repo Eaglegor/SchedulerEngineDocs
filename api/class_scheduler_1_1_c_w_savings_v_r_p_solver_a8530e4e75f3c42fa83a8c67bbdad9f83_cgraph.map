@@ -1,9 +1,9 @@
 <map id="Scheduler::CWSavingsVRPSolver::optimize" name="Scheduler::CWSavingsVRPSolver::optimize">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_classic_savings_generator.html#aeaf5b65842c0800ee0d2ee2577321953" title="Scheduler::ClassicSavings\lGenerator::generateSavings" alt="" coords="277,387,461,429"/>
-<area shape="rect" id="node16" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="290,602,449,643"/>
+<area shape="rect" id="node16" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Creates the checkpoint. " alt="" coords="290,602,449,643"/>
 <area shape="rect" id="node17" href="$class_scheduler_1_1_scene.html#a15dbf2b5ecaf095528fbaf3b6ef649b2" title="Checks if scene is valid in terms of hard constraints satisfaction. " alt="" coords="283,668,455,695"/>
-<area shape="rect" id="node18" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="290,719,449,761"/>
-<area shape="rect" id="node20" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="290,785,449,826"/>
+<area shape="rect" id="node18" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Commits all changes and clears the changes history. " alt="" coords="290,719,449,761"/>
+<area shape="rect" id="node20" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Reverts all changes done since the specified checkpoint creation. " alt="" coords="290,785,449,826"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_scene.html#a00fee45c88fcdbd4080f1940bdda870e" title="Returns the list of the schedules in the scene. " alt="" coords="510,5,722,32"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_scene.html#a30d0bbf20c700180b1a0d9552dc2f8af" title="Returns context for which the scene was defined. " alt="" coords="517,56,715,83"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_scene_context.html#a99dfe309a4829ed419a234a85f0261e1" title="Returns the list of orders. " alt="" coords="531,107,701,149"/>

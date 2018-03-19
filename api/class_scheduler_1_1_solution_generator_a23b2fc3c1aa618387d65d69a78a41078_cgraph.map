@@ -1,4 +1,4 @@
 <map id="Scheduler::SolutionGenerator::rollbackTo" name="Scheduler::SolutionGenerator::rollbackTo">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="246,5,405,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Reverts all changes done since the specified checkpoint creation. " alt="" coords="246,5,405,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="453,5,608,46"/>
 </map>

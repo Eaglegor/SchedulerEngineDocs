@@ -7,8 +7,8 @@
 <area shape="rect" id="node8" href="$class_scheduler_1_1_solution_generator_classic.html#ad7a37b391a04f47abd9a8a2ffadd0a1a" title="Scheduler::SolutionGenerator\lClassic::neighbour" alt="" coords="519,253,711,294"/>
 <area shape="rect" id="node9" href="$class_scheduler_1_1_solution_generator.html#a23b2fc3c1aa618387d65d69a78a41078" title="Scheduler::SolutionGenerator\l::rollbackTo" alt="" coords="773,309,965,350"/>
 <area shape="rect" id="node12" href="$class_scheduler_1_1_solution_generator.html#a5a0ac404effdca40340a64bbd2e039b0" title="Scheduler::SolutionGenerator\l::discard" alt="" coords="519,371,711,413"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="790,187,949,229"/>
-<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="1014,315,1173,357"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Creates the checkpoint. " alt="" coords="790,187,949,229"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Reverts all changes done since the specified checkpoint creation. " alt="" coords="1014,315,1173,357"/>
 <area shape="rect" id="node11" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="1221,345,1376,386"/>
-<area shape="rect" id="node13" href="$class_scheduler_1_1_scene_editor.html#a16bda1e28e806c0513788945870a0066" title="Scheduler::SceneEditor\l::rollbackAll" alt="" coords="790,374,949,415"/>
+<area shape="rect" id="node13" href="$class_scheduler_1_1_scene_editor.html#a16bda1e28e806c0513788945870a0066" title="Reverts all changes done since the last commit() call or from the scene editor creation if there were..." alt="" coords="790,374,949,415"/>
 </map>

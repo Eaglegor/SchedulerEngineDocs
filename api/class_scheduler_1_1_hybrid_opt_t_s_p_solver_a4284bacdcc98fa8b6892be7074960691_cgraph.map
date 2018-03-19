@@ -2,14 +2,14 @@
 <area shape="rect" id="node2" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="264,5,467,32"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_range_type_adapter.html#a086466509ecac557c954df963510e760" title="Checks if the underlying container is empty. " alt="" coords="265,57,465,98"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_run.html#a740af6e16312319366d5ec098bfc3c56" title="Returns the parent schedule. " alt="" coords="269,123,461,149"/>
-<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#af71cd1f310cc073af78d4bc1956d26ec" title="Scheduler::SceneEditor\l::createPatch" alt="" coords="286,174,445,215"/>
+<area shape="rect" id="node5" href="$class_scheduler_1_1_scene_editor.html#af71cd1f310cc073af78d4bc1956d26ec" title="Creates the scene patch. " alt="" coords="286,174,445,215"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_patch.html#ab870620dce88294dd9893b4f2ec06d3f" title="Scheduler::Patch::perform\lAction" alt="" coords="278,239,453,281"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_patch.html#a85443e8ae185e67f50539f27955a9a81" title="Scheduler::Patch::hold" alt="" coords="288,305,443,332"/>
-<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#acdc4df7cf5d9726c0b4137240e760d69" title="Scheduler::SceneEditor\l::applyPatch" alt="" coords="286,357,445,398"/>
-<area shape="rect" id="node14" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="286,422,445,463"/>
-<area shape="rect" id="node15" href="$class_scheduler_1_1_scene_editor.html#a94c0bd3ea9a57565eb9bac4b71ae02ac" title="Scheduler::SceneEditor\l::abortPatching" alt="" coords="286,487,445,529"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#acdc4df7cf5d9726c0b4137240e760d69" title="Applies the actions described by the specified patch. " alt="" coords="286,357,445,398"/>
+<area shape="rect" id="node14" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Commits all changes and clears the changes history. " alt="" coords="286,422,445,463"/>
+<area shape="rect" id="node15" href="$class_scheduler_1_1_scene_editor.html#a94c0bd3ea9a57565eb9bac4b71ae02ac" title="Aborts the patching process. " alt="" coords="286,487,445,529"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_patch.html#a2044b3e1b9e09c93f722d7d337e56e5e" title="Scheduler::Patch::initialize" alt="" coords="515,181,693,208"/>
-<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="525,291,683,333"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Creates the checkpoint. " alt="" coords="525,291,683,333"/>
 <area shape="rect" id="node11" href="$class_scheduler_1_1_checkpoint.html#a2a172a74c7024d5c64e5301653fa4467" title="Scheduler::Checkpoint\l::applyPatch" alt="" coords="527,357,681,398"/>
 <area shape="rect" id="node13" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="527,422,681,463"/>
 <area shape="rect" id="node12" href="$class_scheduler_1_1_checkpoint.html#a57d21df7e49ad6325145727f45525dd0" title="Scheduler::Checkpoint\l::getBaseVersion" alt="" coords="741,357,896,398"/>

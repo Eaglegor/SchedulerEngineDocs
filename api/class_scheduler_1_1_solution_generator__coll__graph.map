@@ -1,4 +1,4 @@
 <map id="Scheduler::SolutionGenerator" name="Scheduler::SolutionGenerator">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html" title="Scheduler::SceneEditor" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html" title="Class managing the transactional changes on the scenes. " alt="" coords="5,5,163,32"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_run.html" title="Part of resource schedule. " alt="" coords="381,5,492,32"/>
 </map>

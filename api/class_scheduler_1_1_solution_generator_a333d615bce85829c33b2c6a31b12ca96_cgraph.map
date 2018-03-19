@@ -1,4 +1,4 @@
 <map id="Scheduler::SolutionGenerator::store" name="Scheduler::SolutionGenerator::store">
-<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="246,5,405,46"/>
+<area shape="rect" id="node2" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Commits all changes and clears the changes history. " alt="" coords="246,5,405,46"/>
 <area shape="rect" id="node3" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="453,5,608,46"/>
 </map>

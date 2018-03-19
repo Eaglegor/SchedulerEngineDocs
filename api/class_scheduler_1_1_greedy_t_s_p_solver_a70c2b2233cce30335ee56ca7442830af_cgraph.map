@@ -6,8 +6,8 @@
 <area shape="rect" id="node6" href="$class_scheduler_1_1_run.html#a3b6d2a28eac50291c1592f9d78ce7634" title="Returns start stop of the run (e.g. depot or performer&#39;s home) " alt="" coords="251,224,445,251"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_depot_stop.html#a8d6ed5cb1e1f34b4585d3e55e85c2c7b" title="Returns location of the stop. " alt="" coords="273,275,423,317"/>
 <area shape="rect" id="node8" href="$class_scheduler_1_1_location.html#a8290629076f30f43921170484b773d77" title="Returns location coordinates. " alt="" coords="279,341,417,382"/>
-<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="269,406,427,447"/>
-<area shape="rect" id="node11" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="269,471,427,513"/>
+<area shape="rect" id="node9" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Performs the specified action. " alt="" coords="269,406,427,447"/>
+<area shape="rect" id="node11" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Commits all changes and clears the changes history. " alt="" coords="269,471,427,513"/>
 <area shape="rect" id="node10" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="520,406,675,447"/>
 <area shape="rect" id="node12" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="520,471,675,513"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="Scheduler::InstanceBasedSolutionGenerator::store" name="Scheduler::InstanceBasedSolutionGenerator::store">
 <area shape="rect" id="node2" href="$class_scheduler_1_1_solution_generator.html#a333d615bce85829c33b2c6a31b12ca96" title="Scheduler::SolutionGenerator\l::store" alt="" coords="239,5,431,46"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_instance_based_solution_generator.html#a180c930619d8121d1123167bc9e80e74" title="Scheduler::InstanceBased\lSolutionGenerator::updateEdges" alt="" coords="229,70,440,111"/>
-<area shape="rect" id="node3" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Scheduler::SceneEditor\l::commit" alt="" coords="510,5,669,46"/>
+<area shape="rect" id="node3" href="$class_scheduler_1_1_scene_editor.html#aa0f2755fe0ae1e024d3646ca973f102f" title="Commits all changes and clears the changes history. " alt="" coords="510,5,669,46"/>
 <area shape="rect" id="node4" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="739,5,893,46"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_run.html#a395d36f0641edee5309e7d0e95fccc87" title="Returns work stops of the run. " alt="" coords="488,73,691,100"/>
 <area shape="rect" id="node7" href="$class_scheduler_1_1_range_type_adapter.html#a771b9e2b748e7e736f823b3055c5cc15" title="Returns the size of the underlying container. " alt="" coords="489,125,689,166"/>

@@ -4,9 +4,9 @@
 <area shape="rect" id="node4" href="$class_scheduler_1_1_performer_constraints.html#a218a6e8b2c1b81f8559f2a4db7fe1bdf" title="Returns depot binding constraint. " alt="" coords="214,135,426,177"/>
 <area shape="rect" id="node5" href="$class_scheduler_1_1_constraint_holder.html#a2014174208141c8f9d5d87738ac1cddf" title="Scheduler::ConstraintHolder::get" alt="" coords="214,201,426,228"/>
 <area shape="rect" id="node6" href="$class_scheduler_1_1_depot.html#a9622f842b32cc1a5e3ffb4de57ca6480" title="Returns location of the depot. " alt="" coords="221,252,419,279"/>
-<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Scheduler::SceneEditor\l::checkpoint" alt="" coords="241,303,399,345"/>
-<area shape="rect" id="node8" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Scheduler::SceneEditor\l::performAction" alt="" coords="241,369,399,410"/>
-<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Scheduler::SceneEditor\l::rollbackToCheckpoint" alt="" coords="241,434,399,475"/>
+<area shape="rect" id="node7" href="$class_scheduler_1_1_scene_editor.html#a3170a657eae75789066891c3a6976c50" title="Creates the checkpoint. " alt="" coords="241,303,399,345"/>
+<area shape="rect" id="node8" href="$class_scheduler_1_1_scene_editor.html#aca7375f74fb8c55571baea6b43073b0b" title="Performs the specified action. " alt="" coords="241,369,399,410"/>
+<area shape="rect" id="node10" href="$class_scheduler_1_1_scene_editor.html#ad77db9f6f60d51724741a0b006c0681d" title="Reverts all changes done since the specified checkpoint creation. " alt="" coords="241,434,399,475"/>
 <area shape="rect" id="node9" href="$class_scheduler_1_1_checkpoint.html#af0ed164afad717c53b6a34eca5d37b18" title="Scheduler::Checkpoint\l::performAction" alt="" coords="475,369,629,410"/>
 <area shape="rect" id="node11" href="$class_scheduler_1_1_checkpoint.html#a2a8fea80b2858e2612837be36d866f41" title="Scheduler::Checkpoint\l::getCurrentVersion" alt="" coords="475,434,629,475"/>
 </map>
